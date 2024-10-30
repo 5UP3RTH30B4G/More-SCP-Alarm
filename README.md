@@ -5,5 +5,4 @@ Welcome to the official GitBook wiki for **More SCP Alarm**! This resource is de
 
 Whether you're setting up for the first time or troubleshooting specific issues, this wiki is here to provide step-by-step instructions and best practices. Our goal is to ensure you have a smooth and efficient experience using More SCP Alarm.
 
-https://5up3r.gitbook.io/more-scp-alarm-wiki
-![[BH_NU_PROMO](https://github.com/user-attachments/assets/2be93b59-38ab-4e66-b579-67ad77a17663)](https://5up3r.gitbook.io/more-scp-alarm-wiki)
+![BH_NU_PROMO](https://github.com/user-attachments/assets/2be93b59-38ab-4e66-b579-67ad77a17663)
