@@ -1,7 +1,165 @@
-# More SCP Alarm Mod
+---
+description: All the sound ID inside the mod!
+---
 
-Are you looking for some alarms—featuring SCPs? Look no further!
+# 🔊 Sound ID List
 
-Introducing **More SCP Alarm**, a mod that brings the thrilling alarm sounds from all your favorite SCP games! With this mod, you’ll experience immersive sound effects and even blocks inspired by the SCP universe. Whether you’re a fan of eerie sounds, intense atmospheres, or just want to elevate your SCP experience, this mod has it all.
+{% hint style="warning" %}
+**DISCLAIMER**: This list <mark style="color:red;">**CAN**</mark> and will be <mark style="color:red;">**OUTDATED**</mark> when there's new updates! To make sure that there isn't new/removed sound, please check your in-game list with [checking-the-in-game-list.md](support/checking-the-in-game-list.md "mention")
+{% endhint %}
 
-**A BIG THANK YOU FOR USING THE MOD!**
+## List of all the Sound IDs:
+
+* bang
+* heavylight
+* scp173-vent
+* scp173-chamber
+* intro-horror
+* intro-approach173
+* intro-enterchamber173
+* intro-doorproblem
+* intro-refuse1
+* intro-refuse2
+* intro-refuse3
+* intro-conversation
+* intro-escape
+* intro-guard-conversation1
+* intro-guard-conversation3
+* intro-guard-conversation4
+* intro-guard-conversation5
+* intro-guard-conversation2
+* intro-guard-balcony-alert
+* intro-guard-balcony-ohsh
+* intro-guard-balcony-wtf
+* intro-guard-ulgrin-beforedooropen
+* intro-guard-ulgrin-callgas
+* intro-guard-ulgrin-escort
+* intro-guard-ulgrin-escortdone
+* intro-guard-ulgrin-escortkill
+* intro-guard-ulgrin-escortpissedoff
+* intro-guard-ulgrin-escortrefuse
+* intro-guard-ulgrin-escortrun
+* intro-guard-ulgrin-escortterminated
+* intro-guard-ulgrin-exitcell
+* intro-guard-ulgrin-exitcellrefuse
+* tesla-start
+* tesla-loop
+* tesla-end
+* tesla-shock
+* tesla-windup
+* tesla-powerup
+* mtf-announc
+* mtf-173recontain
+* mtf-after2
+* mtf-after1
+* mtf-camera-check
+* mtf-camera-chaosfound
+* mtf-camera-dclass
+* mtf-camera-nofound
+* mtf-beep
+* mtf-breath
+* mtf-classd
+* mtf-gateb
+* mtf-random
+* mtf-stop
+* mtf-targetlost
+* mtf-targetterminated
+* mtf-thereheis
+* mtf-threatannounc
+* mtf-threatannouncfinal
+* mtf-threatannouncpossession
+* luresubject-idle
+* luresubject-106bait
+* luresubject-sniffling
+* generator-count
+* door-checkpiont
+* door-bigdoor-open
+* door-bigdoor-close
+* door-close079
+* door-error
+* door-open079
+* door-open173
+* door-openfast
+* ambienta
+* room-rumble
+* room-pulsing
+* room-server
+* room-ventilation
+* door-break
+* leverflip
+* refuse
+* smoke
+* horror
+* lockroom
+* generator-on
+* generator-off
+* generator-1of5
+* generator-2of5
+* generator-3of5
+* generator-4of5
+* generator-5of5
+* generator-overcharge
+* generator-done
+* alarm-breach
+* mtf-tesla-off
+* mtf-tesla-requesting
+* scp-079-broadcast
+* scp-079-gateb
+* scp-079-refuse
+* scp-914-open
+* scp-914-close
+* scp-079-testroom
+* scp-079-speech
+* scp-939-0attack
+* scp-939-0lure
+* scp-939-1alert
+* scp-939-1lure
+* scp-939-2attack
+* scp-914-refining
+* scp-939-2lure
+* scp-939-1attack
+* scp-939-alert
+* scp-939-0alert
+* scp-106-corrosion
+* scp-106-decay
+* scp-106-walldecay
+* scp-106-breathing
+* scp-106-laugh
+* scp-049-breath
+* scp-049-kidnap
+* scp-049-spotted
+* scp-049-room
+* scp-049-takeofhazmat
+* scp-049-714
+* alarm-1
+* alarm-2
+* alarm-3
+* alarm-4
+* heavy-ambient
+* light-ambient
+* intro-guard-music
+* room-895
+* decontamination-1m
+* decontamination-30s
+* decontamination-end
+* room-server2
+* decontamination-start
+* decontamination-10m
+* decontamination-5m
+* entrance-ambient
+* alarm-5
+* elevator-open
+* elevator-loop
+* elevator-closing
+* elevator-ding
+* scp-049-searching
+* warhead-v2
+* door-vault-close
+* door-vault-open
+* scp-106-chase
+* scp-106-magnet-up
+* scp-106-magnet-down
+* door-nukegatesiren
+* warhead-exterior
+* warhead-interior
+* commotiona
