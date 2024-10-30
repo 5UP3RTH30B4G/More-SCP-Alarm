@@ -1,7 +1,3 @@
----
-description: All the sound ID inside the mod!
----
-
 # 🔊 Sound ID List
 
 {% hint style="warning" %}
