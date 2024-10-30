@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "More SCP Alarm",
+    "icon": {
+      "value": "CUSTOM:Logo"
+    },
+    "showSearch": false
+  }
+}

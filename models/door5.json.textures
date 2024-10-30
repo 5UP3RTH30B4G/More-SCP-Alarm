@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gauche_bas",
+        "1": "gauche_bas2",
+        "missing": "metal914"
+      },
+      "name": "default"
+    }
+  }
+}

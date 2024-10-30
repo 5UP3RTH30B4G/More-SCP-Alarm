@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 160,
+    "height": 106,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The alarm sound is set :",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "The alarm sound is set :",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:alarm3>",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "<VAR:alarm3>",
+          "x": 186,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go back to Normal",
+          "onClick": {
+            "name": "Avargonormal"
+          },
+          "width": 110,
+          "height": 20,
+          "name": "Go back to Normal",
+          "x": 159,
+          "y": 143
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

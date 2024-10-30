@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "more_scp_alarm:block/generatoron"
+    },
+    "facing=east": {
+      "model": "more_scp_alarm:block/generatoron",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "more_scp_alarm:block/generatoron",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "more_scp_alarm:block/generatoron",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "more_scp_alarm:block/generatoron",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "more_scp_alarm:block/generatoron",
+      "x": 90
+    }
+  }
+}

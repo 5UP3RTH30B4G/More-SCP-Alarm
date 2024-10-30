@@ -1,0 +1,2163 @@
+{
+  "bang": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:bang1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:bang2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:bang3",
+        "stream": false
+      }
+    ]
+  },
+  "heavylight": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:light1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:light2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:light3",
+        "stream": false
+      }
+    ]
+  },
+  "scp173-vent": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:173vent",
+        "stream": false
+      }
+    ]
+  },
+  "scp173-chamber": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:173chamber",
+        "stream": false
+      }
+    ]
+  },
+  "intro-horror": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:horror",
+        "stream": false
+      }
+    ]
+  },
+  "intro-approach173": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:approach173",
+        "stream": false
+      }
+    ]
+  },
+  "intro-enterchamber173": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:enterchamber",
+        "stream": false
+      }
+    ]
+  },
+  "intro-doorproblem": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:problem",
+        "stream": false
+      }
+    ]
+  },
+  "intro-refuse1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:refuse1",
+        "stream": false
+      }
+    ]
+  },
+  "intro-refuse2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:refuse2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-refuse3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:refuse3",
+        "stream": false
+      }
+    ]
+  },
+  "intro-conversation": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:conversation",
+        "stream": false
+      }
+    ]
+  },
+  "intro-escape": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:playerescape",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-conversation1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:conversation1",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-conversation3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:conversation3",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-conversation4": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:conversation4",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-conversation5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:conversation5",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-conversation2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:conversation2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-balcony-alert": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:alert1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:alert2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-balcony-ohsh": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:ohsh",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-balcony-wtf": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:wtf1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:wtf2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-beforedooropen": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:beforedooropen",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-callgas": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:cellgas1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:cellgas2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-escort": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:escort1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escort2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-escortdone": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:escortdone1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escortdone2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escortdone3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escortdone4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escortdone5",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-escortkill": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:escortkill1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escortkill2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-escortpissedoff": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:escortpissedoff1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escortpissedoff2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-escortrefuse": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:escortrefuse1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:escortrefuse2",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-escortrun": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:escortrun",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-escortterminated": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:escortterminated",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-exitcell": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:exitcell",
+        "stream": false
+      }
+    ]
+  },
+  "intro-guard-ulgrin-exitcellrefuse": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:exitcellrefuse1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:exitcellrefuse2",
+        "stream": false
+      }
+    ]
+  },
+  "tesla-start": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:idlestarts",
+        "stream": false
+      }
+    ]
+  },
+  "tesla-loop": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:idleloop",
+        "stream": false
+      }
+    ]
+  },
+  "tesla-end": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:idleend",
+        "stream": false
+      }
+    ]
+  },
+  "tesla-shock": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:shock",
+        "stream": false
+      }
+    ]
+  },
+  "tesla-windup": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:windup",
+        "stream": false
+      }
+    ]
+  },
+  "tesla-powerup": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:powerup",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-announc": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announc",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-173recontain": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announc173contain",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-after2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announcafter1",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-after1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announcafter2",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-camera-check": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announccameracheck",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-camera-chaosfound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announccamerafound1",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-camera-dclass": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announccamerafound2",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-camera-nofound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:announccameranofound",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-beep": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:beep",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-breath": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:breath",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-classd": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:classd1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:classd2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:classd3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:classd4",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-gateb": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:gateb1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:gateb2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:gateb3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:gateb4",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-random": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:random1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:random2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:random3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:random4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:random5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:random6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:random7",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-stop": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:stop1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:stop2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:stop3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:stop4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:stop5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:stop6",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-targetlost": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:targetlost1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:targetlost2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:targetlost3",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-targetterminated": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:targetterminated2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:targetterminated3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:targetterminated4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:targetterminated1",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-thereheis": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:thereheis1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:thereheis2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:thereheis3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:thereheis4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:thereheis5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:thereheis6",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-threatannounc": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:threatannounc1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:threatannounc2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:threatannounc3",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-threatannouncfinal": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:threatannouncfinal",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-threatannouncpossession": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:threatannouncpossession",
+        "stream": false
+      }
+    ]
+  },
+  "luresubject-idle": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:idle1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:idle2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:idle3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:idle4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:idle5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:idle6",
+        "stream": false
+      }
+    ]
+  },
+  "luresubject-106bait": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:106bait",
+        "stream": false
+      }
+    ]
+  },
+  "luresubject-sniffling": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:sniffling",
+        "stream": false
+      }
+    ]
+  },
+  "generator-count": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:count",
+        "stream": false
+      }
+    ]
+  },
+  "door-checkpiont": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:doorcheckpoint",
+        "stream": false
+      }
+    ]
+  },
+  "door-bigdoor-open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:bigdooropen",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:bigdooropen1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:bigdooropen2",
+        "stream": false
+      }
+    ]
+  },
+  "door-bigdoor-close": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:bigdoorclose",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:bigdoorclose1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:bigdoorclose2",
+        "stream": false
+      }
+    ]
+  },
+  "door-close079": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:doorclose079",
+        "stream": false
+      }
+    ]
+  },
+  "door-error": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:doorerror",
+        "stream": false
+      }
+    ]
+  },
+  "door-open079": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:dooropen079",
+        "stream": false
+      }
+    ]
+  },
+  "door-open173": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:dooropen173",
+        "stream": false
+      }
+    ]
+  },
+  "door-openfast": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:dooropenfast",
+        "stream": false
+      }
+    ]
+  },
+  "ambienta": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:ambientb1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb10",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb11",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb12",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb13",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb14",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb15",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb7",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb8",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambientb9",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta10",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta11",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta12",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta13",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta14",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta15",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta7",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta8",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:ambienta9",
+        "stream": false
+      }
+    ]
+  },
+  "room-rumble": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:rumble",
+        "stream": false
+      }
+    ]
+  },
+  "room-pulsing": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:pulsing",
+        "stream": false
+      }
+    ]
+  },
+  "room-server": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:servers1",
+        "stream": false
+      }
+    ]
+  },
+  "room-ventilation": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:ventilation",
+        "stream": false
+      }
+    ]
+  },
+  "door-break": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:tunnelburst",
+        "stream": false
+      }
+    ]
+  },
+  "leverflip": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:leverflip",
+        "stream": false
+      }
+    ]
+  },
+  "refuse": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:button2",
+        "stream": false
+      }
+    ]
+  },
+  "smoke": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:smok",
+        "stream": false
+      }
+    ]
+  },
+  "horror": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:horror0",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror10",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror11",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror12",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror13",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror14",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror15",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror16",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror7",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror8",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:horror9",
+        "stream": false
+      }
+    ]
+  },
+  "lockroom": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:lockroomsiren",
+        "stream": false
+      }
+    ]
+  },
+  "generator-on": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:on-sharedassets1.assets-1442",
+        "stream": false
+      }
+    ]
+  },
+  "generator-off": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:off-sharedassets1.assets-1532",
+        "stream": false
+      }
+    ]
+  },
+  "generator-1of5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:1of5-sharedassets2.assets-2336",
+        "stream": false
+      }
+    ]
+  },
+  "generator-2of5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:2of5-sharedassets2.assets-2336",
+        "stream": false
+      }
+    ]
+  },
+  "generator-3of5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:3of5-sharedassets2.assets-2336",
+        "stream": false
+      }
+    ]
+  },
+  "generator-4of5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:4of5-sharedassets2.assets-2336",
+        "stream": false
+      }
+    ]
+  },
+  "generator-5of5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:5of5-sharedassets2.assets-2336",
+        "stream": false
+      }
+    ]
+  },
+  "generator-overcharge": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:overcharge-sharedassets2.assets-2000",
+        "stream": false
+      }
+    ]
+  },
+  "generator-done": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:unlock-resources.assets-2572",
+        "stream": false
+      }
+    ]
+  },
+  "alarm-breach": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:breachalarm",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-tesla-off": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:tesla1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:tesla2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:tesla3",
+        "stream": false
+      }
+    ]
+  },
+  "mtf-tesla-requesting": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:tesla0",
+        "stream": false
+      }
+    ]
+  },
+  "scp-079-broadcast": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:broadcast1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:broadcast2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:broadcast3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:broadcast4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:broadcast5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:broadcast6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:broadcast7",
+        "stream": false
+      }
+    ]
+  },
+  "scp-079-gateb": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:gateb",
+        "stream": false
+      }
+    ]
+  },
+  "scp-079-refuse": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:refuse",
+        "stream": false
+      }
+    ]
+  },
+  "scp-914-open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:dooropen",
+        "stream": false
+      }
+    ]
+  },
+  "scp-914-close": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:doorclose",
+        "stream": false
+      }
+    ]
+  },
+  "scp-079-testroom": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:testroomwarning",
+        "stream": false
+      }
+    ]
+  },
+  "scp-079-speech": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:speech",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-0attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:0attack1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0attack2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0attack3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-0lure": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:0lure1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure10",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure7",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure8",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0lure9",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-1alert": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:1alert1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1alert2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1alert3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-1lure": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:1lure1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure10",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure7",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure8",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1lure9",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-2attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:2attack1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2attack2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2attack3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-914-refining": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:refining",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-2lure": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:2lure1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure10",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure11",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure7",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure8",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2lure9",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-1attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:1attack1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1attack2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:1attack3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-alert": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:2alert1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2alert2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:2alert3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-939-0alert": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:0alert1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0alert2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:0alert3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-106-corrosion": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:corrosion1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:corrosion2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:corrosion3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-106-decay": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:decay0",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:decay1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:decay2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:decay3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-106-walldecay": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:walldecay1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:walldecay2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:walldecay3",
+        "stream": false
+      }
+    ]
+  },
+  "scp-106-breathing": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:breathing",
+        "stream": false
+      }
+    ]
+  },
+  "scp-106-laugh": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:laugh",
+        "stream": false
+      }
+    ]
+  },
+  "scp-049-breath": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:0492breath",
+        "stream": false
+      }
+    ]
+  },
+  "scp-049-kidnap": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:kidnap1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:kidnap2",
+        "stream": false
+      }
+    ]
+  },
+  "scp-049-spotted": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:spotted1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:spotted1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:spotted2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:spotted3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:spotted4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:spotted5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:spotted6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:spotted7",
+        "stream": false
+      }
+    ]
+  },
+  "scp-049-room": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:room2sl1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:room2sl2",
+        "stream": false
+      }
+    ]
+  },
+  "scp-049-takeofhazmat": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:takeoffhazmat",
+        "stream": false
+      }
+    ]
+  },
+  "scp-049-714": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:714equipped",
+        "stream": false
+      }
+    ]
+  },
+  "alarm-1": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:alarm",
+        "stream": false
+      }
+    ]
+  },
+  "alarm-2": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:alarm3",
+        "stream": false
+      }
+    ]
+  },
+  "alarm-3": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:alarm4",
+        "stream": false
+      }
+    ]
+  },
+  "alarm-4": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:alarm5",
+        "stream": false
+      }
+    ]
+  },
+  "heavy-ambient": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:heavycontainment",
+        "stream": true
+      }
+    ]
+  },
+  "light-ambient": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:lightcontainmentzone",
+        "stream": true
+      }
+    ]
+  },
+  "intro-guard-music": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:music1",
+        "stream": true
+      },
+      {
+        "name": "more_scp_alarm:music2",
+        "stream": true
+      },
+      {
+        "name": "more_scp_alarm:music3",
+        "stream": true
+      },
+      {
+        "name": "more_scp_alarm:music4",
+        "stream": true
+      },
+      {
+        "name": "more_scp_alarm:music5",
+        "stream": true
+      }
+    ]
+  },
+  "room-895": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:895",
+        "stream": true
+      }
+    ]
+  },
+  "decontamination-1m": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:decontamination1minute",
+        "stream": true
+      }
+    ]
+  },
+  "decontamination-30s": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:decont_countdonw_30",
+        "stream": true
+      }
+    ]
+  },
+  "decontamination-end": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:decontamination_begin",
+        "stream": true
+      }
+    ]
+  },
+  "room-server2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:servers2",
+        "stream": true
+      }
+    ]
+  },
+  "decontamination-start": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:decontamination_15_minutes",
+        "stream": true
+      }
+    ]
+  },
+  "decontamination-10m": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:decontamination_10",
+        "stream": true
+      }
+    ]
+  },
+  "decontamination-5m": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:decontamination5minutes",
+        "stream": true
+      }
+    ]
+  },
+  "entrance-ambient": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:entrancezone",
+        "stream": true
+      }
+    ]
+  },
+  "alarm-5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:alarm6",
+        "stream": false
+      }
+    ]
+  },
+  "elevator-open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:open",
+        "stream": false
+      }
+    ]
+  },
+  "elevator-loop": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:loop",
+        "stream": true
+      }
+    ]
+  },
+  "elevator-closing": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:closing",
+        "stream": false
+      }
+    ]
+  },
+  "elevator-ding": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:ding",
+        "stream": false
+      }
+    ]
+  },
+  "scp-049-searching": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:searching1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:searching2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:searching3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:searching4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:searching5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:searching6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:searching7",
+        "stream": false
+      }
+    ]
+  },
+  "warhead-v2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:nostromo_destruct_sequence",
+        "stream": true
+      }
+    ]
+  },
+  "door-vault-close": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:vaultdoorclosing",
+        "stream": true
+      }
+    ]
+  },
+  "door-vault-open": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:vaultdooropening",
+        "stream": true
+      }
+    ]
+  },
+  "scp-106-chase": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:106",
+        "stream": false
+      }
+    ]
+  },
+  "scp-106-magnet-up": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:magnetup",
+        "stream": false
+      }
+    ]
+  },
+  "scp-106-magnet-down": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:magnetdown",
+        "stream": false
+      }
+    ]
+  },
+  "door-nukegatesiren": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:nuke_gate_closing",
+        "stream": false
+      }
+    ]
+  },
+  "warhead-exterior": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:warhead_ext_v1",
+        "stream": true
+      }
+    ]
+  },
+  "warhead-interior": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:warhead_int_v1",
+        "stream": true
+      }
+    ]
+  },
+  "commotiona": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "more_scp_alarm:commotion1",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion10",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion11",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion12",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion13",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion14",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion15",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion16",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion17",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion18",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion19",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion2",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion20",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion21",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion22",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion23",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion24",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion25",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion3",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion4",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion5",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion6",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion7",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion8",
+        "stream": false
+      },
+      {
+        "name": "more_scp_alarm:commotion9",
+        "stream": false
+      }
+    ]
+  }
+}

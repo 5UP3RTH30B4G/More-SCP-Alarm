@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "command",
+  "definition": {
+    "commandName": "msa-debug",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">on</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Debugon</field></block></statement><next><block type=\"literal\"><field name=\"name\">off</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Debugoff</field></block></statement></block></next></block></next></block></xml>"
+  }
+}

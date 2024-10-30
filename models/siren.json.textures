@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "speaker_base",
+        "1": "speaker_stick",
+        "2": "spealer_support",
+        "3": "speaker_fon"
+      },
+      "name": "default"
+    }
+  }
+}

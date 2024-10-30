@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "generator_off",
+        "1": "generator_side"
+      },
+      "name": "default"
+    }
+  }
+}

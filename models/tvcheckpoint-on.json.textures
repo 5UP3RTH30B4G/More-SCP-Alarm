@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lockdown_check1",
+        "2": "speaker_fon",
+        "3": "speaker_stick",
+        "4": "tv_led_on"
+      },
+      "name": "default"
+    }
+  }
+}

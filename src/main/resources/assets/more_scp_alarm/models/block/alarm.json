@@ -1,0 +1,11 @@
+{
+  "parent": "more_scp_alarm:custom/siren",
+  "textures": {
+    "all": "more_scp_alarm:blocks/speaker_base",
+    "particle": "more_scp_alarm:blocks/speaker_base",
+    "0": "more_scp_alarm:blocks/speaker_base",
+    "1": "more_scp_alarm:blocks/speaker_stick",
+    "2": "more_scp_alarm:blocks/spealer_support",
+    "3": "more_scp_alarm:blocks/speaker_fon"
+  }
+}

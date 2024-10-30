@@ -1,0 +1,12 @@
+{
+  "parent": "more_scp_alarm:custom/door3",
+  "textures": {
+    "all": "more_scp_alarm:blocks/hautdroite",
+    "particle": "more_scp_alarm:blocks/hautdroite",
+    "0": "more_scp_alarm:blocks/haut3-2",
+    "1": "more_scp_alarm:blocks/haut3-1",
+    "2": "more_scp_alarm:blocks/int_2",
+    "3": "more_scp_alarm:blocks/int_1",
+    "missing": "more_scp_alarm:blocks/metal914"
+  }
+}

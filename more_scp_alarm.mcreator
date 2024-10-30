@@ -1,0 +1,3288 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gaz",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaz"
+    },
+    {
+      "name": "MoreSCPAlarm",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_scp_alarm"
+    },
+    {
+      "name": "Logo",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo"
+    },
+    {
+      "name": "Gate1",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_1",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Gate2",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_2",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Gate3",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_3",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Gate4",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_4",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Door5",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_5",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Door6",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_6",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Door7",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_7",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Door8",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_8",
+      "path": "~/Gate"
+    },
+    {
+      "name": "DoorFrame",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_frame",
+      "path": "~/Gate"
+    },
+    {
+      "name": "Generator",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generatoron",
+      "path": "~/Generateur"
+    },
+    {
+      "name": "Generatoroff",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator",
+      "path": "~/Generateur"
+    },
+    {
+      "name": "G1",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Generateur"
+    },
+    {
+      "name": "Generatorpower",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generatortablet",
+      "path": "~/Generateur"
+    },
+    {
+      "name": "G2",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Generateur"
+    },
+    {
+      "name": "G1o",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_1o",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Generateur"
+    },
+    {
+      "name": "Powerup",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerup",
+      "path": "~/Generateur"
+    },
+    {
+      "name": "Alarm",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm",
+      "path": "~/Alarm block"
+    },
+    {
+      "name": "Alarmsender",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarmsender",
+      "path": "~/Alarm block"
+    },
+    {
+      "name": "Alarmva",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarmva",
+      "path": "~/Alarm block"
+    },
+    {
+      "name": "Tvcheckpoint",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tvcheckpoint",
+      "path": "~/tv"
+    },
+    {
+      "name": "Tvoff",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tvoff",
+      "path": "~/tv"
+    },
+    {
+      "name": "TvSelector",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_selector",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Tvgooff",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tvgooff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Tvlight",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tvlight",
+      "path": "~/tv"
+    },
+    {
+      "name": "Lightgooff",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgooff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Lighton",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighton",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Lightoff",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightoff",
+      "path": "~/tv"
+    },
+    {
+      "name": "Trig079",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trig_079",
+      "path": "~/tv"
+    },
+    {
+      "name": "Trig079on",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trig_079on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Trig079off",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trig_079off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Tv079",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_079",
+      "path": "~/tv"
+    },
+    {
+      "name": "ASelector",
+      "type": "gui",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_selector",
+      "path": "~/Alarm block/Code"
+    },
+    {
+      "name": "Asoundid",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asoundid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code"
+    },
+    {
+      "name": "Asoundplay",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asoundplay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code"
+    },
+    {
+      "name": "Aselectoropen",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aselectoropen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code"
+    },
+    {
+      "name": "Debugon",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Debug"
+    },
+    {
+      "name": "Debugoff",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugoff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Debug"
+    },
+    {
+      "name": "Debug",
+      "type": "command",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug",
+      "path": "~/Debug"
+    },
+    {
+      "name": "Avargon",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avargon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Avaropen",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaropen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Avarselector",
+      "type": "gui",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarselector",
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Avarsoundid",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsoundid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Avarsoundplay",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsoundplay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Avaralarmgui",
+      "type": "gui",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaralarmgui",
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Avaralarmopen",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaralarmopen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Avargonormal",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avargonormal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Plus",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/volume"
+    },
+    {
+      "name": "Minus",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/volume"
+    },
+    {
+      "name": "Avarsetid",
+      "type": "gui",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsetid",
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "Alarmva2",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarmva_2",
+      "path": "~/Alarm block"
+    },
+    {
+      "name": "Alarmva3",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarmva_3",
+      "path": "~/Alarm block"
+    },
+    {
+      "name": "C1",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel selector"
+    },
+    {
+      "name": "Avarsetid2",
+      "type": "gui",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsetid_2",
+      "path": "~/Alarm block/Code/Var/channel2"
+    },
+    {
+      "name": "C2",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel selector"
+    },
+    {
+      "name": "Avarsoundid2",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsoundid_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel2"
+    },
+    {
+      "name": "Avarsoundid3",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsoundid_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel3"
+    },
+    {
+      "name": "Avarsetid3",
+      "type": "gui",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsetid_3",
+      "path": "~/Alarm block/Code/Var/channel3"
+    },
+    {
+      "name": "Avaralarmgui2",
+      "type": "gui",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaralarmgui_2",
+      "path": "~/Alarm block/Code/Var/channel2"
+    },
+    {
+      "name": "Avaralarmgui3",
+      "type": "gui",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaralarmgui_3",
+      "path": "~/Alarm block/Code/Var/channel3"
+    },
+    {
+      "name": "C3",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel selector"
+    },
+    {
+      "name": "Avaralarmopen2",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaralarmopen_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel2"
+    },
+    {
+      "name": "Avaralarmopen3",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaralarmopen_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel3"
+    },
+    {
+      "name": "Avarsoundplay2",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsoundplay_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel2"
+    },
+    {
+      "name": "Avarsoundplay3",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarsoundplay_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/channel3"
+    },
+    {
+      "name": "Avarchannelset",
+      "type": "gui",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avarchannelset",
+      "path": "~/Alarm block/Code/Var"
+    },
+    {
+      "name": "SC1",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/Channel set"
+    },
+    {
+      "name": "SC2",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/Channel set"
+    },
+    {
+      "name": "SC3",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm block/Code/Var/Channel set"
+    },
+    {
+      "name": "Tv895",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_895",
+      "path": "~/tv"
+    },
+    {
+      "name": "Tv895off",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_895off",
+      "path": "~/tv"
+    },
+    {
+      "name": "Tv895on",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_895on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Ptv895off",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ptv_895off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tv/code"
+    },
+    {
+      "name": "Testgen",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testgen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Generateur"
+    },
+    {
+      "name": "Newdoor",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newdoor",
+      "path": "~/Gate/New"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tv079",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "debug",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "alarm1",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "alarm2",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "alarm3",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "volume1",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "volume2",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "volume3",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "gencount",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "bang",
+      "files": [
+        "bang1",
+        "bang2",
+        "bang3"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "heavylight",
+      "files": [
+        "light1",
+        "light2",
+        "light3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp173-vent",
+      "files": [
+        "173vent"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp173-chamber",
+      "files": [
+        "173chamber"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-horror",
+      "files": [
+        "horror"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-approach173",
+      "files": [
+        "approach173"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-enterchamber173",
+      "files": [
+        "enterchamber"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-doorproblem",
+      "files": [
+        "problem"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-refuse1",
+      "files": [
+        "refuse1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-refuse2",
+      "files": [
+        "refuse2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-refuse3",
+      "files": [
+        "refuse3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-conversation",
+      "files": [
+        "conversation"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-escape",
+      "files": [
+        "playerescape"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-conversation1",
+      "files": [
+        "conversation1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-conversation3",
+      "files": [
+        "conversation3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-conversation4",
+      "files": [
+        "conversation4"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-conversation5",
+      "files": [
+        "conversation5"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-conversation2",
+      "files": [
+        "conversation2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-balcony-alert",
+      "files": [
+        "alert1",
+        "alert2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-balcony-ohsh",
+      "files": [
+        "ohsh"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-balcony-wtf",
+      "files": [
+        "wtf1",
+        "wtf2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-beforedooropen",
+      "files": [
+        "beforedooropen"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-callgas",
+      "files": [
+        "cellgas1",
+        "cellgas2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-escort",
+      "files": [
+        "escort1",
+        "escort2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-escortdone",
+      "files": [
+        "escortdone1",
+        "escortdone2",
+        "escortdone3",
+        "escortdone4",
+        "escortdone5"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-escortkill",
+      "files": [
+        "escortkill1",
+        "escortkill2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-escortpissedoff",
+      "files": [
+        "escortpissedoff1",
+        "escortpissedoff2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-escortrefuse",
+      "files": [
+        "escortrefuse1",
+        "escortrefuse2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-escortrun",
+      "files": [
+        "escortrun"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-escortterminated",
+      "files": [
+        "escortterminated"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-exitcell",
+      "files": [
+        "exitcell"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-ulgrin-exitcellrefuse",
+      "files": [
+        "exitcellrefuse1",
+        "exitcellrefuse2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tesla-start",
+      "files": [
+        "idlestarts"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tesla-loop",
+      "files": [
+        "idleloop"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tesla-end",
+      "files": [
+        "idleend"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tesla-shock",
+      "files": [
+        "shock"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tesla-windup",
+      "files": [
+        "windup"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tesla-powerup",
+      "files": [
+        "powerup"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-announc",
+      "files": [
+        "announc"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-173recontain",
+      "files": [
+        "announc173contain"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-after2",
+      "files": [
+        "announcafter1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-after1",
+      "files": [
+        "announcafter2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-camera-check",
+      "files": [
+        "announccameracheck"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-camera-chaosfound",
+      "files": [
+        "announccamerafound1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-camera-dclass",
+      "files": [
+        "announccamerafound2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-camera-nofound",
+      "files": [
+        "announccameranofound"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-beep",
+      "files": [
+        "beep"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-breath",
+      "files": [
+        "breath"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-classd",
+      "files": [
+        "classd1",
+        "classd2",
+        "classd3",
+        "classd4"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-gateb",
+      "files": [
+        "gateb1",
+        "gateb2",
+        "gateb3",
+        "gateb4"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-random",
+      "files": [
+        "random1",
+        "random2",
+        "random3",
+        "random4",
+        "random5",
+        "random6",
+        "random7"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-stop",
+      "files": [
+        "stop1",
+        "stop2",
+        "stop3",
+        "stop4",
+        "stop5",
+        "stop6"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-targetlost",
+      "files": [
+        "targetlost1",
+        "targetlost2",
+        "targetlost3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-targetterminated",
+      "files": [
+        "targetterminated2",
+        "targetterminated3",
+        "targetterminated4",
+        "targetterminated1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-thereheis",
+      "files": [
+        "thereheis1",
+        "thereheis2",
+        "thereheis3",
+        "thereheis4",
+        "thereheis5",
+        "thereheis6"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-threatannounc",
+      "files": [
+        "threatannounc1",
+        "threatannounc2",
+        "threatannounc3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-threatannouncfinal",
+      "files": [
+        "threatannouncfinal"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-threatannouncpossession",
+      "files": [
+        "threatannouncpossession"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "luresubject-idle",
+      "files": [
+        "idle1",
+        "idle2",
+        "idle3",
+        "idle4",
+        "idle5",
+        "idle6"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "luresubject-106bait",
+      "files": [
+        "106bait"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "luresubject-sniffling",
+      "files": [
+        "sniffling"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-count",
+      "files": [
+        "count"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-checkpiont",
+      "files": [
+        "doorcheckpoint"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-bigdoor-open",
+      "files": [
+        "bigdooropen",
+        "bigdooropen1",
+        "bigdooropen2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-bigdoor-close",
+      "files": [
+        "bigdoorclose",
+        "bigdoorclose1",
+        "bigdoorclose2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-close079",
+      "files": [
+        "doorclose079"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-error",
+      "files": [
+        "doorerror"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-open079",
+      "files": [
+        "dooropen079"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-open173",
+      "files": [
+        "dooropen173"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-openfast",
+      "files": [
+        "dooropenfast"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ambienta",
+      "files": [
+        "ambientb1",
+        "ambientb10",
+        "ambientb11",
+        "ambientb12",
+        "ambientb13",
+        "ambientb14",
+        "ambientb15",
+        "ambientb2",
+        "ambientb3",
+        "ambientb4",
+        "ambientb5",
+        "ambientb6",
+        "ambientb7",
+        "ambientb8",
+        "ambientb9",
+        "ambienta1",
+        "ambienta10",
+        "ambienta11",
+        "ambienta12",
+        "ambienta13",
+        "ambienta14",
+        "ambienta15",
+        "ambienta2",
+        "ambienta3",
+        "ambienta5",
+        "ambienta6",
+        "ambienta7",
+        "ambienta8",
+        "ambienta9"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "room-rumble",
+      "files": [
+        "rumble"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "room-pulsing",
+      "files": [
+        "pulsing"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "room-server",
+      "files": [
+        "servers1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "room-ventilation",
+      "files": [
+        "ventilation"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "door-break",
+      "files": [
+        "tunnelburst"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "leverflip",
+      "files": [
+        "leverflip"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "refuse",
+      "files": [
+        "button2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "smoke",
+      "files": [
+        "smok"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "horror",
+      "files": [
+        "horror0",
+        "horror1",
+        "horror10",
+        "horror11",
+        "horror12",
+        "horror13",
+        "horror14",
+        "horror15",
+        "horror16",
+        "horror2",
+        "horror3",
+        "horror4",
+        "horror5",
+        "horror6",
+        "horror7",
+        "horror8",
+        "horror9"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "lockroom",
+      "files": [
+        "lockroomsiren"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-on",
+      "files": [
+        "on-sharedassets1.assets-1442"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-off",
+      "files": [
+        "off-sharedassets1.assets-1532"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-1of5",
+      "files": [
+        "1of5-sharedassets2.assets-2336"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-2of5",
+      "files": [
+        "2of5-sharedassets2.assets-2336"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-3of5",
+      "files": [
+        "3of5-sharedassets2.assets-2336"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-4of5",
+      "files": [
+        "4of5-sharedassets2.assets-2336"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-5of5",
+      "files": [
+        "5of5-sharedassets2.assets-2336"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-overcharge",
+      "files": [
+        "overcharge-sharedassets2.assets-2000"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "generator-done",
+      "files": [
+        "unlock-resources.assets-2572"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alarm-breach",
+      "files": [
+        "breachalarm"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-tesla-off",
+      "files": [
+        "tesla1",
+        "tesla2",
+        "tesla3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mtf-tesla-requesting",
+      "files": [
+        "tesla0"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-079-broadcast",
+      "files": [
+        "broadcast1",
+        "broadcast2",
+        "broadcast3",
+        "broadcast4",
+        "broadcast5",
+        "broadcast6",
+        "broadcast7"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-079-gateb",
+      "files": [
+        "gateb"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-079-refuse",
+      "files": [
+        "refuse"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-914-open",
+      "files": [
+        "dooropen"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-914-close",
+      "files": [
+        "doorclose"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-079-testroom",
+      "files": [
+        "testroomwarning"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-079-speech",
+      "files": [
+        "speech"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-0attack",
+      "files": [
+        "0attack1",
+        "0attack2",
+        "0attack3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-0lure",
+      "files": [
+        "0lure1",
+        "0lure10",
+        "0lure2",
+        "0lure3",
+        "0lure4",
+        "0lure5",
+        "0lure6",
+        "0lure7",
+        "0lure8",
+        "0lure9"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-1alert",
+      "files": [
+        "1alert1",
+        "1alert2",
+        "1alert3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-1lure",
+      "files": [
+        "1lure1",
+        "1lure10",
+        "1lure2",
+        "1lure3",
+        "1lure4",
+        "1lure5",
+        "1lure6",
+        "1lure7",
+        "1lure8",
+        "1lure9"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-2attack",
+      "files": [
+        "2attack1",
+        "2attack2",
+        "2attack3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-914-refining",
+      "files": [
+        "refining"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-2lure",
+      "files": [
+        "2lure1",
+        "2lure10",
+        "2lure11",
+        "2lure2",
+        "2lure3",
+        "2lure4",
+        "2lure5",
+        "2lure6",
+        "2lure7",
+        "2lure8",
+        "2lure9"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-1attack",
+      "files": [
+        "1attack1",
+        "1attack2",
+        "1attack3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-alert",
+      "files": [
+        "2alert1",
+        "2alert2",
+        "2alert3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-939-0alert",
+      "files": [
+        "0alert1",
+        "0alert2",
+        "0alert3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-corrosion",
+      "files": [
+        "corrosion1",
+        "corrosion2",
+        "corrosion3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-decay",
+      "files": [
+        "decay0",
+        "decay1",
+        "decay2",
+        "decay3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-walldecay",
+      "files": [
+        "walldecay1",
+        "walldecay2",
+        "walldecay3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-breathing",
+      "files": [
+        "breathing"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-laugh",
+      "files": [
+        "laugh"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-049-breath",
+      "files": [
+        "0492breath"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-049-kidnap",
+      "files": [
+        "kidnap1",
+        "kidnap2"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-049-spotted",
+      "files": [
+        "spotted1",
+        "spotted1",
+        "spotted2",
+        "spotted3",
+        "spotted4",
+        "spotted5",
+        "spotted6",
+        "spotted7"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-049-room",
+      "files": [
+        "room2sl1",
+        "room2sl2"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-049-takeofhazmat",
+      "files": [
+        "takeoffhazmat"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-049-714",
+      "files": [
+        "714equipped"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "alarm-1",
+      "files": [
+        "alarm"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "alarm-2",
+      "files": [
+        "alarm3"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "alarm-3",
+      "files": [
+        "alarm4"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "alarm-4",
+      "files": [
+        "alarm5"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "heavy-ambient",
+      "files": [
+        "heavycontainment"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "light-ambient",
+      "files": [
+        "lightcontainmentzone"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "intro-guard-music",
+      "files": [
+        "music1",
+        "music2",
+        "music3",
+        "music4",
+        "music5"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "room-895",
+      "files": [
+        "895"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "decontamination-1m",
+      "files": [
+        "decontamination1minute"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "decontamination-30s",
+      "files": [
+        "decont_countdonw_30"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "decontamination-end",
+      "files": [
+        "decontamination_begin"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "room-server2",
+      "files": [
+        "servers2"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "decontamination-start",
+      "files": [
+        "decontamination_15_minutes"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "decontamination-10m",
+      "files": [
+        "decontamination_10"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "decontamination-5m",
+      "files": [
+        "decontamination5minutes"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "entrance-ambient",
+      "files": [
+        "entrancezone"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "alarm-5",
+      "files": [
+        "alarm6"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "elevator-open",
+      "files": [
+        "open"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "elevator-loop",
+      "files": [
+        "loop"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "elevator-closing",
+      "files": [
+        "closing"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "elevator-ding",
+      "files": [
+        "ding"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-049-searching",
+      "files": [
+        "searching1",
+        "searching2",
+        "searching3",
+        "searching4",
+        "searching5",
+        "searching6",
+        "searching7"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "warhead-v2",
+      "files": [
+        "nostromo_destruct_sequence"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "door-vault-close",
+      "files": [
+        "vaultdoorclosing"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "door-vault-open",
+      "files": [
+        "vaultdooropening"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-chase",
+      "files": [
+        "106"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-magnet-up",
+      "files": [
+        "magnetup"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "scp-106-magnet-down",
+      "files": [
+        "magnetdown"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "door-nukegatesiren",
+      "files": [
+        "nuke_gate_closing"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "warhead-exterior",
+      "files": [
+        "warhead_ext_v1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "warhead-interior",
+      "files": [
+        "warhead_int_v1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "commotiona",
+      "files": [
+        "commotion1",
+        "commotion10",
+        "commotion11",
+        "commotion12",
+        "commotion13",
+        "commotion14",
+        "commotion15",
+        "commotion16",
+        "commotion17",
+        "commotion18",
+        "commotion19",
+        "commotion2",
+        "commotion20",
+        "commotion21",
+        "commotion22",
+        "commotion23",
+        "commotion24",
+        "commotion25",
+        "commotion3",
+        "commotion4",
+        "commotion5",
+        "commotion6",
+        "commotion7",
+        "commotion8",
+        "commotion9"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.mtf-camera-dclass": "",
+      "subtitles.mtf-threatannouncpossession": "",
+      "tile.door_6.name": "Gate \\/ |\u003c",
+      "subtitles.intro-guard-music": "",
+      "subtitles.door-nukegatesiren": "",
+      "subtitles.scp106-magnet-down": "",
+      "subtitles.scp-939-1lure": "",
+      "subtitles.generator-done": "",
+      "subtitles.scp-049-breath": "",
+      "subtitles.decontamination-30s": "",
+      "subtitles.intro-guard-ulgrin-exitcellrefuse": "",
+      "block.more_scp_alarm.generatoron": "Generator",
+      "subtitles.generator-1of5": "",
+      "tile.tv_895.name": "Tv 895",
+      "subtitles.intro-guard-balcony-alert": "",
+      "subtitles.intro-guard-conversation2a": "",
+      "subtitles.mtf-classd": "",
+      "subtitles.scp-939-0alert": "",
+      "subtitles.intro-horror": "",
+      "subtitles.door-close079": "",
+      "subtitles.scp-049-room": "",
+      "subtitles.done": "",
+      "subtitles.bigdoor-": "",
+      "subtitles.door-break": "",
+      "subtitles.mtf-breath": "",
+      "tile.gate_3.name": "Gate /\\ \u003e|",
+      "tile.tv_895off.name": "Tv OFF",
+      "block.more_scp_alarm.door_frame": "Door Frame",
+      "subtitles.scp-079-gateb": "",
+      "subtitles.intro-guard-conversation3a": "",
+      "subtitles.ambienta": "",
+      "subtitles.intro-doorproblem": "",
+      "subtitles.heavy-ambient": "",
+      "item.more_scp_alarm.generatortablet": "Generator Tablet",
+      "block.more_scp_alarm.tvoff": "Tv OFF",
+      "subtitles.scp-049-searching": "",
+      "subtitles.intro-guard-ulgrin-escort": "",
+      "subtitles.alarm-1": "",
+      "subtitles.alarm-2": "",
+      "subtitles.scp-106-laugh": "",
+      "subtitles.alarm-3": "",
+      "subtitles.intro-guard-balcony-ohsh": "",
+      "subtitles.alarm-4": "",
+      "subtitles.alarm-5": "",
+      "tile.alarm.name": "Alarm",
+      "block.more_scp_alarm.generator": "Generator",
+      "subtitles.alarm-breach": "",
+      "subtitles.mtf-camera-chaosfound": "",
+      "tile.alarmsender.name": "Alarm Var mod setup",
+      "subtitles.scp-079-speech": "",
+      "subtitles.intro-light": "",
+      "subtitles.door-bigdoor-close": "",
+      "tile.generatoron.name": "Generator",
+      "tile.lightoff.name": "Tv OFF",
+      "subtitles.scp-914-refining": "",
+      "item.generatortablet.name": "Generator Tablet",
+      "tile.gate_1.name": "Gate /\\ \u003c-",
+      "subtitles.scp-106-chase": "",
+      "subtitles.scp-106-walldecay": "",
+      "subtitles.tesla-windup": "",
+      "subtitles.scp-106-decay": "",
+      "subtitles.mtf-random": "",
+      "subtitles.intro-guard-ulgrin-escortrefuse": "",
+      "subtitles.generator-count": "",
+      "subtitles.generator-2of5": "",
+      "subtitles.door-open079": "",
+      "subtitles.tesla-loop": "",
+      "subtitles.mtf-173recontain": "",
+      "subtitles.luresubject-idle": "",
+      "subtitles.scp-939-2lure": "",
+      "tile.tvlight.name": "Tv Light",
+      "subtitles.generator-on": "",
+      "subtitles.mtf-stop": "",
+      "subtitles.scp-939-2attack": "",
+      "subtitles.decontamination-10s": "",
+      "itemGroup.tabmore_scp_alarm": "More SCP Alarm",
+      "subtitles.scp-939-0lure": "",
+      "subtitles.mtf-thereheis": "",
+      "item.logo.name": "Logo",
+      "subtitles.warhead-v2": "",
+      "tile.gaz.name": "Gas",
+      "subtitles.warhead-interior": "",
+      "subtitles.mtf-after1": "",
+      "subtitles.mtf-after2": "",
+      "subtitles.door-vault-close": "",
+      "block.more_scp_alarm.tvlight": "Tv Light",
+      "subtitles.elevator-ding": "",
+      "subtitles.mtf-targetterminated": "",
+      "subtitles.luresubject-sniffling": "",
+      "block.more_scp_alarm.gate_2": "Gate /\\ |\u003c",
+      "subtitles.door-bigdoor-open": "",
+      "block.more_scp_alarm.gate_1": "Gate /\\ \u003c-",
+      "block.more_scp_alarm.gate_4": "Gate /\\ \u003e",
+      "subtitles.scp173-chamber": "",
+      "block.more_scp_alarm.gate_3": "Gate /\\ \u003e|",
+      "subtitles.light-ambient": "",
+      "subtitles.scp-079-broadcast": "",
+      "subtitles.scp106-chase": "",
+      "subtitles.scp-939-0attack": "",
+      "subtitles.mtf-camera-found1": "",
+      "tile.trig_079.name": "Trig 079",
+      "subtitles.generator-3of5": "",
+      "subtitles.intro-guard-ulgrin-escortkill": "",
+      "block.more_scp_alarm.tv_895": "Tv 895",
+      "subtitles.scp-106-corrosion": "",
+      "tile.tvcheckpoint.name": "Tv checkpoint",
+      "subtitles.mtf-gateb": "",
+      "item.more_scp_alarm.logo": "Logo",
+      "subtitles.intro-guard-ulgrin-escortrun": "",
+      "subtitles.intro-approach173": "",
+      "subtitles.leverflip": "",
+      "subtitles.bang": "",
+      "subtitles.decontamination-10m": "",
+      "subtitles.mtf-beep": "",
+      "tile.generator.name": "Generator",
+      "subtitles.decontamination-5m": "",
+      "tile.alarmva_3.name": "Alarm (Channel 3)",
+      "subtitles.intro-guard-ulgrin-escortdone": "",
+      "block.more_scp_alarm.door_8": "Gate \\/ \u003e",
+      "block.more_scp_alarm.door_5": "Gate \\/ \u003c",
+      "block.more_scp_alarm.door_7": "Gate \\/ \u003e|",
+      "block.more_scp_alarm.door_6": "Gate \\/ |\u003c",
+      "block.more_scp_alarm.alarmsender": "Alarm Var mod setup",
+      "subtitles.intro-guard-conversation1a": "",
+      "subtitles.mtf-camera-check": "",
+      "subtitles.scp-079-testroom": "",
+      "subtitles.mtf-threatannounc": "",
+      "subtitles.commotiona": "",
+      "subtitles.scp-939-1attack": "",
+      "block.more_scp_alarm.lightoff": "Tv OFF",
+      "subtitles.scp-106-magnet-up": "",
+      "subtitles.mtf-searching": "",
+      "subtitles.warhead-exterior": "",
+      "subtitles.mtf-cameracheck": "",
+      "tile.gate_2.name": "Gate /\\ |\u003c",
+      "tile.tv_079.name": "Tv 079",
+      "tile.door_5.name": "Gate \\/ \u003c",
+      "block.more_scp_alarm.newdoor": "Door [WIP]",
+      "block.more_scp_alarm.tv_079": "Tv 079",
+      "subtitles.tesla-powerup": "",
+      "subtitles.bigdoor-close": "",
+      "subtitles.scp-914-open": "",
+      "subtitles.scp-939-0alart": "",
+      "tile.alarmva_2.name": "Alarm (Channel 2)",
+      "subtitles.mtf-": "",
+      "block.more_scp_alarm.tv_895off": "Tv OFF [WIP]",
+      "subtitles.room-server": "",
+      "block.more_scp_alarm.tvcheckpoint": "Tv checkpoint [WIP]",
+      "tile.door_7.name": "Gate \\/ \u003e|",
+      "subtitles.generator-4of5": "",
+      "subtitles.scp173-vent": "",
+      "subtitles.mtf-threatannouncfinal": "",
+      "subtitles.decontamination-end": "",
+      "subtitles.entrance-ambient": "",
+      "subtitles.intro-guard-ulgrin-beforedooropen": "",
+      "subtitles.horror": "",
+      "subtitles.bigdoor-open": "",
+      "subtitles.room-pulsing": "",
+      "subtitles.room-server2": "",
+      "subtitles.door-error": "",
+      "subtitles.room-ventilation": "",
+      "subtitles.room-895": "",
+      "subtitles.elevator-loop": "",
+      "subtitles.tesla-end": "",
+      "block.more_scp_alarm.alarmva": "Alarm (Channel 1)",
+      "subtitles.intro-guard-ulgrin-escortterminated": "",
+      "subtitles.scp-939-1alert": "",
+      "subtitles.refuse": "",
+      "advancements.powerup.descr": "Power up a generator",
+      "subtitles.scp-079-refuse": "",
+      "subtitles.decontamination-1m": "",
+      "tile.gate_4.name": "Gate /\\ \u003e",
+      "subtitles.scp106-magnet-up": "",
+      "subtitles.door-openfast": "",
+      "subtitles.mtf-announc": "",
+      "subtitles.scp-049-takeofhazmat": "",
+      "subtitles.scp-049-kidnap": "",
+      "tile.alarmva.name": "Alarm (Channel 1)",
+      "block.more_scp_alarm.alarm": "Alarm",
+      "subtitles.door-vault-open": "",
+      "tile.door_frame.name": "Door Frame",
+      "subtitles.heavylight": "",
+      "subtitles.mtf-tesla-off": "",
+      "subtitles.mtf-tesla-requesting": "",
+      "block.more_scp_alarm.alarmva_2": "Alarm (Channel 2)",
+      "subtitles.generator-overcharge": "",
+      "block.more_scp_alarm.alarmva_3": "Alarm (Channel 3)",
+      "subtitles.generator-5of5": "",
+      "subtitles.scp-049-spotted": "",
+      "subtitles.decontamination-start": "",
+      "subtitles.intro-conversation": "",
+      "subtitles.intro-guard-balcony-wtf": "",
+      "subtitles.tesla-start": "",
+      "subtitles.scp-049-714": "",
+      "subtitles.intro-escape": "",
+      "subtitles.intro-refuse1": "",
+      "subtitles.intro-refuse2": "",
+      "subtitles.lockroom": "",
+      "subtitles.intro-refuse3": "",
+      "subtitles.scp-914-close": "",
+      "advancements.powerup.title": "Power up!",
+      "subtitles.scp-939-alert": "",
+      "subtitles.door-open173": "",
+      "subtitles.scp-106-magnet-down": "",
+      "subtitles.mtf-camera-nofound": "",
+      "tile.tvoff.name": "Tv OFF",
+      "subtitles.door-checkpiont": "",
+      "subtitles.scp-106-breathing": "",
+      "subtitles.smoke": "",
+      "subtitles.intro-guard-ulgrin-escortpissedoff": "",
+      "subtitles.room-rumble": "",
+      "subtitles.intro-enterchamber173": "",
+      "tile.door_8.name": "Gate \\/ \u003e",
+      "subtitles.scp173chamber": "",
+      "block.more_scp_alarm.gaz": "Gas",
+      "subtitles.luresubject-106bait": "",
+      "subtitles.tesla-shock": "",
+      "subtitles.mtf-targetlost": "",
+      "subtitles.intro-guard-ulgrin-exitcell": "",
+      "subtitles.intro-guard-conversation2": "",
+      "subtitles.intro-guard-conversation1": "",
+      "subtitles.intro-guard-conversation5": "",
+      "subtitles.intro-guard-conversation4": "",
+      "subtitles.tesla-power": "",
+      "subtitles.intro-guard-conversation3": "",
+      "subtitles.elevator-open": "",
+      "subtitles.intro-guard-ulgrin-callgas": "",
+      "subtitles.mtf-tesla": "",
+      "subtitles.elevator-closing": "",
+      "subtitles.generator-off": "",
+      "block.more_scp_alarm.trig_079": "Trig 079"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Gate",
+        "children": [
+          {
+            "name": "New",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Generateur",
+        "children": []
+      },
+      {
+        "name": "Alarm block",
+        "children": [
+          {
+            "name": "Code",
+            "children": [
+              {
+                "name": "Var",
+                "children": [
+                  {
+                    "name": "channel2",
+                    "children": []
+                  },
+                  {
+                    "name": "channel3",
+                    "children": []
+                  },
+                  {
+                    "name": "channel selector",
+                    "children": []
+                  },
+                  {
+                    "name": "Channel set",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "volume",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tv",
+        "children": [
+          {
+            "name": "code",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Debug",
+        "children": []
+      },
+      {
+        "name": "SCP Earth Command V2",
+        "children": [
+          {
+            "name": "Panel",
+            "children": [
+              {
+                "name": "1",
+                "children": []
+              },
+              {
+                "name": "2",
+                "children": []
+              },
+              {
+                "name": "3",
+                "children": []
+              },
+              {
+                "name": "4",
+                "children": []
+              },
+              {
+                "name": "5",
+                "children": []
+              },
+              {
+                "name": "GUIS",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Deconta",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "more_scp_alarm",
+    "modName": "More SCP Alarm",
+    "version": "A-2.0.0",
+    "description": "More SCP Alarm is a mod that add SFX and block of any SCP\u0027s game !",
+    "author": "5UP3R TH30 B4G",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/more-scp-alarm",
+    "license": "MIT License",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "modPicture": "bh_nu_header",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "SCP:CB And SCP:SL",
+    "modElementsPackage": "net.mcreator.scpalarm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

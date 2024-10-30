@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bas-3-1",
+        "1": "bas-3-2",
+        "2": "int_2",
+        "3": "int_1",
+        "missing": "metal914"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "more_scp_alarm:custom/tv895",
+  "textures": {
+    "all": "more_scp_alarm:blocks/895",
+    "particle": "more_scp_alarm:blocks/speaker_fon",
+    "0": "more_scp_alarm:blocks/895",
+    "1": "more_scp_alarm:blocks/tv_led_on",
+    "2": "more_scp_alarm:blocks/speaker_fon",
+    "3": "more_scp_alarm:blocks/speaker_stick"
+  }
+}

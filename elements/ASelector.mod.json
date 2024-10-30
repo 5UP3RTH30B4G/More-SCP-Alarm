@@ -1,0 +1,128 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 160,
+    "height": 163,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "aselector",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Enter the ID of the alarm",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Enter the ID of the alarm",
+          "x": 150,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ok",
+          "onClick": {
+            "name": "Asoundid"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "Ok",
+          "x": 195,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go on Var mod",
+          "onClick": {
+            "name": "Avargon"
+          },
+          "width": 90,
+          "height": 20,
+          "name": "Go on Var mod",
+          "x": 168,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "Plus"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 240,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "-",
+          "onClick": {
+            "name": "Minus"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "-",
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Volume",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Volume",
+          "x": 198,
+          "y": 113
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:volume>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:volume>",
+          "x": 212,
+          "y": 129
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

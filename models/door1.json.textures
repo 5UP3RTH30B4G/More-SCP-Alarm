@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "haut_gauche2",
+        "1": "gauche_haut2"
+      },
+      "name": "default"
+    }
+  }
+}

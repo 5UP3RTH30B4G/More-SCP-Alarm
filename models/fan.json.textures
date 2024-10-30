@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "fancote",
+        "2": "fanblack",
+        "3": "fantop"
+      },
+      "name": "default"
+    }
+  }
+}
