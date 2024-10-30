@@ -41,8 +41,8 @@ If you’d like a complete list of all sounds included in the mod, you can find 
 
 The `sounds.json` file contains all the available sound identifiers in the mod, listed as paths like:
 
-````
 ```json
+...
   "bang": {
     "category": "player",
     "sounds": [
@@ -60,8 +60,8 @@ The `sounds.json` file contains all the available sound identifiers in the mod, 
       }
     ]
   },
+...
 ```
-````
 
 The first line `"bang"` is the sound identifier and can be used in the `/playsound` command.
 
