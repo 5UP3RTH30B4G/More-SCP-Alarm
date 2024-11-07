@@ -96,6 +96,7 @@ public class MoreScpAlarmModVariables {
 		public double volume1 = 0;
 		public double volume2 = 0;
 		public double volume3 = 0;
+		public boolean in_scpearth = false;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -114,6 +115,7 @@ public class MoreScpAlarmModVariables {
 			volume1 = nbt.getDouble("volume1");
 			volume2 = nbt.getDouble("volume2");
 			volume3 = nbt.getDouble("volume3");
+			in_scpearth = nbt.getBoolean("in_scpearth");
 		}
 
 		@Override
@@ -125,6 +127,7 @@ public class MoreScpAlarmModVariables {
 			nbt.putDouble("volume1", volume1);
 			nbt.putDouble("volume2", volume2);
 			nbt.putDouble("volume3", volume3);
+			nbt.putBoolean("in_scpearth", in_scpearth);
 			return nbt;
 		}
 
