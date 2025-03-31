@@ -1,0 +1,165 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Dynamic Alarm Panel",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dynamic Alarm Panel",
+          "x": 159,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "How to get the ID's ?",
+          "color": {
+            "value": -13395457,
+            "falpha": 0.0
+          },
+          "name": "How to get the ID's ?",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Channel 1",
+          "name": "channel1",
+          "x": 249,
+          "y": 80
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Channel 2",
+          "name": "channel2",
+          "x": 249,
+          "y": 116
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Channel 3",
+          "name": "channel3",
+          "x": 249,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Select Channel",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Select Channel",
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "soundid",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Enter a sound ID",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Enter a sound ID",
+          "x": 114,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Go to the Wiki of ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Go to the Wiki of ",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Wiki",
+          "width": 72,
+          "height": 20,
+          "name": "Wiki",
+          "x": 114,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "More SCP Alarm",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "More SCP Alarm",
+          "x": 114,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "To play/save the sound, please close the GUI.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "To play/save the sound, please close the GUI.",
+          "x": 96,
+          "y": 197
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "Testpanelcloses"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

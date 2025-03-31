@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Alarm Var mod setup",
+    "name": "Alarm Controller",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
