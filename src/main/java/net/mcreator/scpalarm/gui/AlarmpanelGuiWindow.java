@@ -24,17 +24,18 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class TestpaneldynGuiWindow extends ContainerScreen<TestpaneldynGui.GuiContainerMod> {
+public class AlarmpanelGuiWindow extends ContainerScreen<AlarmpanelGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	private final static HashMap guistate = TestpaneldynGui.guistate;
+	private final static HashMap guistate = AlarmpanelGui.guistate;
+	TextFieldWidget panel_soundid;
+	CheckboxButton panel_playsound;
 	CheckboxButton channel1;
 	CheckboxButton channel2;
 	CheckboxButton channel3;
-	TextFieldWidget soundid;
 
-	public TestpaneldynGuiWindow(TestpaneldynGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public AlarmpanelGuiWindow(AlarmpanelGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -45,14 +46,14 @@ public class TestpaneldynGuiWindow extends ContainerScreen<TestpaneldynGui.GuiCo
 		this.ySize = 200;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("more_scp_alarm:textures/screens/testpaneldyn.png");
+	private static final ResourceLocation texture = new ResourceLocation("more_scp_alarm:textures/screens/alarmpanel.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
-		soundid.render(ms, mouseX, mouseY, partialTicks);
+		panel_soundid.render(ms, mouseX, mouseY, partialTicks);
 	}
 
 	@Override
@@ -73,26 +74,26 @@ public class TestpaneldynGuiWindow extends ContainerScreen<TestpaneldynGui.GuiCo
 			this.minecraft.player.closeScreen();
 			return true;
 		}
-		if (soundid.isFocused())
-			return soundid.keyPressed(key, b, c);
+		if (panel_soundid.isFocused())
+			return panel_soundid.keyPressed(key, b, c);
 		return super.keyPressed(key, b, c);
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
-		soundid.tick();
+		panel_soundid.tick();
 	}
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "Dynamic Alarm Panel", 95, 6, -12829636);
-		this.font.drawString(ms, "How to get the ID's ?", 32, 96, -13395457);
-		this.font.drawString(ms, "Select Channel", 194, 42, -12829636);
-		this.font.drawString(ms, "Enter a sound ID", 50, 42, -12829636);
-		this.font.drawString(ms, "Go to the Wiki of ", 41, 114, -12829636);
+		this.font.drawString(ms, "Enter a sound ID", 41, 24, -12829636);
+		this.font.drawString(ms, "How to get the ID's ?", 32, 96, -16737793);
+		this.font.drawString(ms, "Go to the Wiki of", 41, 114, -12829636);
 		this.font.drawString(ms, "More SCP Alarm", 50, 132, -65536);
-		this.font.drawString(ms, "To play/save the sound, please close the GUI.", 32, 177, -12829636);
+		this.font.drawString(ms, "To play/save the sound, please close the GUI.", 41, 177, -12829636);
+		this.font.drawString(ms, "Select Channel", 194, 24, -12829636);
 	}
 
 	@Override
@@ -105,24 +106,27 @@ public class TestpaneldynGuiWindow extends ContainerScreen<TestpaneldynGui.GuiCo
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		channel1 = new CheckboxButton(this.guiLeft + 185, this.guiTop + 60, 20, 20, new StringTextComponent("Channel 1"), false);
-		TestpaneldynGui.guistate.put("checkbox:channel1", channel1);
-		this.addButton(channel1);
-		channel2 = new CheckboxButton(this.guiLeft + 185, this.guiTop + 96, 20, 20, new StringTextComponent("Channel 2"), false);
-		TestpaneldynGui.guistate.put("checkbox:channel2", channel2);
-		this.addButton(channel2);
-		channel3 = new CheckboxButton(this.guiLeft + 185, this.guiTop + 132, 20, 20, new StringTextComponent("Channel 3"), false);
-		TestpaneldynGui.guistate.put("checkbox:channel3", channel3);
-		this.addButton(channel3);
-		soundid = new TextFieldWidget(this.font, this.guiLeft + 32, this.guiTop + 60, 120, 20, new StringTextComponent(""));
-		guistate.put("text:soundid", soundid);
-		soundid.setMaxStringLength(32767);
-		this.children.add(this.soundid);
-		this.addButton(new Button(this.guiLeft + 50, this.guiTop + 150, 72, 20, new StringTextComponent("Wiki"), e -> {
+		panel_soundid = new TextFieldWidget(this.font, this.guiLeft + 23, this.guiTop + 42, 120, 20, new StringTextComponent(""));
+		guistate.put("text:panel_soundid", panel_soundid);
+		panel_soundid.setMaxStringLength(32767);
+		this.children.add(this.panel_soundid);
+		panel_playsound = new CheckboxButton(this.guiLeft + 23, this.guiTop + 69, 20, 20, new StringTextComponent("Play the alarm ?"), false);
+		AlarmpanelGui.guistate.put("checkbox:panel_playsound", panel_playsound);
+		this.addButton(panel_playsound);
+		this.addButton(new Button(this.guiLeft + 59, this.guiTop + 150, 46, 20, new StringTextComponent("Wiki"), e -> {
 			if (true) {
-				MoreScpAlarmMod.PACKET_HANDLER.sendToServer(new TestpaneldynGui.ButtonPressedMessage(0, x, y, z));
-				TestpaneldynGui.handleButtonAction(entity, 0, x, y, z);
+				MoreScpAlarmMod.PACKET_HANDLER.sendToServer(new AlarmpanelGui.ButtonPressedMessage(0, x, y, z));
+				AlarmpanelGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
+		channel1 = new CheckboxButton(this.guiLeft + 185, this.guiTop + 60, 20, 20, new StringTextComponent("Channel 1"), false);
+		AlarmpanelGui.guistate.put("checkbox:channel1", channel1);
+		this.addButton(channel1);
+		channel2 = new CheckboxButton(this.guiLeft + 185, this.guiTop + 96, 20, 20, new StringTextComponent("Channel 2"), false);
+		AlarmpanelGui.guistate.put("checkbox:channel2", channel2);
+		this.addButton(channel2);
+		channel3 = new CheckboxButton(this.guiLeft + 185, this.guiTop + 132, 20, 20, new StringTextComponent("Channel 3"), false);
+		AlarmpanelGui.guistate.put("checkbox:channel3", channel3);
+		this.addButton(channel3);
 	}
 }

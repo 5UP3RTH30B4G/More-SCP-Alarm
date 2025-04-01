@@ -26,14 +26,113 @@
       {
         "type": "label",
         "data": {
+          "text": "Enter a sound ID",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Enter a sound ID",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "panel_soundid",
+          "x": 87,
+          "y": 62
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Play the alarm ?",
+          "name": "panel_playsound",
+          "x": 87,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
           "text": "How to get the ID's ?",
           "color": {
-            "value": -13395457,
+            "value": -16737793,
             "falpha": 0.0
           },
           "name": "How to get the ID's ?",
           "x": 96,
           "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Go to the Wiki of",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Go to the Wiki of",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "More SCP Alarm",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "More SCP Alarm",
+          "x": 114,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Wiki",
+          "onClick": {
+            "name": "Panellink"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Wiki",
+          "x": 123,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "To play/save the sound, please close the GUI.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "To play/save the sound, please close the GUI.",
+          "x": 105,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Select Channel",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Select Channel",
+          "x": 258,
+          "y": 44
         }
       },
       {
@@ -62,97 +161,10 @@
           "x": 249,
           "y": 152
         }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Select Channel",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Select Channel",
-          "x": 258,
-          "y": 62
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "",
-          "width": 120,
-          "height": 20,
-          "name": "soundid",
-          "x": 96,
-          "y": 80
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Enter a sound ID",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Enter a sound ID",
-          "x": 114,
-          "y": 62
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Go to the Wiki of ",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Go to the Wiki of ",
-          "x": 105,
-          "y": 134
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Wiki",
-          "width": 72,
-          "height": 20,
-          "name": "Wiki",
-          "x": 114,
-          "y": 170
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "More SCP Alarm",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "More SCP Alarm",
-          "x": 114,
-          "y": 152
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "To play/save the sound, please close the GUI.",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "To play/save the sound, please close the GUI.",
-          "x": 96,
-          "y": 197
-        }
       }
     ],
     "onClosed": {
-      "name": "Testpanelcloses"
+      "name": "Panelclose"
     },
     "gridSettings": {
       "sx": 18,

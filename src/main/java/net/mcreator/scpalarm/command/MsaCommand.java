@@ -12,7 +12,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.command.Commands;
 import net.minecraft.command.CommandSource;
 
-import net.mcreator.scpalarm.procedures.TestopenguiProcedure;
+import net.mcreator.scpalarm.procedures.PanelopenProcedure;
 import net.mcreator.scpalarm.procedures.DebugonProcedure;
 import net.mcreator.scpalarm.procedures.DebugoffProcedure;
 
@@ -64,7 +64,7 @@ public class MsaCommand {
 						entity = FakePlayerFactory.getMinecraft(world);
 					Direction direction = entity.getHorizontalFacing();
 
-					TestopenguiProcedure.executeProcedure(Stream
+					PanelopenProcedure.executeProcedure(Stream
 							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 									new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
 									new AbstractMap.SimpleEntry<>("entity", entity))

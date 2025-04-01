@@ -22,7 +22,8 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.scpalarm.procedures.TestpanelclosesProcedure;
+import net.mcreator.scpalarm.procedures.PanellinkProcedure;
+import net.mcreator.scpalarm.procedures.PanelcloseProcedure;
 import net.mcreator.scpalarm.MoreScpAlarmModElements;
 
 import java.util.stream.Stream;
@@ -32,12 +33,12 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 @MoreScpAlarmModElements.ModElement.Tag
-public class TestpaneldynGui extends MoreScpAlarmModElements.ModElement {
+public class AlarmpanelGui extends MoreScpAlarmModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 
-	public TestpaneldynGui(MoreScpAlarmModElements instance) {
-		super(instance, 115);
+	public AlarmpanelGui(MoreScpAlarmModElements instance) {
+		super(instance, 121);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -49,13 +50,13 @@ public class TestpaneldynGui extends MoreScpAlarmModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("testpaneldyn"));
+			event.getRegistry().register(containerType.setRegistryName("alarmpanel"));
 		}
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, TestpaneldynGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, AlarmpanelGuiWindow::new));
 	}
 
 	public static class GuiContainerModFactory implements IContainerFactory {
@@ -99,8 +100,9 @@ public class TestpaneldynGui extends MoreScpAlarmModElements.ModElement {
 		public void onContainerClosed(PlayerEntity playerIn) {
 			super.onContainerClosed(playerIn);
 
-			TestpanelclosesProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity),
+			PanelcloseProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity),
 							new AbstractMap.SimpleEntry<>("guistate", guistate))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
@@ -195,6 +197,11 @@ public class TestpaneldynGui extends MoreScpAlarmModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			PanellinkProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

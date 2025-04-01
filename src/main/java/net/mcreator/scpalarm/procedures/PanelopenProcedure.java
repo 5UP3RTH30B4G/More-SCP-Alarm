@@ -14,39 +14,39 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.scpalarm.gui.TestpaneldynGui;
+import net.mcreator.scpalarm.gui.AlarmpanelGui;
 import net.mcreator.scpalarm.MoreScpAlarmMod;
 
 import java.util.Map;
 
 import io.netty.buffer.Unpooled;
 
-public class TestopenguiProcedure {
+public class PanelopenProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency world for procedure Testopengui!");
+				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency world for procedure Panelopen!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency x for procedure Testopengui!");
+				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency x for procedure Panelopen!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency y for procedure Testopengui!");
+				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency y for procedure Panelopen!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency z for procedure Testopengui!");
+				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency z for procedure Panelopen!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency entity for procedure Testopengui!");
+				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency entity for procedure Panelopen!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -61,12 +61,12 @@ public class TestopenguiProcedure {
 				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Testpaneldyn");
+						return new StringTextComponent("Alarmpanel");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new TestpaneldynGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new AlarmpanelGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}
