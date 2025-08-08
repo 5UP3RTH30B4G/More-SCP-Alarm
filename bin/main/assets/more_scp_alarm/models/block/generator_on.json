@@ -1,0 +1,9 @@
+{
+  "parent": "more_scp_alarm:custom/generator_on",
+  "textures": {
+    "all": "more_scp_alarm:blocks/generator_on",
+    "particle": "more_scp_alarm:blocks/generator_on",
+    "0": "more_scp_alarm:blocks/generator_on",
+    "1": "more_scp_alarm:blocks/generator_side"
+  }
+}

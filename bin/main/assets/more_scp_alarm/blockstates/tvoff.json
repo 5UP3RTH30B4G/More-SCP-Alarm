@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "more_scp_alarm:block/tvoff"
+    },
+    "facing=east": {
+      "model": "more_scp_alarm:block/tvoff",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "more_scp_alarm:block/tvoff",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "more_scp_alarm:block/tvoff",
+      "y": 270
+    }
+  }
+}

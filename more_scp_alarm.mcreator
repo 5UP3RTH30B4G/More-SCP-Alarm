@@ -110,7 +110,7 @@
       "type": "block",
       "sortid": 22,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "generatoron",
       "path": "~/Generateur"
     },
@@ -119,41 +119,8 @@
       "type": "block",
       "sortid": 23,
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "generator",
-      "path": "~/Generateur"
-    },
-    {
-      "name": "G1",
-      "type": "procedure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "g_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
+      "locked_code": true,
+      "registry_name": "generator_off",
       "path": "~/Generateur"
     },
     {
@@ -163,68 +130,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "generatortablet",
-      "path": "~/Generateur"
-    },
-    {
-      "name": "G2",
-      "type": "procedure",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "g_2",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Generateur"
-    },
-    {
-      "name": "G1o",
-      "type": "procedure",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "g_1o",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
       "path": "~/Generateur"
     },
     {
@@ -3055,7 +2960,7 @@
       "subtitles.mtf-breath": "",
       "tile.gate_3.name": "Gate /\\ \u003e|",
       "tile.tv_895off.name": "Tv OFF",
-      "block.more_scp_alarm.door_frame": "Gate Frame",
+      "block.more_scp_alarm.door_frame": "Door Frame",
       "subtitles.scp-079-gateb": "",
       "subtitles.intro-guard-conversation3a": "",
       "subtitles.ambienta": "",
@@ -3073,7 +2978,6 @@
       "subtitles.alarm-4": "",
       "subtitles.alarm-5": "",
       "tile.alarm.name": "Alarm",
-      "block.more_scp_alarm.generator": "Generator",
       "subtitles.alarm-breach": "",
       "subtitles.mtf-camera-chaosfound": "",
       "tile.alarmsender.name": "Alarm Computer",
@@ -3150,7 +3054,7 @@
       "block.more_scp_alarm.door_5": "Gate \\/ \u003c",
       "block.more_scp_alarm.door_7": "Gate \\/ \u003e|",
       "block.more_scp_alarm.door_6": "Gate \\/ |\u003c",
-      "block.more_scp_alarm.alarmsender": "Alarm Computer",
+      "block.more_scp_alarm.alarmsender": "Alarm Controller",
       "subtitles.intro-guard-conversation1a": "",
       "subtitles.mtf-camera-check": "",
       "subtitles.scp-079-testroom": "",
@@ -3196,7 +3100,7 @@
       "subtitles.intro-guard-ulgrin-escortterminated": "",
       "subtitles.scp-939-1alert": "",
       "subtitles.refuse": "",
-      "advancements.powerup.descr": "Start a Generator!",
+      "advancements.powerup.descr": "Power up a generator",
       "subtitles.scp-079-refuse": "",
       "subtitles.decontamination-1m": "",
       "tile.gate_4.name": "Gate /\\ \u003e",
@@ -3232,6 +3136,7 @@
       "subtitles.scp-939-alert": "",
       "subtitles.door-open173": "",
       "subtitles.scp-106-magnet-down": "",
+      "block.more_scp_alarm.generator_off": "Generator",
       "subtitles.mtf-camera-nofound": "",
       "tile.tvoff.name": "Tv OFF",
       "subtitles.door-checkpiont": "",
@@ -3242,7 +3147,7 @@
       "subtitles.intro-enterchamber173": "",
       "tile.door_8.name": "Gate \\/ \u003e",
       "subtitles.scp173chamber": "",
-      "block.more_scp_alarm.gaz": "Gas",
+      "block.more_scp_alarm.gaz": "Gaz",
       "subtitles.luresubject-106bait": "",
       "subtitles.tesla-shock": "",
       "subtitles.mtf-targetlost": "",
@@ -3258,7 +3163,7 @@
       "subtitles.mtf-tesla": "",
       "subtitles.elevator-closing": "",
       "subtitles.generator-off": "",
-      "block.more_scp_alarm.trig_079": "Trig 079"
+      "block.more_scp_alarm.trig_079": "Trig 0 7 9"
     },
     "fr_fr": {
       "subtitles.mtf-camera-dclass": "",
@@ -3306,7 +3211,6 @@
       "subtitles.alarm-4": "",
       "subtitles.alarm-5": "",
       "tile.alarm.name": "Alarme",
-      "block.more_scp_alarm.generator": "Générateur",
       "subtitles.alarm-breach": "",
       "subtitles.mtf-camera-chaosfound": "",
       "tile.alarmsender.name": "Ordinateur à alarme",
@@ -3465,6 +3369,7 @@
       "subtitles.scp-939-alert": "",
       "subtitles.door-open173": "",
       "subtitles.scp-106-magnet-down": "",
+      "block.more_scp_alarm.generator_off": "Generator",
       "subtitles.mtf-camera-nofound": "",
       "tile.tvoff.name": "Tv OFF",
       "subtitles.door-checkpiont": "",
@@ -3508,7 +3413,12 @@
       },
       {
         "name": "Generateur",
-        "children": []
+        "children": [
+          {
+            "name": "custom code",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Alarm block",
@@ -3567,7 +3477,7 @@
   "workspaceSettings": {
     "modid": "more_scp_alarm",
     "modName": "More SCP Alarm",
-    "version": "A-2.0.1",
+    "version": "v2.0.2",
     "description": "More SCP Alarm is a mod that add SFX and block of any SCP\u0027s game !",
     "author": "5UP3R TH30 B4G",
     "websiteURL": "https://github.com/5UP3RTH30B4G/More-SCP-Alarm",
@@ -3582,7 +3492,7 @@
     "currentGenerator": "forge-1.16.5",
     "credits": "SCP:CB And SCP:SL",
     "modElementsPackage": "net.mcreator.scpalarm",
-    "lockBaseModFiles": false
+    "lockBaseModFiles": true
   },
   "mcreatorVersion": 202200234517
 }

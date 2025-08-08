@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_scp_alarm:blocks/computer_side",
+    "up": "more_scp_alarm:blocks/computer_side",
+    "north": "more_scp_alarm:blocks/computer_screen",
+    "east": "more_scp_alarm:blocks/computer_side",
+    "south": "more_scp_alarm:blocks/computer_side",
+    "west": "more_scp_alarm:blocks/computer_side",
+    "particle": "more_scp_alarm:blocks/computer_side"
+  }
+}

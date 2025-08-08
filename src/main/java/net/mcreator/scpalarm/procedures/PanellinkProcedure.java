@@ -18,8 +18,10 @@ public class PanellinkProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent(
-					("Here the wiki's link: " + "https://5up3r.gitbook.io/more-scp-alarm-wiki/support/checking-the-in-game-list")), (false));
+			((PlayerEntity) entity).sendStatusMessage(
+					new StringTextComponent(
+							("Here the wiki's link: " + "&b&n&lhttps://5up3r.gitbook.io/more-scp-alarm-wiki/support/checking-the-in-game-list")),
+					(false));
 		}
 	}
 }

@@ -18,14 +18,11 @@ import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.Mirror;
-import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
-import net.minecraft.util.ActionResultType;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
@@ -46,7 +43,6 @@ import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
@@ -55,25 +51,20 @@ import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.scpalarm.procedures.G1oProcedure;
 import net.mcreator.scpalarm.itemgroup.MoreSCPAlarmItemGroup;
 import net.mcreator.scpalarm.MoreScpAlarmModElements;
 
 import javax.annotation.Nullable;
 
-import java.util.stream.Stream;
 import java.util.stream.IntStream;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
-import java.util.AbstractMap;
 
 @MoreScpAlarmModElements.ModElement.Tag
 public class GeneratoroffBlock extends MoreScpAlarmModElements.ModElement {
-	@ObjectHolder("more_scp_alarm:generator")
+	@ObjectHolder("more_scp_alarm:generator_off")
 	public static final Block block = null;
-	@ObjectHolder("more_scp_alarm:generator")
+	@ObjectHolder("more_scp_alarm:generator_off")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public GeneratoroffBlock(MoreScpAlarmModElements instance) {
@@ -91,7 +82,7 @@ public class GeneratoroffBlock extends MoreScpAlarmModElements.ModElement {
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("generator"));
+			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("generator_off"));
 		}
 	}
 
@@ -108,7 +99,7 @@ public class GeneratoroffBlock extends MoreScpAlarmModElements.ModElement {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("generator");
+			setRegistryName("generator_off");
 		}
 
 		@Override
@@ -145,25 +136,6 @@ public class GeneratoroffBlock extends MoreScpAlarmModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public ActionResultType onBlockActivated(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, Hand hand,
-				BlockRayTraceResult hit) {
-			super.onBlockActivated(blockstate, world, pos, entity, hand, hit);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			double hitX = hit.getHitVec().x;
-			double hitY = hit.getHitVec().y;
-			double hitZ = hit.getHitVec().z;
-			Direction direction = hit.getFace();
-
-			G1oProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return ActionResultType.SUCCESS;
 		}
 
 		@Override
@@ -272,7 +244,7 @@ public class GeneratoroffBlock extends MoreScpAlarmModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("generator");
+			return new StringTextComponent("generator_off");
 		}
 
 		@Override

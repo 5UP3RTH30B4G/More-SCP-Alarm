@@ -95,17 +95,6 @@ public class AlarmpanelGui extends MoreScpAlarmModElements.ModElement {
 		public boolean canInteractWith(PlayerEntity player) {
 			return true;
 		}
-
-		@Override
-		public void onContainerClosed(PlayerEntity playerIn) {
-			super.onContainerClosed(playerIn);
-
-			PanelcloseProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity),
-							new AbstractMap.SimpleEntry<>("guistate", guistate))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-		}
 	}
 
 	public static class ButtonPressedMessage {
@@ -201,6 +190,14 @@ public class AlarmpanelGui extends MoreScpAlarmModElements.ModElement {
 
 			PanellinkProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
 					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+		if (buttonID == 1) {
+
+			PanelcloseProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity),
+							new AbstractMap.SimpleEntry<>("guistate", guistate))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 

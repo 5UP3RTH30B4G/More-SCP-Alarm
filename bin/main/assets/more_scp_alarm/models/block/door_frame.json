@@ -1,0 +1,8 @@
+{
+  "parent": "more_scp_alarm:custom/doorframe",
+  "textures": {
+    "all": "more_scp_alarm:blocks/metal914",
+    "particle": "more_scp_alarm:blocks/metal914",
+    "0": "more_scp_alarm:blocks/metal914"
+  }
+}

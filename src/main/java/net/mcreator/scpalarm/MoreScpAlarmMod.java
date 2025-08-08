@@ -48,11 +48,15 @@ public class MoreScpAlarmMod {
 	public MoreScpAlarmModElements elements;
 
 	public MoreScpAlarmMod() {
-		elements = new MoreScpAlarmModElements();
-		FMLJavaModLoadingContext.get().getModEventBus().register(this);
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientLoad);
-		MinecraftForge.EVENT_BUS.register(new MoreScpAlarmModFMLBusEvents(this));
+    elements = new MoreScpAlarmModElements();
+    FMLJavaModLoadingContext.get().getModEventBus().register(this);
+    FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
+    FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientLoad);
+
+    ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+    ModTileEntities.TILE_ENTITIES.register(FMLJavaModLoadingContext.get().getModEventBus());
+
+    MinecraftForge.EVENT_BUS.register(new MoreScpAlarmModFMLBusEvents(this));
 	}
 
 	private void init(FMLCommonSetupEvent event) {

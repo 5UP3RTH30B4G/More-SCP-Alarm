@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "more_scp_alarm:block/gaz",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "more_scp_alarm:block/gaz"
+    },
+    "axis=z": {
+      "model": "more_scp_alarm:block/gaz",
+      "x": 90
+    }
+  }
+}

@@ -92,7 +92,6 @@ public class AlarmpanelGuiWindow extends ContainerScreen<AlarmpanelGui.GuiContai
 		this.font.drawString(ms, "How to get the ID's ?", 32, 96, -16737793);
 		this.font.drawString(ms, "Go to the Wiki of", 41, 114, -12829636);
 		this.font.drawString(ms, "More SCP Alarm", 50, 132, -65536);
-		this.font.drawString(ms, "To play/save the sound, please close the GUI.", 41, 177, -12829636);
 		this.font.drawString(ms, "Select Channel", 194, 24, -12829636);
 	}
 
@@ -128,5 +127,11 @@ public class AlarmpanelGuiWindow extends ContainerScreen<AlarmpanelGui.GuiContai
 		channel3 = new CheckboxButton(this.guiLeft + 185, this.guiTop + 132, 20, 20, new StringTextComponent("Channel 3"), false);
 		AlarmpanelGui.guistate.put("checkbox:channel3", channel3);
 		this.addButton(channel3);
+		this.addButton(new Button(this.guiLeft + 239, this.guiTop + 168, 46, 20, new StringTextComponent("Save"), e -> {
+			if (true) {
+				MoreScpAlarmMod.PACKET_HANDLER.sendToServer(new AlarmpanelGui.ButtonPressedMessage(1, x, y, z));
+				AlarmpanelGui.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
 	}
 }

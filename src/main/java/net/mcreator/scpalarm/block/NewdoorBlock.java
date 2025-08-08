@@ -118,7 +118,7 @@ public class NewdoorBlock extends MoreScpAlarmModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			return this.getDefaultState().with(FACING, context.getFace());
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 
 		public BlockState rotate(BlockState state, Rotation rot) {

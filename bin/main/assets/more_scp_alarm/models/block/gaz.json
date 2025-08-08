@@ -1,0 +1,10 @@
+{
+  "parent": "more_scp_alarm:custom/fan",
+  "textures": {
+    "all": "more_scp_alarm:blocks/fantop",
+    "particle": "more_scp_alarm:blocks/fantop",
+    "1": "more_scp_alarm:blocks/fancote",
+    "2": "more_scp_alarm:blocks/fanblack",
+    "3": "more_scp_alarm:blocks/fantop"
+  }
+}

@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "door:default",
-    "rotationMode": 4,
+    "rotationMode": 2,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
