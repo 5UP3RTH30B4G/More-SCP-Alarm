@@ -1,6 +1,5 @@
 {
   "bang": {
-    "category": "player",
     "sounds": [
       {
         "name": "more_scp_alarm:bang1",
@@ -17,7 +16,6 @@
     ]
   },
   "heavylight": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:light1",
@@ -34,7 +32,6 @@
     ]
   },
   "scp173-vent": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:173vent",
@@ -43,7 +40,6 @@
     ]
   },
   "scp173-chamber": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:173chamber",
@@ -52,7 +48,6 @@
     ]
   },
   "intro-horror": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:horror",
@@ -61,7 +56,6 @@
     ]
   },
   "intro-approach173": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:approach173",
@@ -70,7 +64,6 @@
     ]
   },
   "intro-enterchamber173": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:enterchamber",
@@ -79,7 +72,6 @@
     ]
   },
   "intro-doorproblem": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:problem",
@@ -88,7 +80,6 @@
     ]
   },
   "intro-refuse1": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:refuse1",
@@ -97,7 +88,6 @@
     ]
   },
   "intro-refuse2": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:refuse2",
@@ -106,7 +96,6 @@
     ]
   },
   "intro-refuse3": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:refuse3",
@@ -115,7 +104,6 @@
     ]
   },
   "intro-conversation": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:conversation",
@@ -124,7 +112,6 @@
     ]
   },
   "intro-escape": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:playerescape",
@@ -133,7 +120,6 @@
     ]
   },
   "intro-guard-conversation1": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:conversation1",
@@ -142,7 +128,6 @@
     ]
   },
   "intro-guard-conversation3": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:conversation3",
@@ -151,7 +136,6 @@
     ]
   },
   "intro-guard-conversation4": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:conversation4",
@@ -160,7 +144,6 @@
     ]
   },
   "intro-guard-conversation5": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:conversation5",
@@ -169,7 +152,6 @@
     ]
   },
   "intro-guard-conversation2": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:conversation2",
@@ -178,7 +160,6 @@
     ]
   },
   "intro-guard-balcony-alert": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:alert1",
@@ -191,7 +172,6 @@
     ]
   },
   "intro-guard-balcony-ohsh": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:ohsh",
@@ -200,7 +180,6 @@
     ]
   },
   "intro-guard-balcony-wtf": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:wtf1",
@@ -213,7 +192,6 @@
     ]
   },
   "intro-guard-ulgrin-beforedooropen": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:beforedooropen",
@@ -222,7 +200,6 @@
     ]
   },
   "intro-guard-ulgrin-callgas": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:cellgas1",
@@ -235,7 +212,6 @@
     ]
   },
   "intro-guard-ulgrin-escort": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:escort1",
@@ -248,7 +224,6 @@
     ]
   },
   "intro-guard-ulgrin-escortdone": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:escortdone1",
@@ -273,7 +248,6 @@
     ]
   },
   "intro-guard-ulgrin-escortkill": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:escortkill1",
@@ -286,7 +260,6 @@
     ]
   },
   "intro-guard-ulgrin-escortpissedoff": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:escortpissedoff1",
@@ -299,7 +272,6 @@
     ]
   },
   "intro-guard-ulgrin-escortrefuse": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:escortrefuse1",
@@ -312,7 +284,6 @@
     ]
   },
   "intro-guard-ulgrin-escortrun": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:escortrun",
@@ -321,7 +292,6 @@
     ]
   },
   "intro-guard-ulgrin-escortterminated": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:escortterminated",
@@ -330,7 +300,6 @@
     ]
   },
   "intro-guard-ulgrin-exitcell": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:exitcell",
@@ -339,7 +308,6 @@
     ]
   },
   "intro-guard-ulgrin-exitcellrefuse": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:exitcellrefuse1",
@@ -352,7 +320,6 @@
     ]
   },
   "tesla-start": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:idlestarts",
@@ -361,7 +328,6 @@
     ]
   },
   "tesla-loop": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:idleloop",
@@ -370,7 +336,6 @@
     ]
   },
   "tesla-end": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:idleend",
@@ -379,7 +344,6 @@
     ]
   },
   "tesla-shock": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:shock",
@@ -388,7 +352,6 @@
     ]
   },
   "tesla-windup": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:windup",
@@ -397,7 +360,6 @@
     ]
   },
   "tesla-powerup": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:powerup",
@@ -406,7 +368,6 @@
     ]
   },
   "mtf-announc": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announc",
@@ -415,7 +376,6 @@
     ]
   },
   "mtf-173recontain": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announc173contain",
@@ -424,7 +384,6 @@
     ]
   },
   "mtf-after2": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announcafter1",
@@ -433,7 +392,6 @@
     ]
   },
   "mtf-after1": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announcafter2",
@@ -442,7 +400,6 @@
     ]
   },
   "mtf-camera-check": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announccameracheck",
@@ -451,7 +408,6 @@
     ]
   },
   "mtf-camera-chaosfound": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announccamerafound1",
@@ -460,7 +416,6 @@
     ]
   },
   "mtf-camera-dclass": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announccamerafound2",
@@ -469,7 +424,6 @@
     ]
   },
   "mtf-camera-nofound": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:announccameranofound",
@@ -478,7 +432,6 @@
     ]
   },
   "mtf-beep": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:beep",
@@ -487,7 +440,6 @@
     ]
   },
   "mtf-breath": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:breath",
@@ -496,7 +448,6 @@
     ]
   },
   "mtf-classd": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:classd1",
@@ -517,7 +468,6 @@
     ]
   },
   "mtf-gateb": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:gateb1",
@@ -538,7 +488,6 @@
     ]
   },
   "mtf-random": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:random1",
@@ -571,7 +520,6 @@
     ]
   },
   "mtf-stop": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:stop1",
@@ -600,7 +548,6 @@
     ]
   },
   "mtf-targetlost": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:targetlost1",
@@ -617,7 +564,6 @@
     ]
   },
   "mtf-targetterminated": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:targetterminated2",
@@ -638,7 +584,6 @@
     ]
   },
   "mtf-thereheis": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:thereheis1",
@@ -667,7 +612,6 @@
     ]
   },
   "mtf-threatannounc": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:threatannounc1",
@@ -684,7 +628,6 @@
     ]
   },
   "mtf-threatannouncfinal": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:threatannouncfinal",
@@ -693,7 +636,6 @@
     ]
   },
   "mtf-threatannouncpossession": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:threatannouncpossession",
@@ -702,7 +644,6 @@
     ]
   },
   "luresubject-idle": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:idle1",
@@ -731,7 +672,6 @@
     ]
   },
   "luresubject-106bait": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:106bait",
@@ -740,7 +680,6 @@
     ]
   },
   "luresubject-sniffling": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:sniffling",
@@ -749,7 +688,6 @@
     ]
   },
   "generator-count": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:count",
@@ -758,7 +696,6 @@
     ]
   },
   "door-checkpiont": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:doorcheckpoint",
@@ -767,7 +704,6 @@
     ]
   },
   "door-bigdoor-open": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:bigdooropen",
@@ -784,7 +720,6 @@
     ]
   },
   "door-bigdoor-close": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:bigdoorclose",
@@ -801,7 +736,6 @@
     ]
   },
   "door-close079": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:doorclose079",
@@ -810,7 +744,6 @@
     ]
   },
   "door-error": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:doorerror",
@@ -819,7 +752,6 @@
     ]
   },
   "door-open079": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:dooropen079",
@@ -828,7 +760,6 @@
     ]
   },
   "door-open173": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:dooropen173",
@@ -837,7 +768,6 @@
     ]
   },
   "door-openfast": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:dooropenfast",
@@ -846,7 +776,6 @@
     ]
   },
   "ambienta": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:ambientb1",
@@ -967,7 +896,6 @@
     ]
   },
   "room-rumble": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:rumble",
@@ -976,7 +904,6 @@
     ]
   },
   "room-pulsing": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:pulsing",
@@ -985,7 +912,6 @@
     ]
   },
   "room-server": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:servers1",
@@ -994,7 +920,6 @@
     ]
   },
   "room-ventilation": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:ventilation",
@@ -1003,7 +928,6 @@
     ]
   },
   "door-break": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:tunnelburst",
@@ -1012,7 +936,6 @@
     ]
   },
   "leverflip": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:leverflip",
@@ -1021,7 +944,6 @@
     ]
   },
   "refuse": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:button2",
@@ -1030,7 +952,6 @@
     ]
   },
   "smoke": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:smok",
@@ -1039,7 +960,6 @@
     ]
   },
   "horror": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:horror0",
@@ -1112,7 +1032,6 @@
     ]
   },
   "lockroom": {
-    "category": "block",
     "sounds": [
       {
         "name": "more_scp_alarm:lockroomsiren",
@@ -1121,7 +1040,6 @@
     ]
   },
   "generator-on": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:on-sharedassets1.assets-1442",
@@ -1130,7 +1048,6 @@
     ]
   },
   "generator-off": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:off-sharedassets1.assets-1532",
@@ -1139,7 +1056,6 @@
     ]
   },
   "generator-1of5": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:1of5-sharedassets2.assets-2336",
@@ -1148,7 +1064,6 @@
     ]
   },
   "generator-2of5": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:2of5-sharedassets2.assets-2336",
@@ -1157,7 +1072,6 @@
     ]
   },
   "generator-3of5": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:3of5-sharedassets2.assets-2336",
@@ -1166,7 +1080,6 @@
     ]
   },
   "generator-4of5": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:4of5-sharedassets2.assets-2336",
@@ -1175,7 +1088,6 @@
     ]
   },
   "generator-5of5": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:5of5-sharedassets2.assets-2336",
@@ -1184,7 +1096,6 @@
     ]
   },
   "generator-overcharge": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:overcharge-sharedassets2.assets-2000",
@@ -1193,7 +1104,6 @@
     ]
   },
   "generator-done": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:unlock-resources.assets-2572",
@@ -1202,7 +1112,6 @@
     ]
   },
   "alarm-breach": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:breachalarm",
@@ -1211,7 +1120,6 @@
     ]
   },
   "mtf-tesla-off": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:tesla1",
@@ -1228,7 +1136,6 @@
     ]
   },
   "mtf-tesla-requesting": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:tesla0",
@@ -1237,7 +1144,6 @@
     ]
   },
   "scp-079-broadcast": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:broadcast1",
@@ -1270,7 +1176,6 @@
     ]
   },
   "scp-079-gateb": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:gateb",
@@ -1279,7 +1184,6 @@
     ]
   },
   "scp-079-refuse": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:refuse",
@@ -1288,7 +1192,6 @@
     ]
   },
   "scp-914-open": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:dooropen",
@@ -1297,7 +1200,6 @@
     ]
   },
   "scp-914-close": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:doorclose",
@@ -1306,7 +1208,6 @@
     ]
   },
   "scp-079-testroom": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:testroomwarning",
@@ -1315,7 +1216,6 @@
     ]
   },
   "scp-079-speech": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:speech",
@@ -1324,7 +1224,6 @@
     ]
   },
   "scp-939-0attack": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:0attack1",
@@ -1341,7 +1240,6 @@
     ]
   },
   "scp-939-0lure": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:0lure1",
@@ -1386,7 +1284,6 @@
     ]
   },
   "scp-939-1alert": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:1alert1",
@@ -1403,7 +1300,6 @@
     ]
   },
   "scp-939-1lure": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:1lure1",
@@ -1448,7 +1344,6 @@
     ]
   },
   "scp-939-2attack": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:2attack1",
@@ -1465,7 +1360,6 @@
     ]
   },
   "scp-914-refining": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:refining",
@@ -1474,7 +1368,6 @@
     ]
   },
   "scp-939-2lure": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:2lure1",
@@ -1523,7 +1416,6 @@
     ]
   },
   "scp-939-1attack": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:1attack1",
@@ -1540,7 +1432,6 @@
     ]
   },
   "scp-939-alert": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:2alert1",
@@ -1557,7 +1448,6 @@
     ]
   },
   "scp-939-0alert": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:0alert1",
@@ -1574,7 +1464,6 @@
     ]
   },
   "scp-106-corrosion": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:corrosion1",
@@ -1591,7 +1480,6 @@
     ]
   },
   "scp-106-decay": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:decay0",
@@ -1612,7 +1500,6 @@
     ]
   },
   "scp-106-walldecay": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:walldecay1",
@@ -1629,7 +1516,6 @@
     ]
   },
   "scp-106-breathing": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:breathing",
@@ -1638,7 +1524,6 @@
     ]
   },
   "scp-106-laugh": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:laugh",
@@ -1647,7 +1532,6 @@
     ]
   },
   "scp-049-breath": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:0492breath",
@@ -1656,7 +1540,6 @@
     ]
   },
   "scp-049-kidnap": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:kidnap1",
@@ -1669,7 +1552,6 @@
     ]
   },
   "scp-049-spotted": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:spotted1",
@@ -1706,7 +1588,6 @@
     ]
   },
   "scp-049-room": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:room2sl1",
@@ -1719,7 +1600,6 @@
     ]
   },
   "scp-049-takeofhazmat": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:takeoffhazmat",
@@ -1728,7 +1608,6 @@
     ]
   },
   "scp-049-714": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "more_scp_alarm:714equipped",
@@ -1737,7 +1616,6 @@
     ]
   },
   "alarm-1": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:alarm",
@@ -1746,7 +1624,6 @@
     ]
   },
   "alarm-2": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:alarm3",
@@ -1755,7 +1632,6 @@
     ]
   },
   "alarm-3": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:alarm4",
@@ -1764,7 +1640,6 @@
     ]
   },
   "alarm-4": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "more_scp_alarm:alarm5",
@@ -1773,7 +1648,6 @@
     ]
   },
   "heavy-ambient": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:heavycontainment",
@@ -1782,7 +1656,6 @@
     ]
   },
   "light-ambient": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:lightcontainmentzone",
@@ -1791,7 +1664,6 @@
     ]
   },
   "intro-guard-music": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:music1",
@@ -1816,7 +1688,6 @@
     ]
   },
   "room-895": {
-    "category": "music",
     "sounds": [
       {
         "name": "more_scp_alarm:895",
@@ -1825,7 +1696,6 @@
     ]
   },
   "decontamination-1m": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:decontamination1minute",
@@ -1834,7 +1704,6 @@
     ]
   },
   "decontamination-30s": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:decont_countdonw_30",
@@ -1843,7 +1712,6 @@
     ]
   },
   "decontamination-end": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:decontamination_begin",
@@ -1852,7 +1720,6 @@
     ]
   },
   "room-server2": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:servers2",
@@ -1861,7 +1728,6 @@
     ]
   },
   "decontamination-start": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:decontamination_15_minutes",
@@ -1870,7 +1736,6 @@
     ]
   },
   "decontamination-10m": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:decontamination_10",
@@ -1879,7 +1744,6 @@
     ]
   },
   "decontamination-5m": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:decontamination5minutes",
@@ -1888,7 +1752,6 @@
     ]
   },
   "entrance-ambient": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:entrancezone",
@@ -1897,7 +1760,6 @@
     ]
   },
   "alarm-5": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:alarm6",
@@ -1906,7 +1768,6 @@
     ]
   },
   "elevator-open": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:open",
@@ -1915,7 +1776,6 @@
     ]
   },
   "elevator-loop": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:loop",
@@ -1924,7 +1784,6 @@
     ]
   },
   "elevator-closing": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:closing",
@@ -1933,7 +1792,6 @@
     ]
   },
   "elevator-ding": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:ding",
@@ -1942,7 +1800,6 @@
     ]
   },
   "scp-049-searching": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:searching1",
@@ -1975,7 +1832,6 @@
     ]
   },
   "warhead-v2": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:nostromo_destruct_sequence",
@@ -1984,7 +1840,6 @@
     ]
   },
   "door-vault-close": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:vaultdoorclosing",
@@ -1993,7 +1848,6 @@
     ]
   },
   "door-vault-open": {
-    "category": "record",
     "sounds": [
       {
         "name": "more_scp_alarm:vaultdooropening",
@@ -2002,7 +1856,6 @@
     ]
   },
   "scp-106-chase": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:106",
@@ -2011,7 +1864,6 @@
     ]
   },
   "scp-106-magnet-up": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:magnetup",
@@ -2020,7 +1872,6 @@
     ]
   },
   "scp-106-magnet-down": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:magnetdown",
@@ -2029,7 +1880,6 @@
     ]
   },
   "door-nukegatesiren": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:nuke_gate_closing",
@@ -2038,7 +1888,6 @@
     ]
   },
   "warhead-exterior": {
-    "category": "music",
     "sounds": [
       {
         "name": "more_scp_alarm:warhead_ext_v1",
@@ -2047,7 +1896,6 @@
     ]
   },
   "warhead-interior": {
-    "category": "music",
     "sounds": [
       {
         "name": "more_scp_alarm:warhead_int_v1",
@@ -2056,7 +1904,6 @@
     ]
   },
   "commotiona": {
-    "category": "master",
     "sounds": [
       {
         "name": "more_scp_alarm:commotion1",

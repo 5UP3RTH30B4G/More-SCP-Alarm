@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 60,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,12 +13,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Dynamic Alarm Panel",
+          "name": "label_dynamic_alarm_panel",
+          "text": {
+            "fixedValue": "Dynamic Alarm Panel"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Dynamic Alarm Panel",
           "x": 159,
           "y": 26
         }
@@ -26,12 +28,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Enter a sound ID",
+          "name": "label_enter_a_sound_id",
+          "text": {
+            "fixedValue": "Enter a sound ID"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Enter a sound ID",
           "x": 105,
           "y": 44
         }
@@ -40,9 +44,9 @@
         "type": "textfield",
         "data": {
           "placeholder": "",
+          "name": "panel_soundid",
           "width": 120,
           "height": 20,
-          "name": "panel_soundid",
           "x": 87,
           "y": 62
         }
@@ -50,8 +54,8 @@
       {
         "type": "checkbox",
         "data": {
-          "text": "Play the alarm ?",
           "name": "panel_playsound",
+          "text": "Play the alarm ?",
           "x": 87,
           "y": 89
         }
@@ -59,12 +63,14 @@
       {
         "type": "label",
         "data": {
-          "text": "How to get the ID's ?",
+          "name": "label_how_to_get_the_ids",
+          "text": {
+            "fixedValue": "How to get the ID's ?"
+          },
           "color": {
             "value": -16737793,
             "falpha": 0.0
           },
-          "name": "How to get the ID's ?",
           "x": 96,
           "y": 116
         }
@@ -72,12 +78,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Go to the Wiki of",
+          "name": "label_go_to_the_wiki_of",
+          "text": {
+            "fixedValue": "Go to the Wiki of"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Go to the Wiki of",
           "x": 105,
           "y": 134
         }
@@ -85,12 +93,14 @@
       {
         "type": "label",
         "data": {
-          "text": "More SCP Alarm",
+          "name": "label_more_scp_alarm",
+          "text": {
+            "fixedValue": "More SCP Alarm"
+          },
           "color": {
             "value": -65536,
             "falpha": 0.0
           },
-          "name": "More SCP Alarm",
           "x": 114,
           "y": 152
         }
@@ -98,13 +108,14 @@
       {
         "type": "button",
         "data": {
+          "name": "button_wiki",
           "text": "Wiki",
+          "isUndecorated": false,
           "onClick": {
             "name": "Panellink"
           },
           "width": 46,
           "height": 20,
-          "name": "Wiki",
           "x": 123,
           "y": 170
         }
@@ -112,12 +123,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Select Channel",
+          "name": "label_select_channel",
+          "text": {
+            "fixedValue": "Select Channel"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Select Channel",
           "x": 258,
           "y": 44
         }
@@ -125,8 +138,8 @@
       {
         "type": "checkbox",
         "data": {
-          "text": "Channel 1",
           "name": "channel1",
+          "text": "Channel 1",
           "x": 249,
           "y": 80
         }
@@ -134,8 +147,8 @@
       {
         "type": "checkbox",
         "data": {
-          "text": "Channel 2",
           "name": "channel2",
+          "text": "Channel 2",
           "x": 249,
           "y": 116
         }
@@ -143,8 +156,8 @@
       {
         "type": "checkbox",
         "data": {
-          "text": "Channel 3",
           "name": "channel3",
+          "text": "Channel 3",
           "x": 249,
           "y": 152
         }
@@ -152,13 +165,14 @@
       {
         "type": "button",
         "data": {
+          "name": "button_save",
           "text": "Save",
+          "isUndecorated": false,
           "onClick": {
             "name": "Panelclose"
           },
           "width": 46,
           "height": 20,
-          "name": "Save",
           "x": 303,
           "y": 188
         }

@@ -1,7 +1,0 @@
-{
-  "criteria": {
-    "powerup": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}

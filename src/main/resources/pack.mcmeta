@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "more_scp_alarm mod resources",
-    "pack_format": 6
+    "pack_format": 15,
+    "description": "More SCP Alarm is a mod that add SFX and block of any SCP's game !"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "more_scp_alarm:items/basdroit"
-  }
+    "layer0": "more_scp_alarm:item/basdroit"
+  },
+  "render_type": "translucent"
 }

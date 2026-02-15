@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "079",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Trig 0 7 9",
-    "specialInfo": [
-      "this a the block to activate 079 on the TV"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "this a the block to activate 079 on the TV"
+      ]
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -101,13 +103,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -131,11 +127,20 @@
     "onRedstoneOff": {
       "name": "Trig079off"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

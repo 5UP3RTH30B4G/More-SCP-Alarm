@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 60,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,13 +13,14 @@
       {
         "type": "button",
         "data": {
+          "name": "button_go_back_to_normal",
           "text": "Go back to Normal",
+          "isUndecorated": false,
           "onClick": {
             "name": "Avargonormal"
           },
           "width": 110,
           "height": 20,
-          "name": "Go back to Normal",
           "x": 159,
           "y": 143
         }
@@ -27,12 +28,14 @@
       {
         "type": "label",
         "data": {
-          "text": "The alarm sound is set :",
+          "name": "label_the_alarm_sound_is_set",
+          "text": {
+            "fixedValue": "The alarm sound is set :"
+          },
           "color": {
             "value": -65536,
             "falpha": 0.0
           },
-          "name": "The alarm sound is set :",
           "x": 159,
           "y": 71
         }
@@ -40,12 +43,14 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:alarm1>",
+          "name": "label_varalarm1",
+          "text": {
+            "fixedValue": "<VAR:alarm1>"
+          },
           "color": {
             "value": -16776961,
             "falpha": 0.0
           },
-          "name": "<VAR:alarm1>",
           "x": 186,
           "y": 107
         }

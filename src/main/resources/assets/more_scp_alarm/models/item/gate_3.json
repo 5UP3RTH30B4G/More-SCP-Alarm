@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "more_scp_alarm:items/hautdroite"
-  }
+    "layer0": "more_scp_alarm:item/hautdroite"
+  },
+  "render_type": "translucent"
 }

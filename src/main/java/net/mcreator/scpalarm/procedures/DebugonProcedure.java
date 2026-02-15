@@ -1,26 +1,17 @@
 package net.mcreator.scpalarm.procedures;
 
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
 
-import net.mcreator.scpalarm.MoreScpAlarmModVariables;
-import net.mcreator.scpalarm.MoreScpAlarmMod;
-
-import java.util.Map;
+import net.mcreator.scpalarm.network.MoreScpAlarmModVariables;
 
 public class DebugonProcedure {
-
-	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency entity for procedure Debugon!");
+	public static void execute(Entity entity) {
+		if (entity == null)
 			return;
-		}
-		Entity entity = (Entity) dependencies.get("entity");
-		MoreScpAlarmModVariables.debug = (true);
-		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Debug : On"), (false));
-		}
+		MoreScpAlarmModVariables.debug = true;
+		if (entity instanceof Player _player && !_player.level().isClientSide())
+			_player.displayClientMessage(Component.literal("Debug : On"), false);
 	}
 }

@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "more_scp_alarm:items/basgauche"
-  }
+    "layer0": "more_scp_alarm:item/basgauche"
+  },
+  "render_type": "translucent"
 }

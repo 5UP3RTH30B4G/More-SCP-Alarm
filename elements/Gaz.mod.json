@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "fantop",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Gaz",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -99,13 +101,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "SMOKE_NORMAL"
-    },
-    "particleSpawningShape": "Tube",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 3,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -123,7 +119,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

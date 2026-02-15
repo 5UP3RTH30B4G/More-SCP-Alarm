@@ -1,55 +1,26 @@
 package net.mcreator.scpalarm.procedures;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.client.gui.widget.TextFieldWidget;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.components.EditBox;
 
-import net.mcreator.scpalarm.MoreScpAlarmModVariables;
-import net.mcreator.scpalarm.MoreScpAlarmMod;
+import net.mcreator.scpalarm.network.MoreScpAlarmModVariables;
 
-import java.util.Map;
 import java.util.HashMap;
 
 public class Avarsoundid2Procedure {
-
-	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency world for procedure Avarsoundid2!");
+	public static void execute(LevelAccessor world, Entity entity, HashMap guistate) {
+		if (entity == null || guistate == null)
 			return;
-		}
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency entity for procedure Avarsoundid2!");
-			return;
-		}
-		if (dependencies.get("guistate") == null) {
-			if (!dependencies.containsKey("guistate"))
-				MoreScpAlarmMod.LOGGER.warn("Failed to load dependency guistate for procedure Avarsoundid2!");
-			return;
-		}
-		IWorld world = (IWorld) dependencies.get("world");
-		Entity entity = (Entity) dependencies.get("entity");
-		HashMap guistate = (HashMap) dependencies.get("guistate");
-		MoreScpAlarmModVariables.MapVariables.get(world).alarm2 = (new Object() {
-			public String getText() {
-				TextFieldWidget _tf = (TextFieldWidget) guistate.get("text:avaralarm2");
-				if (_tf != null) {
-					return _tf.getText();
-				}
-				return "";
-			}
-		}.getText());
+		MoreScpAlarmModVariables.MapVariables.get(world).alarm2 = guistate.containsKey("text:avaralarm2") ? ((EditBox) guistate.get("text:avaralarm2")).getValue() : "";
 		MoreScpAlarmModVariables.MapVariables.get(world).syncData(world);
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).closeScreen();
+		if (entity instanceof Player _player)
+			_player.closeContainer();
 		if (MoreScpAlarmModVariables.debug == true) {
-			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(
-						new StringTextComponent(("[] DEBUG : Var set to : " + MoreScpAlarmModVariables.MapVariables.get(world).alarm2)), (false));
-			}
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal(("[] DEBUG : Var set to : " + MoreScpAlarmModVariables.MapVariables.get(world).alarm2)), false);
 		}
 	}
 }
