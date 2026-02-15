@@ -36,7 +36,7 @@ In Minecraft, the `/playsound` command allows you to access sounds by their iden
 
 If you’d like a complete list of all sounds included in the mod, you can find it in the mod’s files:
 
-1. Go to [The GitHub page of More SCP Alarm](../src/main/resources/assets/more\_scp\_alarm/sounds.json).
+1. Go to [The GitHub page of More SCP Alarm](https://github.com/5UP3RTH30B4G/More-SCP-Alarm/blob/master/src/main/resources/assets/more_scp_alarm/sounds.json).
 2. Download the `sound.json` and open it
 
 The `sounds.json` file contains all the available sound identifiers in the mod, listed as paths like:
