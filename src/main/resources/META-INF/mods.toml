@@ -3,24 +3,13 @@ loaderVersion="[47,)"
 license="MIT License"
 
 [[mods]]
-modId="more_scp_alarm"
-version="2.0.2"
+modId="scp_alarm"
+version="3.0.0"
 displayName="More SCP Alarm"
+modClass="scp_alarm.scp_alarm"
 displayURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm"
 logoFile="logo.png"
 credits="SCP:CB And SCP:SL"
 authors="5UP3R TH30 B4G"
 description="More SCP Alarm is a mod that add SFX and block of any SCP's game !"
-
-# Start of user code block mod configuration
-# End of user code block mod configuration
-
-[[dependencies.more_scp_alarm]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.20.1]"
-    ordering="NONE"
-    side="BOTH"
-
-
-
+issueTrackerURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm/issues"
