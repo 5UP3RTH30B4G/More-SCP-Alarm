@@ -1,0 +1,7710 @@
+{
+  "bg_4": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_4",
+        "stream": true
+      }
+    ]
+  },
+  "bg_5": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_5",
+        "stream": true
+      }
+    ]
+  },
+  "bg_6": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_6",
+        "stream": true
+      }
+    ]
+  },
+  "bg_7": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_7",
+        "stream": true
+      }
+    ]
+  },
+  "bg_8": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_8",
+        "stream": true
+      }
+    ]
+  },
+  "bg_9": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_10",
+        "stream": true
+      }
+    ]
+  },
+  "bg_10": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_10",
+        "stream": true
+      }
+    ]
+  },
+  "bg_11": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_11",
+        "stream": true
+      }
+    ]
+  },
+  "bg_12": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_12",
+        "stream": true
+      }
+    ]
+  },
+  "bg_13": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_13",
+        "stream": true
+      }
+    ]
+  },
+  "bg_14": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_14",
+        "stream": true
+      }
+    ]
+  },
+  "bg_15": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_15",
+        "stream": true
+      }
+    ]
+  },
+  "bg_16": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_16",
+        "stream": true
+      }
+    ]
+  },
+  "bg_17": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_17",
+        "stream": true
+      }
+    ]
+  },
+  "bg_18": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_18",
+        "stream": true
+      }
+    ]
+  },
+  "bg_19": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_19",
+        "stream": true
+      }
+    ]
+  },
+  "bg_20": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_20",
+        "stream": true
+      }
+    ]
+  },
+  "bg_21": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_21",
+        "stream": true
+      }
+    ]
+  },
+  "bg_22": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_22",
+        "stream": true
+      }
+    ]
+  },
+  "bg_23": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_23",
+        "stream": true
+      }
+    ]
+  },
+  "bg_24": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_24",
+        "stream": true
+      }
+    ]
+  },
+  "bg_25": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_25",
+        "stream": true
+      }
+    ]
+  },
+  "bg_26": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_26",
+        "stream": true
+      }
+    ]
+  },
+  "bg_27": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_27",
+        "stream": true
+      }
+    ]
+  },
+  "bg_28": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_28",
+        "stream": true
+      }
+    ]
+  },
+  "bg_29": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_29",
+        "stream": true
+      }
+    ]
+  },
+  "bg_30": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_30",
+        "stream": true
+      }
+    ]
+  },
+  "bg_31": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_31",
+        "stream": true
+      }
+    ]
+  },
+  "bg_32": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_32",
+        "stream": true
+      }
+    ]
+  },
+  "bg_33": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_33",
+        "stream": true
+      }
+    ]
+  },
+  "bg_34": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_34",
+        "stream": true
+      }
+    ]
+  },
+  "bg_35": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_35",
+        "stream": true
+      }
+    ]
+  },
+  "bg_36": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_36",
+        "stream": true
+      }
+    ]
+  },
+  "bg_37": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_37",
+        "stream": true
+      }
+    ]
+  },
+  "bg_38": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_38",
+        "stream": true
+      }
+    ]
+  },
+  "bg_39": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_39",
+        "stream": true
+      }
+    ]
+  },
+  "bg_40": {
+    "sounds": [
+      {
+        "name": "theo_scp:bg_40",
+        "stream": true
+      }
+    ]
+  },
+  "a": {
+    "sounds": [
+      {
+        "name": "theo_scp:_a",
+        "stream": false
+      }
+    ]
+  },
+  "b": {
+    "sounds": [
+      {
+        "name": "theo_scp:_b",
+        "stream": false
+      }
+    ]
+  },
+  "c": {
+    "sounds": [
+      {
+        "name": "theo_scp:_c",
+        "stream": false
+      }
+    ]
+  },
+  "d": {
+    "sounds": [
+      {
+        "name": "theo_scp:_d",
+        "stream": false
+      }
+    ]
+  },
+  "e": {
+    "sounds": [
+      {
+        "name": "theo_scp:_e",
+        "stream": false
+      }
+    ]
+  },
+  "f": {
+    "sounds": [
+      {
+        "name": "theo_scp:_f",
+        "stream": false
+      }
+    ]
+  },
+  "g": {
+    "sounds": [
+      {
+        "name": "theo_scp:_g",
+        "stream": false
+      }
+    ]
+  },
+  "h": {
+    "sounds": [
+      {
+        "name": "theo_scp:_h",
+        "stream": false
+      }
+    ]
+  },
+  "i": {
+    "sounds": [
+      {
+        "name": "theo_scp:_i",
+        "stream": false
+      }
+    ]
+  },
+  "ish": {
+    "sounds": [
+      {
+        "name": "theo_scp:_ish",
+        "stream": false
+      }
+    ]
+  },
+  "j": {
+    "sounds": [
+      {
+        "name": "theo_scp:_j",
+        "stream": false
+      }
+    ]
+  },
+  "k": {
+    "sounds": [
+      {
+        "name": "theo_scp:_k",
+        "stream": false
+      }
+    ]
+  },
+  "l": {
+    "sounds": [
+      {
+        "name": "theo_scp:_l",
+        "stream": false
+      }
+    ]
+  },
+  "like": {
+    "sounds": [
+      {
+        "name": "theo_scp:_like",
+        "stream": false
+      }
+    ]
+  },
+  "m": {
+    "sounds": [
+      {
+        "name": "theo_scp:_m",
+        "stream": false
+      }
+    ]
+  },
+  "n": {
+    "sounds": [
+      {
+        "name": "theo_scp:_n",
+        "stream": false
+      }
+    ]
+  },
+  "o": {
+    "sounds": [
+      {
+        "name": "theo_scp:_o",
+        "stream": false
+      }
+    ]
+  },
+  "p": {
+    "sounds": [
+      {
+        "name": "theo_scp:_p",
+        "stream": false
+      }
+    ]
+  },
+  "q": {
+    "sounds": [
+      {
+        "name": "theo_scp:_q",
+        "stream": false
+      }
+    ]
+  },
+  "s": {
+    "sounds": [
+      {
+        "name": "theo_scp:_s",
+        "stream": false
+      }
+    ]
+  },
+  "t": {
+    "sounds": [
+      {
+        "name": "theo_scp:_t",
+        "stream": false
+      }
+    ]
+  },
+  "u": {
+    "sounds": [
+      {
+        "name": "theo_scp:_u",
+        "stream": false
+      }
+    ]
+  },
+  "v": {
+    "sounds": [
+      {
+        "name": "theo_scp:_v",
+        "stream": false
+      }
+    ]
+  },
+  "w": {
+    "sounds": [
+      {
+        "name": "theo_scp:_w",
+        "stream": false
+      }
+    ]
+  },
+  "x": {
+    "sounds": [
+      {
+        "name": "theo_scp:_x",
+        "stream": false
+      }
+    ]
+  },
+  "y": {
+    "sounds": [
+      {
+        "name": "theo_scp:_y",
+        "stream": false
+      }
+    ]
+  },
+  "z": {
+    "sounds": [
+      {
+        "name": "theo_scp:_z",
+        "stream": false
+      }
+    ]
+  },
+  "able": {
+    "sounds": [
+      {
+        "name": "theo_scp:able",
+        "stream": false
+      }
+    ]
+  },
+  "about": {
+    "sounds": [
+      {
+        "name": "theo_scp:about",
+        "stream": false
+      }
+    ]
+  },
+  "above": {
+    "sounds": [
+      {
+        "name": "theo_scp:above",
+        "stream": false
+      }
+    ]
+  },
+  "absolute": {
+    "sounds": [
+      {
+        "name": "theo_scp:absolute",
+        "stream": false
+      }
+    ]
+  },
+  "accepted": {
+    "sounds": [
+      {
+        "name": "theo_scp:accepted",
+        "stream": false
+      }
+    ]
+  },
+  "access": {
+    "sounds": [
+      {
+        "name": "theo_scp:access",
+        "stream": false
+      }
+    ]
+  },
+  "acid": {
+    "sounds": [
+      {
+        "name": "theo_scp:acid",
+        "stream": false
+      }
+    ]
+  },
+  "across": {
+    "sounds": [
+      {
+        "name": "theo_scp:across",
+        "stream": false
+      }
+    ]
+  },
+  "activate": {
+    "sounds": [
+      {
+        "name": "theo_scp:activate",
+        "stream": false
+      }
+    ]
+  },
+  "activated": {
+    "sounds": [
+      {
+        "name": "theo_scp:activated",
+        "stream": false
+      }
+    ]
+  },
+  "activating": {
+    "sounds": [
+      {
+        "name": "theo_scp:activating",
+        "stream": false
+      }
+    ]
+  },
+  "activation": {
+    "sounds": [
+      {
+        "name": "theo_scp:activation",
+        "stream": false
+      }
+    ]
+  },
+  "activity": {
+    "sounds": [
+      {
+        "name": "theo_scp:activity",
+        "stream": false
+      }
+    ]
+  },
+  "address": {
+    "sounds": [
+      {
+        "name": "theo_scp:address",
+        "stream": false
+      }
+    ]
+  },
+  "administer": {
+    "sounds": [
+      {
+        "name": "theo_scp:administer",
+        "stream": false
+      }
+    ]
+  },
+  "administered": {
+    "sounds": [
+      {
+        "name": "theo_scp:administered",
+        "stream": false
+      }
+    ]
+  },
+  "adrenaline": {
+    "sounds": [
+      {
+        "name": "theo_scp:adrenaline",
+        "stream": false
+      }
+    ]
+  },
+  "advanced": {
+    "sounds": [
+      {
+        "name": "theo_scp:advanced",
+        "stream": false
+      }
+    ]
+  },
+  "advise": {
+    "sounds": [
+      {
+        "name": "theo_scp:advise",
+        "stream": false
+      }
+    ]
+  },
+  "again": {
+    "sounds": [
+      {
+        "name": "theo_scp:again",
+        "stream": false
+      }
+    ]
+  },
+  "against": {
+    "sounds": [
+      {
+        "name": "theo_scp:against",
+        "stream": false
+      }
+    ]
+  },
+  "agent": {
+    "sounds": [
+      {
+        "name": "theo_scp:agent",
+        "stream": false
+      }
+    ]
+  },
+  "aid": {
+    "sounds": [
+      {
+        "name": "theo_scp:aid",
+        "stream": false
+      }
+    ]
+  },
+  "airlock": {
+    "sounds": [
+      {
+        "name": "theo_scp:airlock",
+        "stream": false
+      }
+    ]
+  },
+  "alarm": {
+    "sounds": [
+      {
+        "name": "theo_scp:alarm",
+        "stream": false
+      }
+    ]
+  },
+  "alert": {
+    "sounds": [
+      {
+        "name": "theo_scp:alert",
+        "stream": false
+      }
+    ]
+  },
+  "alive": {
+    "sounds": [
+      {
+        "name": "theo_scp:alive",
+        "stream": false
+      }
+    ]
+  },
+  "all": {
+    "sounds": [
+      {
+        "name": "theo_scp:all",
+        "stream": false
+      }
+    ]
+  },
+  "all_scp_secured": {
+    "sounds": [
+      {
+        "name": "theo_scp:all_scp_secured",
+        "stream": false
+      }
+    ]
+  },
+  "alpha": {
+    "sounds": [
+      {
+        "name": "theo_scp:alpha",
+        "stream": false
+      }
+    ]
+  },
+  "already": {
+    "sounds": [
+      {
+        "name": "theo_scp:already",
+        "stream": false
+      }
+    ]
+  },
+  "also": {
+    "sounds": [
+      {
+        "name": "theo_scp:also",
+        "stream": false
+      }
+    ]
+  },
+  "always": {
+    "sounds": [
+      {
+        "name": "theo_scp:always",
+        "stream": false
+      }
+    ]
+  },
+  "am": {
+    "sounds": [
+      {
+        "name": "theo_scp:am",
+        "stream": false
+      }
+    ]
+  },
+  "amount": {
+    "sounds": [
+      {
+        "name": "theo_scp:amount",
+        "stream": false
+      }
+    ]
+  },
+  "amplitude": {
+    "sounds": [
+      {
+        "name": "theo_scp:amplitude",
+        "stream": false
+      }
+    ]
+  },
+  "an": {
+    "sounds": [
+      {
+        "name": "theo_scp:an",
+        "stream": false
+      }
+    ]
+  },
+  "analog": {
+    "sounds": [
+      {
+        "name": "theo_scp:analog",
+        "stream": false
+      }
+    ]
+  },
+  "analysis": {
+    "sounds": [
+      {
+        "name": "theo_scp:analysis",
+        "stream": false
+      }
+    ]
+  },
+  "and": {
+    "sounds": [
+      {
+        "name": "theo_scp:and",
+        "stream": false
+      }
+    ]
+  },
+  "anomaly": {
+    "sounds": [
+      {
+        "name": "theo_scp:anomaly",
+        "stream": false
+      }
+    ]
+  },
+  "anouncement": {
+    "sounds": [
+      {
+        "name": "theo_scp:anouncement",
+        "stream": false
+      }
+    ]
+  },
+  "answer": {
+    "sounds": [
+      {
+        "name": "theo_scp:answer",
+        "stream": false
+      }
+    ]
+  },
+  "any": {
+    "sounds": [
+      {
+        "name": "theo_scp:any",
+        "stream": false
+      }
+    ]
+  },
+  "approach": {
+    "sounds": [
+      {
+        "name": "theo_scp:approach",
+        "stream": false
+      }
+    ]
+  },
+  "april": {
+    "sounds": [
+      {
+        "name": "theo_scp:april",
+        "stream": false
+      }
+    ]
+  },
+  "aquired": {
+    "sounds": [
+      {
+        "name": "theo_scp:aquired",
+        "stream": false
+      }
+    ]
+  },
+  "are": {
+    "sounds": [
+      {
+        "name": "theo_scp:are",
+        "stream": false
+      }
+    ]
+  },
+  "area": {
+    "sounds": [
+      {
+        "name": "theo_scp:area",
+        "stream": false
+      }
+    ]
+  },
+  "armory": {
+    "sounds": [
+      {
+        "name": "theo_scp:armory",
+        "stream": false
+      }
+    ]
+  },
+  "around": {
+    "sounds": [
+      {
+        "name": "theo_scp:around",
+        "stream": false
+      }
+    ]
+  },
+  "arrest": {
+    "sounds": [
+      {
+        "name": "theo_scp:arrest",
+        "stream": false
+      }
+    ]
+  },
+  "arrival": {
+    "sounds": [
+      {
+        "name": "theo_scp:arrival",
+        "stream": false
+      }
+    ]
+  },
+  "as": {
+    "sounds": [
+      {
+        "name": "theo_scp:as",
+        "stream": false
+      }
+    ]
+  },
+  "at": {
+    "sounds": [
+      {
+        "name": "theo_scp:at",
+        "stream": false
+      }
+    ]
+  },
+  "attack": {
+    "sounds": [
+      {
+        "name": "theo_scp:attack",
+        "stream": false
+      }
+    ]
+  },
+  "attempt": {
+    "sounds": [
+      {
+        "name": "theo_scp:attempt",
+        "stream": false
+      }
+    ]
+  },
+  "attention": {
+    "sounds": [
+      {
+        "name": "theo_scp:attention",
+        "stream": false
+      }
+    ]
+  },
+  "august": {
+    "sounds": [
+      {
+        "name": "theo_scp:august",
+        "stream": false
+      }
+    ]
+  },
+  "authorized": {
+    "sounds": [
+      {
+        "name": "theo_scp:authorized",
+        "stream": false
+      }
+    ]
+  },
+  "automatic": {
+    "sounds": [
+      {
+        "name": "theo_scp:automatic",
+        "stream": false
+      }
+    ]
+  },
+  "autonomic": {
+    "sounds": [
+      {
+        "name": "theo_scp:autonomic",
+        "stream": false
+      }
+    ]
+  },
+  "autonomous": {
+    "sounds": [
+      {
+        "name": "theo_scp:autonomous",
+        "stream": false
+      }
+    ]
+  },
+  "available": {
+    "sounds": [
+      {
+        "name": "theo_scp:available",
+        "stream": false
+      }
+    ]
+  },
+  "avoid": {
+    "sounds": [
+      {
+        "name": "theo_scp:avoid",
+        "stream": false
+      }
+    ]
+  },
+  "awating_recontainment": {
+    "sounds": [
+      {
+        "name": "theo_scp:awating_recontainment",
+        "stream": false
+      }
+    ]
+  },
+  "away": {
+    "sounds": [
+      {
+        "name": "theo_scp:away",
+        "stream": false
+      }
+    ]
+  },
+  "back": {
+    "sounds": [
+      {
+        "name": "theo_scp:back",
+        "stream": false
+      }
+    ]
+  },
+  "backup": {
+    "sounds": [
+      {
+        "name": "theo_scp:backup",
+        "stream": false
+      }
+    ]
+  },
+  "bad": {
+    "sounds": [
+      {
+        "name": "theo_scp:bad",
+        "stream": false
+      }
+    ]
+  },
+  "ban": {
+    "sounds": [
+      {
+        "name": "theo_scp:ban",
+        "stream": false
+      }
+    ]
+  },
+  "bank": {
+    "sounds": [
+      {
+        "name": "theo_scp:bank",
+        "stream": false
+      }
+    ]
+  },
+  "base": {
+    "sounds": [
+      {
+        "name": "theo_scp:base",
+        "stream": false
+      }
+    ]
+  },
+  "basic": {
+    "sounds": [
+      {
+        "name": "theo_scp:basic",
+        "stream": false
+      }
+    ]
+  },
+  "battery": {
+    "sounds": [
+      {
+        "name": "theo_scp:battery",
+        "stream": false
+      }
+    ]
+  },
+  "be": {
+    "sounds": [
+      {
+        "name": "theo_scp:be",
+        "stream": false
+      }
+    ]
+  },
+  "because": {
+    "sounds": [
+      {
+        "name": "theo_scp:because",
+        "stream": false
+      }
+    ]
+  },
+  "been": {
+    "sounds": [
+      {
+        "name": "theo_scp:been",
+        "stream": false
+      }
+    ]
+  },
+  "begun": {
+    "sounds": [
+      {
+        "name": "theo_scp:begun",
+        "stream": false
+      }
+    ]
+  },
+  "behavior": {
+    "sounds": [
+      {
+        "name": "theo_scp:behavior",
+        "stream": false
+      }
+    ]
+  },
+  "behind": {
+    "sounds": [
+      {
+        "name": "theo_scp:behind",
+        "stream": false
+      }
+    ]
+  },
+  "being": {
+    "sounds": [
+      {
+        "name": "theo_scp:being",
+        "stream": false
+      }
+    ]
+  },
+  "believe": {
+    "sounds": [
+      {
+        "name": "theo_scp:believe",
+        "stream": false
+      }
+    ]
+  },
+  "below": {
+    "sounds": [
+      {
+        "name": "theo_scp:below",
+        "stream": false
+      }
+    ]
+  },
+  "beside": {
+    "sounds": [
+      {
+        "name": "theo_scp:beside",
+        "stream": false
+      }
+    ]
+  },
+  "best": {
+    "sounds": [
+      {
+        "name": "theo_scp:best",
+        "stream": false
+      }
+    ]
+  },
+  "beta": {
+    "sounds": [
+      {
+        "name": "theo_scp:beta",
+        "stream": false
+      }
+    ]
+  },
+  "between": {
+    "sounds": [
+      {
+        "name": "theo_scp:between",
+        "stream": false
+      }
+    ]
+  },
+  "big": {
+    "sounds": [
+      {
+        "name": "theo_scp:big",
+        "stream": false
+      }
+    ]
+  },
+  "billiard": {
+    "sounds": [
+      {
+        "name": "theo_scp:billiard",
+        "stream": false
+      }
+    ]
+  },
+  "biological": {
+    "sounds": [
+      {
+        "name": "theo_scp:biological",
+        "stream": false
+      }
+    ]
+  },
+  "black": {
+    "sounds": [
+      {
+        "name": "theo_scp:black",
+        "stream": false
+      }
+    ]
+  },
+  "blast": {
+    "sounds": [
+      {
+        "name": "theo_scp:blast",
+        "stream": false
+      }
+    ]
+  },
+  "blue": {
+    "sounds": [
+      {
+        "name": "theo_scp:blue",
+        "stream": false
+      }
+    ]
+  },
+  "board": {
+    "sounds": [
+      {
+        "name": "theo_scp:board",
+        "stream": false
+      }
+    ]
+  },
+  "body": {
+    "sounds": [
+      {
+        "name": "theo_scp:body",
+        "stream": false
+      }
+    ]
+  },
+  "both": {
+    "sounds": [
+      {
+        "name": "theo_scp:both",
+        "stream": false
+      }
+    ]
+  },
+  "bottom": {
+    "sounds": [
+      {
+        "name": "theo_scp:bottom",
+        "stream": false
+      }
+    ]
+  },
+  "breach": {
+    "sounds": [
+      {
+        "name": "theo_scp:breach",
+        "stream": false
+      }
+    ]
+  },
+  "break": {
+    "sounds": [
+      {
+        "name": "theo_scp:break",
+        "stream": false
+      }
+    ]
+  },
+  "breaker": {
+    "sounds": [
+      {
+        "name": "theo_scp:breaker",
+        "stream": false
+      }
+    ]
+  },
+  "broad": {
+    "sounds": [
+      {
+        "name": "theo_scp:broad",
+        "stream": false
+      }
+    ]
+  },
+  "broadcast": {
+    "sounds": [
+      {
+        "name": "theo_scp:broadcast",
+        "stream": false
+      }
+    ]
+  },
+  "build": {
+    "sounds": [
+      {
+        "name": "theo_scp:build",
+        "stream": false
+      }
+    ]
+  },
+  "built": {
+    "sounds": [
+      {
+        "name": "theo_scp:built",
+        "stream": false
+      }
+    ]
+  },
+  "but": {
+    "sounds": [
+      {
+        "name": "theo_scp:but",
+        "stream": false
+      }
+    ]
+  },
+  "by": {
+    "sounds": [
+      {
+        "name": "theo_scp:by",
+        "stream": false
+      }
+    ]
+  },
+  "byte": {
+    "sounds": [
+      {
+        "name": "theo_scp:byte",
+        "stream": false
+      }
+    ]
+  },
+  "cadet": {
+    "sounds": [
+      {
+        "name": "theo_scp:cadet",
+        "stream": false
+      }
+    ]
+  },
+  "calm": {
+    "sounds": [
+      {
+        "name": "theo_scp:calm",
+        "stream": false
+      }
+    ]
+  },
+  "camera": {
+    "sounds": [
+      {
+        "name": "theo_scp:camera",
+        "stream": false
+      }
+    ]
+  },
+  "can": {
+    "sounds": [
+      {
+        "name": "theo_scp:can",
+        "stream": false
+      }
+    ]
+  },
+  "cannot": {
+    "sounds": [
+      {
+        "name": "theo_scp:cannot",
+        "stream": false
+      }
+    ]
+  },
+  "cant": {
+    "sounds": [
+      {
+        "name": "theo_scp:cant",
+        "stream": false
+      }
+    ]
+  },
+  "capture": {
+    "sounds": [
+      {
+        "name": "theo_scp:capture",
+        "stream": false
+      }
+    ]
+  },
+  "card": {
+    "sounds": [
+      {
+        "name": "theo_scp:card",
+        "stream": false
+      }
+    ]
+  },
+  "cassie": {
+    "sounds": [
+      {
+        "name": "theo_scp:cassie",
+        "stream": false
+      }
+    ]
+  },
+  "cast": {
+    "sounds": [
+      {
+        "name": "theo_scp:cast",
+        "stream": false
+      }
+    ]
+  },
+  "cause": {
+    "sounds": [
+      {
+        "name": "theo_scp:cause",
+        "stream": false
+      }
+    ]
+  },
+  "caution": {
+    "sounds": [
+      {
+        "name": "theo_scp:caution",
+        "stream": false
+      }
+    ]
+  },
+  "cease": {
+    "sounds": [
+      {
+        "name": "theo_scp:cease",
+        "stream": false
+      }
+    ]
+  },
+  "celsius": {
+    "sounds": [
+      {
+        "name": "theo_scp:celsius",
+        "stream": false
+      }
+    ]
+  },
+  "center": {
+    "sounds": [
+      {
+        "name": "theo_scp:center",
+        "stream": false
+      }
+    ]
+  },
+  "centi": {
+    "sounds": [
+      {
+        "name": "theo_scp:centi",
+        "stream": false
+      }
+    ]
+  },
+  "central": {
+    "sounds": [
+      {
+        "name": "theo_scp:central",
+        "stream": false
+      }
+    ]
+  },
+  "chamber": {
+    "sounds": [
+      {
+        "name": "theo_scp:chamber",
+        "stream": false
+      }
+    ]
+  },
+  "chaos": {
+    "sounds": [
+      {
+        "name": "theo_scp:chaos",
+        "stream": false
+      }
+    ]
+  },
+  "chaosinsurgency": {
+    "sounds": [
+      {
+        "name": "theo_scp:chaosinsurgency",
+        "stream": false
+      }
+    ]
+  },
+  "charge": {
+    "sounds": [
+      {
+        "name": "theo_scp:charge",
+        "stream": false
+      }
+    ]
+  },
+  "check": {
+    "sounds": [
+      {
+        "name": "theo_scp:check",
+        "stream": false
+      }
+    ]
+  },
+  "checkpoint": {
+    "sounds": [
+      {
+        "name": "theo_scp:checkpoint",
+        "stream": false
+      }
+    ]
+  },
+  "chi": {
+    "sounds": [
+      {
+        "name": "theo_scp:chi",
+        "stream": false
+      }
+    ]
+  },
+  "class": {
+    "sounds": [
+      {
+        "name": "theo_scp:class",
+        "stream": false
+      }
+    ]
+  },
+  "classd": {
+    "sounds": [
+      {
+        "name": "theo_scp:classd",
+        "stream": false
+      }
+    ]
+  },
+  "clearance": {
+    "sounds": [
+      {
+        "name": "theo_scp:clearance",
+        "stream": false
+      }
+    ]
+  },
+  "close": {
+    "sounds": [
+      {
+        "name": "theo_scp:close",
+        "stream": false
+      }
+    ]
+  },
+  "closed": {
+    "sounds": [
+      {
+        "name": "theo_scp:closed",
+        "stream": false
+      }
+    ]
+  },
+  "code": {
+    "sounds": [
+      {
+        "name": "theo_scp:code",
+        "stream": false
+      }
+    ]
+  },
+  "come": {
+    "sounds": [
+      {
+        "name": "theo_scp:come",
+        "stream": false
+      }
+    ]
+  },
+  "commander": {
+    "sounds": [
+      {
+        "name": "theo_scp:commander",
+        "stream": false
+      }
+    ]
+  },
+  "commencing": {
+    "sounds": [
+      {
+        "name": "theo_scp:commencing",
+        "stream": false
+      }
+    ]
+  },
+  "community": {
+    "sounds": [
+      {
+        "name": "theo_scp:community",
+        "stream": false
+      }
+    ]
+  },
+  "complete": {
+    "sounds": [
+      {
+        "name": "theo_scp:complete",
+        "stream": false
+      }
+    ]
+  },
+  "completed": {
+    "sounds": [
+      {
+        "name": "theo_scp:completed",
+        "stream": false
+      }
+    ]
+  },
+  "complex": {
+    "sounds": [
+      {
+        "name": "theo_scp:complex",
+        "stream": false
+      }
+    ]
+  },
+  "condition": {
+    "sounds": [
+      {
+        "name": "theo_scp:condition",
+        "stream": false
+      }
+    ]
+  },
+  "confirm": {
+    "sounds": [
+      {
+        "name": "theo_scp:confirm",
+        "stream": false
+      }
+    ]
+  },
+  "console": {
+    "sounds": [
+      {
+        "name": "theo_scp:console",
+        "stream": false
+      }
+    ]
+  },
+  "contain": {
+    "sounds": [
+      {
+        "name": "theo_scp:contain",
+        "stream": false
+      }
+    ]
+  },
+  "contained": {
+    "sounds": [
+      {
+        "name": "theo_scp:contained",
+        "stream": false
+      }
+    ]
+  },
+  "contained_successfully": {
+    "sounds": [
+      {
+        "name": "theo_scp:contained_successfully",
+        "stream": false
+      }
+    ]
+  },
+  "containment": {
+    "sounds": [
+      {
+        "name": "theo_scp:containment",
+        "stream": false
+      }
+    ]
+  },
+  "containment_unit": {
+    "sounds": [
+      {
+        "name": "theo_scp:containment_unit",
+        "stream": false
+      }
+    ]
+  },
+  "contamination": {
+    "sounds": [
+      {
+        "name": "theo_scp:contamination",
+        "stream": false
+      }
+    ]
+  },
+  "continue": {
+    "sounds": [
+      {
+        "name": "theo_scp:continue",
+        "stream": false
+      }
+    ]
+  },
+  "control": {
+    "sounds": [
+      {
+        "name": "theo_scp:control",
+        "stream": false
+      }
+    ]
+  },
+  "cooperate": {
+    "sounds": [
+      {
+        "name": "theo_scp:cooperate",
+        "stream": false
+      }
+    ]
+  },
+  "core": {
+    "sounds": [
+      {
+        "name": "theo_scp:core",
+        "stream": false
+      }
+    ]
+  },
+  "correct": {
+    "sounds": [
+      {
+        "name": "theo_scp:correct",
+        "stream": false
+      }
+    ]
+  },
+  "corrupted": {
+    "sounds": [
+      {
+        "name": "theo_scp:corrupted",
+        "stream": false
+      }
+    ]
+  },
+  "corruption": {
+    "sounds": [
+      {
+        "name": "theo_scp:corruption",
+        "stream": false
+      }
+    ]
+  },
+  "could": {
+    "sounds": [
+      {
+        "name": "theo_scp:could",
+        "stream": false
+      }
+    ]
+  },
+  "course": {
+    "sounds": [
+      {
+        "name": "theo_scp:course",
+        "stream": false
+      }
+    ]
+  },
+  "credit": {
+    "sounds": [
+      {
+        "name": "theo_scp:credit",
+        "stream": false
+      }
+    ]
+  },
+  "critical": {
+    "sounds": [
+      {
+        "name": "theo_scp:critical",
+        "stream": false
+      }
+    ]
+  },
+  "current": {
+    "sounds": [
+      {
+        "name": "theo_scp:current",
+        "stream": false
+      }
+    ]
+  },
+  "curved": {
+    "sounds": [
+      {
+        "name": "theo_scp:curved",
+        "stream": false
+      }
+    ]
+  },
+  "damage": {
+    "sounds": [
+      {
+        "name": "theo_scp:damage",
+        "stream": false
+      }
+    ]
+  },
+  "danger": {
+    "sounds": [
+      {
+        "name": "theo_scp:danger",
+        "stream": false
+      }
+    ]
+  },
+  "dark": {
+    "sounds": [
+      {
+        "name": "theo_scp:dark",
+        "stream": false
+      }
+    ]
+  },
+  "data": {
+    "sounds": [
+      {
+        "name": "theo_scp:data",
+        "stream": false
+      }
+    ]
+  },
+  "date": {
+    "sounds": [
+      {
+        "name": "theo_scp:date",
+        "stream": false
+      }
+    ]
+  },
+  "day": {
+    "sounds": [
+      {
+        "name": "theo_scp:day",
+        "stream": false
+      }
+    ]
+  },
+  "deactivate": {
+    "sounds": [
+      {
+        "name": "theo_scp:deactivate",
+        "stream": false
+      }
+    ]
+  },
+  "deactivated": {
+    "sounds": [
+      {
+        "name": "theo_scp:deactivated",
+        "stream": false
+      }
+    ]
+  },
+  "dead": {
+    "sounds": [
+      {
+        "name": "theo_scp:dead",
+        "stream": false
+      }
+    ]
+  },
+  "deca": {
+    "sounds": [
+      {
+        "name": "theo_scp:deca",
+        "stream": false
+      }
+    ]
+  },
+  "december": {
+    "sounds": [
+      {
+        "name": "theo_scp:december",
+        "stream": false
+      }
+    ]
+  },
+  "deci": {
+    "sounds": [
+      {
+        "name": "theo_scp:deci",
+        "stream": false
+      }
+    ]
+  },
+  "decision": {
+    "sounds": [
+      {
+        "name": "theo_scp:decision",
+        "stream": false
+      }
+    ]
+  },
+  "decontamination": {
+    "sounds": [
+      {
+        "name": "theo_scp:decontamination",
+        "stream": false
+      }
+    ]
+  },
+  "decrease": {
+    "sounds": [
+      {
+        "name": "theo_scp:decrease",
+        "stream": false
+      }
+    ]
+  },
+  "defence": {
+    "sounds": [
+      {
+        "name": "theo_scp:defence",
+        "stream": false
+      }
+    ]
+  },
+  "degrees": {
+    "sounds": [
+      {
+        "name": "theo_scp:degrees",
+        "stream": false
+      }
+    ]
+  },
+  "delta": {
+    "sounds": [
+      {
+        "name": "theo_scp:delta",
+        "stream": false
+      }
+    ]
+  },
+  "denied": {
+    "sounds": [
+      {
+        "name": "theo_scp:denied",
+        "stream": false
+      }
+    ]
+  },
+  "designated": {
+    "sounds": [
+      {
+        "name": "theo_scp:designated",
+        "stream": false
+      }
+    ]
+  },
+  "destroy": {
+    "sounds": [
+      {
+        "name": "theo_scp:destroy",
+        "stream": false
+      }
+    ]
+  },
+  "destroyed": {
+    "sounds": [
+      {
+        "name": "theo_scp:destroyed",
+        "stream": false
+      }
+    ]
+  },
+  "destruct": {
+    "sounds": [
+      {
+        "name": "theo_scp:destruct",
+        "stream": false
+      }
+    ]
+  },
+  "destructed": {
+    "sounds": [
+      {
+        "name": "theo_scp:destructed",
+        "stream": false
+      }
+    ]
+  },
+  "destruction": {
+    "sounds": [
+      {
+        "name": "theo_scp:destruction",
+        "stream": false
+      }
+    ]
+  },
+  "detected": {
+    "sounds": [
+      {
+        "name": "theo_scp:detected",
+        "stream": false
+      }
+    ]
+  },
+  "detonate": {
+    "sounds": [
+      {
+        "name": "theo_scp:detonate",
+        "stream": false
+      }
+    ]
+  },
+  "detonated": {
+    "sounds": [
+      {
+        "name": "theo_scp:detonated",
+        "stream": false
+      }
+    ]
+  },
+  "detonating": {
+    "sounds": [
+      {
+        "name": "theo_scp:detonating",
+        "stream": false
+      }
+    ]
+  },
+  "detonation": {
+    "sounds": [
+      {
+        "name": "theo_scp:detonation",
+        "stream": false
+      }
+    ]
+  },
+  "device": {
+    "sounds": [
+      {
+        "name": "theo_scp:device",
+        "stream": false
+      }
+    ]
+  },
+  "diagnostic": {
+    "sounds": [
+      {
+        "name": "theo_scp:diagnostic",
+        "stream": false
+      }
+    ]
+  },
+  "did": {
+    "sounds": [
+      {
+        "name": "theo_scp:did",
+        "stream": false
+      }
+    ]
+  },
+  "die": {
+    "sounds": [
+      {
+        "name": "theo_scp:die",
+        "stream": false
+      }
+    ]
+  },
+  "diesel": {
+    "sounds": [
+      {
+        "name": "theo_scp:diesel",
+        "stream": false
+      }
+    ]
+  },
+  "different": {
+    "sounds": [
+      {
+        "name": "theo_scp:different",
+        "stream": false
+      }
+    ]
+  },
+  "digital": {
+    "sounds": [
+      {
+        "name": "theo_scp:digital",
+        "stream": false
+      }
+    ]
+  },
+  "dimention": {
+    "sounds": [
+      {
+        "name": "theo_scp:dimention",
+        "stream": false
+      }
+    ]
+  },
+  "disable": {
+    "sounds": [
+      {
+        "name": "theo_scp:disable",
+        "stream": false
+      }
+    ]
+  },
+  "disabled": {
+    "sounds": [
+      {
+        "name": "theo_scp:disabled",
+        "stream": false
+      }
+    ]
+  },
+  "disables": {
+    "sounds": [
+      {
+        "name": "theo_scp:disables",
+        "stream": false
+      }
+    ]
+  },
+  "discharge": {
+    "sounds": [
+      {
+        "name": "theo_scp:discharge",
+        "stream": false
+      }
+    ]
+  },
+  "disease": {
+    "sounds": [
+      {
+        "name": "theo_scp:disease",
+        "stream": false
+      }
+    ]
+  },
+  "disengaged": {
+    "sounds": [
+      {
+        "name": "theo_scp:disengaged",
+        "stream": false
+      }
+    ]
+  },
+  "distance": {
+    "sounds": [
+      {
+        "name": "theo_scp:distance",
+        "stream": false
+      }
+    ]
+  },
+  "divided": {
+    "sounds": [
+      {
+        "name": "theo_scp:divided",
+        "stream": false
+      }
+    ]
+  },
+  "division": {
+    "sounds": [
+      {
+        "name": "theo_scp:division",
+        "stream": false
+      }
+    ]
+  },
+  "do": {
+    "sounds": [
+      {
+        "name": "theo_scp:do",
+        "stream": false
+      }
+    ]
+  },
+  "doctor": {
+    "sounds": [
+      {
+        "name": "theo_scp:doctor",
+        "stream": false
+      }
+    ]
+  },
+  "does": {
+    "sounds": [
+      {
+        "name": "theo_scp:does",
+        "stream": false
+      }
+    ]
+  },
+  "done": {
+    "sounds": [
+      {
+        "name": "theo_scp:done",
+        "stream": false
+      }
+    ]
+  },
+  "door": {
+    "sounds": [
+      {
+        "name": "theo_scp:door",
+        "stream": false
+      }
+    ]
+  },
+  "doors": {
+    "sounds": [
+      {
+        "name": "theo_scp:doors",
+        "stream": false
+      }
+    ]
+  },
+  "dose": {
+    "sounds": [
+      {
+        "name": "theo_scp:dose",
+        "stream": false
+      }
+    ]
+  },
+  "down": {
+    "sounds": [
+      {
+        "name": "theo_scp:down",
+        "stream": false
+      }
+    ]
+  },
+  "earth": {
+    "sounds": [
+      {
+        "name": "theo_scp:earth",
+        "stream": false
+      }
+    ]
+  },
+  "east": {
+    "sounds": [
+      {
+        "name": "theo_scp:east",
+        "stream": false
+      }
+    ]
+  },
+  "ed": {
+    "sounds": [
+      {
+        "name": "theo_scp:ed",
+        "stream": false
+      }
+    ]
+  },
+  "effect": {
+    "sounds": [
+      {
+        "name": "theo_scp:effect",
+        "stream": false
+      }
+    ]
+  },
+  "either": {
+    "sounds": [
+      {
+        "name": "theo_scp:either",
+        "stream": false
+      }
+    ]
+  },
+  "electric": {
+    "sounds": [
+      {
+        "name": "theo_scp:electric",
+        "stream": false
+      }
+    ]
+  },
+  "electromagnetism": {
+    "sounds": [
+      {
+        "name": "theo_scp:electromagnetism",
+        "stream": false
+      }
+    ]
+  },
+  "elevator": {
+    "sounds": [
+      {
+        "name": "theo_scp:elevator",
+        "stream": false
+      }
+    ]
+  },
+  "elevators": {
+    "sounds": [
+      {
+        "name": "theo_scp:elevators",
+        "stream": false
+      }
+    ]
+  },
+  "emergency": {
+    "sounds": [
+      {
+        "name": "theo_scp:emergency",
+        "stream": false
+      }
+    ]
+  },
+  "empty": {
+    "sounds": [
+      {
+        "name": "theo_scp:empty",
+        "stream": false
+      }
+    ]
+  },
+  "enable": {
+    "sounds": [
+      {
+        "name": "theo_scp:enable",
+        "stream": false
+      }
+    ]
+  },
+  "enabled": {
+    "sounds": [
+      {
+        "name": "theo_scp:enabled",
+        "stream": false
+      }
+    ]
+  },
+  "enables": {
+    "sounds": [
+      {
+        "name": "theo_scp:enables",
+        "stream": false
+      }
+    ]
+  },
+  "end": {
+    "sounds": [
+      {
+        "name": "theo_scp:end",
+        "stream": false
+      }
+    ]
+  },
+  "engaged": {
+    "sounds": [
+      {
+        "name": "theo_scp:engaged",
+        "stream": false
+      }
+    ]
+  },
+  "engine": {
+    "sounds": [
+      {
+        "name": "theo_scp:engine",
+        "stream": false
+      }
+    ]
+  },
+  "enough": {
+    "sounds": [
+      {
+        "name": "theo_scp:enough",
+        "stream": false
+      }
+    ]
+  },
+  "enter": {
+    "sounds": [
+      {
+        "name": "theo_scp:enter",
+        "stream": false
+      }
+    ]
+  },
+  "entire": {
+    "sounds": [
+      {
+        "name": "theo_scp:entire",
+        "stream": false
+      }
+    ]
+  },
+  "entrance": {
+    "sounds": [
+      {
+        "name": "theo_scp:entrance",
+        "stream": false
+      }
+    ]
+  },
+  "epsilon": {
+    "sounds": [
+      {
+        "name": "theo_scp:epsilon",
+        "stream": false
+      }
+    ]
+  },
+  "equal": {
+    "sounds": [
+      {
+        "name": "theo_scp:equal",
+        "stream": false
+      }
+    ]
+  },
+  "equals": {
+    "sounds": [
+      {
+        "name": "theo_scp:equals",
+        "stream": false
+      }
+    ]
+  },
+  "error": {
+    "sounds": [
+      {
+        "name": "theo_scp:error",
+        "stream": false
+      }
+    ]
+  },
+  "escape": {
+    "sounds": [
+      {
+        "name": "theo_scp:escape",
+        "stream": false
+      }
+    ]
+  },
+  "escort": {
+    "sounds": [
+      {
+        "name": "theo_scp:escort",
+        "stream": false
+      }
+    ]
+  },
+  "escort2": {
+    "sounds": [
+      {
+        "name": "theo_scp:escort2",
+        "stream": false
+      }
+    ]
+  },
+  "essential": {
+    "sounds": [
+      {
+        "name": "theo_scp:essential",
+        "stream": false
+      }
+    ]
+  },
+  "estimated": {
+    "sounds": [
+      {
+        "name": "theo_scp:estimated",
+        "stream": false
+      }
+    ]
+  },
+  "eta": {
+    "sounds": [
+      {
+        "name": "theo_scp:eta",
+        "stream": false
+      }
+    ]
+  },
+  "euclid": {
+    "sounds": [
+      {
+        "name": "theo_scp:euclid",
+        "stream": false
+      }
+    ]
+  },
+  "evacuate": {
+    "sounds": [
+      {
+        "name": "theo_scp:evacuate",
+        "stream": false
+      }
+    ]
+  },
+  "evacuation": {
+    "sounds": [
+      {
+        "name": "theo_scp:evacuation",
+        "stream": false
+      }
+    ]
+  },
+  "evasion": {
+    "sounds": [
+      {
+        "name": "theo_scp:evasion",
+        "stream": false
+      }
+    ]
+  },
+  "even": {
+    "sounds": [
+      {
+        "name": "theo_scp:even",
+        "stream": false
+      }
+    ]
+  },
+  "ever": {
+    "sounds": [
+      {
+        "name": "theo_scp:ever",
+        "stream": false
+      }
+    ]
+  },
+  "every": {
+    "sounds": [
+      {
+        "name": "theo_scp:every",
+        "stream": false
+      }
+    ]
+  },
+  "evidence": {
+    "sounds": [
+      {
+        "name": "theo_scp:evidence",
+        "stream": false
+      }
+    ]
+  },
+  "except": {
+    "sounds": [
+      {
+        "name": "theo_scp:except",
+        "stream": false
+      }
+    ]
+  },
+  "exception": {
+    "sounds": [
+      {
+        "name": "theo_scp:exception",
+        "stream": false
+      }
+    ]
+  },
+  "exclude": {
+    "sounds": [
+      {
+        "name": "theo_scp:exclude",
+        "stream": false
+      }
+    ]
+  },
+  "exclusion": {
+    "sounds": [
+      {
+        "name": "theo_scp:exclusion",
+        "stream": false
+      }
+    ]
+  },
+  "execute": {
+    "sounds": [
+      {
+        "name": "theo_scp:execute",
+        "stream": false
+      }
+    ]
+  },
+  "executed": {
+    "sounds": [
+      {
+        "name": "theo_scp:executed",
+        "stream": false
+      }
+    ]
+  },
+  "executive": {
+    "sounds": [
+      {
+        "name": "theo_scp:executive",
+        "stream": false
+      }
+    ]
+  },
+  "exit": {
+    "sounds": [
+      {
+        "name": "theo_scp:exit",
+        "stream": false
+      }
+    ]
+  },
+  "expiration": {
+    "sounds": [
+      {
+        "name": "theo_scp:expiration",
+        "stream": false
+      }
+    ]
+  },
+  "explain": {
+    "sounds": [
+      {
+        "name": "theo_scp:explain",
+        "stream": false
+      }
+    ]
+  },
+  "explosion": {
+    "sounds": [
+      {
+        "name": "theo_scp:explosion",
+        "stream": false
+      }
+    ]
+  },
+  "explosive": {
+    "sounds": [
+      {
+        "name": "theo_scp:explosive",
+        "stream": false
+      }
+    ]
+  },
+  "expunged": {
+    "sounds": [
+      {
+        "name": "theo_scp:expunged",
+        "stream": false
+      }
+    ]
+  },
+  "external": {
+    "sounds": [
+      {
+        "name": "theo_scp:external",
+        "stream": false
+      }
+    ]
+  },
+  "extinguishment": {
+    "sounds": [
+      {
+        "name": "theo_scp:extinguishment",
+        "stream": false
+      }
+    ]
+  },
+  "extremely": {
+    "sounds": [
+      {
+        "name": "theo_scp:extremely",
+        "stream": false
+      }
+    ]
+  },
+  "facility": {
+    "sounds": [
+      {
+        "name": "theo_scp:facility",
+        "stream": false
+      }
+    ]
+  },
+  "fahrenheit": {
+    "sounds": [
+      {
+        "name": "theo_scp:fahrenheit",
+        "stream": false
+      }
+    ]
+  },
+  "failed": {
+    "sounds": [
+      {
+        "name": "theo_scp:failed",
+        "stream": false
+      }
+    ]
+  },
+  "failure": {
+    "sounds": [
+      {
+        "name": "theo_scp:failure",
+        "stream": false
+      }
+    ]
+  },
+  "false": {
+    "sounds": [
+      {
+        "name": "theo_scp:false",
+        "stream": false
+      }
+    ]
+  },
+  "far": {
+    "sounds": [
+      {
+        "name": "theo_scp:far",
+        "stream": false
+      }
+    ]
+  },
+  "february": {
+    "sounds": [
+      {
+        "name": "theo_scp:february",
+        "stream": false
+      }
+    ]
+  },
+  "feel": {
+    "sounds": [
+      {
+        "name": "theo_scp:feel",
+        "stream": false
+      }
+    ]
+  },
+  "femur": {
+    "sounds": [
+      {
+        "name": "theo_scp:femur",
+        "stream": false
+      }
+    ]
+  },
+  "few": {
+    "sounds": [
+      {
+        "name": "theo_scp:few",
+        "stream": false
+      }
+    ]
+  },
+  "field": {
+    "sounds": [
+      {
+        "name": "theo_scp:field",
+        "stream": false
+      }
+    ]
+  },
+  "find": {
+    "sounds": [
+      {
+        "name": "theo_scp:find",
+        "stream": false
+      }
+    ]
+  },
+  "fine": {
+    "sounds": [
+      {
+        "name": "theo_scp:fine",
+        "stream": false
+      }
+    ]
+  },
+  "finished": {
+    "sounds": [
+      {
+        "name": "theo_scp:finished",
+        "stream": false
+      }
+    ]
+  },
+  "fire": {
+    "sounds": [
+      {
+        "name": "theo_scp:fire",
+        "stream": false
+      }
+    ]
+  },
+  "first": {
+    "sounds": [
+      {
+        "name": "theo_scp:first",
+        "stream": false
+      }
+    ]
+  },
+  "for": {
+    "sounds": [
+      {
+        "name": "theo_scp:for",
+        "stream": false
+      }
+    ]
+  },
+  "force": {
+    "sounds": [
+      {
+        "name": "theo_scp:force",
+        "stream": false
+      }
+    ]
+  },
+  "forward": {
+    "sounds": [
+      {
+        "name": "theo_scp:forward",
+        "stream": false
+      }
+    ]
+  },
+  "found": {
+    "sounds": [
+      {
+        "name": "theo_scp:found",
+        "stream": false
+      }
+    ]
+  },
+  "foundation": {
+    "sounds": [
+      {
+        "name": "theo_scp:foundation",
+        "stream": false
+      }
+    ]
+  },
+  "frequency": {
+    "sounds": [
+      {
+        "name": "theo_scp:frequency",
+        "stream": false
+      }
+    ]
+  },
+  "friday": {
+    "sounds": [
+      {
+        "name": "theo_scp:friday",
+        "stream": false
+      }
+    ]
+  },
+  "from": {
+    "sounds": [
+      {
+        "name": "theo_scp:from",
+        "stream": false
+      }
+    ]
+  },
+  "front": {
+    "sounds": [
+      {
+        "name": "theo_scp:front",
+        "stream": false
+      }
+    ]
+  },
+  "fuel": {
+    "sounds": [
+      {
+        "name": "theo_scp:fuel",
+        "stream": false
+      }
+    ]
+  },
+  "full": {
+    "sounds": [
+      {
+        "name": "theo_scp:full",
+        "stream": false
+      }
+    ]
+  },
+  "g1": {
+    "sounds": [
+      {
+        "name": "theo_scp:g1",
+        "stream": false
+      }
+    ]
+  },
+  "g2": {
+    "sounds": [
+      {
+        "name": "theo_scp:g2",
+        "stream": false
+      }
+    ]
+  },
+  "g3": {
+    "sounds": [
+      {
+        "name": "theo_scp:g3",
+        "stream": false
+      }
+    ]
+  },
+  "g4": {
+    "sounds": [
+      {
+        "name": "theo_scp:g4",
+        "stream": false
+      }
+    ]
+  },
+  "g5": {
+    "sounds": [
+      {
+        "name": "theo_scp:g5",
+        "stream": false
+      }
+    ]
+  },
+  "g6": {
+    "sounds": [
+      {
+        "name": "theo_scp:g6",
+        "stream": false
+      }
+    ]
+  },
+  "game": {
+    "sounds": [
+      {
+        "name": "theo_scp:game",
+        "stream": false
+      }
+    ]
+  },
+  "gamma": {
+    "sounds": [
+      {
+        "name": "theo_scp:gamma",
+        "stream": false
+      }
+    ]
+  },
+  "gas": {
+    "sounds": [
+      {
+        "name": "theo_scp:gas",
+        "stream": false
+      }
+    ]
+  },
+  "gasoline": {
+    "sounds": [
+      {
+        "name": "theo_scp:gasoline",
+        "stream": false
+      }
+    ]
+  },
+  "gate": {
+    "sounds": [
+      {
+        "name": "theo_scp:gate",
+        "stream": false
+      }
+    ]
+  },
+  "gates": {
+    "sounds": [
+      {
+        "name": "theo_scp:gates",
+        "stream": false
+      }
+    ]
+  },
+  "general": {
+    "sounds": [
+      {
+        "name": "theo_scp:general",
+        "stream": false
+      }
+    ]
+  },
+  "generator": {
+    "sounds": [
+      {
+        "name": "theo_scp:generator",
+        "stream": false
+      }
+    ]
+  },
+  "generators": {
+    "sounds": [
+      {
+        "name": "theo_scp:generators",
+        "stream": false
+      }
+    ]
+  },
+  "get": {
+    "sounds": [
+      {
+        "name": "theo_scp:get",
+        "stream": false
+      }
+    ]
+  },
+  "giga": {
+    "sounds": [
+      {
+        "name": "theo_scp:giga",
+        "stream": false
+      }
+    ]
+  },
+  "give": {
+    "sounds": [
+      {
+        "name": "theo_scp:give",
+        "stream": false
+      }
+    ]
+  },
+  "global": {
+    "sounds": [
+      {
+        "name": "theo_scp:global",
+        "stream": false
+      }
+    ]
+  },
+  "go": {
+    "sounds": [
+      {
+        "name": "theo_scp:go",
+        "stream": false
+      }
+    ]
+  },
+  "goes": {
+    "sounds": [
+      {
+        "name": "theo_scp:goes",
+        "stream": false
+      }
+    ]
+  },
+  "going": {
+    "sounds": [
+      {
+        "name": "theo_scp:going",
+        "stream": false
+      }
+    ]
+  },
+  "gone": {
+    "sounds": [
+      {
+        "name": "theo_scp:gone",
+        "stream": false
+      }
+    ]
+  },
+  "good": {
+    "sounds": [
+      {
+        "name": "theo_scp:good",
+        "stream": false
+      }
+    ]
+  },
+  "got": {
+    "sounds": [
+      {
+        "name": "theo_scp:got",
+        "stream": false
+      }
+    ]
+  },
+  "gram": {
+    "sounds": [
+      {
+        "name": "theo_scp:gram",
+        "stream": false
+      }
+    ]
+  },
+  "grams": {
+    "sounds": [
+      {
+        "name": "theo_scp:grams",
+        "stream": false
+      }
+    ]
+  },
+  "granted": {
+    "sounds": [
+      {
+        "name": "theo_scp:granted",
+        "stream": false
+      }
+    ]
+  },
+  "grave": {
+    "sounds": [
+      {
+        "name": "theo_scp:grave",
+        "stream": false
+      }
+    ]
+  },
+  "great": {
+    "sounds": [
+      {
+        "name": "theo_scp:great",
+        "stream": false
+      }
+    ]
+  },
+  "greater": {
+    "sounds": [
+      {
+        "name": "theo_scp:greater",
+        "stream": false
+      }
+    ]
+  },
+  "green": {
+    "sounds": [
+      {
+        "name": "theo_scp:green",
+        "stream": false
+      }
+    ]
+  },
+  "grenade": {
+    "sounds": [
+      {
+        "name": "theo_scp:grenade",
+        "stream": false
+      }
+    ]
+  },
+  "ground": {
+    "sounds": [
+      {
+        "name": "theo_scp:ground",
+        "stream": false
+      }
+    ]
+  },
+  "group": {
+    "sounds": [
+      {
+        "name": "theo_scp:group",
+        "stream": false
+      }
+    ]
+  },
+  "guard": {
+    "sounds": [
+      {
+        "name": "theo_scp:guard",
+        "stream": false
+      }
+    ]
+  },
+  "gun": {
+    "sounds": [
+      {
+        "name": "theo_scp:gun",
+        "stream": false
+      }
+    ]
+  },
+  "hack": {
+    "sounds": [
+      {
+        "name": "theo_scp:hack",
+        "stream": false
+      }
+    ]
+  },
+  "half": {
+    "sounds": [
+      {
+        "name": "theo_scp:half",
+        "stream": false
+      }
+    ]
+  },
+  "hallway": {
+    "sounds": [
+      {
+        "name": "theo_scp:hallway",
+        "stream": false
+      }
+    ]
+  },
+  "hand": {
+    "sounds": [
+      {
+        "name": "theo_scp:hand",
+        "stream": false
+      }
+    ]
+  },
+  "hardware": {
+    "sounds": [
+      {
+        "name": "theo_scp:hardware",
+        "stream": false
+      }
+    ]
+  },
+  "has": {
+    "sounds": [
+      {
+        "name": "theo_scp:has",
+        "stream": false
+      }
+    ]
+  },
+  "have": {
+    "sounds": [
+      {
+        "name": "theo_scp:have",
+        "stream": false
+      }
+    ]
+  },
+  "hazard": {
+    "sounds": [
+      {
+        "name": "theo_scp:hazard",
+        "stream": false
+      }
+    ]
+  },
+  "he": {
+    "sounds": [
+      {
+        "name": "theo_scp:he",
+        "stream": false
+      }
+    ]
+  },
+  "head": {
+    "sounds": [
+      {
+        "name": "theo_scp:head",
+        "stream": false
+      }
+    ]
+  },
+  "hear": {
+    "sounds": [
+      {
+        "name": "theo_scp:hear",
+        "stream": false
+      }
+    ]
+  },
+  "heavy": {
+    "sounds": [
+      {
+        "name": "theo_scp:heavy",
+        "stream": false
+      }
+    ]
+  },
+  "hecto": {
+    "sounds": [
+      {
+        "name": "theo_scp:hecto",
+        "stream": false
+      }
+    ]
+  },
+  "helicopter": {
+    "sounds": [
+      {
+        "name": "theo_scp:helicopter",
+        "stream": false
+      }
+    ]
+  },
+  "hello": {
+    "sounds": [
+      {
+        "name": "theo_scp:hello",
+        "stream": false
+      }
+    ]
+  },
+  "help": {
+    "sounds": [
+      {
+        "name": "theo_scp:help",
+        "stream": false
+      }
+    ]
+  },
+  "her": {
+    "sounds": [
+      {
+        "name": "theo_scp:her",
+        "stream": false
+      }
+    ]
+  },
+  "here": {
+    "sounds": [
+      {
+        "name": "theo_scp:here",
+        "stream": false
+      }
+    ]
+  },
+  "high": {
+    "sounds": [
+      {
+        "name": "theo_scp:high",
+        "stream": false
+      }
+    ]
+  },
+  "his": {
+    "sounds": [
+      {
+        "name": "theo_scp:his",
+        "stream": false
+      }
+    ]
+  },
+  "hit": {
+    "sounds": [
+      {
+        "name": "theo_scp:hit",
+        "stream": false
+      }
+    ]
+  },
+  "hour": {
+    "sounds": [
+      {
+        "name": "theo_scp:hour",
+        "stream": false
+      }
+    ]
+  },
+  "how": {
+    "sounds": [
+      {
+        "name": "theo_scp:how",
+        "stream": false
+      }
+    ]
+  },
+  "human": {
+    "sounds": [
+      {
+        "name": "theo_scp:human",
+        "stream": false
+      }
+    ]
+  },
+  "hundred": {
+    "sounds": [
+      {
+        "name": "theo_scp:hundred",
+        "stream": false
+      }
+    ]
+  },
+  "identification": {
+    "sounds": [
+      {
+        "name": "theo_scp:identification",
+        "stream": false
+      }
+    ]
+  },
+  "identify": {
+    "sounds": [
+      {
+        "name": "theo_scp:identify",
+        "stream": false
+      }
+    ]
+  },
+  "if": {
+    "sounds": [
+      {
+        "name": "theo_scp:if",
+        "stream": false
+      }
+    ]
+  },
+  "immediate": {
+    "sounds": [
+      {
+        "name": "theo_scp:immediate",
+        "stream": false
+      }
+    ]
+  },
+  "immediately": {
+    "sounds": [
+      {
+        "name": "theo_scp:immediately",
+        "stream": false
+      }
+    ]
+  },
+  "important": {
+    "sounds": [
+      {
+        "name": "theo_scp:important",
+        "stream": false
+      }
+    ]
+  },
+  "in": {
+    "sounds": [
+      {
+        "name": "theo_scp:in",
+        "stream": false
+      }
+    ]
+  },
+  "include": {
+    "sounds": [
+      {
+        "name": "theo_scp:include",
+        "stream": false
+      }
+    ]
+  },
+  "inclusion": {
+    "sounds": [
+      {
+        "name": "theo_scp:inclusion",
+        "stream": false
+      }
+    ]
+  },
+  "incorrect": {
+    "sounds": [
+      {
+        "name": "theo_scp:incorrect",
+        "stream": false
+      }
+    ]
+  },
+  "increase": {
+    "sounds": [
+      {
+        "name": "theo_scp:increase",
+        "stream": false
+      }
+    ]
+  },
+  "indentified": {
+    "sounds": [
+      {
+        "name": "theo_scp:indentified",
+        "stream": false
+      }
+    ]
+  },
+  "infection": {
+    "sounds": [
+      {
+        "name": "theo_scp:infection",
+        "stream": false
+      }
+    ]
+  },
+  "information": {
+    "sounds": [
+      {
+        "name": "theo_scp:information",
+        "stream": false
+      }
+    ]
+  },
+  "ing": {
+    "sounds": [
+      {
+        "name": "theo_scp:ing",
+        "stream": false
+      }
+    ]
+  },
+  "initializing": {
+    "sounds": [
+      {
+        "name": "theo_scp:initializing",
+        "stream": false
+      }
+    ]
+  },
+  "initiated": {
+    "sounds": [
+      {
+        "name": "theo_scp:initiated",
+        "stream": false
+      }
+    ]
+  },
+  "inside": {
+    "sounds": [
+      {
+        "name": "theo_scp:inside",
+        "stream": false
+      }
+    ]
+  },
+  "installation": {
+    "sounds": [
+      {
+        "name": "theo_scp:installation",
+        "stream": false
+      }
+    ]
+  },
+  "installed": {
+    "sounds": [
+      {
+        "name": "theo_scp:installed",
+        "stream": false
+      }
+    ]
+  },
+  "installing": {
+    "sounds": [
+      {
+        "name": "theo_scp:installing",
+        "stream": false
+      }
+    ]
+  },
+  "insurgency": {
+    "sounds": [
+      {
+        "name": "theo_scp:insurgency",
+        "stream": false
+      }
+    ]
+  },
+  "insurgent": {
+    "sounds": [
+      {
+        "name": "theo_scp:insurgent",
+        "stream": false
+      }
+    ]
+  },
+  "intercom": {
+    "sounds": [
+      {
+        "name": "theo_scp:intercom",
+        "stream": false
+      }
+    ]
+  },
+  "interest": {
+    "sounds": [
+      {
+        "name": "theo_scp:interest",
+        "stream": false
+      }
+    ]
+  },
+  "internal": {
+    "sounds": [
+      {
+        "name": "theo_scp:internal",
+        "stream": false
+      }
+    ]
+  },
+  "intersection": {
+    "sounds": [
+      {
+        "name": "theo_scp:intersection",
+        "stream": false
+      }
+    ]
+  },
+  "into": {
+    "sounds": [
+      {
+        "name": "theo_scp:into",
+        "stream": false
+      }
+    ]
+  },
+  "intruder": {
+    "sounds": [
+      {
+        "name": "theo_scp:intruder",
+        "stream": false
+      }
+    ]
+  },
+  "iota": {
+    "sounds": [
+      {
+        "name": "theo_scp:iota",
+        "stream": false
+      }
+    ]
+  },
+  "is": {
+    "sounds": [
+      {
+        "name": "theo_scp:is",
+        "stream": false
+      }
+    ]
+  },
+  "it": {
+    "sounds": [
+      {
+        "name": "theo_scp:it",
+        "stream": false
+      }
+    ]
+  },
+  "january": {
+    "sounds": [
+      {
+        "name": "theo_scp:january",
+        "stream": false
+      }
+    ]
+  },
+  "job": {
+    "sounds": [
+      {
+        "name": "theo_scp:job",
+        "stream": false
+      }
+    ]
+  },
+  "join": {
+    "sounds": [
+      {
+        "name": "theo_scp:join",
+        "stream": false
+      }
+    ]
+  },
+  "july": {
+    "sounds": [
+      {
+        "name": "theo_scp:july",
+        "stream": false
+      }
+    ]
+  },
+  "jump": {
+    "sounds": [
+      {
+        "name": "theo_scp:jump",
+        "stream": false
+      }
+    ]
+  },
+  "june": {
+    "sounds": [
+      {
+        "name": "theo_scp:june",
+        "stream": false
+      }
+    ]
+  },
+  "just": {
+    "sounds": [
+      {
+        "name": "theo_scp:just",
+        "stream": false
+      }
+    ]
+  },
+  "kappa": {
+    "sounds": [
+      {
+        "name": "theo_scp:kappa",
+        "stream": false
+      }
+    ]
+  },
+  "keep": {
+    "sounds": [
+      {
+        "name": "theo_scp:keep",
+        "stream": false
+      }
+    ]
+  },
+  "kelvin": {
+    "sounds": [
+      {
+        "name": "theo_scp:kelvin",
+        "stream": false
+      }
+    ]
+  },
+  "keter": {
+    "sounds": [
+      {
+        "name": "theo_scp:keter",
+        "stream": false
+      }
+    ]
+  },
+  "key": {
+    "sounds": [
+      {
+        "name": "theo_scp:key",
+        "stream": false
+      }
+    ]
+  },
+  "kill": {
+    "sounds": [
+      {
+        "name": "theo_scp:kill",
+        "stream": false
+      }
+    ]
+  },
+  "killer": {
+    "sounds": [
+      {
+        "name": "theo_scp:killer",
+        "stream": false
+      }
+    ]
+  },
+  "kilo": {
+    "sounds": [
+      {
+        "name": "theo_scp:kilo",
+        "stream": false
+      }
+    ]
+  },
+  "king": {
+    "sounds": [
+      {
+        "name": "theo_scp:king",
+        "stream": false
+      }
+    ]
+  },
+  "kit": {
+    "sounds": [
+      {
+        "name": "theo_scp:kit",
+        "stream": false
+      }
+    ]
+  },
+  "know": {
+    "sounds": [
+      {
+        "name": "theo_scp:know",
+        "stream": false
+      }
+    ]
+  },
+  "laboratory": {
+    "sounds": [
+      {
+        "name": "theo_scp:laboratory",
+        "stream": false
+      }
+    ]
+  },
+  "lambda": {
+    "sounds": [
+      {
+        "name": "theo_scp:lambda",
+        "stream": false
+      }
+    ]
+  },
+  "last": {
+    "sounds": [
+      {
+        "name": "theo_scp:last",
+        "stream": false
+      }
+    ]
+  },
+  "leak": {
+    "sounds": [
+      {
+        "name": "theo_scp:leak",
+        "stream": false
+      }
+    ]
+  },
+  "leave": {
+    "sounds": [
+      {
+        "name": "theo_scp:leave",
+        "stream": false
+      }
+    ]
+  },
+  "left": {
+    "sounds": [
+      {
+        "name": "theo_scp:left",
+        "stream": false
+      }
+    ]
+  },
+  "less": {
+    "sounds": [
+      {
+        "name": "theo_scp:less",
+        "stream": false
+      }
+    ]
+  },
+  "lethal": {
+    "sounds": [
+      {
+        "name": "theo_scp:lethal",
+        "stream": false
+      }
+    ]
+  },
+  "letter": {
+    "sounds": [
+      {
+        "name": "theo_scp:letter",
+        "stream": false
+      }
+    ]
+  },
+  "level": {
+    "sounds": [
+      {
+        "name": "theo_scp:level",
+        "stream": false
+      }
+    ]
+  },
+  "lieutenant": {
+    "sounds": [
+      {
+        "name": "theo_scp:lieutenant",
+        "stream": false
+      }
+    ]
+  },
+  "life": {
+    "sounds": [
+      {
+        "name": "theo_scp:life",
+        "stream": false
+      }
+    ]
+  },
+  "light": {
+    "sounds": [
+      {
+        "name": "theo_scp:light",
+        "stream": false
+      }
+    ]
+  },
+  "lights": {
+    "sounds": [
+      {
+        "name": "theo_scp:lights",
+        "stream": false
+      }
+    ]
+  },
+  "liquefied": {
+    "sounds": [
+      {
+        "name": "theo_scp:liquefied",
+        "stream": false
+      }
+    ]
+  },
+  "liquid": {
+    "sounds": [
+      {
+        "name": "theo_scp:liquid",
+        "stream": false
+      }
+    ]
+  },
+  "live": {
+    "sounds": [
+      {
+        "name": "theo_scp:live",
+        "stream": false
+      }
+    ]
+  },
+  "load": {
+    "sounds": [
+      {
+        "name": "theo_scp:load",
+        "stream": false
+      }
+    ]
+  },
+  "local": {
+    "sounds": [
+      {
+        "name": "theo_scp:local",
+        "stream": false
+      }
+    ]
+  },
+  "locate": {
+    "sounds": [
+      {
+        "name": "theo_scp:locate",
+        "stream": false
+      }
+    ]
+  },
+  "location": {
+    "sounds": [
+      {
+        "name": "theo_scp:location",
+        "stream": false
+      }
+    ]
+  },
+  "lock": {
+    "sounds": [
+      {
+        "name": "theo_scp:lock",
+        "stream": false
+      }
+    ]
+  },
+  "lockdown": {
+    "sounds": [
+      {
+        "name": "theo_scp:lockdown",
+        "stream": false
+      }
+    ]
+  },
+  "look": {
+    "sounds": [
+      {
+        "name": "theo_scp:look",
+        "stream": false
+      }
+    ]
+  },
+  "lost": {
+    "sounds": [
+      {
+        "name": "theo_scp:lost",
+        "stream": false
+      }
+    ]
+  },
+  "low": {
+    "sounds": [
+      {
+        "name": "theo_scp:low",
+        "stream": false
+      }
+    ]
+  },
+  "magnetic": {
+    "sounds": [
+      {
+        "name": "theo_scp:magnetic",
+        "stream": false
+      }
+    ]
+  },
+  "main": {
+    "sounds": [
+      {
+        "name": "theo_scp:main",
+        "stream": false
+      }
+    ]
+  },
+  "major": {
+    "sounds": [
+      {
+        "name": "theo_scp:major",
+        "stream": false
+      }
+    ]
+  },
+  "make": {
+    "sounds": [
+      {
+        "name": "theo_scp:make",
+        "stream": false
+      }
+    ]
+  },
+  "malfunction": {
+    "sounds": [
+      {
+        "name": "theo_scp:malfunction",
+        "stream": false
+      }
+    ]
+  },
+  "man": {
+    "sounds": [
+      {
+        "name": "theo_scp:man",
+        "stream": false
+      }
+    ]
+  },
+  "manager": {
+    "sounds": [
+      {
+        "name": "theo_scp:manager",
+        "stream": false
+      }
+    ]
+  },
+  "manual": {
+    "sounds": [
+      {
+        "name": "theo_scp:manual",
+        "stream": false
+      }
+    ]
+  },
+  "many": {
+    "sounds": [
+      {
+        "name": "theo_scp:many",
+        "stream": false
+      }
+    ]
+  },
+  "march": {
+    "sounds": [
+      {
+        "name": "theo_scp:march",
+        "stream": false
+      }
+    ]
+  },
+  "material": {
+    "sounds": [
+      {
+        "name": "theo_scp:material",
+        "stream": false
+      }
+    ]
+  },
+  "may": {
+    "sounds": [
+      {
+        "name": "theo_scp:may",
+        "stream": false
+      }
+    ]
+  },
+  "me": {
+    "sounds": [
+      {
+        "name": "theo_scp:me",
+        "stream": false
+      }
+    ]
+  },
+  "med": {
+    "sounds": [
+      {
+        "name": "theo_scp:med",
+        "stream": false
+      }
+    ]
+  },
+  "medical": {
+    "sounds": [
+      {
+        "name": "theo_scp:medical",
+        "stream": false
+      }
+    ]
+  },
+  "medium": {
+    "sounds": [
+      {
+        "name": "theo_scp:medium",
+        "stream": false
+      }
+    ]
+  },
+  "mega": {
+    "sounds": [
+      {
+        "name": "theo_scp:mega",
+        "stream": false
+      }
+    ]
+  },
+  "memory": {
+    "sounds": [
+      {
+        "name": "theo_scp:memory",
+        "stream": false
+      }
+    ]
+  },
+  "men": {
+    "sounds": [
+      {
+        "name": "theo_scp:men",
+        "stream": false
+      }
+    ]
+  },
+  "message": {
+    "sounds": [
+      {
+        "name": "theo_scp:message",
+        "stream": false
+      }
+    ]
+  },
+  "meter": {
+    "sounds": [
+      {
+        "name": "theo_scp:meter",
+        "stream": false
+      }
+    ]
+  },
+  "meters": {
+    "sounds": [
+      {
+        "name": "theo_scp:meters",
+        "stream": false
+      }
+    ]
+  },
+  "micro": {
+    "sounds": [
+      {
+        "name": "theo_scp:micro",
+        "stream": false
+      }
+    ]
+  },
+  "mili": {
+    "sounds": [
+      {
+        "name": "theo_scp:mili",
+        "stream": false
+      }
+    ]
+  },
+  "military": {
+    "sounds": [
+      {
+        "name": "theo_scp:military",
+        "stream": false
+      }
+    ]
+  },
+  "milliard": {
+    "sounds": [
+      {
+        "name": "theo_scp:milliard",
+        "stream": false
+      }
+    ]
+  },
+  "million": {
+    "sounds": [
+      {
+        "name": "theo_scp:million",
+        "stream": false
+      }
+    ]
+  },
+  "minor": {
+    "sounds": [
+      {
+        "name": "theo_scp:minor",
+        "stream": false
+      }
+    ]
+  },
+  "minus": {
+    "sounds": [
+      {
+        "name": "theo_scp:minus",
+        "stream": false
+      }
+    ]
+  },
+  "minute": {
+    "sounds": [
+      {
+        "name": "theo_scp:minute",
+        "stream": false
+      }
+    ]
+  },
+  "minutes": {
+    "sounds": [
+      {
+        "name": "theo_scp:minutes",
+        "stream": false
+      }
+    ]
+  },
+  "mobile": {
+    "sounds": [
+      {
+        "name": "theo_scp:mobile",
+        "stream": false
+      }
+    ]
+  },
+  "mobile_task_force_unit": {
+    "sounds": [
+      {
+        "name": "theo_scp:mobile_task_force_unit",
+        "stream": false
+      }
+    ]
+  },
+  "mode": {
+    "sounds": [
+      {
+        "name": "theo_scp:mode",
+        "stream": false
+      }
+    ]
+  },
+  "module": {
+    "sounds": [
+      {
+        "name": "theo_scp:module",
+        "stream": false
+      }
+    ]
+  },
+  "monday": {
+    "sounds": [
+      {
+        "name": "theo_scp:monday",
+        "stream": false
+      }
+    ]
+  },
+  "month": {
+    "sounds": [
+      {
+        "name": "theo_scp:month",
+        "stream": false
+      }
+    ]
+  },
+  "more": {
+    "sounds": [
+      {
+        "name": "theo_scp:more",
+        "stream": false
+      }
+    ]
+  },
+  "morphine": {
+    "sounds": [
+      {
+        "name": "theo_scp:morphine",
+        "stream": false
+      }
+    ]
+  },
+  "most": {
+    "sounds": [
+      {
+        "name": "theo_scp:most",
+        "stream": false
+      }
+    ]
+  },
+  "move": {
+    "sounds": [
+      {
+        "name": "theo_scp:move",
+        "stream": false
+      }
+    ]
+  },
+  "mu": {
+    "sounds": [
+      {
+        "name": "theo_scp:mu",
+        "stream": false
+      }
+    ]
+  },
+  "much": {
+    "sounds": [
+      {
+        "name": "theo_scp:much",
+        "stream": false
+      }
+    ]
+  },
+  "must": {
+    "sounds": [
+      {
+        "name": "theo_scp:must",
+        "stream": false
+      }
+    ]
+  },
+  "my": {
+    "sounds": [
+      {
+        "name": "theo_scp:my",
+        "stream": false
+      }
+    ]
+  },
+  "name": {
+    "sounds": [
+      {
+        "name": "theo_scp:name",
+        "stream": false
+      }
+    ]
+  },
+  "nano": {
+    "sounds": [
+      {
+        "name": "theo_scp:nano",
+        "stream": false
+      }
+    ]
+  },
+  "near": {
+    "sounds": [
+      {
+        "name": "theo_scp:near",
+        "stream": false
+      }
+    ]
+  },
+  "nearby": {
+    "sounds": [
+      {
+        "name": "theo_scp:nearby",
+        "stream": false
+      }
+    ]
+  },
+  "nearest": {
+    "sounds": [
+      {
+        "name": "theo_scp:nearest",
+        "stream": false
+      }
+    ]
+  },
+  "necessary": {
+    "sounds": [
+      {
+        "name": "theo_scp:necessary",
+        "stream": false
+      }
+    ]
+  },
+  "neck": {
+    "sounds": [
+      {
+        "name": "theo_scp:neck",
+        "stream": false
+      }
+    ]
+  },
+  "need": {
+    "sounds": [
+      {
+        "name": "theo_scp:need",
+        "stream": false
+      }
+    ]
+  },
+  "negative": {
+    "sounds": [
+      {
+        "name": "theo_scp:negative",
+        "stream": false
+      }
+    ]
+  },
+  "neutralize": {
+    "sounds": [
+      {
+        "name": "theo_scp:neutralize",
+        "stream": false
+      }
+    ]
+  },
+  "never": {
+    "sounds": [
+      {
+        "name": "theo_scp:never",
+        "stream": false
+      }
+    ]
+  },
+  "new": {
+    "sounds": [
+      {
+        "name": "theo_scp:new",
+        "stream": false
+      }
+    ]
+  },
+  "next": {
+    "sounds": [
+      {
+        "name": "theo_scp:next",
+        "stream": false
+      }
+    ]
+  },
+  "nice": {
+    "sounds": [
+      {
+        "name": "theo_scp:nice",
+        "stream": false
+      }
+    ]
+  },
+  "no": {
+    "sounds": [
+      {
+        "name": "theo_scp:no",
+        "stream": false
+      }
+    ]
+  },
+  "nominal": {
+    "sounds": [
+      {
+        "name": "theo_scp:nominal",
+        "stream": false
+      }
+    ]
+  },
+  "nor": {
+    "sounds": [
+      {
+        "name": "theo_scp:nor",
+        "stream": false
+      }
+    ]
+  },
+  "normal": {
+    "sounds": [
+      {
+        "name": "theo_scp:normal",
+        "stream": false
+      }
+    ]
+  },
+  "normalize": {
+    "sounds": [
+      {
+        "name": "theo_scp:normalize",
+        "stream": false
+      }
+    ]
+  },
+  "north": {
+    "sounds": [
+      {
+        "name": "theo_scp:north",
+        "stream": false
+      }
+    ]
+  },
+  "northwood": {
+    "sounds": [
+      {
+        "name": "theo_scp:northwood",
+        "stream": false
+      }
+    ]
+  },
+  "not": {
+    "sounds": [
+      {
+        "name": "theo_scp:not",
+        "stream": false
+      }
+    ]
+  },
+  "notice": {
+    "sounds": [
+      {
+        "name": "theo_scp:notice",
+        "stream": false
+      }
+    ]
+  },
+  "november": {
+    "sounds": [
+      {
+        "name": "theo_scp:november",
+        "stream": false
+      }
+    ]
+  },
+  "now": {
+    "sounds": [
+      {
+        "name": "theo_scp:now",
+        "stream": false
+      }
+    ]
+  },
+  "nu": {
+    "sounds": [
+      {
+        "name": "theo_scp:nu",
+        "stream": false
+      }
+    ]
+  },
+  "nuclear": {
+    "sounds": [
+      {
+        "name": "theo_scp:nuclear",
+        "stream": false
+      }
+    ]
+  },
+  "number": {
+    "sounds": [
+      {
+        "name": "theo_scp:number",
+        "stream": false
+      }
+    ]
+  },
+  "number_0": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_0",
+        "stream": false
+      }
+    ]
+  },
+  "number_1": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_1",
+        "stream": false
+      }
+    ]
+  },
+  "number_2": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_2",
+        "stream": false
+      }
+    ]
+  },
+  "number_3": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_3",
+        "stream": false
+      }
+    ]
+  },
+  "number_4": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_4",
+        "stream": false
+      }
+    ]
+  },
+  "number_5": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_5",
+        "stream": false
+      }
+    ]
+  },
+  "number_6": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_6",
+        "stream": false
+      }
+    ]
+  },
+  "number_7": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_7",
+        "stream": false
+      }
+    ]
+  },
+  "number_8": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_8",
+        "stream": false
+      }
+    ]
+  },
+  "number_9": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_9",
+        "stream": false
+      }
+    ]
+  },
+  "number_10": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_10",
+        "stream": false
+      }
+    ]
+  },
+  "number_11": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_11",
+        "stream": false
+      }
+    ]
+  },
+  "number_12": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_12",
+        "stream": false
+      }
+    ]
+  },
+  "number_13": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_13",
+        "stream": false
+      }
+    ]
+  },
+  "number_14": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_14",
+        "stream": false
+      }
+    ]
+  },
+  "number_15": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_15",
+        "stream": false
+      }
+    ]
+  },
+  "number_16": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_16",
+        "stream": false
+      }
+    ]
+  },
+  "number_17": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_17",
+        "stream": false
+      }
+    ]
+  },
+  "number_18": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_18",
+        "stream": false
+      }
+    ]
+  },
+  "number_19": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_19",
+        "stream": false
+      }
+    ]
+  },
+  "number_20": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_20",
+        "stream": false
+      }
+    ]
+  },
+  "number_30": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_30",
+        "stream": false
+      }
+    ]
+  },
+  "number_40": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_40",
+        "stream": false
+      }
+    ]
+  },
+  "number_50": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_50",
+        "stream": false
+      }
+    ]
+  },
+  "number_60": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_60",
+        "stream": false
+      }
+    ]
+  },
+  "number_70": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_70",
+        "stream": false
+      }
+    ]
+  },
+  "number_80": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_80",
+        "stream": false
+      }
+    ]
+  },
+  "number_90": {
+    "sounds": [
+      {
+        "name": "theo_scp:number_90",
+        "stream": false
+      }
+    ]
+  },
+  "o5": {
+    "sounds": [
+      {
+        "name": "theo_scp:o5",
+        "stream": false
+      }
+    ]
+  },
+  "october": {
+    "sounds": [
+      {
+        "name": "theo_scp:october",
+        "stream": false
+      }
+    ]
+  },
+  "of": {
+    "sounds": [
+      {
+        "name": "theo_scp:of",
+        "stream": false
+      }
+    ]
+  },
+  "off": {
+    "sounds": [
+      {
+        "name": "theo_scp:off",
+        "stream": false
+      }
+    ]
+  },
+  "offline": {
+    "sounds": [
+      {
+        "name": "theo_scp:offline",
+        "stream": false
+      }
+    ]
+  },
+  "often": {
+    "sounds": [
+      {
+        "name": "theo_scp:often",
+        "stream": false
+      }
+    ]
+  },
+  "old": {
+    "sounds": [
+      {
+        "name": "theo_scp:old",
+        "stream": false
+      }
+    ]
+  },
+  "omega": {
+    "sounds": [
+      {
+        "name": "theo_scp:omega",
+        "stream": false
+      }
+    ]
+  },
+  "omicron": {
+    "sounds": [
+      {
+        "name": "theo_scp:omicron",
+        "stream": false
+      }
+    ]
+  },
+  "on": {
+    "sounds": [
+      {
+        "name": "theo_scp:on",
+        "stream": false
+      }
+    ]
+  },
+  "once": {
+    "sounds": [
+      {
+        "name": "theo_scp:once",
+        "stream": false
+      }
+    ]
+  },
+  "ongoing": {
+    "sounds": [
+      {
+        "name": "theo_scp:ongoing",
+        "stream": false
+      }
+    ]
+  },
+  "online": {
+    "sounds": [
+      {
+        "name": "theo_scp:online",
+        "stream": false
+      }
+    ]
+  },
+  "only": {
+    "sounds": [
+      {
+        "name": "theo_scp:only",
+        "stream": false
+      }
+    ]
+  },
+  "open": {
+    "sounds": [
+      {
+        "name": "theo_scp:open",
+        "stream": false
+      }
+    ]
+  },
+  "operate": {
+    "sounds": [
+      {
+        "name": "theo_scp:operate",
+        "stream": false
+      }
+    ]
+  },
+  "operation": {
+    "sounds": [
+      {
+        "name": "theo_scp:operation",
+        "stream": false
+      }
+    ]
+  },
+  "operational": {
+    "sounds": [
+      {
+        "name": "theo_scp:operational",
+        "stream": false
+      }
+    ]
+  },
+  "operative": {
+    "sounds": [
+      {
+        "name": "theo_scp:operative",
+        "stream": false
+      }
+    ]
+  },
+  "optimal": {
+    "sounds": [
+      {
+        "name": "theo_scp:optimal",
+        "stream": false
+      }
+    ]
+  },
+  "optional": {
+    "sounds": [
+      {
+        "name": "theo_scp:optional",
+        "stream": false
+      }
+    ]
+  },
+  "or": {
+    "sounds": [
+      {
+        "name": "theo_scp:or",
+        "stream": false
+      }
+    ]
+  },
+  "orange": {
+    "sounds": [
+      {
+        "name": "theo_scp:orange",
+        "stream": false
+      }
+    ]
+  },
+  "order": {
+    "sounds": [
+      {
+        "name": "theo_scp:order",
+        "stream": false
+      }
+    ]
+  },
+  "organism": {
+    "sounds": [
+      {
+        "name": "theo_scp:organism",
+        "stream": false
+      }
+    ]
+  },
+  "other": {
+    "sounds": [
+      {
+        "name": "theo_scp:other",
+        "stream": false
+      }
+    ]
+  },
+  "out": {
+    "sounds": [
+      {
+        "name": "theo_scp:out",
+        "stream": false
+      }
+    ]
+  },
+  "outof": {
+    "sounds": [
+      {
+        "name": "theo_scp:outof",
+        "stream": false
+      }
+    ]
+  },
+  "outside": {
+    "sounds": [
+      {
+        "name": "theo_scp:outside",
+        "stream": false
+      }
+    ]
+  },
+  "outtage": {
+    "sounds": [
+      {
+        "name": "theo_scp:outtage",
+        "stream": false
+      }
+    ]
+  },
+  "over": {
+    "sounds": [
+      {
+        "name": "theo_scp:over",
+        "stream": false
+      }
+    ]
+  },
+  "overall": {
+    "sounds": [
+      {
+        "name": "theo_scp:overall",
+        "stream": false
+      }
+    ]
+  },
+  "overcharge": {
+    "sounds": [
+      {
+        "name": "theo_scp:overcharge",
+        "stream": false
+      }
+    ]
+  },
+  "overheat": {
+    "sounds": [
+      {
+        "name": "theo_scp:overheat",
+        "stream": false
+      }
+    ]
+  },
+  "override": {
+    "sounds": [
+      {
+        "name": "theo_scp:override",
+        "stream": false
+      }
+    ]
+  },
+  "pain": {
+    "sounds": [
+      {
+        "name": "theo_scp:pain",
+        "stream": false
+      }
+    ]
+  },
+  "panic": {
+    "sounds": [
+      {
+        "name": "theo_scp:panic",
+        "stream": false
+      }
+    ]
+  },
+  "partners": {
+    "sounds": [
+      {
+        "name": "theo_scp:partners",
+        "stream": false
+      }
+    ]
+  },
+  "password": {
+    "sounds": [
+      {
+        "name": "theo_scp:password",
+        "stream": false
+      }
+    ]
+  },
+  "patch": {
+    "sounds": [
+      {
+        "name": "theo_scp:patch",
+        "stream": false
+      }
+    ]
+  },
+  "patreon": {
+    "sounds": [
+      {
+        "name": "theo_scp:patreon",
+        "stream": false
+      }
+    ]
+  },
+  "pause": {
+    "sounds": [
+      {
+        "name": "theo_scp:pause",
+        "stream": false
+      }
+    ]
+  },
+  "paused": {
+    "sounds": [
+      {
+        "name": "theo_scp:paused",
+        "stream": false
+      }
+    ]
+  },
+  "pay": {
+    "sounds": [
+      {
+        "name": "theo_scp:pay",
+        "stream": false
+      }
+    ]
+  },
+  "people": {
+    "sounds": [
+      {
+        "name": "theo_scp:people",
+        "stream": false
+      }
+    ]
+  },
+  "percent": {
+    "sounds": [
+      {
+        "name": "theo_scp:percent",
+        "stream": false
+      }
+    ]
+  },
+  "permanent": {
+    "sounds": [
+      {
+        "name": "theo_scp:permanent",
+        "stream": false
+      }
+    ]
+  },
+  "person": {
+    "sounds": [
+      {
+        "name": "theo_scp:person",
+        "stream": false
+      }
+    ]
+  },
+  "personnel": {
+    "sounds": [
+      {
+        "name": "theo_scp:personnel",
+        "stream": false
+      }
+    ]
+  },
+  "petroleum": {
+    "sounds": [
+      {
+        "name": "theo_scp:petroleum",
+        "stream": false
+      }
+    ]
+  },
+  "phi": {
+    "sounds": [
+      {
+        "name": "theo_scp:phi",
+        "stream": false
+      }
+    ]
+  },
+  "pi": {
+    "sounds": [
+      {
+        "name": "theo_scp:pi",
+        "stream": false
+      }
+    ]
+  },
+  "pistol": {
+    "sounds": [
+      {
+        "name": "theo_scp:pistol",
+        "stream": false
+      }
+    ]
+  },
+  "plague": {
+    "sounds": [
+      {
+        "name": "theo_scp:plague",
+        "stream": false
+      }
+    ]
+  },
+  "please": {
+    "sounds": [
+      {
+        "name": "theo_scp:please",
+        "stream": false
+      }
+    ]
+  },
+  "plus": {
+    "sounds": [
+      {
+        "name": "theo_scp:plus",
+        "stream": false
+      }
+    ]
+  },
+  "pocket": {
+    "sounds": [
+      {
+        "name": "theo_scp:pocket",
+        "stream": false
+      }
+    ]
+  },
+  "positive": {
+    "sounds": [
+      {
+        "name": "theo_scp:positive",
+        "stream": false
+      }
+    ]
+  },
+  "possible": {
+    "sounds": [
+      {
+        "name": "theo_scp:possible",
+        "stream": false
+      }
+    ]
+  },
+  "potential": {
+    "sounds": [
+      {
+        "name": "theo_scp:potential",
+        "stream": false
+      }
+    ]
+  },
+  "power": {
+    "sounds": [
+      {
+        "name": "theo_scp:power",
+        "stream": false
+      }
+    ]
+  },
+  "previous": {
+    "sounds": [
+      {
+        "name": "theo_scp:previous",
+        "stream": false
+      }
+    ]
+  },
+  "primary": {
+    "sounds": [
+      {
+        "name": "theo_scp:primary",
+        "stream": false
+      }
+    ]
+  },
+  "priority": {
+    "sounds": [
+      {
+        "name": "theo_scp:priority",
+        "stream": false
+      }
+    ]
+  },
+  "private": {
+    "sounds": [
+      {
+        "name": "theo_scp:private",
+        "stream": false
+      }
+    ]
+  },
+  "probability": {
+    "sounds": [
+      {
+        "name": "theo_scp:probability",
+        "stream": false
+      }
+    ]
+  },
+  "procedure": {
+    "sounds": [
+      {
+        "name": "theo_scp:procedure",
+        "stream": false
+      }
+    ]
+  },
+  "proceed": {
+    "sounds": [
+      {
+        "name": "theo_scp:proceed",
+        "stream": false
+      }
+    ]
+  },
+  "process": {
+    "sounds": [
+      {
+        "name": "theo_scp:process",
+        "stream": false
+      }
+    ]
+  },
+  "progress": {
+    "sounds": [
+      {
+        "name": "theo_scp:progress",
+        "stream": false
+      }
+    ]
+  },
+  "prosecution": {
+    "sounds": [
+      {
+        "name": "theo_scp:prosecution",
+        "stream": false
+      }
+    ]
+  },
+  "protect": {
+    "sounds": [
+      {
+        "name": "theo_scp:protect",
+        "stream": false
+      }
+    ]
+  },
+  "protection": {
+    "sounds": [
+      {
+        "name": "theo_scp:protection",
+        "stream": false
+      }
+    ]
+  },
+  "protocol": {
+    "sounds": [
+      {
+        "name": "theo_scp:protocol",
+        "stream": false
+      }
+    ]
+  },
+  "psi": {
+    "sounds": [
+      {
+        "name": "theo_scp:psi",
+        "stream": false
+      }
+    ]
+  },
+  "public": {
+    "sounds": [
+      {
+        "name": "theo_scp:public",
+        "stream": false
+      }
+    ]
+  },
+  "purge": {
+    "sounds": [
+      {
+        "name": "theo_scp:purge",
+        "stream": false
+      }
+    ]
+  },
+  "put": {
+    "sounds": [
+      {
+        "name": "theo_scp:put",
+        "stream": false
+      }
+    ]
+  },
+  "query": {
+    "sounds": [
+      {
+        "name": "theo_scp:query",
+        "stream": false
+      }
+    ]
+  },
+  "question": {
+    "sounds": [
+      {
+        "name": "theo_scp:question",
+        "stream": false
+      }
+    ]
+  },
+  "questioning": {
+    "sounds": [
+      {
+        "name": "theo_scp:questioning",
+        "stream": false
+      }
+    ]
+  },
+  "radiation": {
+    "sounds": [
+      {
+        "name": "theo_scp:radiation",
+        "stream": false
+      }
+    ]
+  },
+  "radio": {
+    "sounds": [
+      {
+        "name": "theo_scp:radio",
+        "stream": false
+      }
+    ]
+  },
+  "rank": {
+    "sounds": [
+      {
+        "name": "theo_scp:rank",
+        "stream": false
+      }
+    ]
+  },
+  "reactivating": {
+    "sounds": [
+      {
+        "name": "theo_scp:reactivating",
+        "stream": false
+      }
+    ]
+  },
+  "reactivation": {
+    "sounds": [
+      {
+        "name": "theo_scp:reactivation",
+        "stream": false
+      }
+    ]
+  },
+  "reactor": {
+    "sounds": [
+      {
+        "name": "theo_scp:reactor",
+        "stream": false
+      }
+    ]
+  },
+  "ready": {
+    "sounds": [
+      {
+        "name": "theo_scp:ready",
+        "stream": false
+      }
+    ]
+  },
+  "real": {
+    "sounds": [
+      {
+        "name": "theo_scp:real",
+        "stream": false
+      }
+    ]
+  },
+  "really": {
+    "sounds": [
+      {
+        "name": "theo_scp:really",
+        "stream": false
+      }
+    ]
+  },
+  "recieve": {
+    "sounds": [
+      {
+        "name": "theo_scp:recieve",
+        "stream": false
+      }
+    ]
+  },
+  "recontained": {
+    "sounds": [
+      {
+        "name": "theo_scp:recontained",
+        "stream": false
+      }
+    ]
+  },
+  "recontainment": {
+    "sounds": [
+      {
+        "name": "theo_scp:recontainment",
+        "stream": false
+      }
+    ]
+  },
+  "red": {
+    "sounds": [
+      {
+        "name": "theo_scp:red",
+        "stream": false
+      }
+    ]
+  },
+  "redacted": {
+    "sounds": [
+      {
+        "name": "theo_scp:redacted",
+        "stream": false
+      }
+    ]
+  },
+  "rejected": {
+    "sounds": [
+      {
+        "name": "theo_scp:rejected",
+        "stream": false
+      }
+    ]
+  },
+  "remaining": {
+    "sounds": [
+      {
+        "name": "theo_scp:remaining",
+        "stream": false
+      }
+    ]
+  },
+  "remind": {
+    "sounds": [
+      {
+        "name": "theo_scp:remind",
+        "stream": false
+      }
+    ]
+  },
+  "repair": {
+    "sounds": [
+      {
+        "name": "theo_scp:repair",
+        "stream": false
+      }
+    ]
+  },
+  "repairing": {
+    "sounds": [
+      {
+        "name": "theo_scp:repairing",
+        "stream": false
+      }
+    ]
+  },
+  "repeat": {
+    "sounds": [
+      {
+        "name": "theo_scp:repeat",
+        "stream": false
+      }
+    ]
+  },
+  "report": {
+    "sounds": [
+      {
+        "name": "theo_scp:report",
+        "stream": false
+      }
+    ]
+  },
+  "require": {
+    "sounds": [
+      {
+        "name": "theo_scp:require",
+        "stream": false
+      }
+    ]
+  },
+  "respawn": {
+    "sounds": [
+      {
+        "name": "theo_scp:respawn",
+        "stream": false
+      }
+    ]
+  },
+  "respect": {
+    "sounds": [
+      {
+        "name": "theo_scp:respect",
+        "stream": false
+      }
+    ]
+  },
+  "restricted": {
+    "sounds": [
+      {
+        "name": "theo_scp:restricted",
+        "stream": false
+      }
+    ]
+  },
+  "result": {
+    "sounds": [
+      {
+        "name": "theo_scp:result",
+        "stream": false
+      }
+    ]
+  },
+  "resumed": {
+    "sounds": [
+      {
+        "name": "theo_scp:resumed",
+        "stream": false
+      }
+    ]
+  },
+  "resurrection": {
+    "sounds": [
+      {
+        "name": "theo_scp:resurrection",
+        "stream": false
+      }
+    ]
+  },
+  "retreat": {
+    "sounds": [
+      {
+        "name": "theo_scp:retreat",
+        "stream": false
+      }
+    ]
+  },
+  "return": {
+    "sounds": [
+      {
+        "name": "theo_scp:return",
+        "stream": false
+      }
+    ]
+  },
+  "revoke": {
+    "sounds": [
+      {
+        "name": "theo_scp:revoke",
+        "stream": false
+      }
+    ]
+  },
+  "rifle": {
+    "sounds": [
+      {
+        "name": "theo_scp:rifle",
+        "stream": false
+      }
+    ]
+  },
+  "right": {
+    "sounds": [
+      {
+        "name": "theo_scp:right",
+        "stream": false
+      }
+    ]
+  },
+  "ro": {
+    "sounds": [
+      {
+        "name": "theo_scp:ro",
+        "stream": false
+      }
+    ]
+  },
+  "room": {
+    "sounds": [
+      {
+        "name": "theo_scp:room",
+        "stream": false
+      }
+    ]
+  },
+  "rough": {
+    "sounds": [
+      {
+        "name": "theo_scp:rough",
+        "stream": false
+      }
+    ]
+  },
+  "run": {
+    "sounds": [
+      {
+        "name": "theo_scp:run",
+        "stream": false
+      }
+    ]
+  },
+  "running": {
+    "sounds": [
+      {
+        "name": "theo_scp:running",
+        "stream": false
+      }
+    ]
+  },
+  "safe": {
+    "sounds": [
+      {
+        "name": "theo_scp:safe",
+        "stream": false
+      }
+    ]
+  },
+  "saturday": {
+    "sounds": [
+      {
+        "name": "theo_scp:saturday",
+        "stream": false
+      }
+    ]
+  },
+  "saw": {
+    "sounds": [
+      {
+        "name": "theo_scp:saw",
+        "stream": false
+      }
+    ]
+  },
+  "say": {
+    "sounds": [
+      {
+        "name": "theo_scp:say",
+        "stream": false
+      }
+    ]
+  },
+  "scan": {
+    "sounds": [
+      {
+        "name": "theo_scp:scan",
+        "stream": false
+      }
+    ]
+  },
+  "scanning": {
+    "sounds": [
+      {
+        "name": "theo_scp:scanning",
+        "stream": false
+      }
+    ]
+  },
+  "science": {
+    "sounds": [
+      {
+        "name": "theo_scp:science",
+        "stream": false
+      }
+    ]
+  },
+  "scientist": {
+    "sounds": [
+      {
+        "name": "theo_scp:scientist",
+        "stream": false
+      }
+    ]
+  },
+  "scientists": {
+    "sounds": [
+      {
+        "name": "theo_scp:scientists",
+        "stream": false
+      }
+    ]
+  },
+  "scp": {
+    "sounds": [
+      {
+        "name": "theo_scp:scp",
+        "stream": false
+      }
+    ]
+  },
+  "scp_0_remaining": {
+    "sounds": [
+      {
+        "name": "theo_scp:scp_0_remaining",
+        "stream": false
+      }
+    ]
+  },
+  "scp_multiple_remaining": {
+    "sounds": [
+      {
+        "name": "theo_scp:scp_multiple_remaining",
+        "stream": false
+      }
+    ]
+  },
+  "scp_subject": {
+    "sounds": [
+      {
+        "name": "theo_scp:scp_subject",
+        "stream": false
+      }
+    ]
+  },
+  "scp_subjects": {
+    "sounds": [
+      {
+        "name": "theo_scp:scp_subjects",
+        "stream": false
+      }
+    ]
+  },
+  "seal": {
+    "sounds": [
+      {
+        "name": "theo_scp:seal",
+        "stream": false
+      }
+    ]
+  },
+  "search": {
+    "sounds": [
+      {
+        "name": "theo_scp:search",
+        "stream": false
+      }
+    ]
+  },
+  "second": {
+    "sounds": [
+      {
+        "name": "theo_scp:second",
+        "stream": false
+      }
+    ]
+  },
+  "secondary": {
+    "sounds": [
+      {
+        "name": "theo_scp:secondary",
+        "stream": false
+      }
+    ]
+  },
+  "seconds": {
+    "sounds": [
+      {
+        "name": "theo_scp:seconds",
+        "stream": false
+      }
+    ]
+  },
+  "secret": {
+    "sounds": [
+      {
+        "name": "theo_scp:secret",
+        "stream": false
+      }
+    ]
+  },
+  "sector": {
+    "sounds": [
+      {
+        "name": "theo_scp:sector",
+        "stream": false
+      }
+    ]
+  },
+  "secure": {
+    "sounds": [
+      {
+        "name": "theo_scp:secure",
+        "stream": false
+      }
+    ]
+  },
+  "security": {
+    "sounds": [
+      {
+        "name": "theo_scp:security",
+        "stream": false
+      }
+    ]
+  },
+  "see": {
+    "sounds": [
+      {
+        "name": "theo_scp:see",
+        "stream": false
+      }
+    ]
+  },
+  "self": {
+    "sounds": [
+      {
+        "name": "theo_scp:self",
+        "stream": false
+      }
+    ]
+  },
+  "send": {
+    "sounds": [
+      {
+        "name": "theo_scp:send",
+        "stream": false
+      }
+    ]
+  },
+  "senior": {
+    "sounds": [
+      {
+        "name": "theo_scp:senior",
+        "stream": false
+      }
+    ]
+  },
+  "sentient": {
+    "sounds": [
+      {
+        "name": "theo_scp:sentient",
+        "stream": false
+      }
+    ]
+  },
+  "september": {
+    "sounds": [
+      {
+        "name": "theo_scp:september",
+        "stream": false
+      }
+    ]
+  },
+  "sequence": {
+    "sounds": [
+      {
+        "name": "theo_scp:sequence",
+        "stream": false
+      }
+    ]
+  },
+  "serious": {
+    "sounds": [
+      {
+        "name": "theo_scp:serious",
+        "stream": false
+      }
+    ]
+  },
+  "seriously": {
+    "sounds": [
+      {
+        "name": "theo_scp:seriously",
+        "stream": false
+      }
+    ]
+  },
+  "serpents": {
+    "sounds": [
+      {
+        "name": "theo_scp:serpents",
+        "stream": false
+      }
+    ]
+  },
+  "service": {
+    "sounds": [
+      {
+        "name": "theo_scp:service",
+        "stream": false
+      }
+    ]
+  },
+  "she": {
+    "sounds": [
+      {
+        "name": "theo_scp:she",
+        "stream": false
+      }
+    ]
+  },
+  "shelter": {
+    "sounds": [
+      {
+        "name": "theo_scp:shelter",
+        "stream": false
+      }
+    ]
+  },
+  "shoot": {
+    "sounds": [
+      {
+        "name": "theo_scp:shoot",
+        "stream": false
+      }
+    ]
+  },
+  "shooting": {
+    "sounds": [
+      {
+        "name": "theo_scp:shooting",
+        "stream": false
+      }
+    ]
+  },
+  "shot": {
+    "sounds": [
+      {
+        "name": "theo_scp:shot",
+        "stream": false
+      }
+    ]
+  },
+  "should": {
+    "sounds": [
+      {
+        "name": "theo_scp:should",
+        "stream": false
+      }
+    ]
+  },
+  "shut": {
+    "sounds": [
+      {
+        "name": "theo_scp:shut",
+        "stream": false
+      }
+    ]
+  },
+  "shutting": {
+    "sounds": [
+      {
+        "name": "theo_scp:shutting",
+        "stream": false
+      }
+    ]
+  },
+  "side": {
+    "sounds": [
+      {
+        "name": "theo_scp:side",
+        "stream": false
+      }
+    ]
+  },
+  "siera": {
+    "sounds": [
+      {
+        "name": "theo_scp:siera",
+        "stream": false
+      }
+    ]
+  },
+  "sigma": {
+    "sounds": [
+      {
+        "name": "theo_scp:sigma",
+        "stream": false
+      }
+    ]
+  },
+  "sis": {
+    "sounds": [
+      {
+        "name": "theo_scp:sis",
+        "stream": false
+      }
+    ]
+  },
+  "site": {
+    "sounds": [
+      {
+        "name": "theo_scp:site",
+        "stream": false
+      }
+    ]
+  },
+  "small": {
+    "sounds": [
+      {
+        "name": "theo_scp:small",
+        "stream": false
+      }
+    ]
+  },
+  "snap": {
+    "sounds": [
+      {
+        "name": "theo_scp:snap",
+        "stream": false
+      }
+    ]
+  },
+  "so": {
+    "sounds": [
+      {
+        "name": "theo_scp:so",
+        "stream": false
+      }
+    ]
+  },
+  "software": {
+    "sounds": [
+      {
+        "name": "theo_scp:software",
+        "stream": false
+      }
+    ]
+  },
+  "solid": {
+    "sounds": [
+      {
+        "name": "theo_scp:solid",
+        "stream": false
+      }
+    ]
+  },
+  "some": {
+    "sounds": [
+      {
+        "name": "theo_scp:some",
+        "stream": false
+      }
+    ]
+  },
+  "somebody": {
+    "sounds": [
+      {
+        "name": "theo_scp:somebody",
+        "stream": false
+      }
+    ]
+  },
+  "someone": {
+    "sounds": [
+      {
+        "name": "theo_scp:someone",
+        "stream": false
+      }
+    ]
+  },
+  "something": {
+    "sounds": [
+      {
+        "name": "theo_scp:something",
+        "stream": false
+      }
+    ]
+  },
+  "sorry": {
+    "sounds": [
+      {
+        "name": "theo_scp:sorry",
+        "stream": false
+      }
+    ]
+  },
+  "source": {
+    "sounds": [
+      {
+        "name": "theo_scp:source",
+        "stream": false
+      }
+    ]
+  },
+  "south": {
+    "sounds": [
+      {
+        "name": "theo_scp:south",
+        "stream": false
+      }
+    ]
+  },
+  "space": {
+    "sounds": [
+      {
+        "name": "theo_scp:space",
+        "stream": false
+      }
+    ]
+  },
+  "spotted": {
+    "sounds": [
+      {
+        "name": "theo_scp:spotted",
+        "stream": false
+      }
+    ]
+  },
+  "squad": {
+    "sounds": [
+      {
+        "name": "theo_scp:squad",
+        "stream": false
+      }
+    ]
+  },
+  "stabilize": {
+    "sounds": [
+      {
+        "name": "theo_scp:stabilize",
+        "stream": false
+      }
+    ]
+  },
+  "stable": {
+    "sounds": [
+      {
+        "name": "theo_scp:stable",
+        "stream": false
+      }
+    ]
+  },
+  "stand": {
+    "sounds": [
+      {
+        "name": "theo_scp:stand",
+        "stream": false
+      }
+    ]
+  },
+  "standard": {
+    "sounds": [
+      {
+        "name": "theo_scp:standard",
+        "stream": false
+      }
+    ]
+  },
+  "standby": {
+    "sounds": [
+      {
+        "name": "theo_scp:standby",
+        "stream": false
+      }
+    ]
+  },
+  "start": {
+    "sounds": [
+      {
+        "name": "theo_scp:start",
+        "stream": false
+      }
+    ]
+  },
+  "started": {
+    "sounds": [
+      {
+        "name": "theo_scp:started",
+        "stream": false
+      }
+    ]
+  },
+  "starting": {
+    "sounds": [
+      {
+        "name": "theo_scp:starting",
+        "stream": false
+      }
+    ]
+  },
+  "static": {
+    "sounds": [
+      {
+        "name": "theo_scp:static",
+        "stream": false
+      }
+    ]
+  },
+  "status": {
+    "sounds": [
+      {
+        "name": "theo_scp:status",
+        "stream": false
+      }
+    ]
+  },
+  "stop": {
+    "sounds": [
+      {
+        "name": "theo_scp:stop",
+        "stream": false
+      }
+    ]
+  },
+  "stopped": {
+    "sounds": [
+      {
+        "name": "theo_scp:stopped",
+        "stream": false
+      }
+    ]
+  },
+  "storage": {
+    "sounds": [
+      {
+        "name": "theo_scp:storage",
+        "stream": false
+      }
+    ]
+  },
+  "straight": {
+    "sounds": [
+      {
+        "name": "theo_scp:straight",
+        "stream": false
+      }
+    ]
+  },
+  "strictly": {
+    "sounds": [
+      {
+        "name": "theo_scp:strictly",
+        "stream": false
+      }
+    ]
+  },
+  "studio": {
+    "sounds": [
+      {
+        "name": "theo_scp:studio",
+        "stream": false
+      }
+    ]
+  },
+  "substantial": {
+    "sounds": [
+      {
+        "name": "theo_scp:substantial",
+        "stream": false
+      }
+    ]
+  },
+  "subsystem": {
+    "sounds": [
+      {
+        "name": "theo_scp:subsystem",
+        "stream": false
+      }
+    ]
+  },
+  "successfully": {
+    "sounds": [
+      {
+        "name": "theo_scp:successfully",
+        "stream": false
+      }
+    ]
+  },
+  "sunday": {
+    "sounds": [
+      {
+        "name": "theo_scp:sunday",
+        "stream": false
+      }
+    ]
+  },
+  "supply": {
+    "sounds": [
+      {
+        "name": "theo_scp:supply",
+        "stream": false
+      }
+    ]
+  },
+  "support": {
+    "sounds": [
+      {
+        "name": "theo_scp:support",
+        "stream": false
+      }
+    ]
+  },
+  "supporter": {
+    "sounds": [
+      {
+        "name": "theo_scp:supporter",
+        "stream": false
+      }
+    ]
+  },
+  "surface": {
+    "sounds": [
+      {
+        "name": "theo_scp:surface",
+        "stream": false
+      }
+    ]
+  },
+  "surge": {
+    "sounds": [
+      {
+        "name": "theo_scp:surge",
+        "stream": false
+      }
+    ]
+  },
+  "surprise": {
+    "sounds": [
+      {
+        "name": "theo_scp:surprise",
+        "stream": false
+      }
+    ]
+  },
+  "surrender": {
+    "sounds": [
+      {
+        "name": "theo_scp:surrender",
+        "stream": false
+      }
+    ]
+  },
+  "survive": {
+    "sounds": [
+      {
+        "name": "theo_scp:survive",
+        "stream": false
+      }
+    ]
+  },
+  "survivor": {
+    "sounds": [
+      {
+        "name": "theo_scp:survivor",
+        "stream": false
+      }
+    ]
+  },
+  "system": {
+    "sounds": [
+      {
+        "name": "theo_scp:system",
+        "stream": false
+      }
+    ]
+  },
+  "systems": {
+    "sounds": [
+      {
+        "name": "theo_scp:systems",
+        "stream": false
+      }
+    ]
+  },
+  "t_ed": {
+    "sounds": [
+      {
+        "name": "theo_scp:t_ed",
+        "stream": false
+      }
+    ]
+  },
+  "tactical": {
+    "sounds": [
+      {
+        "name": "theo_scp:tactical",
+        "stream": false
+      }
+    ]
+  },
+  "take": {
+    "sounds": [
+      {
+        "name": "theo_scp:take",
+        "stream": false
+      }
+    ]
+  },
+  "taken": {
+    "sounds": [
+      {
+        "name": "theo_scp:taken",
+        "stream": false
+      }
+    ]
+  },
+  "tank": {
+    "sounds": [
+      {
+        "name": "theo_scp:tank",
+        "stream": false
+      }
+    ]
+  },
+  "target": {
+    "sounds": [
+      {
+        "name": "theo_scp:target",
+        "stream": false
+      }
+    ]
+  },
+  "task": {
+    "sounds": [
+      {
+        "name": "theo_scp:task",
+        "stream": false
+      }
+    ]
+  },
+  "tau": {
+    "sounds": [
+      {
+        "name": "theo_scp:tau",
+        "stream": false
+      }
+    ]
+  },
+  "team": {
+    "sounds": [
+      {
+        "name": "theo_scp:team",
+        "stream": false
+      }
+    ]
+  },
+  "tell": {
+    "sounds": [
+      {
+        "name": "theo_scp:tell",
+        "stream": false
+      }
+    ]
+  },
+  "temperature": {
+    "sounds": [
+      {
+        "name": "theo_scp:temperature",
+        "stream": false
+      }
+    ]
+  },
+  "temporal": {
+    "sounds": [
+      {
+        "name": "theo_scp:temporal",
+        "stream": false
+      }
+    ]
+  },
+  "tera": {
+    "sounds": [
+      {
+        "name": "theo_scp:tera",
+        "stream": false
+      }
+    ]
+  },
+  "terminal": {
+    "sounds": [
+      {
+        "name": "theo_scp:terminal",
+        "stream": false
+      }
+    ]
+  },
+  "terminate": {
+    "sounds": [
+      {
+        "name": "theo_scp:terminate",
+        "stream": false
+      }
+    ]
+  },
+  "terminated": {
+    "sounds": [
+      {
+        "name": "theo_scp:terminated",
+        "stream": false
+      }
+    ]
+  },
+  "termination": {
+    "sounds": [
+      {
+        "name": "theo_scp:termination",
+        "stream": false
+      }
+    ]
+  },
+  "tesla": {
+    "sounds": [
+      {
+        "name": "theo_scp:tesla",
+        "stream": false
+      }
+    ]
+  },
+  "test": {
+    "sounds": [
+      {
+        "name": "theo_scp:test",
+        "stream": false
+      }
+    ]
+  },
+  "thank": {
+    "sounds": [
+      {
+        "name": "theo_scp:thank",
+        "stream": false
+      }
+    ]
+  },
+  "thanks": {
+    "sounds": [
+      {
+        "name": "theo_scp:thanks",
+        "stream": false
+      }
+    ]
+  },
+  "that": {
+    "sounds": [
+      {
+        "name": "theo_scp:that",
+        "stream": false
+      }
+    ]
+  },
+  "their": {
+    "sounds": [
+      {
+        "name": "theo_scp:their",
+        "stream": false
+      }
+    ]
+  },
+  "them": {
+    "sounds": [
+      {
+        "name": "theo_scp:them",
+        "stream": false
+      }
+    ]
+  },
+  "then": {
+    "sounds": [
+      {
+        "name": "theo_scp:then",
+        "stream": false
+      }
+    ]
+  },
+  "there": {
+    "sounds": [
+      {
+        "name": "theo_scp:there",
+        "stream": false
+      }
+    ]
+  },
+  "thermal": {
+    "sounds": [
+      {
+        "name": "theo_scp:thermal",
+        "stream": false
+      }
+    ]
+  },
+  "theta": {
+    "sounds": [
+      {
+        "name": "theo_scp:theta",
+        "stream": false
+      }
+    ]
+  },
+  "they": {
+    "sounds": [
+      {
+        "name": "theo_scp:they",
+        "stream": false
+      }
+    ]
+  },
+  "thing": {
+    "sounds": [
+      {
+        "name": "theo_scp:thing",
+        "stream": false
+      }
+    ]
+  },
+  "think": {
+    "sounds": [
+      {
+        "name": "theo_scp:think",
+        "stream": false
+      }
+    ]
+  },
+  "third": {
+    "sounds": [
+      {
+        "name": "theo_scp:third",
+        "stream": false
+      }
+    ]
+  },
+  "this": {
+    "sounds": [
+      {
+        "name": "theo_scp:this",
+        "stream": false
+      }
+    ]
+  },
+  "though": {
+    "sounds": [
+      {
+        "name": "theo_scp:though",
+        "stream": false
+      }
+    ]
+  },
+  "thought": {
+    "sounds": [
+      {
+        "name": "theo_scp:thought",
+        "stream": false
+      }
+    ]
+  },
+  "thousand": {
+    "sounds": [
+      {
+        "name": "theo_scp:thousand",
+        "stream": false
+      }
+    ]
+  },
+  "threat": {
+    "sounds": [
+      {
+        "name": "theo_scp:threat",
+        "stream": false
+      }
+    ]
+  },
+  "through": {
+    "sounds": [
+      {
+        "name": "theo_scp:through",
+        "stream": false
+      }
+    ]
+  },
+  "thursday": {
+    "sounds": [
+      {
+        "name": "theo_scp:thursday",
+        "stream": false
+      }
+    ]
+  },
+  "time": {
+    "sounds": [
+      {
+        "name": "theo_scp:time",
+        "stream": false
+      }
+    ]
+  },
+  "times": {
+    "sounds": [
+      {
+        "name": "theo_scp:times",
+        "stream": false
+      }
+    ]
+  },
+  "tminus": {
+    "sounds": [
+      {
+        "name": "theo_scp:tminus",
+        "stream": false
+      }
+    ]
+  },
+  "to": {
+    "sounds": [
+      {
+        "name": "theo_scp:to",
+        "stream": false
+      }
+    ]
+  },
+  "today": {
+    "sounds": [
+      {
+        "name": "theo_scp:today",
+        "stream": false
+      }
+    ]
+  },
+  "tomorrow": {
+    "sounds": [
+      {
+        "name": "theo_scp:tomorrow",
+        "stream": false
+      }
+    ]
+  },
+  "too": {
+    "sounds": [
+      {
+        "name": "theo_scp:too",
+        "stream": false
+      }
+    ]
+  },
+  "top": {
+    "sounds": [
+      {
+        "name": "theo_scp:top",
+        "stream": false
+      }
+    ]
+  },
+  "touch": {
+    "sounds": [
+      {
+        "name": "theo_scp:touch",
+        "stream": false
+      }
+    ]
+  },
+  "towards": {
+    "sounds": [
+      {
+        "name": "theo_scp:towards",
+        "stream": false
+      }
+    ]
+  },
+  "trillion": {
+    "sounds": [
+      {
+        "name": "theo_scp:trillion",
+        "stream": false
+      }
+    ]
+  },
+  "true": {
+    "sounds": [
+      {
+        "name": "theo_scp:true",
+        "stream": false
+      }
+    ]
+  },
+  "tuesday": {
+    "sounds": [
+      {
+        "name": "theo_scp:tuesday",
+        "stream": false
+      }
+    ]
+  },
+  "turn": {
+    "sounds": [
+      {
+        "name": "theo_scp:turn",
+        "stream": false
+      }
+    ]
+  },
+  "turned": {
+    "sounds": [
+      {
+        "name": "theo_scp:turned",
+        "stream": false
+      }
+    ]
+  },
+  "turns": {
+    "sounds": [
+      {
+        "name": "theo_scp:turns",
+        "stream": false
+      }
+    ]
+  },
+  "twice": {
+    "sounds": [
+      {
+        "name": "theo_scp:twice",
+        "stream": false
+      }
+    ]
+  },
+  "un_": {
+    "sounds": [
+      {
+        "name": "theo_scp:un_",
+        "stream": false
+      }
+    ]
+  },
+  "unable": {
+    "sounds": [
+      {
+        "name": "theo_scp:unable",
+        "stream": false
+      }
+    ]
+  },
+  "unauthorized": {
+    "sounds": [
+      {
+        "name": "theo_scp:unauthorized",
+        "stream": false
+      }
+    ]
+  },
+  "unavailable": {
+    "sounds": [
+      {
+        "name": "theo_scp:unavailable",
+        "stream": false
+      }
+    ]
+  },
+  "under": {
+    "sounds": [
+      {
+        "name": "theo_scp:under",
+        "stream": false
+      }
+    ]
+  },
+  "unit": {
+    "sounds": [
+      {
+        "name": "theo_scp:unit",
+        "stream": false
+      }
+    ]
+  },
+  "universal": {
+    "sounds": [
+      {
+        "name": "theo_scp:universal",
+        "stream": false
+      }
+    ]
+  },
+  "unknown": {
+    "sounds": [
+      {
+        "name": "theo_scp:unknown",
+        "stream": false
+      }
+    ]
+  },
+  "unnecessary": {
+    "sounds": [
+      {
+        "name": "theo_scp:unnecessary",
+        "stream": false
+      }
+    ]
+  },
+  "unspecified": {
+    "sounds": [
+      {
+        "name": "theo_scp:unspecified",
+        "stream": false
+      }
+    ]
+  },
+  "unstable": {
+    "sounds": [
+      {
+        "name": "theo_scp:unstable",
+        "stream": false
+      }
+    ]
+  },
+  "until": {
+    "sounds": [
+      {
+        "name": "theo_scp:until",
+        "stream": false
+      }
+    ]
+  },
+  "up": {
+    "sounds": [
+      {
+        "name": "theo_scp:up",
+        "stream": false
+      }
+    ]
+  },
+  "upsilon": {
+    "sounds": [
+      {
+        "name": "theo_scp:upsilon",
+        "stream": false
+      }
+    ]
+  },
+  "us": {
+    "sounds": [
+      {
+        "name": "theo_scp:us",
+        "stream": false
+      }
+    ]
+  },
+  "usbdrive": {
+    "sounds": [
+      {
+        "name": "theo_scp:usbdrive",
+        "stream": false
+      }
+    ]
+  },
+  "use": {
+    "sounds": [
+      {
+        "name": "theo_scp:use",
+        "stream": false
+      }
+    ]
+  },
+  "user": {
+    "sounds": [
+      {
+        "name": "theo_scp:user",
+        "stream": false
+      }
+    ]
+  },
+  "using": {
+    "sounds": [
+      {
+        "name": "theo_scp:using",
+        "stream": false
+      }
+    ]
+  },
+  "very": {
+    "sounds": [
+      {
+        "name": "theo_scp:very",
+        "stream": false
+      }
+    ]
+  },
+  "virus": {
+    "sounds": [
+      {
+        "name": "theo_scp:virus",
+        "stream": false
+      }
+    ]
+  },
+  "wait": {
+    "sounds": [
+      {
+        "name": "theo_scp:wait",
+        "stream": false
+      }
+    ]
+  },
+  "wall": {
+    "sounds": [
+      {
+        "name": "theo_scp:wall",
+        "stream": false
+      }
+    ]
+  },
+  "want": {
+    "sounds": [
+      {
+        "name": "theo_scp:want",
+        "stream": false
+      }
+    ]
+  },
+  "warhead": {
+    "sounds": [
+      {
+        "name": "theo_scp:warhead",
+        "stream": false
+      }
+    ]
+  },
+  "warning": {
+    "sounds": [
+      {
+        "name": "theo_scp:warning",
+        "stream": false
+      }
+    ]
+  },
+  "was": {
+    "sounds": [
+      {
+        "name": "theo_scp:was",
+        "stream": false
+      }
+    ]
+  },
+  "way": {
+    "sounds": [
+      {
+        "name": "theo_scp:way",
+        "stream": false
+      }
+    ]
+  },
+  "weapon": {
+    "sounds": [
+      {
+        "name": "theo_scp:weapon",
+        "stream": false
+      }
+    ]
+  },
+  "weapons": {
+    "sounds": [
+      {
+        "name": "theo_scp:weapons",
+        "stream": false
+      }
+    ]
+  },
+  "wednesday": {
+    "sounds": [
+      {
+        "name": "theo_scp:wednesday",
+        "stream": false
+      }
+    ]
+  },
+  "week": {
+    "sounds": [
+      {
+        "name": "theo_scp:week",
+        "stream": false
+      }
+    ]
+  },
+  "welcome": {
+    "sounds": [
+      {
+        "name": "theo_scp:welcome",
+        "stream": false
+      }
+    ]
+  },
+  "well": {
+    "sounds": [
+      {
+        "name": "theo_scp:well",
+        "stream": false
+      }
+    ]
+  },
+  "went": {
+    "sounds": [
+      {
+        "name": "theo_scp:went",
+        "stream": false
+      }
+    ]
+  },
+  "were": {
+    "sounds": [
+      {
+        "name": "theo_scp:were",
+        "stream": false
+      }
+    ]
+  },
+  "west": {
+    "sounds": [
+      {
+        "name": "theo_scp:west",
+        "stream": false
+      }
+    ]
+  },
+  "what": {
+    "sounds": [
+      {
+        "name": "theo_scp:what",
+        "stream": false
+      }
+    ]
+  },
+  "when": {
+    "sounds": [
+      {
+        "name": "theo_scp:when",
+        "stream": false
+      }
+    ]
+  },
+  "where": {
+    "sounds": [
+      {
+        "name": "theo_scp:where",
+        "stream": false
+      }
+    ]
+  },
+  "which": {
+    "sounds": [
+      {
+        "name": "theo_scp:which",
+        "stream": false
+      }
+    ]
+  },
+  "white": {
+    "sounds": [
+      {
+        "name": "theo_scp:white",
+        "stream": false
+      }
+    ]
+  },
+  "who": {
+    "sounds": [
+      {
+        "name": "theo_scp:who",
+        "stream": false
+      }
+    ]
+  },
+  "why": {
+    "sounds": [
+      {
+        "name": "theo_scp:why",
+        "stream": false
+      }
+    ]
+  },
+  "wide": {
+    "sounds": [
+      {
+        "name": "theo_scp:wide",
+        "stream": false
+      }
+    ]
+  },
+  "will": {
+    "sounds": [
+      {
+        "name": "theo_scp:will",
+        "stream": false
+      }
+    ]
+  },
+  "with": {
+    "sounds": [
+      {
+        "name": "theo_scp:with",
+        "stream": false
+      }
+    ]
+  },
+  "without": {
+    "sounds": [
+      {
+        "name": "theo_scp:without",
+        "stream": false
+      }
+    ]
+  },
+  "wood": {
+    "sounds": [
+      {
+        "name": "theo_scp:wood",
+        "stream": false
+      }
+    ]
+  },
+  "word": {
+    "sounds": [
+      {
+        "name": "theo_scp:word",
+        "stream": false
+      }
+    ]
+  },
+  "work": {
+    "sounds": [
+      {
+        "name": "theo_scp:work",
+        "stream": false
+      }
+    ]
+  },
+  "world": {
+    "sounds": [
+      {
+        "name": "theo_scp:world",
+        "stream": false
+      }
+    ]
+  },
+  "worst": {
+    "sounds": [
+      {
+        "name": "theo_scp:worst",
+        "stream": false
+      }
+    ]
+  },
+  "would": {
+    "sounds": [
+      {
+        "name": "theo_scp:would",
+        "stream": false
+      }
+    ]
+  },
+  "wrong": {
+    "sounds": [
+      {
+        "name": "theo_scp:wrong",
+        "stream": false
+      }
+    ]
+  },
+  "xi": {
+    "sounds": [
+      {
+        "name": "theo_scp:xi",
+        "stream": false
+      }
+    ]
+  },
+  "xmas_bouncyballs": {
+    "sounds": [
+      {
+        "name": "theo_scp:xmas_bouncyballs",
+        "stream": false
+      }
+    ]
+  },
+  "xmas_epsilon11": {
+    "sounds": [
+      {
+        "name": "theo_scp:xmas_epsilon11",
+        "stream": false
+      }
+    ]
+  },
+  "xmas_hasentered": {
+    "sounds": [
+      {
+        "name": "theo_scp:xmas_hasentered",
+        "stream": false
+      }
+    ]
+  },
+  "xmas_jinglebells": {
+    "sounds": [
+      {
+        "name": "theo_scp:xmas_jinglebells",
+        "stream": false
+      }
+    ]
+  },
+  "xmas_scpsubjects": {
+    "sounds": [
+      {
+        "name": "theo_scp:xmas_scpsubjects",
+        "stream": false
+      }
+    ]
+  },
+  "year": {
+    "sounds": [
+      {
+        "name": "theo_scp:year",
+        "stream": false
+      }
+    ]
+  },
+  "yellow": {
+    "sounds": [
+      {
+        "name": "theo_scp:yellow",
+        "stream": false
+      }
+    ]
+  },
+  "yes": {
+    "sounds": [
+      {
+        "name": "theo_scp:yes",
+        "stream": false
+      }
+    ]
+  },
+  "yesterday": {
+    "sounds": [
+      {
+        "name": "theo_scp:yesterday",
+        "stream": false
+      }
+    ]
+  },
+  "yet": {
+    "sounds": [
+      {
+        "name": "theo_scp:yet",
+        "stream": false
+      }
+    ]
+  },
+  "you": {
+    "sounds": [
+      {
+        "name": "theo_scp:you",
+        "stream": false
+      }
+    ]
+  },
+  "your": {
+    "sounds": [
+      {
+        "name": "theo_scp:your",
+        "stream": false
+      }
+    ]
+  },
+  "zeta": {
+    "sounds": [
+      {
+        "name": "theo_scp:zeta",
+        "stream": false
+      }
+    ]
+  },
+  "zone": {
+    "sounds": [
+      {
+        "name": "theo_scp:zone",
+        "stream": false
+      }
+    ]
+  },
+  "c.a.s.s.i.e": {
+    "sounds": [
+      {
+        "name": "theo_scp:central_autonomic_service_system_for_internal_emergencies",
+        "stream": false
+      }
+    ]
+  },
+  "command": {
+    "sounds": [
+      {
+        "name": "theo_scp:command",
+        "stream": false
+      },
+      {
+        "name": "theo_scp:command2",
+        "stream": false
+      }
+    ]
+  },
+  "project": {
+    "sounds": [
+      {
+        "name": "theo_scp:project",
+        "stream": false
+      },
+      {
+        "name": "theo_scp:project2",
+        "stream": false
+      }
+    ]
+  },
+  "pre": {
+    "sounds": [
+      {
+        "name": "theo_scp:pre_",
+        "stream": false
+      }
+    ]
+  },
+  "pro": {
+    "sounds": [
+      {
+        "name": "theo_scp:pro_",
+        "stream": false
+      }
+    ]
+  },
+  "post": {
+    "sounds": [
+      {
+        "name": "theo_scp:post_",
+        "stream": false
+      }
+    ]
+  },
+  "the": {
+    "sounds": [
+      {
+        "name": "theo_scp:the_consonant",
+        "stream": false
+      },
+      {
+        "name": "theo_scp:the_vowel",
+        "stream": false
+      }
+    ]
+  },
+  "all_generators_engaged": {
+    "sounds": [
+      {
+        "name": "theo_scp:all_generators_engaged",
+        "stream": false
+      }
+    ]
+  },
+  "all_remaining_personnel": {
+    "sounds": [
+      {
+        "name": "theo_scp:all_remaining_personnel",
+        "stream": false
+      }
+    ]
+  },
+  "anti": {
+    "sounds": [
+      {
+        "name": "theo_scp:anti_",
+        "stream": false
+      }
+    ]
+  },
+  "bytes": {
+    "sounds": [
+      {
+        "name": "theo_scp:bytes",
+        "stream": false
+      }
+    ]
+  },
+  "has_entered_the_facillity": {
+    "sounds": [
+      {
+        "name": "theo_scp:has_entered_the_facility",
+        "stream": false
+      }
+    ]
+  },
+  "nine_tailed_fox": {
+    "sounds": [
+      {
+        "name": "theo_scp:nine_tailed_fox",
+        "stream": false
+      }
+    ]
+  },
+  "stay": {
+    "sounds": [
+      {
+        "name": "theo_scp:stay",
+        "stream": false
+      }
+    ]
+  },
+  "step": {
+    "sounds": [
+      {
+        "name": "theo_scp:step",
+        "stream": false
+      }
+    ]
+  },
+  "r": {
+    "sounds": [
+      {
+        "name": "theo_scp:_r",
+        "stream": false
+      }
+    ]
+  },
+  "romeo": {
+    "sounds": [
+      {
+        "name": "theo_scp:romeo",
+        "stream": false
+      }
+    ]
+  }
+}

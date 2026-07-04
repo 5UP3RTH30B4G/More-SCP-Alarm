@@ -1,15 +1,24 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="MIT License"
+license="Not specified"
 
 [[mods]]
-modId="scp_alarm"
-version="3.0.0"
-displayName="More SCP Alarm"
-modClass="scp_alarm.scp_alarm"
-displayURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm"
-logoFile="logo.png"
-credits="SCP:CB And SCP:SL"
+modId="theo_scp"
+version="1.0.0"
+displayName="TH30's SCP"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="5UP3R TH30 B4G"
-description="More SCP Alarm is a mod that add SFX and block of any SCP's game !"
-issueTrackerURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm/issues"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.theo_scp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

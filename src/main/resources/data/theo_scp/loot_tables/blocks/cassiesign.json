@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "theo_scp:blocks/cassiesign",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "theo_scp:cassiesign"
+        }
+      ]
+    }
+  ]
+}

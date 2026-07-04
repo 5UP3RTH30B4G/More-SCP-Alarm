@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "theo_scp:block/cassiesign"
+    },
+    "facing=east": {
+      "model": "theo_scp:block/cassiesign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "theo_scp:block/cassiesign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "theo_scp:block/cassiesign",
+      "y": 270
+    }
+  }
+}

@@ -1,25 +1,21 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
-
-# idea
-out
+# MCreator / Minecraft mod project
+.gradle/
+build/
+out/
+bin/
+.idea/
+*.iml
 *.ipr
 *.iws
-*.iml
-.idea
-
-# gradle
-build
-.gradle
-
-# other
-eclipse
-run
-
-# Files from Forge MDK
-forge*changelog.txt
+.settings/
+.classpath
+.project
+.factorypath
+.mcreator/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+*.swp
+/run/

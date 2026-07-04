@@ -1,0 +1,6 @@
+{
+    "comment": "Configuration file for Cassie mod. 'use_action_bar' enables displaying messages in the action bar instead of chat. 'action_bar_interval_ms' sets the interval (in milliseconds) between action bar messages.",
+
+    "use_action_bar": true,
+    "action_bar_interval_ms": 150
+}

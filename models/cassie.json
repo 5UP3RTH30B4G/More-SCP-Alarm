@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "image_2024-11-18_102001122",
+		"particle": "image_2024-11-18_102001122"
+	},
+	"elements": [
+		{
+			"name": "image_2024-11-18_102001122_0",
+			"from": [-16, 0, 0],
+			"to": [32, 12, 0.5],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [15.97867, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.02133, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0.08377], "texture": "#0"},
+				"down": {"uv": [0, 15.91623, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "image_2024-11-18_102001122",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
