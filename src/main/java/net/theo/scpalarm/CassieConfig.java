@@ -1,4 +1,4 @@
-package net.theo.scp;
+package net.theo.scpalarm;
 
 import com.google.gson.Gson;
 import java.io.File;

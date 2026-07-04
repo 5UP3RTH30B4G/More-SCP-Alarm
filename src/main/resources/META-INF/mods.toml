@@ -1,11 +1,11 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Not specified"
+license="All Rights Reserved"
 
 [[mods]]
 modId="more_scp_alarm"
-version="2.0.2"
-displayName="More SCP Alarm (V2)"
+version="3.0.1"
+displayName="More SCP Alarm"
 displayURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm"
 credits="SCP:CB And SCP:SL"
 authors="5UP3R TH30 B4G"

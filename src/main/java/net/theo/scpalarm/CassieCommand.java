@@ -1,4 +1,4 @@
-package net.theo.scp;
+package net.theo.scpalarm;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -145,7 +145,7 @@ public class CassieCommand {
     static {
         try {
             ResourceLocation fileLocation = new ResourceLocation("more_scp_alarm", "word_durations.json");
-            InputStreamReader reader = new InputStreamReader(CassieCommand.class.getResourceAsStream("/assets/theo_scp/" + fileLocation.getPath()));
+            InputStreamReader reader = new InputStreamReader(CassieCommand.class.getResourceAsStream("/assets/more_scp_alarm/" + fileLocation.getPath()));
             wordDurations.putAll(gson.fromJson(reader, new TypeToken<Map<String, Float>>() {}.getType()));
             reader.close();
             logInfo("Fichier des durées des mots chargé avec succès !");
