@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Modifié/Alarm",
+		"particle": "Modifié/Alarm"
+	},
+	"elements": [
+		{
+			"name": "Alarm_0",
+			"from": [0, 5.22105, 15.9],
+			"to": [16, 10.77895, 16.06842],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 0.08421]},
+			"faces": {
+				"north": {"uv": [0, 5.22105, 16, 10.77895], "texture": "#0"},
+				"east": {"uv": [0, 5.22105, 0.16842, 10.77895], "texture": "#0"},
+				"south": {"uv": [16, 5.22105, 0, 10.77895], "texture": "#0"},
+				"west": {"uv": [15.83158, 5.22105, 16, 10.77895], "texture": "#0"},
+				"up": {"uv": [0, 5.22105, 16, 5.38947], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 10.61053, 16, 10.77895], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Alarm",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

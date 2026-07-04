@@ -1,13 +1,13 @@
 [
   {
-    "modid": "paper_cb",
-    "name": "Paper CB",
+    "modid": "cb_label",
+    "name": "CB label",
     "description": "",
-    "version": "0.0.3",
+    "version": "0.0.0",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "logoFile": "assets/paper_cb/textures/strange.png",
+    "logoFile": "",
     "mcversion": "1.12.2",
-    "url": "https://www.curseforge.com/minecraft/mc-mods/paper-cb-containment-breach",
+    "url": "https://mcreator.net",
     "updateUrl": "",
     "authorList": [
       "5UP3R TH30 B4G"
