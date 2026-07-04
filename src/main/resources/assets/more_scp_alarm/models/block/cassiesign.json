@@ -1,0 +1,9 @@
+{
+  "parent": "more_scp_alarm:custom/cassie",
+  "textures": {
+    "all": "more_scp_alarm:block/image_2024-11-18_102001122",
+    "particle": "more_scp_alarm:block/image_2024-11-18_102001122",
+    "0": "more_scp_alarm:block/image_2024-11-18_102001122"
+  },
+  "render_type": "solid"
+}

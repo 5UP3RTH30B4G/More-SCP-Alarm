@@ -2,7 +2,7 @@
   "bg_4": {
     "sounds": [
       {
-        "name": "theo_scp:bg_4",
+        "name": "more_scp_alarm:bg_4",
         "stream": true
       }
     ]
@@ -10,7 +10,7 @@
   "bg_5": {
     "sounds": [
       {
-        "name": "theo_scp:bg_5",
+        "name": "more_scp_alarm:bg_5",
         "stream": true
       }
     ]
@@ -18,7 +18,7 @@
   "bg_6": {
     "sounds": [
       {
-        "name": "theo_scp:bg_6",
+        "name": "more_scp_alarm:bg_6",
         "stream": true
       }
     ]
@@ -26,7 +26,7 @@
   "bg_7": {
     "sounds": [
       {
-        "name": "theo_scp:bg_7",
+        "name": "more_scp_alarm:bg_7",
         "stream": true
       }
     ]
@@ -34,7 +34,7 @@
   "bg_8": {
     "sounds": [
       {
-        "name": "theo_scp:bg_8",
+        "name": "more_scp_alarm:bg_8",
         "stream": true
       }
     ]
@@ -42,7 +42,7 @@
   "bg_9": {
     "sounds": [
       {
-        "name": "theo_scp:bg_10",
+        "name": "more_scp_alarm:bg_10",
         "stream": true
       }
     ]
@@ -50,7 +50,7 @@
   "bg_10": {
     "sounds": [
       {
-        "name": "theo_scp:bg_10",
+        "name": "more_scp_alarm:bg_10",
         "stream": true
       }
     ]
@@ -58,7 +58,7 @@
   "bg_11": {
     "sounds": [
       {
-        "name": "theo_scp:bg_11",
+        "name": "more_scp_alarm:bg_11",
         "stream": true
       }
     ]
@@ -66,7 +66,7 @@
   "bg_12": {
     "sounds": [
       {
-        "name": "theo_scp:bg_12",
+        "name": "more_scp_alarm:bg_12",
         "stream": true
       }
     ]
@@ -74,7 +74,7 @@
   "bg_13": {
     "sounds": [
       {
-        "name": "theo_scp:bg_13",
+        "name": "more_scp_alarm:bg_13",
         "stream": true
       }
     ]
@@ -82,7 +82,7 @@
   "bg_14": {
     "sounds": [
       {
-        "name": "theo_scp:bg_14",
+        "name": "more_scp_alarm:bg_14",
         "stream": true
       }
     ]
@@ -90,7 +90,7 @@
   "bg_15": {
     "sounds": [
       {
-        "name": "theo_scp:bg_15",
+        "name": "more_scp_alarm:bg_15",
         "stream": true
       }
     ]
@@ -98,7 +98,7 @@
   "bg_16": {
     "sounds": [
       {
-        "name": "theo_scp:bg_16",
+        "name": "more_scp_alarm:bg_16",
         "stream": true
       }
     ]
@@ -106,7 +106,7 @@
   "bg_17": {
     "sounds": [
       {
-        "name": "theo_scp:bg_17",
+        "name": "more_scp_alarm:bg_17",
         "stream": true
       }
     ]
@@ -114,7 +114,7 @@
   "bg_18": {
     "sounds": [
       {
-        "name": "theo_scp:bg_18",
+        "name": "more_scp_alarm:bg_18",
         "stream": true
       }
     ]
@@ -122,7 +122,7 @@
   "bg_19": {
     "sounds": [
       {
-        "name": "theo_scp:bg_19",
+        "name": "more_scp_alarm:bg_19",
         "stream": true
       }
     ]
@@ -130,7 +130,7 @@
   "bg_20": {
     "sounds": [
       {
-        "name": "theo_scp:bg_20",
+        "name": "more_scp_alarm:bg_20",
         "stream": true
       }
     ]
@@ -138,7 +138,7 @@
   "bg_21": {
     "sounds": [
       {
-        "name": "theo_scp:bg_21",
+        "name": "more_scp_alarm:bg_21",
         "stream": true
       }
     ]
@@ -146,7 +146,7 @@
   "bg_22": {
     "sounds": [
       {
-        "name": "theo_scp:bg_22",
+        "name": "more_scp_alarm:bg_22",
         "stream": true
       }
     ]
@@ -154,7 +154,7 @@
   "bg_23": {
     "sounds": [
       {
-        "name": "theo_scp:bg_23",
+        "name": "more_scp_alarm:bg_23",
         "stream": true
       }
     ]
@@ -162,7 +162,7 @@
   "bg_24": {
     "sounds": [
       {
-        "name": "theo_scp:bg_24",
+        "name": "more_scp_alarm:bg_24",
         "stream": true
       }
     ]
@@ -170,7 +170,7 @@
   "bg_25": {
     "sounds": [
       {
-        "name": "theo_scp:bg_25",
+        "name": "more_scp_alarm:bg_25",
         "stream": true
       }
     ]
@@ -178,7 +178,7 @@
   "bg_26": {
     "sounds": [
       {
-        "name": "theo_scp:bg_26",
+        "name": "more_scp_alarm:bg_26",
         "stream": true
       }
     ]
@@ -186,7 +186,7 @@
   "bg_27": {
     "sounds": [
       {
-        "name": "theo_scp:bg_27",
+        "name": "more_scp_alarm:bg_27",
         "stream": true
       }
     ]
@@ -194,7 +194,7 @@
   "bg_28": {
     "sounds": [
       {
-        "name": "theo_scp:bg_28",
+        "name": "more_scp_alarm:bg_28",
         "stream": true
       }
     ]
@@ -202,7 +202,7 @@
   "bg_29": {
     "sounds": [
       {
-        "name": "theo_scp:bg_29",
+        "name": "more_scp_alarm:bg_29",
         "stream": true
       }
     ]
@@ -210,7 +210,7 @@
   "bg_30": {
     "sounds": [
       {
-        "name": "theo_scp:bg_30",
+        "name": "more_scp_alarm:bg_30",
         "stream": true
       }
     ]
@@ -218,7 +218,7 @@
   "bg_31": {
     "sounds": [
       {
-        "name": "theo_scp:bg_31",
+        "name": "more_scp_alarm:bg_31",
         "stream": true
       }
     ]
@@ -226,7 +226,7 @@
   "bg_32": {
     "sounds": [
       {
-        "name": "theo_scp:bg_32",
+        "name": "more_scp_alarm:bg_32",
         "stream": true
       }
     ]
@@ -234,7 +234,7 @@
   "bg_33": {
     "sounds": [
       {
-        "name": "theo_scp:bg_33",
+        "name": "more_scp_alarm:bg_33",
         "stream": true
       }
     ]
@@ -242,7 +242,7 @@
   "bg_34": {
     "sounds": [
       {
-        "name": "theo_scp:bg_34",
+        "name": "more_scp_alarm:bg_34",
         "stream": true
       }
     ]
@@ -250,7 +250,7 @@
   "bg_35": {
     "sounds": [
       {
-        "name": "theo_scp:bg_35",
+        "name": "more_scp_alarm:bg_35",
         "stream": true
       }
     ]
@@ -258,7 +258,7 @@
   "bg_36": {
     "sounds": [
       {
-        "name": "theo_scp:bg_36",
+        "name": "more_scp_alarm:bg_36",
         "stream": true
       }
     ]
@@ -266,7 +266,7 @@
   "bg_37": {
     "sounds": [
       {
-        "name": "theo_scp:bg_37",
+        "name": "more_scp_alarm:bg_37",
         "stream": true
       }
     ]
@@ -274,7 +274,7 @@
   "bg_38": {
     "sounds": [
       {
-        "name": "theo_scp:bg_38",
+        "name": "more_scp_alarm:bg_38",
         "stream": true
       }
     ]
@@ -282,7 +282,7 @@
   "bg_39": {
     "sounds": [
       {
-        "name": "theo_scp:bg_39",
+        "name": "more_scp_alarm:bg_39",
         "stream": true
       }
     ]
@@ -290,7 +290,7 @@
   "bg_40": {
     "sounds": [
       {
-        "name": "theo_scp:bg_40",
+        "name": "more_scp_alarm:bg_40",
         "stream": true
       }
     ]
@@ -298,7 +298,7 @@
   "a": {
     "sounds": [
       {
-        "name": "theo_scp:_a",
+        "name": "more_scp_alarm:_a",
         "stream": false
       }
     ]
@@ -306,7 +306,7 @@
   "b": {
     "sounds": [
       {
-        "name": "theo_scp:_b",
+        "name": "more_scp_alarm:_b",
         "stream": false
       }
     ]
@@ -314,7 +314,7 @@
   "c": {
     "sounds": [
       {
-        "name": "theo_scp:_c",
+        "name": "more_scp_alarm:_c",
         "stream": false
       }
     ]
@@ -322,7 +322,7 @@
   "d": {
     "sounds": [
       {
-        "name": "theo_scp:_d",
+        "name": "more_scp_alarm:_d",
         "stream": false
       }
     ]
@@ -330,7 +330,7 @@
   "e": {
     "sounds": [
       {
-        "name": "theo_scp:_e",
+        "name": "more_scp_alarm:_e",
         "stream": false
       }
     ]
@@ -338,7 +338,7 @@
   "f": {
     "sounds": [
       {
-        "name": "theo_scp:_f",
+        "name": "more_scp_alarm:_f",
         "stream": false
       }
     ]
@@ -346,7 +346,7 @@
   "g": {
     "sounds": [
       {
-        "name": "theo_scp:_g",
+        "name": "more_scp_alarm:_g",
         "stream": false
       }
     ]
@@ -354,7 +354,7 @@
   "h": {
     "sounds": [
       {
-        "name": "theo_scp:_h",
+        "name": "more_scp_alarm:_h",
         "stream": false
       }
     ]
@@ -362,7 +362,7 @@
   "i": {
     "sounds": [
       {
-        "name": "theo_scp:_i",
+        "name": "more_scp_alarm:_i",
         "stream": false
       }
     ]
@@ -370,7 +370,7 @@
   "ish": {
     "sounds": [
       {
-        "name": "theo_scp:_ish",
+        "name": "more_scp_alarm:_ish",
         "stream": false
       }
     ]
@@ -378,7 +378,7 @@
   "j": {
     "sounds": [
       {
-        "name": "theo_scp:_j",
+        "name": "more_scp_alarm:_j",
         "stream": false
       }
     ]
@@ -386,7 +386,7 @@
   "k": {
     "sounds": [
       {
-        "name": "theo_scp:_k",
+        "name": "more_scp_alarm:_k",
         "stream": false
       }
     ]
@@ -394,7 +394,7 @@
   "l": {
     "sounds": [
       {
-        "name": "theo_scp:_l",
+        "name": "more_scp_alarm:_l",
         "stream": false
       }
     ]
@@ -402,7 +402,7 @@
   "like": {
     "sounds": [
       {
-        "name": "theo_scp:_like",
+        "name": "more_scp_alarm:_like",
         "stream": false
       }
     ]
@@ -410,7 +410,7 @@
   "m": {
     "sounds": [
       {
-        "name": "theo_scp:_m",
+        "name": "more_scp_alarm:_m",
         "stream": false
       }
     ]
@@ -418,7 +418,7 @@
   "n": {
     "sounds": [
       {
-        "name": "theo_scp:_n",
+        "name": "more_scp_alarm:_n",
         "stream": false
       }
     ]
@@ -426,7 +426,7 @@
   "o": {
     "sounds": [
       {
-        "name": "theo_scp:_o",
+        "name": "more_scp_alarm:_o",
         "stream": false
       }
     ]
@@ -434,7 +434,7 @@
   "p": {
     "sounds": [
       {
-        "name": "theo_scp:_p",
+        "name": "more_scp_alarm:_p",
         "stream": false
       }
     ]
@@ -442,7 +442,7 @@
   "q": {
     "sounds": [
       {
-        "name": "theo_scp:_q",
+        "name": "more_scp_alarm:_q",
         "stream": false
       }
     ]
@@ -450,7 +450,7 @@
   "s": {
     "sounds": [
       {
-        "name": "theo_scp:_s",
+        "name": "more_scp_alarm:_s",
         "stream": false
       }
     ]
@@ -458,7 +458,7 @@
   "t": {
     "sounds": [
       {
-        "name": "theo_scp:_t",
+        "name": "more_scp_alarm:_t",
         "stream": false
       }
     ]
@@ -466,7 +466,7 @@
   "u": {
     "sounds": [
       {
-        "name": "theo_scp:_u",
+        "name": "more_scp_alarm:_u",
         "stream": false
       }
     ]
@@ -474,7 +474,7 @@
   "v": {
     "sounds": [
       {
-        "name": "theo_scp:_v",
+        "name": "more_scp_alarm:_v",
         "stream": false
       }
     ]
@@ -482,7 +482,7 @@
   "w": {
     "sounds": [
       {
-        "name": "theo_scp:_w",
+        "name": "more_scp_alarm:_w",
         "stream": false
       }
     ]
@@ -490,7 +490,7 @@
   "x": {
     "sounds": [
       {
-        "name": "theo_scp:_x",
+        "name": "more_scp_alarm:_x",
         "stream": false
       }
     ]
@@ -498,7 +498,7 @@
   "y": {
     "sounds": [
       {
-        "name": "theo_scp:_y",
+        "name": "more_scp_alarm:_y",
         "stream": false
       }
     ]
@@ -506,7 +506,7 @@
   "z": {
     "sounds": [
       {
-        "name": "theo_scp:_z",
+        "name": "more_scp_alarm:_z",
         "stream": false
       }
     ]
@@ -514,7 +514,7 @@
   "able": {
     "sounds": [
       {
-        "name": "theo_scp:able",
+        "name": "more_scp_alarm:able",
         "stream": false
       }
     ]
@@ -522,7 +522,7 @@
   "about": {
     "sounds": [
       {
-        "name": "theo_scp:about",
+        "name": "more_scp_alarm:about",
         "stream": false
       }
     ]
@@ -530,7 +530,7 @@
   "above": {
     "sounds": [
       {
-        "name": "theo_scp:above",
+        "name": "more_scp_alarm:above",
         "stream": false
       }
     ]
@@ -538,7 +538,7 @@
   "absolute": {
     "sounds": [
       {
-        "name": "theo_scp:absolute",
+        "name": "more_scp_alarm:absolute",
         "stream": false
       }
     ]
@@ -546,7 +546,7 @@
   "accepted": {
     "sounds": [
       {
-        "name": "theo_scp:accepted",
+        "name": "more_scp_alarm:accepted",
         "stream": false
       }
     ]
@@ -554,7 +554,7 @@
   "access": {
     "sounds": [
       {
-        "name": "theo_scp:access",
+        "name": "more_scp_alarm:access",
         "stream": false
       }
     ]
@@ -562,7 +562,7 @@
   "acid": {
     "sounds": [
       {
-        "name": "theo_scp:acid",
+        "name": "more_scp_alarm:acid",
         "stream": false
       }
     ]
@@ -570,7 +570,7 @@
   "across": {
     "sounds": [
       {
-        "name": "theo_scp:across",
+        "name": "more_scp_alarm:across",
         "stream": false
       }
     ]
@@ -578,7 +578,7 @@
   "activate": {
     "sounds": [
       {
-        "name": "theo_scp:activate",
+        "name": "more_scp_alarm:activate",
         "stream": false
       }
     ]
@@ -586,7 +586,7 @@
   "activated": {
     "sounds": [
       {
-        "name": "theo_scp:activated",
+        "name": "more_scp_alarm:activated",
         "stream": false
       }
     ]
@@ -594,7 +594,7 @@
   "activating": {
     "sounds": [
       {
-        "name": "theo_scp:activating",
+        "name": "more_scp_alarm:activating",
         "stream": false
       }
     ]
@@ -602,7 +602,7 @@
   "activation": {
     "sounds": [
       {
-        "name": "theo_scp:activation",
+        "name": "more_scp_alarm:activation",
         "stream": false
       }
     ]
@@ -610,7 +610,7 @@
   "activity": {
     "sounds": [
       {
-        "name": "theo_scp:activity",
+        "name": "more_scp_alarm:activity",
         "stream": false
       }
     ]
@@ -618,7 +618,7 @@
   "address": {
     "sounds": [
       {
-        "name": "theo_scp:address",
+        "name": "more_scp_alarm:address",
         "stream": false
       }
     ]
@@ -626,7 +626,7 @@
   "administer": {
     "sounds": [
       {
-        "name": "theo_scp:administer",
+        "name": "more_scp_alarm:administer",
         "stream": false
       }
     ]
@@ -634,7 +634,7 @@
   "administered": {
     "sounds": [
       {
-        "name": "theo_scp:administered",
+        "name": "more_scp_alarm:administered",
         "stream": false
       }
     ]
@@ -642,7 +642,7 @@
   "adrenaline": {
     "sounds": [
       {
-        "name": "theo_scp:adrenaline",
+        "name": "more_scp_alarm:adrenaline",
         "stream": false
       }
     ]
@@ -650,7 +650,7 @@
   "advanced": {
     "sounds": [
       {
-        "name": "theo_scp:advanced",
+        "name": "more_scp_alarm:advanced",
         "stream": false
       }
     ]
@@ -658,7 +658,7 @@
   "advise": {
     "sounds": [
       {
-        "name": "theo_scp:advise",
+        "name": "more_scp_alarm:advise",
         "stream": false
       }
     ]
@@ -666,7 +666,7 @@
   "again": {
     "sounds": [
       {
-        "name": "theo_scp:again",
+        "name": "more_scp_alarm:again",
         "stream": false
       }
     ]
@@ -674,7 +674,7 @@
   "against": {
     "sounds": [
       {
-        "name": "theo_scp:against",
+        "name": "more_scp_alarm:against",
         "stream": false
       }
     ]
@@ -682,7 +682,7 @@
   "agent": {
     "sounds": [
       {
-        "name": "theo_scp:agent",
+        "name": "more_scp_alarm:agent",
         "stream": false
       }
     ]
@@ -690,7 +690,7 @@
   "aid": {
     "sounds": [
       {
-        "name": "theo_scp:aid",
+        "name": "more_scp_alarm:aid",
         "stream": false
       }
     ]
@@ -698,7 +698,7 @@
   "airlock": {
     "sounds": [
       {
-        "name": "theo_scp:airlock",
+        "name": "more_scp_alarm:airlock",
         "stream": false
       }
     ]
@@ -706,7 +706,7 @@
   "alarm": {
     "sounds": [
       {
-        "name": "theo_scp:alarm",
+        "name": "more_scp_alarm:alarm",
         "stream": false
       }
     ]
@@ -714,7 +714,7 @@
   "alert": {
     "sounds": [
       {
-        "name": "theo_scp:alert",
+        "name": "more_scp_alarm:alert",
         "stream": false
       }
     ]
@@ -722,7 +722,7 @@
   "alive": {
     "sounds": [
       {
-        "name": "theo_scp:alive",
+        "name": "more_scp_alarm:alive",
         "stream": false
       }
     ]
@@ -730,7 +730,7 @@
   "all": {
     "sounds": [
       {
-        "name": "theo_scp:all",
+        "name": "more_scp_alarm:all",
         "stream": false
       }
     ]
@@ -738,7 +738,7 @@
   "all_scp_secured": {
     "sounds": [
       {
-        "name": "theo_scp:all_scp_secured",
+        "name": "more_scp_alarm:all_scp_secured",
         "stream": false
       }
     ]
@@ -746,7 +746,7 @@
   "alpha": {
     "sounds": [
       {
-        "name": "theo_scp:alpha",
+        "name": "more_scp_alarm:alpha",
         "stream": false
       }
     ]
@@ -754,7 +754,7 @@
   "already": {
     "sounds": [
       {
-        "name": "theo_scp:already",
+        "name": "more_scp_alarm:already",
         "stream": false
       }
     ]
@@ -762,7 +762,7 @@
   "also": {
     "sounds": [
       {
-        "name": "theo_scp:also",
+        "name": "more_scp_alarm:also",
         "stream": false
       }
     ]
@@ -770,7 +770,7 @@
   "always": {
     "sounds": [
       {
-        "name": "theo_scp:always",
+        "name": "more_scp_alarm:always",
         "stream": false
       }
     ]
@@ -778,7 +778,7 @@
   "am": {
     "sounds": [
       {
-        "name": "theo_scp:am",
+        "name": "more_scp_alarm:am",
         "stream": false
       }
     ]
@@ -786,7 +786,7 @@
   "amount": {
     "sounds": [
       {
-        "name": "theo_scp:amount",
+        "name": "more_scp_alarm:amount",
         "stream": false
       }
     ]
@@ -794,7 +794,7 @@
   "amplitude": {
     "sounds": [
       {
-        "name": "theo_scp:amplitude",
+        "name": "more_scp_alarm:amplitude",
         "stream": false
       }
     ]
@@ -802,7 +802,7 @@
   "an": {
     "sounds": [
       {
-        "name": "theo_scp:an",
+        "name": "more_scp_alarm:an",
         "stream": false
       }
     ]
@@ -810,7 +810,7 @@
   "analog": {
     "sounds": [
       {
-        "name": "theo_scp:analog",
+        "name": "more_scp_alarm:analog",
         "stream": false
       }
     ]
@@ -818,7 +818,7 @@
   "analysis": {
     "sounds": [
       {
-        "name": "theo_scp:analysis",
+        "name": "more_scp_alarm:analysis",
         "stream": false
       }
     ]
@@ -826,7 +826,7 @@
   "and": {
     "sounds": [
       {
-        "name": "theo_scp:and",
+        "name": "more_scp_alarm:and",
         "stream": false
       }
     ]
@@ -834,7 +834,7 @@
   "anomaly": {
     "sounds": [
       {
-        "name": "theo_scp:anomaly",
+        "name": "more_scp_alarm:anomaly",
         "stream": false
       }
     ]
@@ -842,7 +842,7 @@
   "anouncement": {
     "sounds": [
       {
-        "name": "theo_scp:anouncement",
+        "name": "more_scp_alarm:anouncement",
         "stream": false
       }
     ]
@@ -850,7 +850,7 @@
   "answer": {
     "sounds": [
       {
-        "name": "theo_scp:answer",
+        "name": "more_scp_alarm:answer",
         "stream": false
       }
     ]
@@ -858,7 +858,7 @@
   "any": {
     "sounds": [
       {
-        "name": "theo_scp:any",
+        "name": "more_scp_alarm:any",
         "stream": false
       }
     ]
@@ -866,7 +866,7 @@
   "approach": {
     "sounds": [
       {
-        "name": "theo_scp:approach",
+        "name": "more_scp_alarm:approach",
         "stream": false
       }
     ]
@@ -874,7 +874,7 @@
   "april": {
     "sounds": [
       {
-        "name": "theo_scp:april",
+        "name": "more_scp_alarm:april",
         "stream": false
       }
     ]
@@ -882,7 +882,7 @@
   "aquired": {
     "sounds": [
       {
-        "name": "theo_scp:aquired",
+        "name": "more_scp_alarm:aquired",
         "stream": false
       }
     ]
@@ -890,7 +890,7 @@
   "are": {
     "sounds": [
       {
-        "name": "theo_scp:are",
+        "name": "more_scp_alarm:are",
         "stream": false
       }
     ]
@@ -898,7 +898,7 @@
   "area": {
     "sounds": [
       {
-        "name": "theo_scp:area",
+        "name": "more_scp_alarm:area",
         "stream": false
       }
     ]
@@ -906,7 +906,7 @@
   "armory": {
     "sounds": [
       {
-        "name": "theo_scp:armory",
+        "name": "more_scp_alarm:armory",
         "stream": false
       }
     ]
@@ -914,7 +914,7 @@
   "around": {
     "sounds": [
       {
-        "name": "theo_scp:around",
+        "name": "more_scp_alarm:around",
         "stream": false
       }
     ]
@@ -922,7 +922,7 @@
   "arrest": {
     "sounds": [
       {
-        "name": "theo_scp:arrest",
+        "name": "more_scp_alarm:arrest",
         "stream": false
       }
     ]
@@ -930,7 +930,7 @@
   "arrival": {
     "sounds": [
       {
-        "name": "theo_scp:arrival",
+        "name": "more_scp_alarm:arrival",
         "stream": false
       }
     ]
@@ -938,7 +938,7 @@
   "as": {
     "sounds": [
       {
-        "name": "theo_scp:as",
+        "name": "more_scp_alarm:as",
         "stream": false
       }
     ]
@@ -946,7 +946,7 @@
   "at": {
     "sounds": [
       {
-        "name": "theo_scp:at",
+        "name": "more_scp_alarm:at",
         "stream": false
       }
     ]
@@ -954,7 +954,7 @@
   "attack": {
     "sounds": [
       {
-        "name": "theo_scp:attack",
+        "name": "more_scp_alarm:attack",
         "stream": false
       }
     ]
@@ -962,7 +962,7 @@
   "attempt": {
     "sounds": [
       {
-        "name": "theo_scp:attempt",
+        "name": "more_scp_alarm:attempt",
         "stream": false
       }
     ]
@@ -970,7 +970,7 @@
   "attention": {
     "sounds": [
       {
-        "name": "theo_scp:attention",
+        "name": "more_scp_alarm:attention",
         "stream": false
       }
     ]
@@ -978,7 +978,7 @@
   "august": {
     "sounds": [
       {
-        "name": "theo_scp:august",
+        "name": "more_scp_alarm:august",
         "stream": false
       }
     ]
@@ -986,7 +986,7 @@
   "authorized": {
     "sounds": [
       {
-        "name": "theo_scp:authorized",
+        "name": "more_scp_alarm:authorized",
         "stream": false
       }
     ]
@@ -994,7 +994,7 @@
   "automatic": {
     "sounds": [
       {
-        "name": "theo_scp:automatic",
+        "name": "more_scp_alarm:automatic",
         "stream": false
       }
     ]
@@ -1002,7 +1002,7 @@
   "autonomic": {
     "sounds": [
       {
-        "name": "theo_scp:autonomic",
+        "name": "more_scp_alarm:autonomic",
         "stream": false
       }
     ]
@@ -1010,7 +1010,7 @@
   "autonomous": {
     "sounds": [
       {
-        "name": "theo_scp:autonomous",
+        "name": "more_scp_alarm:autonomous",
         "stream": false
       }
     ]
@@ -1018,7 +1018,7 @@
   "available": {
     "sounds": [
       {
-        "name": "theo_scp:available",
+        "name": "more_scp_alarm:available",
         "stream": false
       }
     ]
@@ -1026,7 +1026,7 @@
   "avoid": {
     "sounds": [
       {
-        "name": "theo_scp:avoid",
+        "name": "more_scp_alarm:avoid",
         "stream": false
       }
     ]
@@ -1034,7 +1034,7 @@
   "awating_recontainment": {
     "sounds": [
       {
-        "name": "theo_scp:awating_recontainment",
+        "name": "more_scp_alarm:awating_recontainment",
         "stream": false
       }
     ]
@@ -1042,7 +1042,7 @@
   "away": {
     "sounds": [
       {
-        "name": "theo_scp:away",
+        "name": "more_scp_alarm:away",
         "stream": false
       }
     ]
@@ -1050,7 +1050,7 @@
   "back": {
     "sounds": [
       {
-        "name": "theo_scp:back",
+        "name": "more_scp_alarm:back",
         "stream": false
       }
     ]
@@ -1058,7 +1058,7 @@
   "backup": {
     "sounds": [
       {
-        "name": "theo_scp:backup",
+        "name": "more_scp_alarm:backup",
         "stream": false
       }
     ]
@@ -1066,7 +1066,7 @@
   "bad": {
     "sounds": [
       {
-        "name": "theo_scp:bad",
+        "name": "more_scp_alarm:bad",
         "stream": false
       }
     ]
@@ -1074,7 +1074,7 @@
   "ban": {
     "sounds": [
       {
-        "name": "theo_scp:ban",
+        "name": "more_scp_alarm:ban",
         "stream": false
       }
     ]
@@ -1082,7 +1082,7 @@
   "bank": {
     "sounds": [
       {
-        "name": "theo_scp:bank",
+        "name": "more_scp_alarm:bank",
         "stream": false
       }
     ]
@@ -1090,7 +1090,7 @@
   "base": {
     "sounds": [
       {
-        "name": "theo_scp:base",
+        "name": "more_scp_alarm:base",
         "stream": false
       }
     ]
@@ -1098,7 +1098,7 @@
   "basic": {
     "sounds": [
       {
-        "name": "theo_scp:basic",
+        "name": "more_scp_alarm:basic",
         "stream": false
       }
     ]
@@ -1106,7 +1106,7 @@
   "battery": {
     "sounds": [
       {
-        "name": "theo_scp:battery",
+        "name": "more_scp_alarm:battery",
         "stream": false
       }
     ]
@@ -1114,7 +1114,7 @@
   "be": {
     "sounds": [
       {
-        "name": "theo_scp:be",
+        "name": "more_scp_alarm:be",
         "stream": false
       }
     ]
@@ -1122,7 +1122,7 @@
   "because": {
     "sounds": [
       {
-        "name": "theo_scp:because",
+        "name": "more_scp_alarm:because",
         "stream": false
       }
     ]
@@ -1130,7 +1130,7 @@
   "been": {
     "sounds": [
       {
-        "name": "theo_scp:been",
+        "name": "more_scp_alarm:been",
         "stream": false
       }
     ]
@@ -1138,7 +1138,7 @@
   "begun": {
     "sounds": [
       {
-        "name": "theo_scp:begun",
+        "name": "more_scp_alarm:begun",
         "stream": false
       }
     ]
@@ -1146,7 +1146,7 @@
   "behavior": {
     "sounds": [
       {
-        "name": "theo_scp:behavior",
+        "name": "more_scp_alarm:behavior",
         "stream": false
       }
     ]
@@ -1154,7 +1154,7 @@
   "behind": {
     "sounds": [
       {
-        "name": "theo_scp:behind",
+        "name": "more_scp_alarm:behind",
         "stream": false
       }
     ]
@@ -1162,7 +1162,7 @@
   "being": {
     "sounds": [
       {
-        "name": "theo_scp:being",
+        "name": "more_scp_alarm:being",
         "stream": false
       }
     ]
@@ -1170,7 +1170,7 @@
   "believe": {
     "sounds": [
       {
-        "name": "theo_scp:believe",
+        "name": "more_scp_alarm:believe",
         "stream": false
       }
     ]
@@ -1178,7 +1178,7 @@
   "below": {
     "sounds": [
       {
-        "name": "theo_scp:below",
+        "name": "more_scp_alarm:below",
         "stream": false
       }
     ]
@@ -1186,7 +1186,7 @@
   "beside": {
     "sounds": [
       {
-        "name": "theo_scp:beside",
+        "name": "more_scp_alarm:beside",
         "stream": false
       }
     ]
@@ -1194,7 +1194,7 @@
   "best": {
     "sounds": [
       {
-        "name": "theo_scp:best",
+        "name": "more_scp_alarm:best",
         "stream": false
       }
     ]
@@ -1202,7 +1202,7 @@
   "beta": {
     "sounds": [
       {
-        "name": "theo_scp:beta",
+        "name": "more_scp_alarm:beta",
         "stream": false
       }
     ]
@@ -1210,7 +1210,7 @@
   "between": {
     "sounds": [
       {
-        "name": "theo_scp:between",
+        "name": "more_scp_alarm:between",
         "stream": false
       }
     ]
@@ -1218,7 +1218,7 @@
   "big": {
     "sounds": [
       {
-        "name": "theo_scp:big",
+        "name": "more_scp_alarm:big",
         "stream": false
       }
     ]
@@ -1226,7 +1226,7 @@
   "billiard": {
     "sounds": [
       {
-        "name": "theo_scp:billiard",
+        "name": "more_scp_alarm:billiard",
         "stream": false
       }
     ]
@@ -1234,7 +1234,7 @@
   "biological": {
     "sounds": [
       {
-        "name": "theo_scp:biological",
+        "name": "more_scp_alarm:biological",
         "stream": false
       }
     ]
@@ -1242,7 +1242,7 @@
   "black": {
     "sounds": [
       {
-        "name": "theo_scp:black",
+        "name": "more_scp_alarm:black",
         "stream": false
       }
     ]
@@ -1250,7 +1250,7 @@
   "blast": {
     "sounds": [
       {
-        "name": "theo_scp:blast",
+        "name": "more_scp_alarm:blast",
         "stream": false
       }
     ]
@@ -1258,7 +1258,7 @@
   "blue": {
     "sounds": [
       {
-        "name": "theo_scp:blue",
+        "name": "more_scp_alarm:blue",
         "stream": false
       }
     ]
@@ -1266,7 +1266,7 @@
   "board": {
     "sounds": [
       {
-        "name": "theo_scp:board",
+        "name": "more_scp_alarm:board",
         "stream": false
       }
     ]
@@ -1274,7 +1274,7 @@
   "body": {
     "sounds": [
       {
-        "name": "theo_scp:body",
+        "name": "more_scp_alarm:body",
         "stream": false
       }
     ]
@@ -1282,7 +1282,7 @@
   "both": {
     "sounds": [
       {
-        "name": "theo_scp:both",
+        "name": "more_scp_alarm:both",
         "stream": false
       }
     ]
@@ -1290,7 +1290,7 @@
   "bottom": {
     "sounds": [
       {
-        "name": "theo_scp:bottom",
+        "name": "more_scp_alarm:bottom",
         "stream": false
       }
     ]
@@ -1298,7 +1298,7 @@
   "breach": {
     "sounds": [
       {
-        "name": "theo_scp:breach",
+        "name": "more_scp_alarm:breach",
         "stream": false
       }
     ]
@@ -1306,7 +1306,7 @@
   "break": {
     "sounds": [
       {
-        "name": "theo_scp:break",
+        "name": "more_scp_alarm:break",
         "stream": false
       }
     ]
@@ -1314,7 +1314,7 @@
   "breaker": {
     "sounds": [
       {
-        "name": "theo_scp:breaker",
+        "name": "more_scp_alarm:breaker",
         "stream": false
       }
     ]
@@ -1322,7 +1322,7 @@
   "broad": {
     "sounds": [
       {
-        "name": "theo_scp:broad",
+        "name": "more_scp_alarm:broad",
         "stream": false
       }
     ]
@@ -1330,7 +1330,7 @@
   "broadcast": {
     "sounds": [
       {
-        "name": "theo_scp:broadcast",
+        "name": "more_scp_alarm:broadcast",
         "stream": false
       }
     ]
@@ -1338,7 +1338,7 @@
   "build": {
     "sounds": [
       {
-        "name": "theo_scp:build",
+        "name": "more_scp_alarm:build",
         "stream": false
       }
     ]
@@ -1346,7 +1346,7 @@
   "built": {
     "sounds": [
       {
-        "name": "theo_scp:built",
+        "name": "more_scp_alarm:built",
         "stream": false
       }
     ]
@@ -1354,7 +1354,7 @@
   "but": {
     "sounds": [
       {
-        "name": "theo_scp:but",
+        "name": "more_scp_alarm:but",
         "stream": false
       }
     ]
@@ -1362,7 +1362,7 @@
   "by": {
     "sounds": [
       {
-        "name": "theo_scp:by",
+        "name": "more_scp_alarm:by",
         "stream": false
       }
     ]
@@ -1370,7 +1370,7 @@
   "byte": {
     "sounds": [
       {
-        "name": "theo_scp:byte",
+        "name": "more_scp_alarm:byte",
         "stream": false
       }
     ]
@@ -1378,7 +1378,7 @@
   "cadet": {
     "sounds": [
       {
-        "name": "theo_scp:cadet",
+        "name": "more_scp_alarm:cadet",
         "stream": false
       }
     ]
@@ -1386,7 +1386,7 @@
   "calm": {
     "sounds": [
       {
-        "name": "theo_scp:calm",
+        "name": "more_scp_alarm:calm",
         "stream": false
       }
     ]
@@ -1394,7 +1394,7 @@
   "camera": {
     "sounds": [
       {
-        "name": "theo_scp:camera",
+        "name": "more_scp_alarm:camera",
         "stream": false
       }
     ]
@@ -1402,7 +1402,7 @@
   "can": {
     "sounds": [
       {
-        "name": "theo_scp:can",
+        "name": "more_scp_alarm:can",
         "stream": false
       }
     ]
@@ -1410,7 +1410,7 @@
   "cannot": {
     "sounds": [
       {
-        "name": "theo_scp:cannot",
+        "name": "more_scp_alarm:cannot",
         "stream": false
       }
     ]
@@ -1418,7 +1418,7 @@
   "cant": {
     "sounds": [
       {
-        "name": "theo_scp:cant",
+        "name": "more_scp_alarm:cant",
         "stream": false
       }
     ]
@@ -1426,7 +1426,7 @@
   "capture": {
     "sounds": [
       {
-        "name": "theo_scp:capture",
+        "name": "more_scp_alarm:capture",
         "stream": false
       }
     ]
@@ -1434,7 +1434,7 @@
   "card": {
     "sounds": [
       {
-        "name": "theo_scp:card",
+        "name": "more_scp_alarm:card",
         "stream": false
       }
     ]
@@ -1442,7 +1442,7 @@
   "cassie": {
     "sounds": [
       {
-        "name": "theo_scp:cassie",
+        "name": "more_scp_alarm:cassie",
         "stream": false
       }
     ]
@@ -1450,7 +1450,7 @@
   "cast": {
     "sounds": [
       {
-        "name": "theo_scp:cast",
+        "name": "more_scp_alarm:cast",
         "stream": false
       }
     ]
@@ -1458,7 +1458,7 @@
   "cause": {
     "sounds": [
       {
-        "name": "theo_scp:cause",
+        "name": "more_scp_alarm:cause",
         "stream": false
       }
     ]
@@ -1466,7 +1466,7 @@
   "caution": {
     "sounds": [
       {
-        "name": "theo_scp:caution",
+        "name": "more_scp_alarm:caution",
         "stream": false
       }
     ]
@@ -1474,7 +1474,7 @@
   "cease": {
     "sounds": [
       {
-        "name": "theo_scp:cease",
+        "name": "more_scp_alarm:cease",
         "stream": false
       }
     ]
@@ -1482,7 +1482,7 @@
   "celsius": {
     "sounds": [
       {
-        "name": "theo_scp:celsius",
+        "name": "more_scp_alarm:celsius",
         "stream": false
       }
     ]
@@ -1490,7 +1490,7 @@
   "center": {
     "sounds": [
       {
-        "name": "theo_scp:center",
+        "name": "more_scp_alarm:center",
         "stream": false
       }
     ]
@@ -1498,7 +1498,7 @@
   "centi": {
     "sounds": [
       {
-        "name": "theo_scp:centi",
+        "name": "more_scp_alarm:centi",
         "stream": false
       }
     ]
@@ -1506,7 +1506,7 @@
   "central": {
     "sounds": [
       {
-        "name": "theo_scp:central",
+        "name": "more_scp_alarm:central",
         "stream": false
       }
     ]
@@ -1514,7 +1514,7 @@
   "chamber": {
     "sounds": [
       {
-        "name": "theo_scp:chamber",
+        "name": "more_scp_alarm:chamber",
         "stream": false
       }
     ]
@@ -1522,7 +1522,7 @@
   "chaos": {
     "sounds": [
       {
-        "name": "theo_scp:chaos",
+        "name": "more_scp_alarm:chaos",
         "stream": false
       }
     ]
@@ -1530,7 +1530,7 @@
   "chaosinsurgency": {
     "sounds": [
       {
-        "name": "theo_scp:chaosinsurgency",
+        "name": "more_scp_alarm:chaosinsurgency",
         "stream": false
       }
     ]
@@ -1538,7 +1538,7 @@
   "charge": {
     "sounds": [
       {
-        "name": "theo_scp:charge",
+        "name": "more_scp_alarm:charge",
         "stream": false
       }
     ]
@@ -1546,7 +1546,7 @@
   "check": {
     "sounds": [
       {
-        "name": "theo_scp:check",
+        "name": "more_scp_alarm:check",
         "stream": false
       }
     ]
@@ -1554,7 +1554,7 @@
   "checkpoint": {
     "sounds": [
       {
-        "name": "theo_scp:checkpoint",
+        "name": "more_scp_alarm:checkpoint",
         "stream": false
       }
     ]
@@ -1562,7 +1562,7 @@
   "chi": {
     "sounds": [
       {
-        "name": "theo_scp:chi",
+        "name": "more_scp_alarm:chi",
         "stream": false
       }
     ]
@@ -1570,7 +1570,7 @@
   "class": {
     "sounds": [
       {
-        "name": "theo_scp:class",
+        "name": "more_scp_alarm:class",
         "stream": false
       }
     ]
@@ -1578,7 +1578,7 @@
   "classd": {
     "sounds": [
       {
-        "name": "theo_scp:classd",
+        "name": "more_scp_alarm:classd",
         "stream": false
       }
     ]
@@ -1586,7 +1586,7 @@
   "clearance": {
     "sounds": [
       {
-        "name": "theo_scp:clearance",
+        "name": "more_scp_alarm:clearance",
         "stream": false
       }
     ]
@@ -1594,7 +1594,7 @@
   "close": {
     "sounds": [
       {
-        "name": "theo_scp:close",
+        "name": "more_scp_alarm:close",
         "stream": false
       }
     ]
@@ -1602,7 +1602,7 @@
   "closed": {
     "sounds": [
       {
-        "name": "theo_scp:closed",
+        "name": "more_scp_alarm:closed",
         "stream": false
       }
     ]
@@ -1610,7 +1610,7 @@
   "code": {
     "sounds": [
       {
-        "name": "theo_scp:code",
+        "name": "more_scp_alarm:code",
         "stream": false
       }
     ]
@@ -1618,7 +1618,7 @@
   "come": {
     "sounds": [
       {
-        "name": "theo_scp:come",
+        "name": "more_scp_alarm:come",
         "stream": false
       }
     ]
@@ -1626,7 +1626,7 @@
   "commander": {
     "sounds": [
       {
-        "name": "theo_scp:commander",
+        "name": "more_scp_alarm:commander",
         "stream": false
       }
     ]
@@ -1634,7 +1634,7 @@
   "commencing": {
     "sounds": [
       {
-        "name": "theo_scp:commencing",
+        "name": "more_scp_alarm:commencing",
         "stream": false
       }
     ]
@@ -1642,7 +1642,7 @@
   "community": {
     "sounds": [
       {
-        "name": "theo_scp:community",
+        "name": "more_scp_alarm:community",
         "stream": false
       }
     ]
@@ -1650,7 +1650,7 @@
   "complete": {
     "sounds": [
       {
-        "name": "theo_scp:complete",
+        "name": "more_scp_alarm:complete",
         "stream": false
       }
     ]
@@ -1658,7 +1658,7 @@
   "completed": {
     "sounds": [
       {
-        "name": "theo_scp:completed",
+        "name": "more_scp_alarm:completed",
         "stream": false
       }
     ]
@@ -1666,7 +1666,7 @@
   "complex": {
     "sounds": [
       {
-        "name": "theo_scp:complex",
+        "name": "more_scp_alarm:complex",
         "stream": false
       }
     ]
@@ -1674,7 +1674,7 @@
   "condition": {
     "sounds": [
       {
-        "name": "theo_scp:condition",
+        "name": "more_scp_alarm:condition",
         "stream": false
       }
     ]
@@ -1682,7 +1682,7 @@
   "confirm": {
     "sounds": [
       {
-        "name": "theo_scp:confirm",
+        "name": "more_scp_alarm:confirm",
         "stream": false
       }
     ]
@@ -1690,7 +1690,7 @@
   "console": {
     "sounds": [
       {
-        "name": "theo_scp:console",
+        "name": "more_scp_alarm:console",
         "stream": false
       }
     ]
@@ -1698,7 +1698,7 @@
   "contain": {
     "sounds": [
       {
-        "name": "theo_scp:contain",
+        "name": "more_scp_alarm:contain",
         "stream": false
       }
     ]
@@ -1706,7 +1706,7 @@
   "contained": {
     "sounds": [
       {
-        "name": "theo_scp:contained",
+        "name": "more_scp_alarm:contained",
         "stream": false
       }
     ]
@@ -1714,7 +1714,7 @@
   "contained_successfully": {
     "sounds": [
       {
-        "name": "theo_scp:contained_successfully",
+        "name": "more_scp_alarm:contained_successfully",
         "stream": false
       }
     ]
@@ -1722,7 +1722,7 @@
   "containment": {
     "sounds": [
       {
-        "name": "theo_scp:containment",
+        "name": "more_scp_alarm:containment",
         "stream": false
       }
     ]
@@ -1730,7 +1730,7 @@
   "containment_unit": {
     "sounds": [
       {
-        "name": "theo_scp:containment_unit",
+        "name": "more_scp_alarm:containment_unit",
         "stream": false
       }
     ]
@@ -1738,7 +1738,7 @@
   "contamination": {
     "sounds": [
       {
-        "name": "theo_scp:contamination",
+        "name": "more_scp_alarm:contamination",
         "stream": false
       }
     ]
@@ -1746,7 +1746,7 @@
   "continue": {
     "sounds": [
       {
-        "name": "theo_scp:continue",
+        "name": "more_scp_alarm:continue",
         "stream": false
       }
     ]
@@ -1754,7 +1754,7 @@
   "control": {
     "sounds": [
       {
-        "name": "theo_scp:control",
+        "name": "more_scp_alarm:control",
         "stream": false
       }
     ]
@@ -1762,7 +1762,7 @@
   "cooperate": {
     "sounds": [
       {
-        "name": "theo_scp:cooperate",
+        "name": "more_scp_alarm:cooperate",
         "stream": false
       }
     ]
@@ -1770,7 +1770,7 @@
   "core": {
     "sounds": [
       {
-        "name": "theo_scp:core",
+        "name": "more_scp_alarm:core",
         "stream": false
       }
     ]
@@ -1778,7 +1778,7 @@
   "correct": {
     "sounds": [
       {
-        "name": "theo_scp:correct",
+        "name": "more_scp_alarm:correct",
         "stream": false
       }
     ]
@@ -1786,7 +1786,7 @@
   "corrupted": {
     "sounds": [
       {
-        "name": "theo_scp:corrupted",
+        "name": "more_scp_alarm:corrupted",
         "stream": false
       }
     ]
@@ -1794,7 +1794,7 @@
   "corruption": {
     "sounds": [
       {
-        "name": "theo_scp:corruption",
+        "name": "more_scp_alarm:corruption",
         "stream": false
       }
     ]
@@ -1802,7 +1802,7 @@
   "could": {
     "sounds": [
       {
-        "name": "theo_scp:could",
+        "name": "more_scp_alarm:could",
         "stream": false
       }
     ]
@@ -1810,7 +1810,7 @@
   "course": {
     "sounds": [
       {
-        "name": "theo_scp:course",
+        "name": "more_scp_alarm:course",
         "stream": false
       }
     ]
@@ -1818,7 +1818,7 @@
   "credit": {
     "sounds": [
       {
-        "name": "theo_scp:credit",
+        "name": "more_scp_alarm:credit",
         "stream": false
       }
     ]
@@ -1826,7 +1826,7 @@
   "critical": {
     "sounds": [
       {
-        "name": "theo_scp:critical",
+        "name": "more_scp_alarm:critical",
         "stream": false
       }
     ]
@@ -1834,7 +1834,7 @@
   "current": {
     "sounds": [
       {
-        "name": "theo_scp:current",
+        "name": "more_scp_alarm:current",
         "stream": false
       }
     ]
@@ -1842,7 +1842,7 @@
   "curved": {
     "sounds": [
       {
-        "name": "theo_scp:curved",
+        "name": "more_scp_alarm:curved",
         "stream": false
       }
     ]
@@ -1850,7 +1850,7 @@
   "damage": {
     "sounds": [
       {
-        "name": "theo_scp:damage",
+        "name": "more_scp_alarm:damage",
         "stream": false
       }
     ]
@@ -1858,7 +1858,7 @@
   "danger": {
     "sounds": [
       {
-        "name": "theo_scp:danger",
+        "name": "more_scp_alarm:danger",
         "stream": false
       }
     ]
@@ -1866,7 +1866,7 @@
   "dark": {
     "sounds": [
       {
-        "name": "theo_scp:dark",
+        "name": "more_scp_alarm:dark",
         "stream": false
       }
     ]
@@ -1874,7 +1874,7 @@
   "data": {
     "sounds": [
       {
-        "name": "theo_scp:data",
+        "name": "more_scp_alarm:data",
         "stream": false
       }
     ]
@@ -1882,7 +1882,7 @@
   "date": {
     "sounds": [
       {
-        "name": "theo_scp:date",
+        "name": "more_scp_alarm:date",
         "stream": false
       }
     ]
@@ -1890,7 +1890,7 @@
   "day": {
     "sounds": [
       {
-        "name": "theo_scp:day",
+        "name": "more_scp_alarm:day",
         "stream": false
       }
     ]
@@ -1898,7 +1898,7 @@
   "deactivate": {
     "sounds": [
       {
-        "name": "theo_scp:deactivate",
+        "name": "more_scp_alarm:deactivate",
         "stream": false
       }
     ]
@@ -1906,7 +1906,7 @@
   "deactivated": {
     "sounds": [
       {
-        "name": "theo_scp:deactivated",
+        "name": "more_scp_alarm:deactivated",
         "stream": false
       }
     ]
@@ -1914,7 +1914,7 @@
   "dead": {
     "sounds": [
       {
-        "name": "theo_scp:dead",
+        "name": "more_scp_alarm:dead",
         "stream": false
       }
     ]
@@ -1922,7 +1922,7 @@
   "deca": {
     "sounds": [
       {
-        "name": "theo_scp:deca",
+        "name": "more_scp_alarm:deca",
         "stream": false
       }
     ]
@@ -1930,7 +1930,7 @@
   "december": {
     "sounds": [
       {
-        "name": "theo_scp:december",
+        "name": "more_scp_alarm:december",
         "stream": false
       }
     ]
@@ -1938,7 +1938,7 @@
   "deci": {
     "sounds": [
       {
-        "name": "theo_scp:deci",
+        "name": "more_scp_alarm:deci",
         "stream": false
       }
     ]
@@ -1946,7 +1946,7 @@
   "decision": {
     "sounds": [
       {
-        "name": "theo_scp:decision",
+        "name": "more_scp_alarm:decision",
         "stream": false
       }
     ]
@@ -1954,7 +1954,7 @@
   "decontamination": {
     "sounds": [
       {
-        "name": "theo_scp:decontamination",
+        "name": "more_scp_alarm:decontamination",
         "stream": false
       }
     ]
@@ -1962,7 +1962,7 @@
   "decrease": {
     "sounds": [
       {
-        "name": "theo_scp:decrease",
+        "name": "more_scp_alarm:decrease",
         "stream": false
       }
     ]
@@ -1970,7 +1970,7 @@
   "defence": {
     "sounds": [
       {
-        "name": "theo_scp:defence",
+        "name": "more_scp_alarm:defence",
         "stream": false
       }
     ]
@@ -1978,7 +1978,7 @@
   "degrees": {
     "sounds": [
       {
-        "name": "theo_scp:degrees",
+        "name": "more_scp_alarm:degrees",
         "stream": false
       }
     ]
@@ -1986,7 +1986,7 @@
   "delta": {
     "sounds": [
       {
-        "name": "theo_scp:delta",
+        "name": "more_scp_alarm:delta",
         "stream": false
       }
     ]
@@ -1994,7 +1994,7 @@
   "denied": {
     "sounds": [
       {
-        "name": "theo_scp:denied",
+        "name": "more_scp_alarm:denied",
         "stream": false
       }
     ]
@@ -2002,7 +2002,7 @@
   "designated": {
     "sounds": [
       {
-        "name": "theo_scp:designated",
+        "name": "more_scp_alarm:designated",
         "stream": false
       }
     ]
@@ -2010,7 +2010,7 @@
   "destroy": {
     "sounds": [
       {
-        "name": "theo_scp:destroy",
+        "name": "more_scp_alarm:destroy",
         "stream": false
       }
     ]
@@ -2018,7 +2018,7 @@
   "destroyed": {
     "sounds": [
       {
-        "name": "theo_scp:destroyed",
+        "name": "more_scp_alarm:destroyed",
         "stream": false
       }
     ]
@@ -2026,7 +2026,7 @@
   "destruct": {
     "sounds": [
       {
-        "name": "theo_scp:destruct",
+        "name": "more_scp_alarm:destruct",
         "stream": false
       }
     ]
@@ -2034,7 +2034,7 @@
   "destructed": {
     "sounds": [
       {
-        "name": "theo_scp:destructed",
+        "name": "more_scp_alarm:destructed",
         "stream": false
       }
     ]
@@ -2042,7 +2042,7 @@
   "destruction": {
     "sounds": [
       {
-        "name": "theo_scp:destruction",
+        "name": "more_scp_alarm:destruction",
         "stream": false
       }
     ]
@@ -2050,7 +2050,7 @@
   "detected": {
     "sounds": [
       {
-        "name": "theo_scp:detected",
+        "name": "more_scp_alarm:detected",
         "stream": false
       }
     ]
@@ -2058,7 +2058,7 @@
   "detonate": {
     "sounds": [
       {
-        "name": "theo_scp:detonate",
+        "name": "more_scp_alarm:detonate",
         "stream": false
       }
     ]
@@ -2066,7 +2066,7 @@
   "detonated": {
     "sounds": [
       {
-        "name": "theo_scp:detonated",
+        "name": "more_scp_alarm:detonated",
         "stream": false
       }
     ]
@@ -2074,7 +2074,7 @@
   "detonating": {
     "sounds": [
       {
-        "name": "theo_scp:detonating",
+        "name": "more_scp_alarm:detonating",
         "stream": false
       }
     ]
@@ -2082,7 +2082,7 @@
   "detonation": {
     "sounds": [
       {
-        "name": "theo_scp:detonation",
+        "name": "more_scp_alarm:detonation",
         "stream": false
       }
     ]
@@ -2090,7 +2090,7 @@
   "device": {
     "sounds": [
       {
-        "name": "theo_scp:device",
+        "name": "more_scp_alarm:device",
         "stream": false
       }
     ]
@@ -2098,7 +2098,7 @@
   "diagnostic": {
     "sounds": [
       {
-        "name": "theo_scp:diagnostic",
+        "name": "more_scp_alarm:diagnostic",
         "stream": false
       }
     ]
@@ -2106,7 +2106,7 @@
   "did": {
     "sounds": [
       {
-        "name": "theo_scp:did",
+        "name": "more_scp_alarm:did",
         "stream": false
       }
     ]
@@ -2114,7 +2114,7 @@
   "die": {
     "sounds": [
       {
-        "name": "theo_scp:die",
+        "name": "more_scp_alarm:die",
         "stream": false
       }
     ]
@@ -2122,7 +2122,7 @@
   "diesel": {
     "sounds": [
       {
-        "name": "theo_scp:diesel",
+        "name": "more_scp_alarm:diesel",
         "stream": false
       }
     ]
@@ -2130,7 +2130,7 @@
   "different": {
     "sounds": [
       {
-        "name": "theo_scp:different",
+        "name": "more_scp_alarm:different",
         "stream": false
       }
     ]
@@ -2138,7 +2138,7 @@
   "digital": {
     "sounds": [
       {
-        "name": "theo_scp:digital",
+        "name": "more_scp_alarm:digital",
         "stream": false
       }
     ]
@@ -2146,7 +2146,7 @@
   "dimention": {
     "sounds": [
       {
-        "name": "theo_scp:dimention",
+        "name": "more_scp_alarm:dimention",
         "stream": false
       }
     ]
@@ -2154,7 +2154,7 @@
   "disable": {
     "sounds": [
       {
-        "name": "theo_scp:disable",
+        "name": "more_scp_alarm:disable",
         "stream": false
       }
     ]
@@ -2162,7 +2162,7 @@
   "disabled": {
     "sounds": [
       {
-        "name": "theo_scp:disabled",
+        "name": "more_scp_alarm:disabled",
         "stream": false
       }
     ]
@@ -2170,7 +2170,7 @@
   "disables": {
     "sounds": [
       {
-        "name": "theo_scp:disables",
+        "name": "more_scp_alarm:disables",
         "stream": false
       }
     ]
@@ -2178,7 +2178,7 @@
   "discharge": {
     "sounds": [
       {
-        "name": "theo_scp:discharge",
+        "name": "more_scp_alarm:discharge",
         "stream": false
       }
     ]
@@ -2186,7 +2186,7 @@
   "disease": {
     "sounds": [
       {
-        "name": "theo_scp:disease",
+        "name": "more_scp_alarm:disease",
         "stream": false
       }
     ]
@@ -2194,7 +2194,7 @@
   "disengaged": {
     "sounds": [
       {
-        "name": "theo_scp:disengaged",
+        "name": "more_scp_alarm:disengaged",
         "stream": false
       }
     ]
@@ -2202,7 +2202,7 @@
   "distance": {
     "sounds": [
       {
-        "name": "theo_scp:distance",
+        "name": "more_scp_alarm:distance",
         "stream": false
       }
     ]
@@ -2210,7 +2210,7 @@
   "divided": {
     "sounds": [
       {
-        "name": "theo_scp:divided",
+        "name": "more_scp_alarm:divided",
         "stream": false
       }
     ]
@@ -2218,7 +2218,7 @@
   "division": {
     "sounds": [
       {
-        "name": "theo_scp:division",
+        "name": "more_scp_alarm:division",
         "stream": false
       }
     ]
@@ -2226,7 +2226,7 @@
   "do": {
     "sounds": [
       {
-        "name": "theo_scp:do",
+        "name": "more_scp_alarm:do",
         "stream": false
       }
     ]
@@ -2234,7 +2234,7 @@
   "doctor": {
     "sounds": [
       {
-        "name": "theo_scp:doctor",
+        "name": "more_scp_alarm:doctor",
         "stream": false
       }
     ]
@@ -2242,7 +2242,7 @@
   "does": {
     "sounds": [
       {
-        "name": "theo_scp:does",
+        "name": "more_scp_alarm:does",
         "stream": false
       }
     ]
@@ -2250,7 +2250,7 @@
   "done": {
     "sounds": [
       {
-        "name": "theo_scp:done",
+        "name": "more_scp_alarm:done",
         "stream": false
       }
     ]
@@ -2258,7 +2258,7 @@
   "door": {
     "sounds": [
       {
-        "name": "theo_scp:door",
+        "name": "more_scp_alarm:door",
         "stream": false
       }
     ]
@@ -2266,7 +2266,7 @@
   "doors": {
     "sounds": [
       {
-        "name": "theo_scp:doors",
+        "name": "more_scp_alarm:doors",
         "stream": false
       }
     ]
@@ -2274,7 +2274,7 @@
   "dose": {
     "sounds": [
       {
-        "name": "theo_scp:dose",
+        "name": "more_scp_alarm:dose",
         "stream": false
       }
     ]
@@ -2282,7 +2282,7 @@
   "down": {
     "sounds": [
       {
-        "name": "theo_scp:down",
+        "name": "more_scp_alarm:down",
         "stream": false
       }
     ]
@@ -2290,7 +2290,7 @@
   "earth": {
     "sounds": [
       {
-        "name": "theo_scp:earth",
+        "name": "more_scp_alarm:earth",
         "stream": false
       }
     ]
@@ -2298,7 +2298,7 @@
   "east": {
     "sounds": [
       {
-        "name": "theo_scp:east",
+        "name": "more_scp_alarm:east",
         "stream": false
       }
     ]
@@ -2306,7 +2306,7 @@
   "ed": {
     "sounds": [
       {
-        "name": "theo_scp:ed",
+        "name": "more_scp_alarm:ed",
         "stream": false
       }
     ]
@@ -2314,7 +2314,7 @@
   "effect": {
     "sounds": [
       {
-        "name": "theo_scp:effect",
+        "name": "more_scp_alarm:effect",
         "stream": false
       }
     ]
@@ -2322,7 +2322,7 @@
   "either": {
     "sounds": [
       {
-        "name": "theo_scp:either",
+        "name": "more_scp_alarm:either",
         "stream": false
       }
     ]
@@ -2330,7 +2330,7 @@
   "electric": {
     "sounds": [
       {
-        "name": "theo_scp:electric",
+        "name": "more_scp_alarm:electric",
         "stream": false
       }
     ]
@@ -2338,7 +2338,7 @@
   "electromagnetism": {
     "sounds": [
       {
-        "name": "theo_scp:electromagnetism",
+        "name": "more_scp_alarm:electromagnetism",
         "stream": false
       }
     ]
@@ -2346,7 +2346,7 @@
   "elevator": {
     "sounds": [
       {
-        "name": "theo_scp:elevator",
+        "name": "more_scp_alarm:elevator",
         "stream": false
       }
     ]
@@ -2354,7 +2354,7 @@
   "elevators": {
     "sounds": [
       {
-        "name": "theo_scp:elevators",
+        "name": "more_scp_alarm:elevators",
         "stream": false
       }
     ]
@@ -2362,7 +2362,7 @@
   "emergency": {
     "sounds": [
       {
-        "name": "theo_scp:emergency",
+        "name": "more_scp_alarm:emergency",
         "stream": false
       }
     ]
@@ -2370,7 +2370,7 @@
   "empty": {
     "sounds": [
       {
-        "name": "theo_scp:empty",
+        "name": "more_scp_alarm:empty",
         "stream": false
       }
     ]
@@ -2378,7 +2378,7 @@
   "enable": {
     "sounds": [
       {
-        "name": "theo_scp:enable",
+        "name": "more_scp_alarm:enable",
         "stream": false
       }
     ]
@@ -2386,7 +2386,7 @@
   "enabled": {
     "sounds": [
       {
-        "name": "theo_scp:enabled",
+        "name": "more_scp_alarm:enabled",
         "stream": false
       }
     ]
@@ -2394,7 +2394,7 @@
   "enables": {
     "sounds": [
       {
-        "name": "theo_scp:enables",
+        "name": "more_scp_alarm:enables",
         "stream": false
       }
     ]
@@ -2402,7 +2402,7 @@
   "end": {
     "sounds": [
       {
-        "name": "theo_scp:end",
+        "name": "more_scp_alarm:end",
         "stream": false
       }
     ]
@@ -2410,7 +2410,7 @@
   "engaged": {
     "sounds": [
       {
-        "name": "theo_scp:engaged",
+        "name": "more_scp_alarm:engaged",
         "stream": false
       }
     ]
@@ -2418,7 +2418,7 @@
   "engine": {
     "sounds": [
       {
-        "name": "theo_scp:engine",
+        "name": "more_scp_alarm:engine",
         "stream": false
       }
     ]
@@ -2426,7 +2426,7 @@
   "enough": {
     "sounds": [
       {
-        "name": "theo_scp:enough",
+        "name": "more_scp_alarm:enough",
         "stream": false
       }
     ]
@@ -2434,7 +2434,7 @@
   "enter": {
     "sounds": [
       {
-        "name": "theo_scp:enter",
+        "name": "more_scp_alarm:enter",
         "stream": false
       }
     ]
@@ -2442,7 +2442,7 @@
   "entire": {
     "sounds": [
       {
-        "name": "theo_scp:entire",
+        "name": "more_scp_alarm:entire",
         "stream": false
       }
     ]
@@ -2450,7 +2450,7 @@
   "entrance": {
     "sounds": [
       {
-        "name": "theo_scp:entrance",
+        "name": "more_scp_alarm:entrance",
         "stream": false
       }
     ]
@@ -2458,7 +2458,7 @@
   "epsilon": {
     "sounds": [
       {
-        "name": "theo_scp:epsilon",
+        "name": "more_scp_alarm:epsilon",
         "stream": false
       }
     ]
@@ -2466,7 +2466,7 @@
   "equal": {
     "sounds": [
       {
-        "name": "theo_scp:equal",
+        "name": "more_scp_alarm:equal",
         "stream": false
       }
     ]
@@ -2474,7 +2474,7 @@
   "equals": {
     "sounds": [
       {
-        "name": "theo_scp:equals",
+        "name": "more_scp_alarm:equals",
         "stream": false
       }
     ]
@@ -2482,7 +2482,7 @@
   "error": {
     "sounds": [
       {
-        "name": "theo_scp:error",
+        "name": "more_scp_alarm:error",
         "stream": false
       }
     ]
@@ -2490,7 +2490,7 @@
   "escape": {
     "sounds": [
       {
-        "name": "theo_scp:escape",
+        "name": "more_scp_alarm:escape",
         "stream": false
       }
     ]
@@ -2498,7 +2498,7 @@
   "escort": {
     "sounds": [
       {
-        "name": "theo_scp:escort",
+        "name": "more_scp_alarm:escort",
         "stream": false
       }
     ]
@@ -2506,7 +2506,7 @@
   "escort2": {
     "sounds": [
       {
-        "name": "theo_scp:escort2",
+        "name": "more_scp_alarm:escort2",
         "stream": false
       }
     ]
@@ -2514,7 +2514,7 @@
   "essential": {
     "sounds": [
       {
-        "name": "theo_scp:essential",
+        "name": "more_scp_alarm:essential",
         "stream": false
       }
     ]
@@ -2522,7 +2522,7 @@
   "estimated": {
     "sounds": [
       {
-        "name": "theo_scp:estimated",
+        "name": "more_scp_alarm:estimated",
         "stream": false
       }
     ]
@@ -2530,7 +2530,7 @@
   "eta": {
     "sounds": [
       {
-        "name": "theo_scp:eta",
+        "name": "more_scp_alarm:eta",
         "stream": false
       }
     ]
@@ -2538,7 +2538,7 @@
   "euclid": {
     "sounds": [
       {
-        "name": "theo_scp:euclid",
+        "name": "more_scp_alarm:euclid",
         "stream": false
       }
     ]
@@ -2546,7 +2546,7 @@
   "evacuate": {
     "sounds": [
       {
-        "name": "theo_scp:evacuate",
+        "name": "more_scp_alarm:evacuate",
         "stream": false
       }
     ]
@@ -2554,7 +2554,7 @@
   "evacuation": {
     "sounds": [
       {
-        "name": "theo_scp:evacuation",
+        "name": "more_scp_alarm:evacuation",
         "stream": false
       }
     ]
@@ -2562,7 +2562,7 @@
   "evasion": {
     "sounds": [
       {
-        "name": "theo_scp:evasion",
+        "name": "more_scp_alarm:evasion",
         "stream": false
       }
     ]
@@ -2570,7 +2570,7 @@
   "even": {
     "sounds": [
       {
-        "name": "theo_scp:even",
+        "name": "more_scp_alarm:even",
         "stream": false
       }
     ]
@@ -2578,7 +2578,7 @@
   "ever": {
     "sounds": [
       {
-        "name": "theo_scp:ever",
+        "name": "more_scp_alarm:ever",
         "stream": false
       }
     ]
@@ -2586,7 +2586,7 @@
   "every": {
     "sounds": [
       {
-        "name": "theo_scp:every",
+        "name": "more_scp_alarm:every",
         "stream": false
       }
     ]
@@ -2594,7 +2594,7 @@
   "evidence": {
     "sounds": [
       {
-        "name": "theo_scp:evidence",
+        "name": "more_scp_alarm:evidence",
         "stream": false
       }
     ]
@@ -2602,7 +2602,7 @@
   "except": {
     "sounds": [
       {
-        "name": "theo_scp:except",
+        "name": "more_scp_alarm:except",
         "stream": false
       }
     ]
@@ -2610,7 +2610,7 @@
   "exception": {
     "sounds": [
       {
-        "name": "theo_scp:exception",
+        "name": "more_scp_alarm:exception",
         "stream": false
       }
     ]
@@ -2618,7 +2618,7 @@
   "exclude": {
     "sounds": [
       {
-        "name": "theo_scp:exclude",
+        "name": "more_scp_alarm:exclude",
         "stream": false
       }
     ]
@@ -2626,7 +2626,7 @@
   "exclusion": {
     "sounds": [
       {
-        "name": "theo_scp:exclusion",
+        "name": "more_scp_alarm:exclusion",
         "stream": false
       }
     ]
@@ -2634,7 +2634,7 @@
   "execute": {
     "sounds": [
       {
-        "name": "theo_scp:execute",
+        "name": "more_scp_alarm:execute",
         "stream": false
       }
     ]
@@ -2642,7 +2642,7 @@
   "executed": {
     "sounds": [
       {
-        "name": "theo_scp:executed",
+        "name": "more_scp_alarm:executed",
         "stream": false
       }
     ]
@@ -2650,7 +2650,7 @@
   "executive": {
     "sounds": [
       {
-        "name": "theo_scp:executive",
+        "name": "more_scp_alarm:executive",
         "stream": false
       }
     ]
@@ -2658,7 +2658,7 @@
   "exit": {
     "sounds": [
       {
-        "name": "theo_scp:exit",
+        "name": "more_scp_alarm:exit",
         "stream": false
       }
     ]
@@ -2666,7 +2666,7 @@
   "expiration": {
     "sounds": [
       {
-        "name": "theo_scp:expiration",
+        "name": "more_scp_alarm:expiration",
         "stream": false
       }
     ]
@@ -2674,7 +2674,7 @@
   "explain": {
     "sounds": [
       {
-        "name": "theo_scp:explain",
+        "name": "more_scp_alarm:explain",
         "stream": false
       }
     ]
@@ -2682,7 +2682,7 @@
   "explosion": {
     "sounds": [
       {
-        "name": "theo_scp:explosion",
+        "name": "more_scp_alarm:explosion",
         "stream": false
       }
     ]
@@ -2690,7 +2690,7 @@
   "explosive": {
     "sounds": [
       {
-        "name": "theo_scp:explosive",
+        "name": "more_scp_alarm:explosive",
         "stream": false
       }
     ]
@@ -2698,7 +2698,7 @@
   "expunged": {
     "sounds": [
       {
-        "name": "theo_scp:expunged",
+        "name": "more_scp_alarm:expunged",
         "stream": false
       }
     ]
@@ -2706,7 +2706,7 @@
   "external": {
     "sounds": [
       {
-        "name": "theo_scp:external",
+        "name": "more_scp_alarm:external",
         "stream": false
       }
     ]
@@ -2714,7 +2714,7 @@
   "extinguishment": {
     "sounds": [
       {
-        "name": "theo_scp:extinguishment",
+        "name": "more_scp_alarm:extinguishment",
         "stream": false
       }
     ]
@@ -2722,7 +2722,7 @@
   "extremely": {
     "sounds": [
       {
-        "name": "theo_scp:extremely",
+        "name": "more_scp_alarm:extremely",
         "stream": false
       }
     ]
@@ -2730,7 +2730,7 @@
   "facility": {
     "sounds": [
       {
-        "name": "theo_scp:facility",
+        "name": "more_scp_alarm:facility",
         "stream": false
       }
     ]
@@ -2738,7 +2738,7 @@
   "fahrenheit": {
     "sounds": [
       {
-        "name": "theo_scp:fahrenheit",
+        "name": "more_scp_alarm:fahrenheit",
         "stream": false
       }
     ]
@@ -2746,7 +2746,7 @@
   "failed": {
     "sounds": [
       {
-        "name": "theo_scp:failed",
+        "name": "more_scp_alarm:failed",
         "stream": false
       }
     ]
@@ -2754,7 +2754,7 @@
   "failure": {
     "sounds": [
       {
-        "name": "theo_scp:failure",
+        "name": "more_scp_alarm:failure",
         "stream": false
       }
     ]
@@ -2762,7 +2762,7 @@
   "false": {
     "sounds": [
       {
-        "name": "theo_scp:false",
+        "name": "more_scp_alarm:false",
         "stream": false
       }
     ]
@@ -2770,7 +2770,7 @@
   "far": {
     "sounds": [
       {
-        "name": "theo_scp:far",
+        "name": "more_scp_alarm:far",
         "stream": false
       }
     ]
@@ -2778,7 +2778,7 @@
   "february": {
     "sounds": [
       {
-        "name": "theo_scp:february",
+        "name": "more_scp_alarm:february",
         "stream": false
       }
     ]
@@ -2786,7 +2786,7 @@
   "feel": {
     "sounds": [
       {
-        "name": "theo_scp:feel",
+        "name": "more_scp_alarm:feel",
         "stream": false
       }
     ]
@@ -2794,7 +2794,7 @@
   "femur": {
     "sounds": [
       {
-        "name": "theo_scp:femur",
+        "name": "more_scp_alarm:femur",
         "stream": false
       }
     ]
@@ -2802,7 +2802,7 @@
   "few": {
     "sounds": [
       {
-        "name": "theo_scp:few",
+        "name": "more_scp_alarm:few",
         "stream": false
       }
     ]
@@ -2810,7 +2810,7 @@
   "field": {
     "sounds": [
       {
-        "name": "theo_scp:field",
+        "name": "more_scp_alarm:field",
         "stream": false
       }
     ]
@@ -2818,7 +2818,7 @@
   "find": {
     "sounds": [
       {
-        "name": "theo_scp:find",
+        "name": "more_scp_alarm:find",
         "stream": false
       }
     ]
@@ -2826,7 +2826,7 @@
   "fine": {
     "sounds": [
       {
-        "name": "theo_scp:fine",
+        "name": "more_scp_alarm:fine",
         "stream": false
       }
     ]
@@ -2834,7 +2834,7 @@
   "finished": {
     "sounds": [
       {
-        "name": "theo_scp:finished",
+        "name": "more_scp_alarm:finished",
         "stream": false
       }
     ]
@@ -2842,7 +2842,7 @@
   "fire": {
     "sounds": [
       {
-        "name": "theo_scp:fire",
+        "name": "more_scp_alarm:fire",
         "stream": false
       }
     ]
@@ -2850,7 +2850,7 @@
   "first": {
     "sounds": [
       {
-        "name": "theo_scp:first",
+        "name": "more_scp_alarm:first",
         "stream": false
       }
     ]
@@ -2858,7 +2858,7 @@
   "for": {
     "sounds": [
       {
-        "name": "theo_scp:for",
+        "name": "more_scp_alarm:for",
         "stream": false
       }
     ]
@@ -2866,7 +2866,7 @@
   "force": {
     "sounds": [
       {
-        "name": "theo_scp:force",
+        "name": "more_scp_alarm:force",
         "stream": false
       }
     ]
@@ -2874,7 +2874,7 @@
   "forward": {
     "sounds": [
       {
-        "name": "theo_scp:forward",
+        "name": "more_scp_alarm:forward",
         "stream": false
       }
     ]
@@ -2882,7 +2882,7 @@
   "found": {
     "sounds": [
       {
-        "name": "theo_scp:found",
+        "name": "more_scp_alarm:found",
         "stream": false
       }
     ]
@@ -2890,7 +2890,7 @@
   "foundation": {
     "sounds": [
       {
-        "name": "theo_scp:foundation",
+        "name": "more_scp_alarm:foundation",
         "stream": false
       }
     ]
@@ -2898,7 +2898,7 @@
   "frequency": {
     "sounds": [
       {
-        "name": "theo_scp:frequency",
+        "name": "more_scp_alarm:frequency",
         "stream": false
       }
     ]
@@ -2906,7 +2906,7 @@
   "friday": {
     "sounds": [
       {
-        "name": "theo_scp:friday",
+        "name": "more_scp_alarm:friday",
         "stream": false
       }
     ]
@@ -2914,7 +2914,7 @@
   "from": {
     "sounds": [
       {
-        "name": "theo_scp:from",
+        "name": "more_scp_alarm:from",
         "stream": false
       }
     ]
@@ -2922,7 +2922,7 @@
   "front": {
     "sounds": [
       {
-        "name": "theo_scp:front",
+        "name": "more_scp_alarm:front",
         "stream": false
       }
     ]
@@ -2930,7 +2930,7 @@
   "fuel": {
     "sounds": [
       {
-        "name": "theo_scp:fuel",
+        "name": "more_scp_alarm:fuel",
         "stream": false
       }
     ]
@@ -2938,7 +2938,7 @@
   "full": {
     "sounds": [
       {
-        "name": "theo_scp:full",
+        "name": "more_scp_alarm:full",
         "stream": false
       }
     ]
@@ -2946,7 +2946,7 @@
   "g1": {
     "sounds": [
       {
-        "name": "theo_scp:g1",
+        "name": "more_scp_alarm:g1",
         "stream": false
       }
     ]
@@ -2954,7 +2954,7 @@
   "g2": {
     "sounds": [
       {
-        "name": "theo_scp:g2",
+        "name": "more_scp_alarm:g2",
         "stream": false
       }
     ]
@@ -2962,7 +2962,7 @@
   "g3": {
     "sounds": [
       {
-        "name": "theo_scp:g3",
+        "name": "more_scp_alarm:g3",
         "stream": false
       }
     ]
@@ -2970,7 +2970,7 @@
   "g4": {
     "sounds": [
       {
-        "name": "theo_scp:g4",
+        "name": "more_scp_alarm:g4",
         "stream": false
       }
     ]
@@ -2978,7 +2978,7 @@
   "g5": {
     "sounds": [
       {
-        "name": "theo_scp:g5",
+        "name": "more_scp_alarm:g5",
         "stream": false
       }
     ]
@@ -2986,7 +2986,7 @@
   "g6": {
     "sounds": [
       {
-        "name": "theo_scp:g6",
+        "name": "more_scp_alarm:g6",
         "stream": false
       }
     ]
@@ -2994,7 +2994,7 @@
   "game": {
     "sounds": [
       {
-        "name": "theo_scp:game",
+        "name": "more_scp_alarm:game",
         "stream": false
       }
     ]
@@ -3002,7 +3002,7 @@
   "gamma": {
     "sounds": [
       {
-        "name": "theo_scp:gamma",
+        "name": "more_scp_alarm:gamma",
         "stream": false
       }
     ]
@@ -3010,7 +3010,7 @@
   "gas": {
     "sounds": [
       {
-        "name": "theo_scp:gas",
+        "name": "more_scp_alarm:gas",
         "stream": false
       }
     ]
@@ -3018,7 +3018,7 @@
   "gasoline": {
     "sounds": [
       {
-        "name": "theo_scp:gasoline",
+        "name": "more_scp_alarm:gasoline",
         "stream": false
       }
     ]
@@ -3026,7 +3026,7 @@
   "gate": {
     "sounds": [
       {
-        "name": "theo_scp:gate",
+        "name": "more_scp_alarm:gate",
         "stream": false
       }
     ]
@@ -3034,7 +3034,7 @@
   "gates": {
     "sounds": [
       {
-        "name": "theo_scp:gates",
+        "name": "more_scp_alarm:gates",
         "stream": false
       }
     ]
@@ -3042,7 +3042,7 @@
   "general": {
     "sounds": [
       {
-        "name": "theo_scp:general",
+        "name": "more_scp_alarm:general",
         "stream": false
       }
     ]
@@ -3050,7 +3050,7 @@
   "generator": {
     "sounds": [
       {
-        "name": "theo_scp:generator",
+        "name": "more_scp_alarm:generator",
         "stream": false
       }
     ]
@@ -3058,7 +3058,7 @@
   "generators": {
     "sounds": [
       {
-        "name": "theo_scp:generators",
+        "name": "more_scp_alarm:generators",
         "stream": false
       }
     ]
@@ -3066,7 +3066,7 @@
   "get": {
     "sounds": [
       {
-        "name": "theo_scp:get",
+        "name": "more_scp_alarm:get",
         "stream": false
       }
     ]
@@ -3074,7 +3074,7 @@
   "giga": {
     "sounds": [
       {
-        "name": "theo_scp:giga",
+        "name": "more_scp_alarm:giga",
         "stream": false
       }
     ]
@@ -3082,7 +3082,7 @@
   "give": {
     "sounds": [
       {
-        "name": "theo_scp:give",
+        "name": "more_scp_alarm:give",
         "stream": false
       }
     ]
@@ -3090,7 +3090,7 @@
   "global": {
     "sounds": [
       {
-        "name": "theo_scp:global",
+        "name": "more_scp_alarm:global",
         "stream": false
       }
     ]
@@ -3098,7 +3098,7 @@
   "go": {
     "sounds": [
       {
-        "name": "theo_scp:go",
+        "name": "more_scp_alarm:go",
         "stream": false
       }
     ]
@@ -3106,7 +3106,7 @@
   "goes": {
     "sounds": [
       {
-        "name": "theo_scp:goes",
+        "name": "more_scp_alarm:goes",
         "stream": false
       }
     ]
@@ -3114,7 +3114,7 @@
   "going": {
     "sounds": [
       {
-        "name": "theo_scp:going",
+        "name": "more_scp_alarm:going",
         "stream": false
       }
     ]
@@ -3122,7 +3122,7 @@
   "gone": {
     "sounds": [
       {
-        "name": "theo_scp:gone",
+        "name": "more_scp_alarm:gone",
         "stream": false
       }
     ]
@@ -3130,7 +3130,7 @@
   "good": {
     "sounds": [
       {
-        "name": "theo_scp:good",
+        "name": "more_scp_alarm:good",
         "stream": false
       }
     ]
@@ -3138,7 +3138,7 @@
   "got": {
     "sounds": [
       {
-        "name": "theo_scp:got",
+        "name": "more_scp_alarm:got",
         "stream": false
       }
     ]
@@ -3146,7 +3146,7 @@
   "gram": {
     "sounds": [
       {
-        "name": "theo_scp:gram",
+        "name": "more_scp_alarm:gram",
         "stream": false
       }
     ]
@@ -3154,7 +3154,7 @@
   "grams": {
     "sounds": [
       {
-        "name": "theo_scp:grams",
+        "name": "more_scp_alarm:grams",
         "stream": false
       }
     ]
@@ -3162,7 +3162,7 @@
   "granted": {
     "sounds": [
       {
-        "name": "theo_scp:granted",
+        "name": "more_scp_alarm:granted",
         "stream": false
       }
     ]
@@ -3170,7 +3170,7 @@
   "grave": {
     "sounds": [
       {
-        "name": "theo_scp:grave",
+        "name": "more_scp_alarm:grave",
         "stream": false
       }
     ]
@@ -3178,7 +3178,7 @@
   "great": {
     "sounds": [
       {
-        "name": "theo_scp:great",
+        "name": "more_scp_alarm:great",
         "stream": false
       }
     ]
@@ -3186,7 +3186,7 @@
   "greater": {
     "sounds": [
       {
-        "name": "theo_scp:greater",
+        "name": "more_scp_alarm:greater",
         "stream": false
       }
     ]
@@ -3194,7 +3194,7 @@
   "green": {
     "sounds": [
       {
-        "name": "theo_scp:green",
+        "name": "more_scp_alarm:green",
         "stream": false
       }
     ]
@@ -3202,7 +3202,7 @@
   "grenade": {
     "sounds": [
       {
-        "name": "theo_scp:grenade",
+        "name": "more_scp_alarm:grenade",
         "stream": false
       }
     ]
@@ -3210,7 +3210,7 @@
   "ground": {
     "sounds": [
       {
-        "name": "theo_scp:ground",
+        "name": "more_scp_alarm:ground",
         "stream": false
       }
     ]
@@ -3218,7 +3218,7 @@
   "group": {
     "sounds": [
       {
-        "name": "theo_scp:group",
+        "name": "more_scp_alarm:group",
         "stream": false
       }
     ]
@@ -3226,7 +3226,7 @@
   "guard": {
     "sounds": [
       {
-        "name": "theo_scp:guard",
+        "name": "more_scp_alarm:guard",
         "stream": false
       }
     ]
@@ -3234,7 +3234,7 @@
   "gun": {
     "sounds": [
       {
-        "name": "theo_scp:gun",
+        "name": "more_scp_alarm:gun",
         "stream": false
       }
     ]
@@ -3242,7 +3242,7 @@
   "hack": {
     "sounds": [
       {
-        "name": "theo_scp:hack",
+        "name": "more_scp_alarm:hack",
         "stream": false
       }
     ]
@@ -3250,7 +3250,7 @@
   "half": {
     "sounds": [
       {
-        "name": "theo_scp:half",
+        "name": "more_scp_alarm:half",
         "stream": false
       }
     ]
@@ -3258,7 +3258,7 @@
   "hallway": {
     "sounds": [
       {
-        "name": "theo_scp:hallway",
+        "name": "more_scp_alarm:hallway",
         "stream": false
       }
     ]
@@ -3266,7 +3266,7 @@
   "hand": {
     "sounds": [
       {
-        "name": "theo_scp:hand",
+        "name": "more_scp_alarm:hand",
         "stream": false
       }
     ]
@@ -3274,7 +3274,7 @@
   "hardware": {
     "sounds": [
       {
-        "name": "theo_scp:hardware",
+        "name": "more_scp_alarm:hardware",
         "stream": false
       }
     ]
@@ -3282,7 +3282,7 @@
   "has": {
     "sounds": [
       {
-        "name": "theo_scp:has",
+        "name": "more_scp_alarm:has",
         "stream": false
       }
     ]
@@ -3290,7 +3290,7 @@
   "have": {
     "sounds": [
       {
-        "name": "theo_scp:have",
+        "name": "more_scp_alarm:have",
         "stream": false
       }
     ]
@@ -3298,7 +3298,7 @@
   "hazard": {
     "sounds": [
       {
-        "name": "theo_scp:hazard",
+        "name": "more_scp_alarm:hazard",
         "stream": false
       }
     ]
@@ -3306,7 +3306,7 @@
   "he": {
     "sounds": [
       {
-        "name": "theo_scp:he",
+        "name": "more_scp_alarm:he",
         "stream": false
       }
     ]
@@ -3314,7 +3314,7 @@
   "head": {
     "sounds": [
       {
-        "name": "theo_scp:head",
+        "name": "more_scp_alarm:head",
         "stream": false
       }
     ]
@@ -3322,7 +3322,7 @@
   "hear": {
     "sounds": [
       {
-        "name": "theo_scp:hear",
+        "name": "more_scp_alarm:hear",
         "stream": false
       }
     ]
@@ -3330,7 +3330,7 @@
   "heavy": {
     "sounds": [
       {
-        "name": "theo_scp:heavy",
+        "name": "more_scp_alarm:heavy",
         "stream": false
       }
     ]
@@ -3338,7 +3338,7 @@
   "hecto": {
     "sounds": [
       {
-        "name": "theo_scp:hecto",
+        "name": "more_scp_alarm:hecto",
         "stream": false
       }
     ]
@@ -3346,7 +3346,7 @@
   "helicopter": {
     "sounds": [
       {
-        "name": "theo_scp:helicopter",
+        "name": "more_scp_alarm:helicopter",
         "stream": false
       }
     ]
@@ -3354,7 +3354,7 @@
   "hello": {
     "sounds": [
       {
-        "name": "theo_scp:hello",
+        "name": "more_scp_alarm:hello",
         "stream": false
       }
     ]
@@ -3362,7 +3362,7 @@
   "help": {
     "sounds": [
       {
-        "name": "theo_scp:help",
+        "name": "more_scp_alarm:help",
         "stream": false
       }
     ]
@@ -3370,7 +3370,7 @@
   "her": {
     "sounds": [
       {
-        "name": "theo_scp:her",
+        "name": "more_scp_alarm:her",
         "stream": false
       }
     ]
@@ -3378,7 +3378,7 @@
   "here": {
     "sounds": [
       {
-        "name": "theo_scp:here",
+        "name": "more_scp_alarm:here",
         "stream": false
       }
     ]
@@ -3386,7 +3386,7 @@
   "high": {
     "sounds": [
       {
-        "name": "theo_scp:high",
+        "name": "more_scp_alarm:high",
         "stream": false
       }
     ]
@@ -3394,7 +3394,7 @@
   "his": {
     "sounds": [
       {
-        "name": "theo_scp:his",
+        "name": "more_scp_alarm:his",
         "stream": false
       }
     ]
@@ -3402,7 +3402,7 @@
   "hit": {
     "sounds": [
       {
-        "name": "theo_scp:hit",
+        "name": "more_scp_alarm:hit",
         "stream": false
       }
     ]
@@ -3410,7 +3410,7 @@
   "hour": {
     "sounds": [
       {
-        "name": "theo_scp:hour",
+        "name": "more_scp_alarm:hour",
         "stream": false
       }
     ]
@@ -3418,7 +3418,7 @@
   "how": {
     "sounds": [
       {
-        "name": "theo_scp:how",
+        "name": "more_scp_alarm:how",
         "stream": false
       }
     ]
@@ -3426,7 +3426,7 @@
   "human": {
     "sounds": [
       {
-        "name": "theo_scp:human",
+        "name": "more_scp_alarm:human",
         "stream": false
       }
     ]
@@ -3434,7 +3434,7 @@
   "hundred": {
     "sounds": [
       {
-        "name": "theo_scp:hundred",
+        "name": "more_scp_alarm:hundred",
         "stream": false
       }
     ]
@@ -3442,7 +3442,7 @@
   "identification": {
     "sounds": [
       {
-        "name": "theo_scp:identification",
+        "name": "more_scp_alarm:identification",
         "stream": false
       }
     ]
@@ -3450,7 +3450,7 @@
   "identify": {
     "sounds": [
       {
-        "name": "theo_scp:identify",
+        "name": "more_scp_alarm:identify",
         "stream": false
       }
     ]
@@ -3458,7 +3458,7 @@
   "if": {
     "sounds": [
       {
-        "name": "theo_scp:if",
+        "name": "more_scp_alarm:if",
         "stream": false
       }
     ]
@@ -3466,7 +3466,7 @@
   "immediate": {
     "sounds": [
       {
-        "name": "theo_scp:immediate",
+        "name": "more_scp_alarm:immediate",
         "stream": false
       }
     ]
@@ -3474,7 +3474,7 @@
   "immediately": {
     "sounds": [
       {
-        "name": "theo_scp:immediately",
+        "name": "more_scp_alarm:immediately",
         "stream": false
       }
     ]
@@ -3482,7 +3482,7 @@
   "important": {
     "sounds": [
       {
-        "name": "theo_scp:important",
+        "name": "more_scp_alarm:important",
         "stream": false
       }
     ]
@@ -3490,7 +3490,7 @@
   "in": {
     "sounds": [
       {
-        "name": "theo_scp:in",
+        "name": "more_scp_alarm:in",
         "stream": false
       }
     ]
@@ -3498,7 +3498,7 @@
   "include": {
     "sounds": [
       {
-        "name": "theo_scp:include",
+        "name": "more_scp_alarm:include",
         "stream": false
       }
     ]
@@ -3506,7 +3506,7 @@
   "inclusion": {
     "sounds": [
       {
-        "name": "theo_scp:inclusion",
+        "name": "more_scp_alarm:inclusion",
         "stream": false
       }
     ]
@@ -3514,7 +3514,7 @@
   "incorrect": {
     "sounds": [
       {
-        "name": "theo_scp:incorrect",
+        "name": "more_scp_alarm:incorrect",
         "stream": false
       }
     ]
@@ -3522,7 +3522,7 @@
   "increase": {
     "sounds": [
       {
-        "name": "theo_scp:increase",
+        "name": "more_scp_alarm:increase",
         "stream": false
       }
     ]
@@ -3530,7 +3530,7 @@
   "indentified": {
     "sounds": [
       {
-        "name": "theo_scp:indentified",
+        "name": "more_scp_alarm:indentified",
         "stream": false
       }
     ]
@@ -3538,7 +3538,7 @@
   "infection": {
     "sounds": [
       {
-        "name": "theo_scp:infection",
+        "name": "more_scp_alarm:infection",
         "stream": false
       }
     ]
@@ -3546,7 +3546,7 @@
   "information": {
     "sounds": [
       {
-        "name": "theo_scp:information",
+        "name": "more_scp_alarm:information",
         "stream": false
       }
     ]
@@ -3554,7 +3554,7 @@
   "ing": {
     "sounds": [
       {
-        "name": "theo_scp:ing",
+        "name": "more_scp_alarm:ing",
         "stream": false
       }
     ]
@@ -3562,7 +3562,7 @@
   "initializing": {
     "sounds": [
       {
-        "name": "theo_scp:initializing",
+        "name": "more_scp_alarm:initializing",
         "stream": false
       }
     ]
@@ -3570,7 +3570,7 @@
   "initiated": {
     "sounds": [
       {
-        "name": "theo_scp:initiated",
+        "name": "more_scp_alarm:initiated",
         "stream": false
       }
     ]
@@ -3578,7 +3578,7 @@
   "inside": {
     "sounds": [
       {
-        "name": "theo_scp:inside",
+        "name": "more_scp_alarm:inside",
         "stream": false
       }
     ]
@@ -3586,7 +3586,7 @@
   "installation": {
     "sounds": [
       {
-        "name": "theo_scp:installation",
+        "name": "more_scp_alarm:installation",
         "stream": false
       }
     ]
@@ -3594,7 +3594,7 @@
   "installed": {
     "sounds": [
       {
-        "name": "theo_scp:installed",
+        "name": "more_scp_alarm:installed",
         "stream": false
       }
     ]
@@ -3602,7 +3602,7 @@
   "installing": {
     "sounds": [
       {
-        "name": "theo_scp:installing",
+        "name": "more_scp_alarm:installing",
         "stream": false
       }
     ]
@@ -3610,7 +3610,7 @@
   "insurgency": {
     "sounds": [
       {
-        "name": "theo_scp:insurgency",
+        "name": "more_scp_alarm:insurgency",
         "stream": false
       }
     ]
@@ -3618,7 +3618,7 @@
   "insurgent": {
     "sounds": [
       {
-        "name": "theo_scp:insurgent",
+        "name": "more_scp_alarm:insurgent",
         "stream": false
       }
     ]
@@ -3626,7 +3626,7 @@
   "intercom": {
     "sounds": [
       {
-        "name": "theo_scp:intercom",
+        "name": "more_scp_alarm:intercom",
         "stream": false
       }
     ]
@@ -3634,7 +3634,7 @@
   "interest": {
     "sounds": [
       {
-        "name": "theo_scp:interest",
+        "name": "more_scp_alarm:interest",
         "stream": false
       }
     ]
@@ -3642,7 +3642,7 @@
   "internal": {
     "sounds": [
       {
-        "name": "theo_scp:internal",
+        "name": "more_scp_alarm:internal",
         "stream": false
       }
     ]
@@ -3650,7 +3650,7 @@
   "intersection": {
     "sounds": [
       {
-        "name": "theo_scp:intersection",
+        "name": "more_scp_alarm:intersection",
         "stream": false
       }
     ]
@@ -3658,7 +3658,7 @@
   "into": {
     "sounds": [
       {
-        "name": "theo_scp:into",
+        "name": "more_scp_alarm:into",
         "stream": false
       }
     ]
@@ -3666,7 +3666,7 @@
   "intruder": {
     "sounds": [
       {
-        "name": "theo_scp:intruder",
+        "name": "more_scp_alarm:intruder",
         "stream": false
       }
     ]
@@ -3674,7 +3674,7 @@
   "iota": {
     "sounds": [
       {
-        "name": "theo_scp:iota",
+        "name": "more_scp_alarm:iota",
         "stream": false
       }
     ]
@@ -3682,7 +3682,7 @@
   "is": {
     "sounds": [
       {
-        "name": "theo_scp:is",
+        "name": "more_scp_alarm:is",
         "stream": false
       }
     ]
@@ -3690,7 +3690,7 @@
   "it": {
     "sounds": [
       {
-        "name": "theo_scp:it",
+        "name": "more_scp_alarm:it",
         "stream": false
       }
     ]
@@ -3698,7 +3698,7 @@
   "january": {
     "sounds": [
       {
-        "name": "theo_scp:january",
+        "name": "more_scp_alarm:january",
         "stream": false
       }
     ]
@@ -3706,7 +3706,7 @@
   "job": {
     "sounds": [
       {
-        "name": "theo_scp:job",
+        "name": "more_scp_alarm:job",
         "stream": false
       }
     ]
@@ -3714,7 +3714,7 @@
   "join": {
     "sounds": [
       {
-        "name": "theo_scp:join",
+        "name": "more_scp_alarm:join",
         "stream": false
       }
     ]
@@ -3722,7 +3722,7 @@
   "july": {
     "sounds": [
       {
-        "name": "theo_scp:july",
+        "name": "more_scp_alarm:july",
         "stream": false
       }
     ]
@@ -3730,7 +3730,7 @@
   "jump": {
     "sounds": [
       {
-        "name": "theo_scp:jump",
+        "name": "more_scp_alarm:jump",
         "stream": false
       }
     ]
@@ -3738,7 +3738,7 @@
   "june": {
     "sounds": [
       {
-        "name": "theo_scp:june",
+        "name": "more_scp_alarm:june",
         "stream": false
       }
     ]
@@ -3746,7 +3746,7 @@
   "just": {
     "sounds": [
       {
-        "name": "theo_scp:just",
+        "name": "more_scp_alarm:just",
         "stream": false
       }
     ]
@@ -3754,7 +3754,7 @@
   "kappa": {
     "sounds": [
       {
-        "name": "theo_scp:kappa",
+        "name": "more_scp_alarm:kappa",
         "stream": false
       }
     ]
@@ -3762,7 +3762,7 @@
   "keep": {
     "sounds": [
       {
-        "name": "theo_scp:keep",
+        "name": "more_scp_alarm:keep",
         "stream": false
       }
     ]
@@ -3770,7 +3770,7 @@
   "kelvin": {
     "sounds": [
       {
-        "name": "theo_scp:kelvin",
+        "name": "more_scp_alarm:kelvin",
         "stream": false
       }
     ]
@@ -3778,7 +3778,7 @@
   "keter": {
     "sounds": [
       {
-        "name": "theo_scp:keter",
+        "name": "more_scp_alarm:keter",
         "stream": false
       }
     ]
@@ -3786,7 +3786,7 @@
   "key": {
     "sounds": [
       {
-        "name": "theo_scp:key",
+        "name": "more_scp_alarm:key",
         "stream": false
       }
     ]
@@ -3794,7 +3794,7 @@
   "kill": {
     "sounds": [
       {
-        "name": "theo_scp:kill",
+        "name": "more_scp_alarm:kill",
         "stream": false
       }
     ]
@@ -3802,7 +3802,7 @@
   "killer": {
     "sounds": [
       {
-        "name": "theo_scp:killer",
+        "name": "more_scp_alarm:killer",
         "stream": false
       }
     ]
@@ -3810,7 +3810,7 @@
   "kilo": {
     "sounds": [
       {
-        "name": "theo_scp:kilo",
+        "name": "more_scp_alarm:kilo",
         "stream": false
       }
     ]
@@ -3818,7 +3818,7 @@
   "king": {
     "sounds": [
       {
-        "name": "theo_scp:king",
+        "name": "more_scp_alarm:king",
         "stream": false
       }
     ]
@@ -3826,7 +3826,7 @@
   "kit": {
     "sounds": [
       {
-        "name": "theo_scp:kit",
+        "name": "more_scp_alarm:kit",
         "stream": false
       }
     ]
@@ -3834,7 +3834,7 @@
   "know": {
     "sounds": [
       {
-        "name": "theo_scp:know",
+        "name": "more_scp_alarm:know",
         "stream": false
       }
     ]
@@ -3842,7 +3842,7 @@
   "laboratory": {
     "sounds": [
       {
-        "name": "theo_scp:laboratory",
+        "name": "more_scp_alarm:laboratory",
         "stream": false
       }
     ]
@@ -3850,7 +3850,7 @@
   "lambda": {
     "sounds": [
       {
-        "name": "theo_scp:lambda",
+        "name": "more_scp_alarm:lambda",
         "stream": false
       }
     ]
@@ -3858,7 +3858,7 @@
   "last": {
     "sounds": [
       {
-        "name": "theo_scp:last",
+        "name": "more_scp_alarm:last",
         "stream": false
       }
     ]
@@ -3866,7 +3866,7 @@
   "leak": {
     "sounds": [
       {
-        "name": "theo_scp:leak",
+        "name": "more_scp_alarm:leak",
         "stream": false
       }
     ]
@@ -3874,7 +3874,7 @@
   "leave": {
     "sounds": [
       {
-        "name": "theo_scp:leave",
+        "name": "more_scp_alarm:leave",
         "stream": false
       }
     ]
@@ -3882,7 +3882,7 @@
   "left": {
     "sounds": [
       {
-        "name": "theo_scp:left",
+        "name": "more_scp_alarm:left",
         "stream": false
       }
     ]
@@ -3890,7 +3890,7 @@
   "less": {
     "sounds": [
       {
-        "name": "theo_scp:less",
+        "name": "more_scp_alarm:less",
         "stream": false
       }
     ]
@@ -3898,7 +3898,7 @@
   "lethal": {
     "sounds": [
       {
-        "name": "theo_scp:lethal",
+        "name": "more_scp_alarm:lethal",
         "stream": false
       }
     ]
@@ -3906,7 +3906,7 @@
   "letter": {
     "sounds": [
       {
-        "name": "theo_scp:letter",
+        "name": "more_scp_alarm:letter",
         "stream": false
       }
     ]
@@ -3914,7 +3914,7 @@
   "level": {
     "sounds": [
       {
-        "name": "theo_scp:level",
+        "name": "more_scp_alarm:level",
         "stream": false
       }
     ]
@@ -3922,7 +3922,7 @@
   "lieutenant": {
     "sounds": [
       {
-        "name": "theo_scp:lieutenant",
+        "name": "more_scp_alarm:lieutenant",
         "stream": false
       }
     ]
@@ -3930,7 +3930,7 @@
   "life": {
     "sounds": [
       {
-        "name": "theo_scp:life",
+        "name": "more_scp_alarm:life",
         "stream": false
       }
     ]
@@ -3938,7 +3938,7 @@
   "light": {
     "sounds": [
       {
-        "name": "theo_scp:light",
+        "name": "more_scp_alarm:light",
         "stream": false
       }
     ]
@@ -3946,7 +3946,7 @@
   "lights": {
     "sounds": [
       {
-        "name": "theo_scp:lights",
+        "name": "more_scp_alarm:lights",
         "stream": false
       }
     ]
@@ -3954,7 +3954,7 @@
   "liquefied": {
     "sounds": [
       {
-        "name": "theo_scp:liquefied",
+        "name": "more_scp_alarm:liquefied",
         "stream": false
       }
     ]
@@ -3962,7 +3962,7 @@
   "liquid": {
     "sounds": [
       {
-        "name": "theo_scp:liquid",
+        "name": "more_scp_alarm:liquid",
         "stream": false
       }
     ]
@@ -3970,7 +3970,7 @@
   "live": {
     "sounds": [
       {
-        "name": "theo_scp:live",
+        "name": "more_scp_alarm:live",
         "stream": false
       }
     ]
@@ -3978,7 +3978,7 @@
   "load": {
     "sounds": [
       {
-        "name": "theo_scp:load",
+        "name": "more_scp_alarm:load",
         "stream": false
       }
     ]
@@ -3986,7 +3986,7 @@
   "local": {
     "sounds": [
       {
-        "name": "theo_scp:local",
+        "name": "more_scp_alarm:local",
         "stream": false
       }
     ]
@@ -3994,7 +3994,7 @@
   "locate": {
     "sounds": [
       {
-        "name": "theo_scp:locate",
+        "name": "more_scp_alarm:locate",
         "stream": false
       }
     ]
@@ -4002,7 +4002,7 @@
   "location": {
     "sounds": [
       {
-        "name": "theo_scp:location",
+        "name": "more_scp_alarm:location",
         "stream": false
       }
     ]
@@ -4010,7 +4010,7 @@
   "lock": {
     "sounds": [
       {
-        "name": "theo_scp:lock",
+        "name": "more_scp_alarm:lock",
         "stream": false
       }
     ]
@@ -4018,7 +4018,7 @@
   "lockdown": {
     "sounds": [
       {
-        "name": "theo_scp:lockdown",
+        "name": "more_scp_alarm:lockdown",
         "stream": false
       }
     ]
@@ -4026,7 +4026,7 @@
   "look": {
     "sounds": [
       {
-        "name": "theo_scp:look",
+        "name": "more_scp_alarm:look",
         "stream": false
       }
     ]
@@ -4034,7 +4034,7 @@
   "lost": {
     "sounds": [
       {
-        "name": "theo_scp:lost",
+        "name": "more_scp_alarm:lost",
         "stream": false
       }
     ]
@@ -4042,7 +4042,7 @@
   "low": {
     "sounds": [
       {
-        "name": "theo_scp:low",
+        "name": "more_scp_alarm:low",
         "stream": false
       }
     ]
@@ -4050,7 +4050,7 @@
   "magnetic": {
     "sounds": [
       {
-        "name": "theo_scp:magnetic",
+        "name": "more_scp_alarm:magnetic",
         "stream": false
       }
     ]
@@ -4058,7 +4058,7 @@
   "main": {
     "sounds": [
       {
-        "name": "theo_scp:main",
+        "name": "more_scp_alarm:main",
         "stream": false
       }
     ]
@@ -4066,7 +4066,7 @@
   "major": {
     "sounds": [
       {
-        "name": "theo_scp:major",
+        "name": "more_scp_alarm:major",
         "stream": false
       }
     ]
@@ -4074,7 +4074,7 @@
   "make": {
     "sounds": [
       {
-        "name": "theo_scp:make",
+        "name": "more_scp_alarm:make",
         "stream": false
       }
     ]
@@ -4082,7 +4082,7 @@
   "malfunction": {
     "sounds": [
       {
-        "name": "theo_scp:malfunction",
+        "name": "more_scp_alarm:malfunction",
         "stream": false
       }
     ]
@@ -4090,7 +4090,7 @@
   "man": {
     "sounds": [
       {
-        "name": "theo_scp:man",
+        "name": "more_scp_alarm:man",
         "stream": false
       }
     ]
@@ -4098,7 +4098,7 @@
   "manager": {
     "sounds": [
       {
-        "name": "theo_scp:manager",
+        "name": "more_scp_alarm:manager",
         "stream": false
       }
     ]
@@ -4106,7 +4106,7 @@
   "manual": {
     "sounds": [
       {
-        "name": "theo_scp:manual",
+        "name": "more_scp_alarm:manual",
         "stream": false
       }
     ]
@@ -4114,7 +4114,7 @@
   "many": {
     "sounds": [
       {
-        "name": "theo_scp:many",
+        "name": "more_scp_alarm:many",
         "stream": false
       }
     ]
@@ -4122,7 +4122,7 @@
   "march": {
     "sounds": [
       {
-        "name": "theo_scp:march",
+        "name": "more_scp_alarm:march",
         "stream": false
       }
     ]
@@ -4130,7 +4130,7 @@
   "material": {
     "sounds": [
       {
-        "name": "theo_scp:material",
+        "name": "more_scp_alarm:material",
         "stream": false
       }
     ]
@@ -4138,7 +4138,7 @@
   "may": {
     "sounds": [
       {
-        "name": "theo_scp:may",
+        "name": "more_scp_alarm:may",
         "stream": false
       }
     ]
@@ -4146,7 +4146,7 @@
   "me": {
     "sounds": [
       {
-        "name": "theo_scp:me",
+        "name": "more_scp_alarm:me",
         "stream": false
       }
     ]
@@ -4154,7 +4154,7 @@
   "med": {
     "sounds": [
       {
-        "name": "theo_scp:med",
+        "name": "more_scp_alarm:med",
         "stream": false
       }
     ]
@@ -4162,7 +4162,7 @@
   "medical": {
     "sounds": [
       {
-        "name": "theo_scp:medical",
+        "name": "more_scp_alarm:medical",
         "stream": false
       }
     ]
@@ -4170,7 +4170,7 @@
   "medium": {
     "sounds": [
       {
-        "name": "theo_scp:medium",
+        "name": "more_scp_alarm:medium",
         "stream": false
       }
     ]
@@ -4178,7 +4178,7 @@
   "mega": {
     "sounds": [
       {
-        "name": "theo_scp:mega",
+        "name": "more_scp_alarm:mega",
         "stream": false
       }
     ]
@@ -4186,7 +4186,7 @@
   "memory": {
     "sounds": [
       {
-        "name": "theo_scp:memory",
+        "name": "more_scp_alarm:memory",
         "stream": false
       }
     ]
@@ -4194,7 +4194,7 @@
   "men": {
     "sounds": [
       {
-        "name": "theo_scp:men",
+        "name": "more_scp_alarm:men",
         "stream": false
       }
     ]
@@ -4202,7 +4202,7 @@
   "message": {
     "sounds": [
       {
-        "name": "theo_scp:message",
+        "name": "more_scp_alarm:message",
         "stream": false
       }
     ]
@@ -4210,7 +4210,7 @@
   "meter": {
     "sounds": [
       {
-        "name": "theo_scp:meter",
+        "name": "more_scp_alarm:meter",
         "stream": false
       }
     ]
@@ -4218,7 +4218,7 @@
   "meters": {
     "sounds": [
       {
-        "name": "theo_scp:meters",
+        "name": "more_scp_alarm:meters",
         "stream": false
       }
     ]
@@ -4226,7 +4226,7 @@
   "micro": {
     "sounds": [
       {
-        "name": "theo_scp:micro",
+        "name": "more_scp_alarm:micro",
         "stream": false
       }
     ]
@@ -4234,7 +4234,7 @@
   "mili": {
     "sounds": [
       {
-        "name": "theo_scp:mili",
+        "name": "more_scp_alarm:mili",
         "stream": false
       }
     ]
@@ -4242,7 +4242,7 @@
   "military": {
     "sounds": [
       {
-        "name": "theo_scp:military",
+        "name": "more_scp_alarm:military",
         "stream": false
       }
     ]
@@ -4250,7 +4250,7 @@
   "milliard": {
     "sounds": [
       {
-        "name": "theo_scp:milliard",
+        "name": "more_scp_alarm:milliard",
         "stream": false
       }
     ]
@@ -4258,7 +4258,7 @@
   "million": {
     "sounds": [
       {
-        "name": "theo_scp:million",
+        "name": "more_scp_alarm:million",
         "stream": false
       }
     ]
@@ -4266,7 +4266,7 @@
   "minor": {
     "sounds": [
       {
-        "name": "theo_scp:minor",
+        "name": "more_scp_alarm:minor",
         "stream": false
       }
     ]
@@ -4274,7 +4274,7 @@
   "minus": {
     "sounds": [
       {
-        "name": "theo_scp:minus",
+        "name": "more_scp_alarm:minus",
         "stream": false
       }
     ]
@@ -4282,7 +4282,7 @@
   "minute": {
     "sounds": [
       {
-        "name": "theo_scp:minute",
+        "name": "more_scp_alarm:minute",
         "stream": false
       }
     ]
@@ -4290,7 +4290,7 @@
   "minutes": {
     "sounds": [
       {
-        "name": "theo_scp:minutes",
+        "name": "more_scp_alarm:minutes",
         "stream": false
       }
     ]
@@ -4298,7 +4298,7 @@
   "mobile": {
     "sounds": [
       {
-        "name": "theo_scp:mobile",
+        "name": "more_scp_alarm:mobile",
         "stream": false
       }
     ]
@@ -4306,7 +4306,7 @@
   "mobile_task_force_unit": {
     "sounds": [
       {
-        "name": "theo_scp:mobile_task_force_unit",
+        "name": "more_scp_alarm:mobile_task_force_unit",
         "stream": false
       }
     ]
@@ -4314,7 +4314,7 @@
   "mode": {
     "sounds": [
       {
-        "name": "theo_scp:mode",
+        "name": "more_scp_alarm:mode",
         "stream": false
       }
     ]
@@ -4322,7 +4322,7 @@
   "module": {
     "sounds": [
       {
-        "name": "theo_scp:module",
+        "name": "more_scp_alarm:module",
         "stream": false
       }
     ]
@@ -4330,7 +4330,7 @@
   "monday": {
     "sounds": [
       {
-        "name": "theo_scp:monday",
+        "name": "more_scp_alarm:monday",
         "stream": false
       }
     ]
@@ -4338,7 +4338,7 @@
   "month": {
     "sounds": [
       {
-        "name": "theo_scp:month",
+        "name": "more_scp_alarm:month",
         "stream": false
       }
     ]
@@ -4346,7 +4346,7 @@
   "more": {
     "sounds": [
       {
-        "name": "theo_scp:more",
+        "name": "more_scp_alarm:more",
         "stream": false
       }
     ]
@@ -4354,7 +4354,7 @@
   "morphine": {
     "sounds": [
       {
-        "name": "theo_scp:morphine",
+        "name": "more_scp_alarm:morphine",
         "stream": false
       }
     ]
@@ -4362,7 +4362,7 @@
   "most": {
     "sounds": [
       {
-        "name": "theo_scp:most",
+        "name": "more_scp_alarm:most",
         "stream": false
       }
     ]
@@ -4370,7 +4370,7 @@
   "move": {
     "sounds": [
       {
-        "name": "theo_scp:move",
+        "name": "more_scp_alarm:move",
         "stream": false
       }
     ]
@@ -4378,7 +4378,7 @@
   "mu": {
     "sounds": [
       {
-        "name": "theo_scp:mu",
+        "name": "more_scp_alarm:mu",
         "stream": false
       }
     ]
@@ -4386,7 +4386,7 @@
   "much": {
     "sounds": [
       {
-        "name": "theo_scp:much",
+        "name": "more_scp_alarm:much",
         "stream": false
       }
     ]
@@ -4394,7 +4394,7 @@
   "must": {
     "sounds": [
       {
-        "name": "theo_scp:must",
+        "name": "more_scp_alarm:must",
         "stream": false
       }
     ]
@@ -4402,7 +4402,7 @@
   "my": {
     "sounds": [
       {
-        "name": "theo_scp:my",
+        "name": "more_scp_alarm:my",
         "stream": false
       }
     ]
@@ -4410,7 +4410,7 @@
   "name": {
     "sounds": [
       {
-        "name": "theo_scp:name",
+        "name": "more_scp_alarm:name",
         "stream": false
       }
     ]
@@ -4418,7 +4418,7 @@
   "nano": {
     "sounds": [
       {
-        "name": "theo_scp:nano",
+        "name": "more_scp_alarm:nano",
         "stream": false
       }
     ]
@@ -4426,7 +4426,7 @@
   "near": {
     "sounds": [
       {
-        "name": "theo_scp:near",
+        "name": "more_scp_alarm:near",
         "stream": false
       }
     ]
@@ -4434,7 +4434,7 @@
   "nearby": {
     "sounds": [
       {
-        "name": "theo_scp:nearby",
+        "name": "more_scp_alarm:nearby",
         "stream": false
       }
     ]
@@ -4442,7 +4442,7 @@
   "nearest": {
     "sounds": [
       {
-        "name": "theo_scp:nearest",
+        "name": "more_scp_alarm:nearest",
         "stream": false
       }
     ]
@@ -4450,7 +4450,7 @@
   "necessary": {
     "sounds": [
       {
-        "name": "theo_scp:necessary",
+        "name": "more_scp_alarm:necessary",
         "stream": false
       }
     ]
@@ -4458,7 +4458,7 @@
   "neck": {
     "sounds": [
       {
-        "name": "theo_scp:neck",
+        "name": "more_scp_alarm:neck",
         "stream": false
       }
     ]
@@ -4466,7 +4466,7 @@
   "need": {
     "sounds": [
       {
-        "name": "theo_scp:need",
+        "name": "more_scp_alarm:need",
         "stream": false
       }
     ]
@@ -4474,7 +4474,7 @@
   "negative": {
     "sounds": [
       {
-        "name": "theo_scp:negative",
+        "name": "more_scp_alarm:negative",
         "stream": false
       }
     ]
@@ -4482,7 +4482,7 @@
   "neutralize": {
     "sounds": [
       {
-        "name": "theo_scp:neutralize",
+        "name": "more_scp_alarm:neutralize",
         "stream": false
       }
     ]
@@ -4490,7 +4490,7 @@
   "never": {
     "sounds": [
       {
-        "name": "theo_scp:never",
+        "name": "more_scp_alarm:never",
         "stream": false
       }
     ]
@@ -4498,7 +4498,7 @@
   "new": {
     "sounds": [
       {
-        "name": "theo_scp:new",
+        "name": "more_scp_alarm:new",
         "stream": false
       }
     ]
@@ -4506,7 +4506,7 @@
   "next": {
     "sounds": [
       {
-        "name": "theo_scp:next",
+        "name": "more_scp_alarm:next",
         "stream": false
       }
     ]
@@ -4514,7 +4514,7 @@
   "nice": {
     "sounds": [
       {
-        "name": "theo_scp:nice",
+        "name": "more_scp_alarm:nice",
         "stream": false
       }
     ]
@@ -4522,7 +4522,7 @@
   "no": {
     "sounds": [
       {
-        "name": "theo_scp:no",
+        "name": "more_scp_alarm:no",
         "stream": false
       }
     ]
@@ -4530,7 +4530,7 @@
   "nominal": {
     "sounds": [
       {
-        "name": "theo_scp:nominal",
+        "name": "more_scp_alarm:nominal",
         "stream": false
       }
     ]
@@ -4538,7 +4538,7 @@
   "nor": {
     "sounds": [
       {
-        "name": "theo_scp:nor",
+        "name": "more_scp_alarm:nor",
         "stream": false
       }
     ]
@@ -4546,7 +4546,7 @@
   "normal": {
     "sounds": [
       {
-        "name": "theo_scp:normal",
+        "name": "more_scp_alarm:normal",
         "stream": false
       }
     ]
@@ -4554,7 +4554,7 @@
   "normalize": {
     "sounds": [
       {
-        "name": "theo_scp:normalize",
+        "name": "more_scp_alarm:normalize",
         "stream": false
       }
     ]
@@ -4562,7 +4562,7 @@
   "north": {
     "sounds": [
       {
-        "name": "theo_scp:north",
+        "name": "more_scp_alarm:north",
         "stream": false
       }
     ]
@@ -4570,7 +4570,7 @@
   "northwood": {
     "sounds": [
       {
-        "name": "theo_scp:northwood",
+        "name": "more_scp_alarm:northwood",
         "stream": false
       }
     ]
@@ -4578,7 +4578,7 @@
   "not": {
     "sounds": [
       {
-        "name": "theo_scp:not",
+        "name": "more_scp_alarm:not",
         "stream": false
       }
     ]
@@ -4586,7 +4586,7 @@
   "notice": {
     "sounds": [
       {
-        "name": "theo_scp:notice",
+        "name": "more_scp_alarm:notice",
         "stream": false
       }
     ]
@@ -4594,7 +4594,7 @@
   "november": {
     "sounds": [
       {
-        "name": "theo_scp:november",
+        "name": "more_scp_alarm:november",
         "stream": false
       }
     ]
@@ -4602,7 +4602,7 @@
   "now": {
     "sounds": [
       {
-        "name": "theo_scp:now",
+        "name": "more_scp_alarm:now",
         "stream": false
       }
     ]
@@ -4610,7 +4610,7 @@
   "nu": {
     "sounds": [
       {
-        "name": "theo_scp:nu",
+        "name": "more_scp_alarm:nu",
         "stream": false
       }
     ]
@@ -4618,7 +4618,7 @@
   "nuclear": {
     "sounds": [
       {
-        "name": "theo_scp:nuclear",
+        "name": "more_scp_alarm:nuclear",
         "stream": false
       }
     ]
@@ -4626,7 +4626,7 @@
   "number": {
     "sounds": [
       {
-        "name": "theo_scp:number",
+        "name": "more_scp_alarm:number",
         "stream": false
       }
     ]
@@ -4634,7 +4634,7 @@
   "number_0": {
     "sounds": [
       {
-        "name": "theo_scp:number_0",
+        "name": "more_scp_alarm:number_0",
         "stream": false
       }
     ]
@@ -4642,7 +4642,7 @@
   "number_1": {
     "sounds": [
       {
-        "name": "theo_scp:number_1",
+        "name": "more_scp_alarm:number_1",
         "stream": false
       }
     ]
@@ -4650,7 +4650,7 @@
   "number_2": {
     "sounds": [
       {
-        "name": "theo_scp:number_2",
+        "name": "more_scp_alarm:number_2",
         "stream": false
       }
     ]
@@ -4658,7 +4658,7 @@
   "number_3": {
     "sounds": [
       {
-        "name": "theo_scp:number_3",
+        "name": "more_scp_alarm:number_3",
         "stream": false
       }
     ]
@@ -4666,7 +4666,7 @@
   "number_4": {
     "sounds": [
       {
-        "name": "theo_scp:number_4",
+        "name": "more_scp_alarm:number_4",
         "stream": false
       }
     ]
@@ -4674,7 +4674,7 @@
   "number_5": {
     "sounds": [
       {
-        "name": "theo_scp:number_5",
+        "name": "more_scp_alarm:number_5",
         "stream": false
       }
     ]
@@ -4682,7 +4682,7 @@
   "number_6": {
     "sounds": [
       {
-        "name": "theo_scp:number_6",
+        "name": "more_scp_alarm:number_6",
         "stream": false
       }
     ]
@@ -4690,7 +4690,7 @@
   "number_7": {
     "sounds": [
       {
-        "name": "theo_scp:number_7",
+        "name": "more_scp_alarm:number_7",
         "stream": false
       }
     ]
@@ -4698,7 +4698,7 @@
   "number_8": {
     "sounds": [
       {
-        "name": "theo_scp:number_8",
+        "name": "more_scp_alarm:number_8",
         "stream": false
       }
     ]
@@ -4706,7 +4706,7 @@
   "number_9": {
     "sounds": [
       {
-        "name": "theo_scp:number_9",
+        "name": "more_scp_alarm:number_9",
         "stream": false
       }
     ]
@@ -4714,7 +4714,7 @@
   "number_10": {
     "sounds": [
       {
-        "name": "theo_scp:number_10",
+        "name": "more_scp_alarm:number_10",
         "stream": false
       }
     ]
@@ -4722,7 +4722,7 @@
   "number_11": {
     "sounds": [
       {
-        "name": "theo_scp:number_11",
+        "name": "more_scp_alarm:number_11",
         "stream": false
       }
     ]
@@ -4730,7 +4730,7 @@
   "number_12": {
     "sounds": [
       {
-        "name": "theo_scp:number_12",
+        "name": "more_scp_alarm:number_12",
         "stream": false
       }
     ]
@@ -4738,7 +4738,7 @@
   "number_13": {
     "sounds": [
       {
-        "name": "theo_scp:number_13",
+        "name": "more_scp_alarm:number_13",
         "stream": false
       }
     ]
@@ -4746,7 +4746,7 @@
   "number_14": {
     "sounds": [
       {
-        "name": "theo_scp:number_14",
+        "name": "more_scp_alarm:number_14",
         "stream": false
       }
     ]
@@ -4754,7 +4754,7 @@
   "number_15": {
     "sounds": [
       {
-        "name": "theo_scp:number_15",
+        "name": "more_scp_alarm:number_15",
         "stream": false
       }
     ]
@@ -4762,7 +4762,7 @@
   "number_16": {
     "sounds": [
       {
-        "name": "theo_scp:number_16",
+        "name": "more_scp_alarm:number_16",
         "stream": false
       }
     ]
@@ -4770,7 +4770,7 @@
   "number_17": {
     "sounds": [
       {
-        "name": "theo_scp:number_17",
+        "name": "more_scp_alarm:number_17",
         "stream": false
       }
     ]
@@ -4778,7 +4778,7 @@
   "number_18": {
     "sounds": [
       {
-        "name": "theo_scp:number_18",
+        "name": "more_scp_alarm:number_18",
         "stream": false
       }
     ]
@@ -4786,7 +4786,7 @@
   "number_19": {
     "sounds": [
       {
-        "name": "theo_scp:number_19",
+        "name": "more_scp_alarm:number_19",
         "stream": false
       }
     ]
@@ -4794,7 +4794,7 @@
   "number_20": {
     "sounds": [
       {
-        "name": "theo_scp:number_20",
+        "name": "more_scp_alarm:number_20",
         "stream": false
       }
     ]
@@ -4802,7 +4802,7 @@
   "number_30": {
     "sounds": [
       {
-        "name": "theo_scp:number_30",
+        "name": "more_scp_alarm:number_30",
         "stream": false
       }
     ]
@@ -4810,7 +4810,7 @@
   "number_40": {
     "sounds": [
       {
-        "name": "theo_scp:number_40",
+        "name": "more_scp_alarm:number_40",
         "stream": false
       }
     ]
@@ -4818,7 +4818,7 @@
   "number_50": {
     "sounds": [
       {
-        "name": "theo_scp:number_50",
+        "name": "more_scp_alarm:number_50",
         "stream": false
       }
     ]
@@ -4826,7 +4826,7 @@
   "number_60": {
     "sounds": [
       {
-        "name": "theo_scp:number_60",
+        "name": "more_scp_alarm:number_60",
         "stream": false
       }
     ]
@@ -4834,7 +4834,7 @@
   "number_70": {
     "sounds": [
       {
-        "name": "theo_scp:number_70",
+        "name": "more_scp_alarm:number_70",
         "stream": false
       }
     ]
@@ -4842,7 +4842,7 @@
   "number_80": {
     "sounds": [
       {
-        "name": "theo_scp:number_80",
+        "name": "more_scp_alarm:number_80",
         "stream": false
       }
     ]
@@ -4850,7 +4850,7 @@
   "number_90": {
     "sounds": [
       {
-        "name": "theo_scp:number_90",
+        "name": "more_scp_alarm:number_90",
         "stream": false
       }
     ]
@@ -4858,7 +4858,7 @@
   "o5": {
     "sounds": [
       {
-        "name": "theo_scp:o5",
+        "name": "more_scp_alarm:o5",
         "stream": false
       }
     ]
@@ -4866,7 +4866,7 @@
   "october": {
     "sounds": [
       {
-        "name": "theo_scp:october",
+        "name": "more_scp_alarm:october",
         "stream": false
       }
     ]
@@ -4874,7 +4874,7 @@
   "of": {
     "sounds": [
       {
-        "name": "theo_scp:of",
+        "name": "more_scp_alarm:of",
         "stream": false
       }
     ]
@@ -4882,7 +4882,7 @@
   "off": {
     "sounds": [
       {
-        "name": "theo_scp:off",
+        "name": "more_scp_alarm:off",
         "stream": false
       }
     ]
@@ -4890,7 +4890,7 @@
   "offline": {
     "sounds": [
       {
-        "name": "theo_scp:offline",
+        "name": "more_scp_alarm:offline",
         "stream": false
       }
     ]
@@ -4898,7 +4898,7 @@
   "often": {
     "sounds": [
       {
-        "name": "theo_scp:often",
+        "name": "more_scp_alarm:often",
         "stream": false
       }
     ]
@@ -4906,7 +4906,7 @@
   "old": {
     "sounds": [
       {
-        "name": "theo_scp:old",
+        "name": "more_scp_alarm:old",
         "stream": false
       }
     ]
@@ -4914,7 +4914,7 @@
   "omega": {
     "sounds": [
       {
-        "name": "theo_scp:omega",
+        "name": "more_scp_alarm:omega",
         "stream": false
       }
     ]
@@ -4922,7 +4922,7 @@
   "omicron": {
     "sounds": [
       {
-        "name": "theo_scp:omicron",
+        "name": "more_scp_alarm:omicron",
         "stream": false
       }
     ]
@@ -4930,7 +4930,7 @@
   "on": {
     "sounds": [
       {
-        "name": "theo_scp:on",
+        "name": "more_scp_alarm:on",
         "stream": false
       }
     ]
@@ -4938,7 +4938,7 @@
   "once": {
     "sounds": [
       {
-        "name": "theo_scp:once",
+        "name": "more_scp_alarm:once",
         "stream": false
       }
     ]
@@ -4946,7 +4946,7 @@
   "ongoing": {
     "sounds": [
       {
-        "name": "theo_scp:ongoing",
+        "name": "more_scp_alarm:ongoing",
         "stream": false
       }
     ]
@@ -4954,7 +4954,7 @@
   "online": {
     "sounds": [
       {
-        "name": "theo_scp:online",
+        "name": "more_scp_alarm:online",
         "stream": false
       }
     ]
@@ -4962,7 +4962,7 @@
   "only": {
     "sounds": [
       {
-        "name": "theo_scp:only",
+        "name": "more_scp_alarm:only",
         "stream": false
       }
     ]
@@ -4970,7 +4970,7 @@
   "open": {
     "sounds": [
       {
-        "name": "theo_scp:open",
+        "name": "more_scp_alarm:open",
         "stream": false
       }
     ]
@@ -4978,7 +4978,7 @@
   "operate": {
     "sounds": [
       {
-        "name": "theo_scp:operate",
+        "name": "more_scp_alarm:operate",
         "stream": false
       }
     ]
@@ -4986,7 +4986,7 @@
   "operation": {
     "sounds": [
       {
-        "name": "theo_scp:operation",
+        "name": "more_scp_alarm:operation",
         "stream": false
       }
     ]
@@ -4994,7 +4994,7 @@
   "operational": {
     "sounds": [
       {
-        "name": "theo_scp:operational",
+        "name": "more_scp_alarm:operational",
         "stream": false
       }
     ]
@@ -5002,7 +5002,7 @@
   "operative": {
     "sounds": [
       {
-        "name": "theo_scp:operative",
+        "name": "more_scp_alarm:operative",
         "stream": false
       }
     ]
@@ -5010,7 +5010,7 @@
   "optimal": {
     "sounds": [
       {
-        "name": "theo_scp:optimal",
+        "name": "more_scp_alarm:optimal",
         "stream": false
       }
     ]
@@ -5018,7 +5018,7 @@
   "optional": {
     "sounds": [
       {
-        "name": "theo_scp:optional",
+        "name": "more_scp_alarm:optional",
         "stream": false
       }
     ]
@@ -5026,7 +5026,7 @@
   "or": {
     "sounds": [
       {
-        "name": "theo_scp:or",
+        "name": "more_scp_alarm:or",
         "stream": false
       }
     ]
@@ -5034,7 +5034,7 @@
   "orange": {
     "sounds": [
       {
-        "name": "theo_scp:orange",
+        "name": "more_scp_alarm:orange",
         "stream": false
       }
     ]
@@ -5042,7 +5042,7 @@
   "order": {
     "sounds": [
       {
-        "name": "theo_scp:order",
+        "name": "more_scp_alarm:order",
         "stream": false
       }
     ]
@@ -5050,7 +5050,7 @@
   "organism": {
     "sounds": [
       {
-        "name": "theo_scp:organism",
+        "name": "more_scp_alarm:organism",
         "stream": false
       }
     ]
@@ -5058,7 +5058,7 @@
   "other": {
     "sounds": [
       {
-        "name": "theo_scp:other",
+        "name": "more_scp_alarm:other",
         "stream": false
       }
     ]
@@ -5066,7 +5066,7 @@
   "out": {
     "sounds": [
       {
-        "name": "theo_scp:out",
+        "name": "more_scp_alarm:out",
         "stream": false
       }
     ]
@@ -5074,7 +5074,7 @@
   "outof": {
     "sounds": [
       {
-        "name": "theo_scp:outof",
+        "name": "more_scp_alarm:outof",
         "stream": false
       }
     ]
@@ -5082,7 +5082,7 @@
   "outside": {
     "sounds": [
       {
-        "name": "theo_scp:outside",
+        "name": "more_scp_alarm:outside",
         "stream": false
       }
     ]
@@ -5090,7 +5090,7 @@
   "outtage": {
     "sounds": [
       {
-        "name": "theo_scp:outtage",
+        "name": "more_scp_alarm:outtage",
         "stream": false
       }
     ]
@@ -5098,7 +5098,7 @@
   "over": {
     "sounds": [
       {
-        "name": "theo_scp:over",
+        "name": "more_scp_alarm:over",
         "stream": false
       }
     ]
@@ -5106,7 +5106,7 @@
   "overall": {
     "sounds": [
       {
-        "name": "theo_scp:overall",
+        "name": "more_scp_alarm:overall",
         "stream": false
       }
     ]
@@ -5114,7 +5114,7 @@
   "overcharge": {
     "sounds": [
       {
-        "name": "theo_scp:overcharge",
+        "name": "more_scp_alarm:overcharge",
         "stream": false
       }
     ]
@@ -5122,7 +5122,7 @@
   "overheat": {
     "sounds": [
       {
-        "name": "theo_scp:overheat",
+        "name": "more_scp_alarm:overheat",
         "stream": false
       }
     ]
@@ -5130,7 +5130,7 @@
   "override": {
     "sounds": [
       {
-        "name": "theo_scp:override",
+        "name": "more_scp_alarm:override",
         "stream": false
       }
     ]
@@ -5138,7 +5138,7 @@
   "pain": {
     "sounds": [
       {
-        "name": "theo_scp:pain",
+        "name": "more_scp_alarm:pain",
         "stream": false
       }
     ]
@@ -5146,7 +5146,7 @@
   "panic": {
     "sounds": [
       {
-        "name": "theo_scp:panic",
+        "name": "more_scp_alarm:panic",
         "stream": false
       }
     ]
@@ -5154,7 +5154,7 @@
   "partners": {
     "sounds": [
       {
-        "name": "theo_scp:partners",
+        "name": "more_scp_alarm:partners",
         "stream": false
       }
     ]
@@ -5162,7 +5162,7 @@
   "password": {
     "sounds": [
       {
-        "name": "theo_scp:password",
+        "name": "more_scp_alarm:password",
         "stream": false
       }
     ]
@@ -5170,7 +5170,7 @@
   "patch": {
     "sounds": [
       {
-        "name": "theo_scp:patch",
+        "name": "more_scp_alarm:patch",
         "stream": false
       }
     ]
@@ -5178,7 +5178,7 @@
   "patreon": {
     "sounds": [
       {
-        "name": "theo_scp:patreon",
+        "name": "more_scp_alarm:patreon",
         "stream": false
       }
     ]
@@ -5186,7 +5186,7 @@
   "pause": {
     "sounds": [
       {
-        "name": "theo_scp:pause",
+        "name": "more_scp_alarm:pause",
         "stream": false
       }
     ]
@@ -5194,7 +5194,7 @@
   "paused": {
     "sounds": [
       {
-        "name": "theo_scp:paused",
+        "name": "more_scp_alarm:paused",
         "stream": false
       }
     ]
@@ -5202,7 +5202,7 @@
   "pay": {
     "sounds": [
       {
-        "name": "theo_scp:pay",
+        "name": "more_scp_alarm:pay",
         "stream": false
       }
     ]
@@ -5210,7 +5210,7 @@
   "people": {
     "sounds": [
       {
-        "name": "theo_scp:people",
+        "name": "more_scp_alarm:people",
         "stream": false
       }
     ]
@@ -5218,7 +5218,7 @@
   "percent": {
     "sounds": [
       {
-        "name": "theo_scp:percent",
+        "name": "more_scp_alarm:percent",
         "stream": false
       }
     ]
@@ -5226,7 +5226,7 @@
   "permanent": {
     "sounds": [
       {
-        "name": "theo_scp:permanent",
+        "name": "more_scp_alarm:permanent",
         "stream": false
       }
     ]
@@ -5234,7 +5234,7 @@
   "person": {
     "sounds": [
       {
-        "name": "theo_scp:person",
+        "name": "more_scp_alarm:person",
         "stream": false
       }
     ]
@@ -5242,7 +5242,7 @@
   "personnel": {
     "sounds": [
       {
-        "name": "theo_scp:personnel",
+        "name": "more_scp_alarm:personnel",
         "stream": false
       }
     ]
@@ -5250,7 +5250,7 @@
   "petroleum": {
     "sounds": [
       {
-        "name": "theo_scp:petroleum",
+        "name": "more_scp_alarm:petroleum",
         "stream": false
       }
     ]
@@ -5258,7 +5258,7 @@
   "phi": {
     "sounds": [
       {
-        "name": "theo_scp:phi",
+        "name": "more_scp_alarm:phi",
         "stream": false
       }
     ]
@@ -5266,7 +5266,7 @@
   "pi": {
     "sounds": [
       {
-        "name": "theo_scp:pi",
+        "name": "more_scp_alarm:pi",
         "stream": false
       }
     ]
@@ -5274,7 +5274,7 @@
   "pistol": {
     "sounds": [
       {
-        "name": "theo_scp:pistol",
+        "name": "more_scp_alarm:pistol",
         "stream": false
       }
     ]
@@ -5282,7 +5282,7 @@
   "plague": {
     "sounds": [
       {
-        "name": "theo_scp:plague",
+        "name": "more_scp_alarm:plague",
         "stream": false
       }
     ]
@@ -5290,7 +5290,7 @@
   "please": {
     "sounds": [
       {
-        "name": "theo_scp:please",
+        "name": "more_scp_alarm:please",
         "stream": false
       }
     ]
@@ -5298,7 +5298,7 @@
   "plus": {
     "sounds": [
       {
-        "name": "theo_scp:plus",
+        "name": "more_scp_alarm:plus",
         "stream": false
       }
     ]
@@ -5306,7 +5306,7 @@
   "pocket": {
     "sounds": [
       {
-        "name": "theo_scp:pocket",
+        "name": "more_scp_alarm:pocket",
         "stream": false
       }
     ]
@@ -5314,7 +5314,7 @@
   "positive": {
     "sounds": [
       {
-        "name": "theo_scp:positive",
+        "name": "more_scp_alarm:positive",
         "stream": false
       }
     ]
@@ -5322,7 +5322,7 @@
   "possible": {
     "sounds": [
       {
-        "name": "theo_scp:possible",
+        "name": "more_scp_alarm:possible",
         "stream": false
       }
     ]
@@ -5330,7 +5330,7 @@
   "potential": {
     "sounds": [
       {
-        "name": "theo_scp:potential",
+        "name": "more_scp_alarm:potential",
         "stream": false
       }
     ]
@@ -5338,7 +5338,7 @@
   "power": {
     "sounds": [
       {
-        "name": "theo_scp:power",
+        "name": "more_scp_alarm:power",
         "stream": false
       }
     ]
@@ -5346,7 +5346,7 @@
   "previous": {
     "sounds": [
       {
-        "name": "theo_scp:previous",
+        "name": "more_scp_alarm:previous",
         "stream": false
       }
     ]
@@ -5354,7 +5354,7 @@
   "primary": {
     "sounds": [
       {
-        "name": "theo_scp:primary",
+        "name": "more_scp_alarm:primary",
         "stream": false
       }
     ]
@@ -5362,7 +5362,7 @@
   "priority": {
     "sounds": [
       {
-        "name": "theo_scp:priority",
+        "name": "more_scp_alarm:priority",
         "stream": false
       }
     ]
@@ -5370,7 +5370,7 @@
   "private": {
     "sounds": [
       {
-        "name": "theo_scp:private",
+        "name": "more_scp_alarm:private",
         "stream": false
       }
     ]
@@ -5378,7 +5378,7 @@
   "probability": {
     "sounds": [
       {
-        "name": "theo_scp:probability",
+        "name": "more_scp_alarm:probability",
         "stream": false
       }
     ]
@@ -5386,7 +5386,7 @@
   "procedure": {
     "sounds": [
       {
-        "name": "theo_scp:procedure",
+        "name": "more_scp_alarm:procedure",
         "stream": false
       }
     ]
@@ -5394,7 +5394,7 @@
   "proceed": {
     "sounds": [
       {
-        "name": "theo_scp:proceed",
+        "name": "more_scp_alarm:proceed",
         "stream": false
       }
     ]
@@ -5402,7 +5402,7 @@
   "process": {
     "sounds": [
       {
-        "name": "theo_scp:process",
+        "name": "more_scp_alarm:process",
         "stream": false
       }
     ]
@@ -5410,7 +5410,7 @@
   "progress": {
     "sounds": [
       {
-        "name": "theo_scp:progress",
+        "name": "more_scp_alarm:progress",
         "stream": false
       }
     ]
@@ -5418,7 +5418,7 @@
   "prosecution": {
     "sounds": [
       {
-        "name": "theo_scp:prosecution",
+        "name": "more_scp_alarm:prosecution",
         "stream": false
       }
     ]
@@ -5426,7 +5426,7 @@
   "protect": {
     "sounds": [
       {
-        "name": "theo_scp:protect",
+        "name": "more_scp_alarm:protect",
         "stream": false
       }
     ]
@@ -5434,7 +5434,7 @@
   "protection": {
     "sounds": [
       {
-        "name": "theo_scp:protection",
+        "name": "more_scp_alarm:protection",
         "stream": false
       }
     ]
@@ -5442,7 +5442,7 @@
   "protocol": {
     "sounds": [
       {
-        "name": "theo_scp:protocol",
+        "name": "more_scp_alarm:protocol",
         "stream": false
       }
     ]
@@ -5450,7 +5450,7 @@
   "psi": {
     "sounds": [
       {
-        "name": "theo_scp:psi",
+        "name": "more_scp_alarm:psi",
         "stream": false
       }
     ]
@@ -5458,7 +5458,7 @@
   "public": {
     "sounds": [
       {
-        "name": "theo_scp:public",
+        "name": "more_scp_alarm:public",
         "stream": false
       }
     ]
@@ -5466,7 +5466,7 @@
   "purge": {
     "sounds": [
       {
-        "name": "theo_scp:purge",
+        "name": "more_scp_alarm:purge",
         "stream": false
       }
     ]
@@ -5474,7 +5474,7 @@
   "put": {
     "sounds": [
       {
-        "name": "theo_scp:put",
+        "name": "more_scp_alarm:put",
         "stream": false
       }
     ]
@@ -5482,7 +5482,7 @@
   "query": {
     "sounds": [
       {
-        "name": "theo_scp:query",
+        "name": "more_scp_alarm:query",
         "stream": false
       }
     ]
@@ -5490,7 +5490,7 @@
   "question": {
     "sounds": [
       {
-        "name": "theo_scp:question",
+        "name": "more_scp_alarm:question",
         "stream": false
       }
     ]
@@ -5498,7 +5498,7 @@
   "questioning": {
     "sounds": [
       {
-        "name": "theo_scp:questioning",
+        "name": "more_scp_alarm:questioning",
         "stream": false
       }
     ]
@@ -5506,7 +5506,7 @@
   "radiation": {
     "sounds": [
       {
-        "name": "theo_scp:radiation",
+        "name": "more_scp_alarm:radiation",
         "stream": false
       }
     ]
@@ -5514,7 +5514,7 @@
   "radio": {
     "sounds": [
       {
-        "name": "theo_scp:radio",
+        "name": "more_scp_alarm:radio",
         "stream": false
       }
     ]
@@ -5522,7 +5522,7 @@
   "rank": {
     "sounds": [
       {
-        "name": "theo_scp:rank",
+        "name": "more_scp_alarm:rank",
         "stream": false
       }
     ]
@@ -5530,7 +5530,7 @@
   "reactivating": {
     "sounds": [
       {
-        "name": "theo_scp:reactivating",
+        "name": "more_scp_alarm:reactivating",
         "stream": false
       }
     ]
@@ -5538,7 +5538,7 @@
   "reactivation": {
     "sounds": [
       {
-        "name": "theo_scp:reactivation",
+        "name": "more_scp_alarm:reactivation",
         "stream": false
       }
     ]
@@ -5546,7 +5546,7 @@
   "reactor": {
     "sounds": [
       {
-        "name": "theo_scp:reactor",
+        "name": "more_scp_alarm:reactor",
         "stream": false
       }
     ]
@@ -5554,7 +5554,7 @@
   "ready": {
     "sounds": [
       {
-        "name": "theo_scp:ready",
+        "name": "more_scp_alarm:ready",
         "stream": false
       }
     ]
@@ -5562,7 +5562,7 @@
   "real": {
     "sounds": [
       {
-        "name": "theo_scp:real",
+        "name": "more_scp_alarm:real",
         "stream": false
       }
     ]
@@ -5570,7 +5570,7 @@
   "really": {
     "sounds": [
       {
-        "name": "theo_scp:really",
+        "name": "more_scp_alarm:really",
         "stream": false
       }
     ]
@@ -5578,7 +5578,7 @@
   "recieve": {
     "sounds": [
       {
-        "name": "theo_scp:recieve",
+        "name": "more_scp_alarm:recieve",
         "stream": false
       }
     ]
@@ -5586,7 +5586,7 @@
   "recontained": {
     "sounds": [
       {
-        "name": "theo_scp:recontained",
+        "name": "more_scp_alarm:recontained",
         "stream": false
       }
     ]
@@ -5594,7 +5594,7 @@
   "recontainment": {
     "sounds": [
       {
-        "name": "theo_scp:recontainment",
+        "name": "more_scp_alarm:recontainment",
         "stream": false
       }
     ]
@@ -5602,7 +5602,7 @@
   "red": {
     "sounds": [
       {
-        "name": "theo_scp:red",
+        "name": "more_scp_alarm:red",
         "stream": false
       }
     ]
@@ -5610,7 +5610,7 @@
   "redacted": {
     "sounds": [
       {
-        "name": "theo_scp:redacted",
+        "name": "more_scp_alarm:redacted",
         "stream": false
       }
     ]
@@ -5618,7 +5618,7 @@
   "rejected": {
     "sounds": [
       {
-        "name": "theo_scp:rejected",
+        "name": "more_scp_alarm:rejected",
         "stream": false
       }
     ]
@@ -5626,7 +5626,7 @@
   "remaining": {
     "sounds": [
       {
-        "name": "theo_scp:remaining",
+        "name": "more_scp_alarm:remaining",
         "stream": false
       }
     ]
@@ -5634,7 +5634,7 @@
   "remind": {
     "sounds": [
       {
-        "name": "theo_scp:remind",
+        "name": "more_scp_alarm:remind",
         "stream": false
       }
     ]
@@ -5642,7 +5642,7 @@
   "repair": {
     "sounds": [
       {
-        "name": "theo_scp:repair",
+        "name": "more_scp_alarm:repair",
         "stream": false
       }
     ]
@@ -5650,7 +5650,7 @@
   "repairing": {
     "sounds": [
       {
-        "name": "theo_scp:repairing",
+        "name": "more_scp_alarm:repairing",
         "stream": false
       }
     ]
@@ -5658,7 +5658,7 @@
   "repeat": {
     "sounds": [
       {
-        "name": "theo_scp:repeat",
+        "name": "more_scp_alarm:repeat",
         "stream": false
       }
     ]
@@ -5666,7 +5666,7 @@
   "report": {
     "sounds": [
       {
-        "name": "theo_scp:report",
+        "name": "more_scp_alarm:report",
         "stream": false
       }
     ]
@@ -5674,7 +5674,7 @@
   "require": {
     "sounds": [
       {
-        "name": "theo_scp:require",
+        "name": "more_scp_alarm:require",
         "stream": false
       }
     ]
@@ -5682,7 +5682,7 @@
   "respawn": {
     "sounds": [
       {
-        "name": "theo_scp:respawn",
+        "name": "more_scp_alarm:respawn",
         "stream": false
       }
     ]
@@ -5690,7 +5690,7 @@
   "respect": {
     "sounds": [
       {
-        "name": "theo_scp:respect",
+        "name": "more_scp_alarm:respect",
         "stream": false
       }
     ]
@@ -5698,7 +5698,7 @@
   "restricted": {
     "sounds": [
       {
-        "name": "theo_scp:restricted",
+        "name": "more_scp_alarm:restricted",
         "stream": false
       }
     ]
@@ -5706,7 +5706,7 @@
   "result": {
     "sounds": [
       {
-        "name": "theo_scp:result",
+        "name": "more_scp_alarm:result",
         "stream": false
       }
     ]
@@ -5714,7 +5714,7 @@
   "resumed": {
     "sounds": [
       {
-        "name": "theo_scp:resumed",
+        "name": "more_scp_alarm:resumed",
         "stream": false
       }
     ]
@@ -5722,7 +5722,7 @@
   "resurrection": {
     "sounds": [
       {
-        "name": "theo_scp:resurrection",
+        "name": "more_scp_alarm:resurrection",
         "stream": false
       }
     ]
@@ -5730,7 +5730,7 @@
   "retreat": {
     "sounds": [
       {
-        "name": "theo_scp:retreat",
+        "name": "more_scp_alarm:retreat",
         "stream": false
       }
     ]
@@ -5738,7 +5738,7 @@
   "return": {
     "sounds": [
       {
-        "name": "theo_scp:return",
+        "name": "more_scp_alarm:return",
         "stream": false
       }
     ]
@@ -5746,7 +5746,7 @@
   "revoke": {
     "sounds": [
       {
-        "name": "theo_scp:revoke",
+        "name": "more_scp_alarm:revoke",
         "stream": false
       }
     ]
@@ -5754,7 +5754,7 @@
   "rifle": {
     "sounds": [
       {
-        "name": "theo_scp:rifle",
+        "name": "more_scp_alarm:rifle",
         "stream": false
       }
     ]
@@ -5762,7 +5762,7 @@
   "right": {
     "sounds": [
       {
-        "name": "theo_scp:right",
+        "name": "more_scp_alarm:right",
         "stream": false
       }
     ]
@@ -5770,7 +5770,7 @@
   "ro": {
     "sounds": [
       {
-        "name": "theo_scp:ro",
+        "name": "more_scp_alarm:ro",
         "stream": false
       }
     ]
@@ -5778,7 +5778,7 @@
   "room": {
     "sounds": [
       {
-        "name": "theo_scp:room",
+        "name": "more_scp_alarm:room",
         "stream": false
       }
     ]
@@ -5786,7 +5786,7 @@
   "rough": {
     "sounds": [
       {
-        "name": "theo_scp:rough",
+        "name": "more_scp_alarm:rough",
         "stream": false
       }
     ]
@@ -5794,7 +5794,7 @@
   "run": {
     "sounds": [
       {
-        "name": "theo_scp:run",
+        "name": "more_scp_alarm:run",
         "stream": false
       }
     ]
@@ -5802,7 +5802,7 @@
   "running": {
     "sounds": [
       {
-        "name": "theo_scp:running",
+        "name": "more_scp_alarm:running",
         "stream": false
       }
     ]
@@ -5810,7 +5810,7 @@
   "safe": {
     "sounds": [
       {
-        "name": "theo_scp:safe",
+        "name": "more_scp_alarm:safe",
         "stream": false
       }
     ]
@@ -5818,7 +5818,7 @@
   "saturday": {
     "sounds": [
       {
-        "name": "theo_scp:saturday",
+        "name": "more_scp_alarm:saturday",
         "stream": false
       }
     ]
@@ -5826,7 +5826,7 @@
   "saw": {
     "sounds": [
       {
-        "name": "theo_scp:saw",
+        "name": "more_scp_alarm:saw",
         "stream": false
       }
     ]
@@ -5834,7 +5834,7 @@
   "say": {
     "sounds": [
       {
-        "name": "theo_scp:say",
+        "name": "more_scp_alarm:say",
         "stream": false
       }
     ]
@@ -5842,7 +5842,7 @@
   "scan": {
     "sounds": [
       {
-        "name": "theo_scp:scan",
+        "name": "more_scp_alarm:scan",
         "stream": false
       }
     ]
@@ -5850,7 +5850,7 @@
   "scanning": {
     "sounds": [
       {
-        "name": "theo_scp:scanning",
+        "name": "more_scp_alarm:scanning",
         "stream": false
       }
     ]
@@ -5858,7 +5858,7 @@
   "science": {
     "sounds": [
       {
-        "name": "theo_scp:science",
+        "name": "more_scp_alarm:science",
         "stream": false
       }
     ]
@@ -5866,7 +5866,7 @@
   "scientist": {
     "sounds": [
       {
-        "name": "theo_scp:scientist",
+        "name": "more_scp_alarm:scientist",
         "stream": false
       }
     ]
@@ -5874,7 +5874,7 @@
   "scientists": {
     "sounds": [
       {
-        "name": "theo_scp:scientists",
+        "name": "more_scp_alarm:scientists",
         "stream": false
       }
     ]
@@ -5882,7 +5882,7 @@
   "scp": {
     "sounds": [
       {
-        "name": "theo_scp:scp",
+        "name": "more_scp_alarm:scp",
         "stream": false
       }
     ]
@@ -5890,7 +5890,7 @@
   "scp_0_remaining": {
     "sounds": [
       {
-        "name": "theo_scp:scp_0_remaining",
+        "name": "more_scp_alarm:scp_0_remaining",
         "stream": false
       }
     ]
@@ -5898,7 +5898,7 @@
   "scp_multiple_remaining": {
     "sounds": [
       {
-        "name": "theo_scp:scp_multiple_remaining",
+        "name": "more_scp_alarm:scp_multiple_remaining",
         "stream": false
       }
     ]
@@ -5906,7 +5906,7 @@
   "scp_subject": {
     "sounds": [
       {
-        "name": "theo_scp:scp_subject",
+        "name": "more_scp_alarm:scp_subject",
         "stream": false
       }
     ]
@@ -5914,7 +5914,7 @@
   "scp_subjects": {
     "sounds": [
       {
-        "name": "theo_scp:scp_subjects",
+        "name": "more_scp_alarm:scp_subjects",
         "stream": false
       }
     ]
@@ -5922,7 +5922,7 @@
   "seal": {
     "sounds": [
       {
-        "name": "theo_scp:seal",
+        "name": "more_scp_alarm:seal",
         "stream": false
       }
     ]
@@ -5930,7 +5930,7 @@
   "search": {
     "sounds": [
       {
-        "name": "theo_scp:search",
+        "name": "more_scp_alarm:search",
         "stream": false
       }
     ]
@@ -5938,7 +5938,7 @@
   "second": {
     "sounds": [
       {
-        "name": "theo_scp:second",
+        "name": "more_scp_alarm:second",
         "stream": false
       }
     ]
@@ -5946,7 +5946,7 @@
   "secondary": {
     "sounds": [
       {
-        "name": "theo_scp:secondary",
+        "name": "more_scp_alarm:secondary",
         "stream": false
       }
     ]
@@ -5954,7 +5954,7 @@
   "seconds": {
     "sounds": [
       {
-        "name": "theo_scp:seconds",
+        "name": "more_scp_alarm:seconds",
         "stream": false
       }
     ]
@@ -5962,7 +5962,7 @@
   "secret": {
     "sounds": [
       {
-        "name": "theo_scp:secret",
+        "name": "more_scp_alarm:secret",
         "stream": false
       }
     ]
@@ -5970,7 +5970,7 @@
   "sector": {
     "sounds": [
       {
-        "name": "theo_scp:sector",
+        "name": "more_scp_alarm:sector",
         "stream": false
       }
     ]
@@ -5978,7 +5978,7 @@
   "secure": {
     "sounds": [
       {
-        "name": "theo_scp:secure",
+        "name": "more_scp_alarm:secure",
         "stream": false
       }
     ]
@@ -5986,7 +5986,7 @@
   "security": {
     "sounds": [
       {
-        "name": "theo_scp:security",
+        "name": "more_scp_alarm:security",
         "stream": false
       }
     ]
@@ -5994,7 +5994,7 @@
   "see": {
     "sounds": [
       {
-        "name": "theo_scp:see",
+        "name": "more_scp_alarm:see",
         "stream": false
       }
     ]
@@ -6002,7 +6002,7 @@
   "self": {
     "sounds": [
       {
-        "name": "theo_scp:self",
+        "name": "more_scp_alarm:self",
         "stream": false
       }
     ]
@@ -6010,7 +6010,7 @@
   "send": {
     "sounds": [
       {
-        "name": "theo_scp:send",
+        "name": "more_scp_alarm:send",
         "stream": false
       }
     ]
@@ -6018,7 +6018,7 @@
   "senior": {
     "sounds": [
       {
-        "name": "theo_scp:senior",
+        "name": "more_scp_alarm:senior",
         "stream": false
       }
     ]
@@ -6026,7 +6026,7 @@
   "sentient": {
     "sounds": [
       {
-        "name": "theo_scp:sentient",
+        "name": "more_scp_alarm:sentient",
         "stream": false
       }
     ]
@@ -6034,7 +6034,7 @@
   "september": {
     "sounds": [
       {
-        "name": "theo_scp:september",
+        "name": "more_scp_alarm:september",
         "stream": false
       }
     ]
@@ -6042,7 +6042,7 @@
   "sequence": {
     "sounds": [
       {
-        "name": "theo_scp:sequence",
+        "name": "more_scp_alarm:sequence",
         "stream": false
       }
     ]
@@ -6050,7 +6050,7 @@
   "serious": {
     "sounds": [
       {
-        "name": "theo_scp:serious",
+        "name": "more_scp_alarm:serious",
         "stream": false
       }
     ]
@@ -6058,7 +6058,7 @@
   "seriously": {
     "sounds": [
       {
-        "name": "theo_scp:seriously",
+        "name": "more_scp_alarm:seriously",
         "stream": false
       }
     ]
@@ -6066,7 +6066,7 @@
   "serpents": {
     "sounds": [
       {
-        "name": "theo_scp:serpents",
+        "name": "more_scp_alarm:serpents",
         "stream": false
       }
     ]
@@ -6074,7 +6074,7 @@
   "service": {
     "sounds": [
       {
-        "name": "theo_scp:service",
+        "name": "more_scp_alarm:service",
         "stream": false
       }
     ]
@@ -6082,7 +6082,7 @@
   "she": {
     "sounds": [
       {
-        "name": "theo_scp:she",
+        "name": "more_scp_alarm:she",
         "stream": false
       }
     ]
@@ -6090,7 +6090,7 @@
   "shelter": {
     "sounds": [
       {
-        "name": "theo_scp:shelter",
+        "name": "more_scp_alarm:shelter",
         "stream": false
       }
     ]
@@ -6098,7 +6098,7 @@
   "shoot": {
     "sounds": [
       {
-        "name": "theo_scp:shoot",
+        "name": "more_scp_alarm:shoot",
         "stream": false
       }
     ]
@@ -6106,7 +6106,7 @@
   "shooting": {
     "sounds": [
       {
-        "name": "theo_scp:shooting",
+        "name": "more_scp_alarm:shooting",
         "stream": false
       }
     ]
@@ -6114,7 +6114,7 @@
   "shot": {
     "sounds": [
       {
-        "name": "theo_scp:shot",
+        "name": "more_scp_alarm:shot",
         "stream": false
       }
     ]
@@ -6122,7 +6122,7 @@
   "should": {
     "sounds": [
       {
-        "name": "theo_scp:should",
+        "name": "more_scp_alarm:should",
         "stream": false
       }
     ]
@@ -6130,7 +6130,7 @@
   "shut": {
     "sounds": [
       {
-        "name": "theo_scp:shut",
+        "name": "more_scp_alarm:shut",
         "stream": false
       }
     ]
@@ -6138,7 +6138,7 @@
   "shutting": {
     "sounds": [
       {
-        "name": "theo_scp:shutting",
+        "name": "more_scp_alarm:shutting",
         "stream": false
       }
     ]
@@ -6146,7 +6146,7 @@
   "side": {
     "sounds": [
       {
-        "name": "theo_scp:side",
+        "name": "more_scp_alarm:side",
         "stream": false
       }
     ]
@@ -6154,7 +6154,7 @@
   "siera": {
     "sounds": [
       {
-        "name": "theo_scp:siera",
+        "name": "more_scp_alarm:siera",
         "stream": false
       }
     ]
@@ -6162,7 +6162,7 @@
   "sigma": {
     "sounds": [
       {
-        "name": "theo_scp:sigma",
+        "name": "more_scp_alarm:sigma",
         "stream": false
       }
     ]
@@ -6170,7 +6170,7 @@
   "sis": {
     "sounds": [
       {
-        "name": "theo_scp:sis",
+        "name": "more_scp_alarm:sis",
         "stream": false
       }
     ]
@@ -6178,7 +6178,7 @@
   "site": {
     "sounds": [
       {
-        "name": "theo_scp:site",
+        "name": "more_scp_alarm:site",
         "stream": false
       }
     ]
@@ -6186,7 +6186,7 @@
   "small": {
     "sounds": [
       {
-        "name": "theo_scp:small",
+        "name": "more_scp_alarm:small",
         "stream": false
       }
     ]
@@ -6194,7 +6194,7 @@
   "snap": {
     "sounds": [
       {
-        "name": "theo_scp:snap",
+        "name": "more_scp_alarm:snap",
         "stream": false
       }
     ]
@@ -6202,7 +6202,7 @@
   "so": {
     "sounds": [
       {
-        "name": "theo_scp:so",
+        "name": "more_scp_alarm:so",
         "stream": false
       }
     ]
@@ -6210,7 +6210,7 @@
   "software": {
     "sounds": [
       {
-        "name": "theo_scp:software",
+        "name": "more_scp_alarm:software",
         "stream": false
       }
     ]
@@ -6218,7 +6218,7 @@
   "solid": {
     "sounds": [
       {
-        "name": "theo_scp:solid",
+        "name": "more_scp_alarm:solid",
         "stream": false
       }
     ]
@@ -6226,7 +6226,7 @@
   "some": {
     "sounds": [
       {
-        "name": "theo_scp:some",
+        "name": "more_scp_alarm:some",
         "stream": false
       }
     ]
@@ -6234,7 +6234,7 @@
   "somebody": {
     "sounds": [
       {
-        "name": "theo_scp:somebody",
+        "name": "more_scp_alarm:somebody",
         "stream": false
       }
     ]
@@ -6242,7 +6242,7 @@
   "someone": {
     "sounds": [
       {
-        "name": "theo_scp:someone",
+        "name": "more_scp_alarm:someone",
         "stream": false
       }
     ]
@@ -6250,7 +6250,7 @@
   "something": {
     "sounds": [
       {
-        "name": "theo_scp:something",
+        "name": "more_scp_alarm:something",
         "stream": false
       }
     ]
@@ -6258,7 +6258,7 @@
   "sorry": {
     "sounds": [
       {
-        "name": "theo_scp:sorry",
+        "name": "more_scp_alarm:sorry",
         "stream": false
       }
     ]
@@ -6266,7 +6266,7 @@
   "source": {
     "sounds": [
       {
-        "name": "theo_scp:source",
+        "name": "more_scp_alarm:source",
         "stream": false
       }
     ]
@@ -6274,7 +6274,7 @@
   "south": {
     "sounds": [
       {
-        "name": "theo_scp:south",
+        "name": "more_scp_alarm:south",
         "stream": false
       }
     ]
@@ -6282,7 +6282,7 @@
   "space": {
     "sounds": [
       {
-        "name": "theo_scp:space",
+        "name": "more_scp_alarm:space",
         "stream": false
       }
     ]
@@ -6290,7 +6290,7 @@
   "spotted": {
     "sounds": [
       {
-        "name": "theo_scp:spotted",
+        "name": "more_scp_alarm:spotted",
         "stream": false
       }
     ]
@@ -6298,7 +6298,7 @@
   "squad": {
     "sounds": [
       {
-        "name": "theo_scp:squad",
+        "name": "more_scp_alarm:squad",
         "stream": false
       }
     ]
@@ -6306,7 +6306,7 @@
   "stabilize": {
     "sounds": [
       {
-        "name": "theo_scp:stabilize",
+        "name": "more_scp_alarm:stabilize",
         "stream": false
       }
     ]
@@ -6314,7 +6314,7 @@
   "stable": {
     "sounds": [
       {
-        "name": "theo_scp:stable",
+        "name": "more_scp_alarm:stable",
         "stream": false
       }
     ]
@@ -6322,7 +6322,7 @@
   "stand": {
     "sounds": [
       {
-        "name": "theo_scp:stand",
+        "name": "more_scp_alarm:stand",
         "stream": false
       }
     ]
@@ -6330,7 +6330,7 @@
   "standard": {
     "sounds": [
       {
-        "name": "theo_scp:standard",
+        "name": "more_scp_alarm:standard",
         "stream": false
       }
     ]
@@ -6338,7 +6338,7 @@
   "standby": {
     "sounds": [
       {
-        "name": "theo_scp:standby",
+        "name": "more_scp_alarm:standby",
         "stream": false
       }
     ]
@@ -6346,7 +6346,7 @@
   "start": {
     "sounds": [
       {
-        "name": "theo_scp:start",
+        "name": "more_scp_alarm:start",
         "stream": false
       }
     ]
@@ -6354,7 +6354,7 @@
   "started": {
     "sounds": [
       {
-        "name": "theo_scp:started",
+        "name": "more_scp_alarm:started",
         "stream": false
       }
     ]
@@ -6362,7 +6362,7 @@
   "starting": {
     "sounds": [
       {
-        "name": "theo_scp:starting",
+        "name": "more_scp_alarm:starting",
         "stream": false
       }
     ]
@@ -6370,7 +6370,7 @@
   "static": {
     "sounds": [
       {
-        "name": "theo_scp:static",
+        "name": "more_scp_alarm:static",
         "stream": false
       }
     ]
@@ -6378,7 +6378,7 @@
   "status": {
     "sounds": [
       {
-        "name": "theo_scp:status",
+        "name": "more_scp_alarm:status",
         "stream": false
       }
     ]
@@ -6386,7 +6386,7 @@
   "stop": {
     "sounds": [
       {
-        "name": "theo_scp:stop",
+        "name": "more_scp_alarm:stop",
         "stream": false
       }
     ]
@@ -6394,7 +6394,7 @@
   "stopped": {
     "sounds": [
       {
-        "name": "theo_scp:stopped",
+        "name": "more_scp_alarm:stopped",
         "stream": false
       }
     ]
@@ -6402,7 +6402,7 @@
   "storage": {
     "sounds": [
       {
-        "name": "theo_scp:storage",
+        "name": "more_scp_alarm:storage",
         "stream": false
       }
     ]
@@ -6410,7 +6410,7 @@
   "straight": {
     "sounds": [
       {
-        "name": "theo_scp:straight",
+        "name": "more_scp_alarm:straight",
         "stream": false
       }
     ]
@@ -6418,7 +6418,7 @@
   "strictly": {
     "sounds": [
       {
-        "name": "theo_scp:strictly",
+        "name": "more_scp_alarm:strictly",
         "stream": false
       }
     ]
@@ -6426,7 +6426,7 @@
   "studio": {
     "sounds": [
       {
-        "name": "theo_scp:studio",
+        "name": "more_scp_alarm:studio",
         "stream": false
       }
     ]
@@ -6434,7 +6434,7 @@
   "substantial": {
     "sounds": [
       {
-        "name": "theo_scp:substantial",
+        "name": "more_scp_alarm:substantial",
         "stream": false
       }
     ]
@@ -6442,7 +6442,7 @@
   "subsystem": {
     "sounds": [
       {
-        "name": "theo_scp:subsystem",
+        "name": "more_scp_alarm:subsystem",
         "stream": false
       }
     ]
@@ -6450,7 +6450,7 @@
   "successfully": {
     "sounds": [
       {
-        "name": "theo_scp:successfully",
+        "name": "more_scp_alarm:successfully",
         "stream": false
       }
     ]
@@ -6458,7 +6458,7 @@
   "sunday": {
     "sounds": [
       {
-        "name": "theo_scp:sunday",
+        "name": "more_scp_alarm:sunday",
         "stream": false
       }
     ]
@@ -6466,7 +6466,7 @@
   "supply": {
     "sounds": [
       {
-        "name": "theo_scp:supply",
+        "name": "more_scp_alarm:supply",
         "stream": false
       }
     ]
@@ -6474,7 +6474,7 @@
   "support": {
     "sounds": [
       {
-        "name": "theo_scp:support",
+        "name": "more_scp_alarm:support",
         "stream": false
       }
     ]
@@ -6482,7 +6482,7 @@
   "supporter": {
     "sounds": [
       {
-        "name": "theo_scp:supporter",
+        "name": "more_scp_alarm:supporter",
         "stream": false
       }
     ]
@@ -6490,7 +6490,7 @@
   "surface": {
     "sounds": [
       {
-        "name": "theo_scp:surface",
+        "name": "more_scp_alarm:surface",
         "stream": false
       }
     ]
@@ -6498,7 +6498,7 @@
   "surge": {
     "sounds": [
       {
-        "name": "theo_scp:surge",
+        "name": "more_scp_alarm:surge",
         "stream": false
       }
     ]
@@ -6506,7 +6506,7 @@
   "surprise": {
     "sounds": [
       {
-        "name": "theo_scp:surprise",
+        "name": "more_scp_alarm:surprise",
         "stream": false
       }
     ]
@@ -6514,7 +6514,7 @@
   "surrender": {
     "sounds": [
       {
-        "name": "theo_scp:surrender",
+        "name": "more_scp_alarm:surrender",
         "stream": false
       }
     ]
@@ -6522,7 +6522,7 @@
   "survive": {
     "sounds": [
       {
-        "name": "theo_scp:survive",
+        "name": "more_scp_alarm:survive",
         "stream": false
       }
     ]
@@ -6530,7 +6530,7 @@
   "survivor": {
     "sounds": [
       {
-        "name": "theo_scp:survivor",
+        "name": "more_scp_alarm:survivor",
         "stream": false
       }
     ]
@@ -6538,7 +6538,7 @@
   "system": {
     "sounds": [
       {
-        "name": "theo_scp:system",
+        "name": "more_scp_alarm:system",
         "stream": false
       }
     ]
@@ -6546,7 +6546,7 @@
   "systems": {
     "sounds": [
       {
-        "name": "theo_scp:systems",
+        "name": "more_scp_alarm:systems",
         "stream": false
       }
     ]
@@ -6554,7 +6554,7 @@
   "t_ed": {
     "sounds": [
       {
-        "name": "theo_scp:t_ed",
+        "name": "more_scp_alarm:t_ed",
         "stream": false
       }
     ]
@@ -6562,7 +6562,7 @@
   "tactical": {
     "sounds": [
       {
-        "name": "theo_scp:tactical",
+        "name": "more_scp_alarm:tactical",
         "stream": false
       }
     ]
@@ -6570,7 +6570,7 @@
   "take": {
     "sounds": [
       {
-        "name": "theo_scp:take",
+        "name": "more_scp_alarm:take",
         "stream": false
       }
     ]
@@ -6578,7 +6578,7 @@
   "taken": {
     "sounds": [
       {
-        "name": "theo_scp:taken",
+        "name": "more_scp_alarm:taken",
         "stream": false
       }
     ]
@@ -6586,7 +6586,7 @@
   "tank": {
     "sounds": [
       {
-        "name": "theo_scp:tank",
+        "name": "more_scp_alarm:tank",
         "stream": false
       }
     ]
@@ -6594,7 +6594,7 @@
   "target": {
     "sounds": [
       {
-        "name": "theo_scp:target",
+        "name": "more_scp_alarm:target",
         "stream": false
       }
     ]
@@ -6602,7 +6602,7 @@
   "task": {
     "sounds": [
       {
-        "name": "theo_scp:task",
+        "name": "more_scp_alarm:task",
         "stream": false
       }
     ]
@@ -6610,7 +6610,7 @@
   "tau": {
     "sounds": [
       {
-        "name": "theo_scp:tau",
+        "name": "more_scp_alarm:tau",
         "stream": false
       }
     ]
@@ -6618,7 +6618,7 @@
   "team": {
     "sounds": [
       {
-        "name": "theo_scp:team",
+        "name": "more_scp_alarm:team",
         "stream": false
       }
     ]
@@ -6626,7 +6626,7 @@
   "tell": {
     "sounds": [
       {
-        "name": "theo_scp:tell",
+        "name": "more_scp_alarm:tell",
         "stream": false
       }
     ]
@@ -6634,7 +6634,7 @@
   "temperature": {
     "sounds": [
       {
-        "name": "theo_scp:temperature",
+        "name": "more_scp_alarm:temperature",
         "stream": false
       }
     ]
@@ -6642,7 +6642,7 @@
   "temporal": {
     "sounds": [
       {
-        "name": "theo_scp:temporal",
+        "name": "more_scp_alarm:temporal",
         "stream": false
       }
     ]
@@ -6650,7 +6650,7 @@
   "tera": {
     "sounds": [
       {
-        "name": "theo_scp:tera",
+        "name": "more_scp_alarm:tera",
         "stream": false
       }
     ]
@@ -6658,7 +6658,7 @@
   "terminal": {
     "sounds": [
       {
-        "name": "theo_scp:terminal",
+        "name": "more_scp_alarm:terminal",
         "stream": false
       }
     ]
@@ -6666,7 +6666,7 @@
   "terminate": {
     "sounds": [
       {
-        "name": "theo_scp:terminate",
+        "name": "more_scp_alarm:terminate",
         "stream": false
       }
     ]
@@ -6674,7 +6674,7 @@
   "terminated": {
     "sounds": [
       {
-        "name": "theo_scp:terminated",
+        "name": "more_scp_alarm:terminated",
         "stream": false
       }
     ]
@@ -6682,7 +6682,7 @@
   "termination": {
     "sounds": [
       {
-        "name": "theo_scp:termination",
+        "name": "more_scp_alarm:termination",
         "stream": false
       }
     ]
@@ -6690,7 +6690,7 @@
   "tesla": {
     "sounds": [
       {
-        "name": "theo_scp:tesla",
+        "name": "more_scp_alarm:tesla",
         "stream": false
       }
     ]
@@ -6698,7 +6698,7 @@
   "test": {
     "sounds": [
       {
-        "name": "theo_scp:test",
+        "name": "more_scp_alarm:test",
         "stream": false
       }
     ]
@@ -6706,7 +6706,7 @@
   "thank": {
     "sounds": [
       {
-        "name": "theo_scp:thank",
+        "name": "more_scp_alarm:thank",
         "stream": false
       }
     ]
@@ -6714,7 +6714,7 @@
   "thanks": {
     "sounds": [
       {
-        "name": "theo_scp:thanks",
+        "name": "more_scp_alarm:thanks",
         "stream": false
       }
     ]
@@ -6722,7 +6722,7 @@
   "that": {
     "sounds": [
       {
-        "name": "theo_scp:that",
+        "name": "more_scp_alarm:that",
         "stream": false
       }
     ]
@@ -6730,7 +6730,7 @@
   "their": {
     "sounds": [
       {
-        "name": "theo_scp:their",
+        "name": "more_scp_alarm:their",
         "stream": false
       }
     ]
@@ -6738,7 +6738,7 @@
   "them": {
     "sounds": [
       {
-        "name": "theo_scp:them",
+        "name": "more_scp_alarm:them",
         "stream": false
       }
     ]
@@ -6746,7 +6746,7 @@
   "then": {
     "sounds": [
       {
-        "name": "theo_scp:then",
+        "name": "more_scp_alarm:then",
         "stream": false
       }
     ]
@@ -6754,7 +6754,7 @@
   "there": {
     "sounds": [
       {
-        "name": "theo_scp:there",
+        "name": "more_scp_alarm:there",
         "stream": false
       }
     ]
@@ -6762,7 +6762,7 @@
   "thermal": {
     "sounds": [
       {
-        "name": "theo_scp:thermal",
+        "name": "more_scp_alarm:thermal",
         "stream": false
       }
     ]
@@ -6770,7 +6770,7 @@
   "theta": {
     "sounds": [
       {
-        "name": "theo_scp:theta",
+        "name": "more_scp_alarm:theta",
         "stream": false
       }
     ]
@@ -6778,7 +6778,7 @@
   "they": {
     "sounds": [
       {
-        "name": "theo_scp:they",
+        "name": "more_scp_alarm:they",
         "stream": false
       }
     ]
@@ -6786,7 +6786,7 @@
   "thing": {
     "sounds": [
       {
-        "name": "theo_scp:thing",
+        "name": "more_scp_alarm:thing",
         "stream": false
       }
     ]
@@ -6794,7 +6794,7 @@
   "think": {
     "sounds": [
       {
-        "name": "theo_scp:think",
+        "name": "more_scp_alarm:think",
         "stream": false
       }
     ]
@@ -6802,7 +6802,7 @@
   "third": {
     "sounds": [
       {
-        "name": "theo_scp:third",
+        "name": "more_scp_alarm:third",
         "stream": false
       }
     ]
@@ -6810,7 +6810,7 @@
   "this": {
     "sounds": [
       {
-        "name": "theo_scp:this",
+        "name": "more_scp_alarm:this",
         "stream": false
       }
     ]
@@ -6818,7 +6818,7 @@
   "though": {
     "sounds": [
       {
-        "name": "theo_scp:though",
+        "name": "more_scp_alarm:though",
         "stream": false
       }
     ]
@@ -6826,7 +6826,7 @@
   "thought": {
     "sounds": [
       {
-        "name": "theo_scp:thought",
+        "name": "more_scp_alarm:thought",
         "stream": false
       }
     ]
@@ -6834,7 +6834,7 @@
   "thousand": {
     "sounds": [
       {
-        "name": "theo_scp:thousand",
+        "name": "more_scp_alarm:thousand",
         "stream": false
       }
     ]
@@ -6842,7 +6842,7 @@
   "threat": {
     "sounds": [
       {
-        "name": "theo_scp:threat",
+        "name": "more_scp_alarm:threat",
         "stream": false
       }
     ]
@@ -6850,7 +6850,7 @@
   "through": {
     "sounds": [
       {
-        "name": "theo_scp:through",
+        "name": "more_scp_alarm:through",
         "stream": false
       }
     ]
@@ -6858,7 +6858,7 @@
   "thursday": {
     "sounds": [
       {
-        "name": "theo_scp:thursday",
+        "name": "more_scp_alarm:thursday",
         "stream": false
       }
     ]
@@ -6866,7 +6866,7 @@
   "time": {
     "sounds": [
       {
-        "name": "theo_scp:time",
+        "name": "more_scp_alarm:time",
         "stream": false
       }
     ]
@@ -6874,7 +6874,7 @@
   "times": {
     "sounds": [
       {
-        "name": "theo_scp:times",
+        "name": "more_scp_alarm:times",
         "stream": false
       }
     ]
@@ -6882,7 +6882,7 @@
   "tminus": {
     "sounds": [
       {
-        "name": "theo_scp:tminus",
+        "name": "more_scp_alarm:tminus",
         "stream": false
       }
     ]
@@ -6890,7 +6890,7 @@
   "to": {
     "sounds": [
       {
-        "name": "theo_scp:to",
+        "name": "more_scp_alarm:to",
         "stream": false
       }
     ]
@@ -6898,7 +6898,7 @@
   "today": {
     "sounds": [
       {
-        "name": "theo_scp:today",
+        "name": "more_scp_alarm:today",
         "stream": false
       }
     ]
@@ -6906,7 +6906,7 @@
   "tomorrow": {
     "sounds": [
       {
-        "name": "theo_scp:tomorrow",
+        "name": "more_scp_alarm:tomorrow",
         "stream": false
       }
     ]
@@ -6914,7 +6914,7 @@
   "too": {
     "sounds": [
       {
-        "name": "theo_scp:too",
+        "name": "more_scp_alarm:too",
         "stream": false
       }
     ]
@@ -6922,7 +6922,7 @@
   "top": {
     "sounds": [
       {
-        "name": "theo_scp:top",
+        "name": "more_scp_alarm:top",
         "stream": false
       }
     ]
@@ -6930,7 +6930,7 @@
   "touch": {
     "sounds": [
       {
-        "name": "theo_scp:touch",
+        "name": "more_scp_alarm:touch",
         "stream": false
       }
     ]
@@ -6938,7 +6938,7 @@
   "towards": {
     "sounds": [
       {
-        "name": "theo_scp:towards",
+        "name": "more_scp_alarm:towards",
         "stream": false
       }
     ]
@@ -6946,7 +6946,7 @@
   "trillion": {
     "sounds": [
       {
-        "name": "theo_scp:trillion",
+        "name": "more_scp_alarm:trillion",
         "stream": false
       }
     ]
@@ -6954,7 +6954,7 @@
   "true": {
     "sounds": [
       {
-        "name": "theo_scp:true",
+        "name": "more_scp_alarm:true",
         "stream": false
       }
     ]
@@ -6962,7 +6962,7 @@
   "tuesday": {
     "sounds": [
       {
-        "name": "theo_scp:tuesday",
+        "name": "more_scp_alarm:tuesday",
         "stream": false
       }
     ]
@@ -6970,7 +6970,7 @@
   "turn": {
     "sounds": [
       {
-        "name": "theo_scp:turn",
+        "name": "more_scp_alarm:turn",
         "stream": false
       }
     ]
@@ -6978,7 +6978,7 @@
   "turned": {
     "sounds": [
       {
-        "name": "theo_scp:turned",
+        "name": "more_scp_alarm:turned",
         "stream": false
       }
     ]
@@ -6986,7 +6986,7 @@
   "turns": {
     "sounds": [
       {
-        "name": "theo_scp:turns",
+        "name": "more_scp_alarm:turns",
         "stream": false
       }
     ]
@@ -6994,7 +6994,7 @@
   "twice": {
     "sounds": [
       {
-        "name": "theo_scp:twice",
+        "name": "more_scp_alarm:twice",
         "stream": false
       }
     ]
@@ -7002,7 +7002,7 @@
   "un_": {
     "sounds": [
       {
-        "name": "theo_scp:un_",
+        "name": "more_scp_alarm:un_",
         "stream": false
       }
     ]
@@ -7010,7 +7010,7 @@
   "unable": {
     "sounds": [
       {
-        "name": "theo_scp:unable",
+        "name": "more_scp_alarm:unable",
         "stream": false
       }
     ]
@@ -7018,7 +7018,7 @@
   "unauthorized": {
     "sounds": [
       {
-        "name": "theo_scp:unauthorized",
+        "name": "more_scp_alarm:unauthorized",
         "stream": false
       }
     ]
@@ -7026,7 +7026,7 @@
   "unavailable": {
     "sounds": [
       {
-        "name": "theo_scp:unavailable",
+        "name": "more_scp_alarm:unavailable",
         "stream": false
       }
     ]
@@ -7034,7 +7034,7 @@
   "under": {
     "sounds": [
       {
-        "name": "theo_scp:under",
+        "name": "more_scp_alarm:under",
         "stream": false
       }
     ]
@@ -7042,7 +7042,7 @@
   "unit": {
     "sounds": [
       {
-        "name": "theo_scp:unit",
+        "name": "more_scp_alarm:unit",
         "stream": false
       }
     ]
@@ -7050,7 +7050,7 @@
   "universal": {
     "sounds": [
       {
-        "name": "theo_scp:universal",
+        "name": "more_scp_alarm:universal",
         "stream": false
       }
     ]
@@ -7058,7 +7058,7 @@
   "unknown": {
     "sounds": [
       {
-        "name": "theo_scp:unknown",
+        "name": "more_scp_alarm:unknown",
         "stream": false
       }
     ]
@@ -7066,7 +7066,7 @@
   "unnecessary": {
     "sounds": [
       {
-        "name": "theo_scp:unnecessary",
+        "name": "more_scp_alarm:unnecessary",
         "stream": false
       }
     ]
@@ -7074,7 +7074,7 @@
   "unspecified": {
     "sounds": [
       {
-        "name": "theo_scp:unspecified",
+        "name": "more_scp_alarm:unspecified",
         "stream": false
       }
     ]
@@ -7082,7 +7082,7 @@
   "unstable": {
     "sounds": [
       {
-        "name": "theo_scp:unstable",
+        "name": "more_scp_alarm:unstable",
         "stream": false
       }
     ]
@@ -7090,7 +7090,7 @@
   "until": {
     "sounds": [
       {
-        "name": "theo_scp:until",
+        "name": "more_scp_alarm:until",
         "stream": false
       }
     ]
@@ -7098,7 +7098,7 @@
   "up": {
     "sounds": [
       {
-        "name": "theo_scp:up",
+        "name": "more_scp_alarm:up",
         "stream": false
       }
     ]
@@ -7106,7 +7106,7 @@
   "upsilon": {
     "sounds": [
       {
-        "name": "theo_scp:upsilon",
+        "name": "more_scp_alarm:upsilon",
         "stream": false
       }
     ]
@@ -7114,7 +7114,7 @@
   "us": {
     "sounds": [
       {
-        "name": "theo_scp:us",
+        "name": "more_scp_alarm:us",
         "stream": false
       }
     ]
@@ -7122,7 +7122,7 @@
   "usbdrive": {
     "sounds": [
       {
-        "name": "theo_scp:usbdrive",
+        "name": "more_scp_alarm:usbdrive",
         "stream": false
       }
     ]
@@ -7130,7 +7130,7 @@
   "use": {
     "sounds": [
       {
-        "name": "theo_scp:use",
+        "name": "more_scp_alarm:use",
         "stream": false
       }
     ]
@@ -7138,7 +7138,7 @@
   "user": {
     "sounds": [
       {
-        "name": "theo_scp:user",
+        "name": "more_scp_alarm:user",
         "stream": false
       }
     ]
@@ -7146,7 +7146,7 @@
   "using": {
     "sounds": [
       {
-        "name": "theo_scp:using",
+        "name": "more_scp_alarm:using",
         "stream": false
       }
     ]
@@ -7154,7 +7154,7 @@
   "very": {
     "sounds": [
       {
-        "name": "theo_scp:very",
+        "name": "more_scp_alarm:very",
         "stream": false
       }
     ]
@@ -7162,7 +7162,7 @@
   "virus": {
     "sounds": [
       {
-        "name": "theo_scp:virus",
+        "name": "more_scp_alarm:virus",
         "stream": false
       }
     ]
@@ -7170,7 +7170,7 @@
   "wait": {
     "sounds": [
       {
-        "name": "theo_scp:wait",
+        "name": "more_scp_alarm:wait",
         "stream": false
       }
     ]
@@ -7178,7 +7178,7 @@
   "wall": {
     "sounds": [
       {
-        "name": "theo_scp:wall",
+        "name": "more_scp_alarm:wall",
         "stream": false
       }
     ]
@@ -7186,7 +7186,7 @@
   "want": {
     "sounds": [
       {
-        "name": "theo_scp:want",
+        "name": "more_scp_alarm:want",
         "stream": false
       }
     ]
@@ -7194,7 +7194,7 @@
   "warhead": {
     "sounds": [
       {
-        "name": "theo_scp:warhead",
+        "name": "more_scp_alarm:warhead",
         "stream": false
       }
     ]
@@ -7202,7 +7202,7 @@
   "warning": {
     "sounds": [
       {
-        "name": "theo_scp:warning",
+        "name": "more_scp_alarm:warning",
         "stream": false
       }
     ]
@@ -7210,7 +7210,7 @@
   "was": {
     "sounds": [
       {
-        "name": "theo_scp:was",
+        "name": "more_scp_alarm:was",
         "stream": false
       }
     ]
@@ -7218,7 +7218,7 @@
   "way": {
     "sounds": [
       {
-        "name": "theo_scp:way",
+        "name": "more_scp_alarm:way",
         "stream": false
       }
     ]
@@ -7226,7 +7226,7 @@
   "weapon": {
     "sounds": [
       {
-        "name": "theo_scp:weapon",
+        "name": "more_scp_alarm:weapon",
         "stream": false
       }
     ]
@@ -7234,7 +7234,7 @@
   "weapons": {
     "sounds": [
       {
-        "name": "theo_scp:weapons",
+        "name": "more_scp_alarm:weapons",
         "stream": false
       }
     ]
@@ -7242,7 +7242,7 @@
   "wednesday": {
     "sounds": [
       {
-        "name": "theo_scp:wednesday",
+        "name": "more_scp_alarm:wednesday",
         "stream": false
       }
     ]
@@ -7250,7 +7250,7 @@
   "week": {
     "sounds": [
       {
-        "name": "theo_scp:week",
+        "name": "more_scp_alarm:week",
         "stream": false
       }
     ]
@@ -7258,7 +7258,7 @@
   "welcome": {
     "sounds": [
       {
-        "name": "theo_scp:welcome",
+        "name": "more_scp_alarm:welcome",
         "stream": false
       }
     ]
@@ -7266,7 +7266,7 @@
   "well": {
     "sounds": [
       {
-        "name": "theo_scp:well",
+        "name": "more_scp_alarm:well",
         "stream": false
       }
     ]
@@ -7274,7 +7274,7 @@
   "went": {
     "sounds": [
       {
-        "name": "theo_scp:went",
+        "name": "more_scp_alarm:went",
         "stream": false
       }
     ]
@@ -7282,7 +7282,7 @@
   "were": {
     "sounds": [
       {
-        "name": "theo_scp:were",
+        "name": "more_scp_alarm:were",
         "stream": false
       }
     ]
@@ -7290,7 +7290,7 @@
   "west": {
     "sounds": [
       {
-        "name": "theo_scp:west",
+        "name": "more_scp_alarm:west",
         "stream": false
       }
     ]
@@ -7298,7 +7298,7 @@
   "what": {
     "sounds": [
       {
-        "name": "theo_scp:what",
+        "name": "more_scp_alarm:what",
         "stream": false
       }
     ]
@@ -7306,7 +7306,7 @@
   "when": {
     "sounds": [
       {
-        "name": "theo_scp:when",
+        "name": "more_scp_alarm:when",
         "stream": false
       }
     ]
@@ -7314,7 +7314,7 @@
   "where": {
     "sounds": [
       {
-        "name": "theo_scp:where",
+        "name": "more_scp_alarm:where",
         "stream": false
       }
     ]
@@ -7322,7 +7322,7 @@
   "which": {
     "sounds": [
       {
-        "name": "theo_scp:which",
+        "name": "more_scp_alarm:which",
         "stream": false
       }
     ]
@@ -7330,7 +7330,7 @@
   "white": {
     "sounds": [
       {
-        "name": "theo_scp:white",
+        "name": "more_scp_alarm:white",
         "stream": false
       }
     ]
@@ -7338,7 +7338,7 @@
   "who": {
     "sounds": [
       {
-        "name": "theo_scp:who",
+        "name": "more_scp_alarm:who",
         "stream": false
       }
     ]
@@ -7346,7 +7346,7 @@
   "why": {
     "sounds": [
       {
-        "name": "theo_scp:why",
+        "name": "more_scp_alarm:why",
         "stream": false
       }
     ]
@@ -7354,7 +7354,7 @@
   "wide": {
     "sounds": [
       {
-        "name": "theo_scp:wide",
+        "name": "more_scp_alarm:wide",
         "stream": false
       }
     ]
@@ -7362,7 +7362,7 @@
   "will": {
     "sounds": [
       {
-        "name": "theo_scp:will",
+        "name": "more_scp_alarm:will",
         "stream": false
       }
     ]
@@ -7370,7 +7370,7 @@
   "with": {
     "sounds": [
       {
-        "name": "theo_scp:with",
+        "name": "more_scp_alarm:with",
         "stream": false
       }
     ]
@@ -7378,7 +7378,7 @@
   "without": {
     "sounds": [
       {
-        "name": "theo_scp:without",
+        "name": "more_scp_alarm:without",
         "stream": false
       }
     ]
@@ -7386,7 +7386,7 @@
   "wood": {
     "sounds": [
       {
-        "name": "theo_scp:wood",
+        "name": "more_scp_alarm:wood",
         "stream": false
       }
     ]
@@ -7394,7 +7394,7 @@
   "word": {
     "sounds": [
       {
-        "name": "theo_scp:word",
+        "name": "more_scp_alarm:word",
         "stream": false
       }
     ]
@@ -7402,7 +7402,7 @@
   "work": {
     "sounds": [
       {
-        "name": "theo_scp:work",
+        "name": "more_scp_alarm:work",
         "stream": false
       }
     ]
@@ -7410,7 +7410,7 @@
   "world": {
     "sounds": [
       {
-        "name": "theo_scp:world",
+        "name": "more_scp_alarm:world",
         "stream": false
       }
     ]
@@ -7418,7 +7418,7 @@
   "worst": {
     "sounds": [
       {
-        "name": "theo_scp:worst",
+        "name": "more_scp_alarm:worst",
         "stream": false
       }
     ]
@@ -7426,7 +7426,7 @@
   "would": {
     "sounds": [
       {
-        "name": "theo_scp:would",
+        "name": "more_scp_alarm:would",
         "stream": false
       }
     ]
@@ -7434,7 +7434,7 @@
   "wrong": {
     "sounds": [
       {
-        "name": "theo_scp:wrong",
+        "name": "more_scp_alarm:wrong",
         "stream": false
       }
     ]
@@ -7442,7 +7442,7 @@
   "xi": {
     "sounds": [
       {
-        "name": "theo_scp:xi",
+        "name": "more_scp_alarm:xi",
         "stream": false
       }
     ]
@@ -7450,7 +7450,7 @@
   "xmas_bouncyballs": {
     "sounds": [
       {
-        "name": "theo_scp:xmas_bouncyballs",
+        "name": "more_scp_alarm:xmas_bouncyballs",
         "stream": false
       }
     ]
@@ -7458,7 +7458,7 @@
   "xmas_epsilon11": {
     "sounds": [
       {
-        "name": "theo_scp:xmas_epsilon11",
+        "name": "more_scp_alarm:xmas_epsilon11",
         "stream": false
       }
     ]
@@ -7466,7 +7466,7 @@
   "xmas_hasentered": {
     "sounds": [
       {
-        "name": "theo_scp:xmas_hasentered",
+        "name": "more_scp_alarm:xmas_hasentered",
         "stream": false
       }
     ]
@@ -7474,7 +7474,7 @@
   "xmas_jinglebells": {
     "sounds": [
       {
-        "name": "theo_scp:xmas_jinglebells",
+        "name": "more_scp_alarm:xmas_jinglebells",
         "stream": false
       }
     ]
@@ -7482,7 +7482,7 @@
   "xmas_scpsubjects": {
     "sounds": [
       {
-        "name": "theo_scp:xmas_scpsubjects",
+        "name": "more_scp_alarm:xmas_scpsubjects",
         "stream": false
       }
     ]
@@ -7490,7 +7490,7 @@
   "year": {
     "sounds": [
       {
-        "name": "theo_scp:year",
+        "name": "more_scp_alarm:year",
         "stream": false
       }
     ]
@@ -7498,7 +7498,7 @@
   "yellow": {
     "sounds": [
       {
-        "name": "theo_scp:yellow",
+        "name": "more_scp_alarm:yellow",
         "stream": false
       }
     ]
@@ -7506,7 +7506,7 @@
   "yes": {
     "sounds": [
       {
-        "name": "theo_scp:yes",
+        "name": "more_scp_alarm:yes",
         "stream": false
       }
     ]
@@ -7514,7 +7514,7 @@
   "yesterday": {
     "sounds": [
       {
-        "name": "theo_scp:yesterday",
+        "name": "more_scp_alarm:yesterday",
         "stream": false
       }
     ]
@@ -7522,7 +7522,7 @@
   "yet": {
     "sounds": [
       {
-        "name": "theo_scp:yet",
+        "name": "more_scp_alarm:yet",
         "stream": false
       }
     ]
@@ -7530,7 +7530,7 @@
   "you": {
     "sounds": [
       {
-        "name": "theo_scp:you",
+        "name": "more_scp_alarm:you",
         "stream": false
       }
     ]
@@ -7538,7 +7538,7 @@
   "your": {
     "sounds": [
       {
-        "name": "theo_scp:your",
+        "name": "more_scp_alarm:your",
         "stream": false
       }
     ]
@@ -7546,7 +7546,7 @@
   "zeta": {
     "sounds": [
       {
-        "name": "theo_scp:zeta",
+        "name": "more_scp_alarm:zeta",
         "stream": false
       }
     ]
@@ -7554,7 +7554,7 @@
   "zone": {
     "sounds": [
       {
-        "name": "theo_scp:zone",
+        "name": "more_scp_alarm:zone",
         "stream": false
       }
     ]
@@ -7562,7 +7562,7 @@
   "c.a.s.s.i.e": {
     "sounds": [
       {
-        "name": "theo_scp:central_autonomic_service_system_for_internal_emergencies",
+        "name": "more_scp_alarm:central_autonomic_service_system_for_internal_emergencies",
         "stream": false
       }
     ]
@@ -7570,11 +7570,11 @@
   "command": {
     "sounds": [
       {
-        "name": "theo_scp:command",
+        "name": "more_scp_alarm:command",
         "stream": false
       },
       {
-        "name": "theo_scp:command2",
+        "name": "more_scp_alarm:command2",
         "stream": false
       }
     ]
@@ -7582,11 +7582,11 @@
   "project": {
     "sounds": [
       {
-        "name": "theo_scp:project",
+        "name": "more_scp_alarm:project",
         "stream": false
       },
       {
-        "name": "theo_scp:project2",
+        "name": "more_scp_alarm:project2",
         "stream": false
       }
     ]
@@ -7594,7 +7594,7 @@
   "pre": {
     "sounds": [
       {
-        "name": "theo_scp:pre_",
+        "name": "more_scp_alarm:pre_",
         "stream": false
       }
     ]
@@ -7602,7 +7602,7 @@
   "pro": {
     "sounds": [
       {
-        "name": "theo_scp:pro_",
+        "name": "more_scp_alarm:pro_",
         "stream": false
       }
     ]
@@ -7610,7 +7610,7 @@
   "post": {
     "sounds": [
       {
-        "name": "theo_scp:post_",
+        "name": "more_scp_alarm:post_",
         "stream": false
       }
     ]
@@ -7618,11 +7618,11 @@
   "the": {
     "sounds": [
       {
-        "name": "theo_scp:the_consonant",
+        "name": "more_scp_alarm:the_consonant",
         "stream": false
       },
       {
-        "name": "theo_scp:the_vowel",
+        "name": "more_scp_alarm:the_vowel",
         "stream": false
       }
     ]
@@ -7630,7 +7630,7 @@
   "all_generators_engaged": {
     "sounds": [
       {
-        "name": "theo_scp:all_generators_engaged",
+        "name": "more_scp_alarm:all_generators_engaged",
         "stream": false
       }
     ]
@@ -7638,7 +7638,7 @@
   "all_remaining_personnel": {
     "sounds": [
       {
-        "name": "theo_scp:all_remaining_personnel",
+        "name": "more_scp_alarm:all_remaining_personnel",
         "stream": false
       }
     ]
@@ -7646,7 +7646,7 @@
   "anti": {
     "sounds": [
       {
-        "name": "theo_scp:anti_",
+        "name": "more_scp_alarm:anti_",
         "stream": false
       }
     ]
@@ -7654,7 +7654,7 @@
   "bytes": {
     "sounds": [
       {
-        "name": "theo_scp:bytes",
+        "name": "more_scp_alarm:bytes",
         "stream": false
       }
     ]
@@ -7662,7 +7662,7 @@
   "has_entered_the_facillity": {
     "sounds": [
       {
-        "name": "theo_scp:has_entered_the_facility",
+        "name": "more_scp_alarm:has_entered_the_facility",
         "stream": false
       }
     ]
@@ -7670,7 +7670,7 @@
   "nine_tailed_fox": {
     "sounds": [
       {
-        "name": "theo_scp:nine_tailed_fox",
+        "name": "more_scp_alarm:nine_tailed_fox",
         "stream": false
       }
     ]
@@ -7678,7 +7678,7 @@
   "stay": {
     "sounds": [
       {
-        "name": "theo_scp:stay",
+        "name": "more_scp_alarm:stay",
         "stream": false
       }
     ]
@@ -7686,7 +7686,7 @@
   "step": {
     "sounds": [
       {
-        "name": "theo_scp:step",
+        "name": "more_scp_alarm:step",
         "stream": false
       }
     ]
@@ -7694,7 +7694,7 @@
   "r": {
     "sounds": [
       {
-        "name": "theo_scp:_r",
+        "name": "more_scp_alarm:_r",
         "stream": false
       }
     ]
@@ -7702,7 +7702,7 @@
   "romeo": {
     "sounds": [
       {
-        "name": "theo_scp:romeo",
+        "name": "more_scp_alarm:romeo",
         "stream": false
       }
     ]

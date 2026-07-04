@@ -2,9 +2,9 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.theo.scp.init;
+package net.theo.scpalarm.init;
 
-import net.theo.scp.TheoScpMod;
+import net.theo.scpalarm.MoreScpAlarmMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -14,9 +14,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-public class TheoScpModItems {
-	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TheoScpMod.MODID);
-	public static final RegistryObject<Item> CASSIESIGN = block(TheoScpModBlocks.CASSIESIGN);
+public class MoreScpAlarmModItems {
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MoreScpAlarmMod.MODID);
+	public static final RegistryObject<Item> CASSIESIGN = block(MoreScpAlarmModBlocks.CASSIESIGN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -20,11 +20,11 @@
       "registry_name": "cassiesign",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scp/block/CassiesignBlock.java",
-          "src/main/resources/assets/theo_scp/models/block/cassiesign.json",
-          "src/main/resources/data/theo_scp/loot_tables/blocks/cassiesign.json",
-          "src/main/resources/assets/theo_scp/models/item/cassiesign.json",
-          "src/main/resources/assets/theo_scp/blockstates/cassiesign.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/cassiesign.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/cassiesign.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/cassiesign.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/cassiesign.json",
+          "src/main/java/net/theo/scpalarm/block/CassiesignBlock.java"
         ]
       }
     },
@@ -8168,6 +8168,7 @@
       "subtitles.operative": "",
       "subtitles.agent": "",
       "subtitles.location": "",
+      "block.more_scp_alarm.cassiesign": "Cassiesign",
       "subtitles.global": "",
       "subtitles.inside": "",
       "subtitles.access": "",
@@ -8400,6 +8401,7 @@
       "subtitles.squad": "",
       "subtitles.destructed": "",
       "subtitles.deactivated": "",
+      "item_group.more_scp_alarm.cassie": "C.A.S.S.I.E (Props)",
       "subtitles.pistol": "",
       "subtitles.look": "",
       "subtitles.this": "",
@@ -8741,11 +8743,12 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "theo_scp",
-    "modName": "TH30\u0027s SCP",
-    "version": "1.0.0",
+    "modid": "more_scp_alarm",
+    "modName": "More SCP Alarm (V2)",
+    "version": "2.0.2",
+    "description": "More SCP Alarm is a mod that add SFX and block of any SCP\u0027s game",
     "author": "5UP3R TH30 B4G",
-    "websiteURL": "",
+    "websiteURL": "https://github.com/5UP3RTH30B4G/More-SCP-Alarm",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -8753,7 +8756,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "modElementsPackage": "net.theo.scp"
+    "credits": "SCP:CB And SCP:SL",
+    "modElementsPackage": "net.theo.scpalarm"
   },
   "mcreatorVersion": 202400118518
 }

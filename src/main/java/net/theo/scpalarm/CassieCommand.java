@@ -144,7 +144,7 @@ public class CassieCommand {
 
     static {
         try {
-            ResourceLocation fileLocation = new ResourceLocation("theo_scp", "word_durations.json");
+            ResourceLocation fileLocation = new ResourceLocation("more_scp_alarm", "word_durations.json");
             InputStreamReader reader = new InputStreamReader(CassieCommand.class.getResourceAsStream("/assets/theo_scp/" + fileLocation.getPath()));
             wordDurations.putAll(gson.fromJson(reader, new TypeToken<Map<String, Float>>() {}.getType()));
             reader.close();
@@ -155,8 +155,8 @@ public class CassieCommand {
         }
         // Load word_exception.json (defaults + map)
         try {
-            ResourceLocation exceptionLoc = new ResourceLocation("theo_scp", "word_exception.json");
-            InputStreamReader r2 = new InputStreamReader(CassieCommand.class.getResourceAsStream("/assets/theo_scp/" + exceptionLoc.getPath()));
+            ResourceLocation exceptionLoc = new ResourceLocation("more_scp_alarm", "word_exception.json");
+            InputStreamReader r2 = new InputStreamReader(CassieCommand.class.getResourceAsStream("/assets/more_scp_alarm/" + exceptionLoc.getPath()));
             Map<?,?> root = gson.fromJson(r2, Map.class);
             r2.close();
             if (root != null) {
@@ -355,7 +355,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
     // Lecture du fond sonore si activé
     if (isCassie) {
         String bgSoundName = "bg_" + adjustedTextDuration;
-        ResourceLocation bgSoundID = new ResourceLocation("theo_scp", bgSoundName);
+        ResourceLocation bgSoundID = new ResourceLocation("more_scp_alarm", bgSoundName);
         SoundEvent bgSound = ForgeRegistries.SOUND_EVENTS.getValue(bgSoundID);
 
     if (bgSound != null) {
@@ -518,7 +518,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
             logWarn("Impossible de jouer le son '" + soundName + "' : joueur null");
             return;
         }
-        ResourceLocation soundID = new ResourceLocation("theo_scp", soundName);
+        ResourceLocation soundID = new ResourceLocation("more_scp_alarm", soundName);
         SoundEvent sound = ForgeRegistries.SOUND_EVENTS.getValue(soundID);
         if (sound != null) {
             world.playSound(null, player.getX(), player.getY(), player.getZ(), sound, SoundSource.VOICE, 1.0F, pitch);
@@ -543,7 +543,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
                 for (ServerPlayer p : players) {
                     if (currentBgName != null) {
                         logInfo("Stopping bg for player " + p.getName().getString() + " currentBgName=" + currentBgName);
-                        ResourceLocation rl = new ResourceLocation("theo_scp", currentBgName);
+                        ResourceLocation rl = new ResourceLocation("more_scp_alarm", currentBgName);
                         p.connection.send(new ClientboundStopSoundPacket(rl, SoundSource.VOICE));
                         p.connection.send(new ClientboundStopSoundPacket(rl, SoundSource.MUSIC));
                         p.connection.send(new ClientboundStopSoundPacket(rl, SoundSource.AMBIENT));

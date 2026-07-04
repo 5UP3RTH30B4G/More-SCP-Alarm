@@ -1,5 +1,5 @@
 {
-  "parent": "theo_scp:block/cassiesign",
+  "parent": "more_scp_alarm:block/cassiesign",
   "display": {
     "thirdperson": {
       "rotation": [

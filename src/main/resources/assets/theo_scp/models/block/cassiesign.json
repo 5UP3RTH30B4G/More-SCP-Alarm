@@ -1,9 +1,0 @@
-{
-  "parent": "theo_scp:custom/cassie",
-  "textures": {
-    "all": "theo_scp:block/image_2024-11-18_102001122",
-    "particle": "theo_scp:block/image_2024-11-18_102001122",
-    "0": "theo_scp:block/image_2024-11-18_102001122"
-  },
-  "render_type": "solid"
-}

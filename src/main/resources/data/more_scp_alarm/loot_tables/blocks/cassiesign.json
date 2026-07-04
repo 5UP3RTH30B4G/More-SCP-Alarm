@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "theo_scp:blocks/cassiesign",
+  "random_sequence": "more_scp_alarm:blocks/cassiesign",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "theo_scp:cassiesign"
+          "name": "more_scp_alarm:cassiesign"
         }
       ]
     }

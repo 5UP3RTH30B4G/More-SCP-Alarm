@@ -1,12 +1,12 @@
-package net.theo.scp;
+package net.theo.scpalarm;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.theo.scp.init.TheoScpModTabs;
-import net.theo.scp.init.TheoScpModSounds;
-import net.theo.scp.init.TheoScpModItems;
-import net.theo.scp.init.TheoScpModBlocks;
+import net.theo.scpalarm.init.MoreScpAlarmModTabs;
+import net.theo.scpalarm.init.MoreScpAlarmModSounds;
+import net.theo.scpalarm.init.MoreScpAlarmModItems;
+import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -31,22 +31,22 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-@Mod("theo_scp")
-public class TheoScpMod {
-	public static final Logger LOGGER = LogManager.getLogger(TheoScpMod.class);
-	public static final String MODID = "theo_scp";
+@Mod("more_scp_alarm")
+public class MoreScpAlarmMod {
+	public static final Logger LOGGER = LogManager.getLogger(MoreScpAlarmMod.class);
+	public static final String MODID = "more_scp_alarm";
 
-	public TheoScpMod() {
+	public MoreScpAlarmMod() {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		TheoScpModSounds.REGISTRY.register(bus);
-		TheoScpModBlocks.REGISTRY.register(bus);
+		MoreScpAlarmModSounds.REGISTRY.register(bus);
+		MoreScpAlarmModBlocks.REGISTRY.register(bus);
 
-		TheoScpModItems.REGISTRY.register(bus);
+		MoreScpAlarmModItems.REGISTRY.register(bus);
 
-		TheoScpModTabs.REGISTRY.register(bus);
+		MoreScpAlarmModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

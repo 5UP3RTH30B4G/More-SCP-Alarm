@@ -1,5 +1,5 @@
 
-package net.theo.scp.block;
+package net.theo.scpalarm.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;

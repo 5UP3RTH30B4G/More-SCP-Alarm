@@ -30,7 +30,7 @@ public class CassieConfig {
 				}
 			} else {
 				// Attempt to copy a bundled resource named /assets/cassie/cassie.json into config/cassie.json
-				java.io.InputStream res = CassieConfig.class.getResourceAsStream("/assets/theo_scp/cassie.json");
+				java.io.InputStream res = CassieConfig.class.getResourceAsStream("/assets/more_scp_alarm/cassie.json");
 				if (res != null) {
 					File cfgDir = new File("config");
 					if (!cfgDir.exists()) cfgDir.mkdirs();
