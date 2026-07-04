@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "Paper Containment Breach",
+    "icon": {
+      "value": "CUSTOM:Docstrange"
+    },
+    "showSearch": true
+  }
+}

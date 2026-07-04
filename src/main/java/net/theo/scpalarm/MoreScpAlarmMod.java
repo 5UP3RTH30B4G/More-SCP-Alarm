@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.theo.scpalarm.init.MoreScpAlarmModTabs;
 import net.theo.scpalarm.init.MoreScpAlarmModSounds;
+import net.theo.scpalarm.init.MoreScpAlarmModMenus;
 import net.theo.scpalarm.init.MoreScpAlarmModItems;
 import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
 
@@ -48,6 +49,7 @@ public class MoreScpAlarmMod {
 
 		MoreScpAlarmModTabs.REGISTRY.register(bus);
 
+		MoreScpAlarmModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

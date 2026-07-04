@@ -7706,5 +7706,13 @@
         "stream": false
       }
     ]
+  },
+  "open/close": {
+    "sounds": [
+      {
+        "name": "more_scp_alarm:pickitem0",
+        "stream": false
+      }
+    ]
   }
 }

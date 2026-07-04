@@ -981,4 +981,5 @@ public class MoreScpAlarmModSounds {
 	public static final RegistryObject<SoundEvent> STEP = REGISTRY.register("step", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("more_scp_alarm", "step")));
 	public static final RegistryObject<SoundEvent> R = REGISTRY.register("r", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("more_scp_alarm", "r")));
 	public static final RegistryObject<SoundEvent> ROMEO = REGISTRY.register("romeo", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("more_scp_alarm", "romeo")));
+	public static final RegistryObject<SoundEvent> OPEN_CLOSE = REGISTRY.register("open/close", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("more_scp_alarm", "open/close")));
 }
