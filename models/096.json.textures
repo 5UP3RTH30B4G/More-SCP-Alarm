@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "096"
+      },
+      "name": "default"
+    }
+  }
+}

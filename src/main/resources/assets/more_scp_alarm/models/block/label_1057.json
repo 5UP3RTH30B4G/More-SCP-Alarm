@@ -1,0 +1,9 @@
+{
+  "parent": "more_scp_alarm:custom/1053",
+  "textures": {
+    "all": "more_scp_alarm:block/1057",
+    "particle": "more_scp_alarm:block/1057",
+    "0": "more_scp_alarm:block/1057"
+  },
+  "render_type": "translucent"
+}

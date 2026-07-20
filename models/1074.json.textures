@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "1074"
+      },
+      "name": "default"
+    }
+  }
+}

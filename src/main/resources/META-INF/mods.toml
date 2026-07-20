@@ -1,16 +1,15 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="MIT License"
+license="All Rights Reserved"
 
 [[mods]]
 modId="more_scp_alarm"
-version="2.0.2"
+version="3.0.1"
 displayName="More SCP Alarm"
 displayURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm"
-logoFile="logo.png"
 credits="SCP:CB And SCP:SL"
 authors="5UP3R TH30 B4G"
-description="More SCP Alarm is a mod that add SFX and block of any SCP's game !"
+description="More SCP Alarm is a mod that add SFX and block of any SCP's game"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

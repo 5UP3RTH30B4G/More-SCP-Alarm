@@ -2,25 +2,25 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "speaker_base",
+    "texture": "alarm",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "siren:default",
-    "rotationMode": 2,
+    "customModelName": "alarm:default",
+    "rotationMode": 4,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "logocreatife",
-    "particleTexture": "",
+    "itemTexture": "alarm",
+    "particleTexture": "alarm",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:MoreSCPAlarm"
+      "value": "CUSTOM:CBLabel"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -62,9 +62,6 @@
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
-    "emittedRedstonePower": {
-      "fixedValue": 15.0
-    },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -83,32 +80,17 @@
     "soundOnStep": {
       "value": "METAL"
     },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": false,
-    "inventoryComparatorPower": false,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -119,12 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Aselectoropen"
-    },
-    "onRedstoneOn": {
-      "name": "Asoundplay"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

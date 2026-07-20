@@ -1,0 +1,37 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 357,
+    "height": 192,
+    "inventoryOffsetX": -83,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "docrand2.png",
+          "use1Xscale": true,
+          "x": 230,
+          "y": 29
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "Openclose"
+    },
+    "onClosed": {
+      "name": "Openclose"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

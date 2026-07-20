@@ -1,0 +1,9 @@
+{
+  "parent": "more_scp_alarm:custom/poster294",
+  "textures": {
+    "all": "more_scp_alarm:block/affiche_info",
+    "particle": "more_scp_alarm:block/affiche_info",
+    "0": "more_scp_alarm:block/affiche_info"
+  },
+  "render_type": "translucent"
+}

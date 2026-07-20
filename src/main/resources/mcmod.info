@@ -1,22 +1,20 @@
 [
   {
-    "modid": "more_scp_alarm",
-    "name": "More SCP Alarm",
-    "description": "More SCP Alarm is a mod that add SFX and block of any SCP's game !",
-    "version": "1.2.0",
-    "credits": "SCP:CB And SCP:SL",
-    "logoFile": "assets/more_scp_alarm/textures/bh_nu_header.png",
+    "modid": "cb_label",
+    "name": "CB label",
+    "description": "",
+    "version": "0.0.0",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "",
     "mcversion": "1.12.2",
-    "url": "https://www.curseforge.com/minecraft/mc-mods/more-scp-alarm",
+    "url": "https://mcreator.net",
     "updateUrl": "",
     "authorList": [
       "5UP3R TH30 B4G"
     ],
     "dependencies": [],
     "dependants": [],
-    "requiredMods": [
-      "funkylocomotion"
-    ],
+    "requiredMods": [],
     "useDependencyInformation": "true"
   }
 ]

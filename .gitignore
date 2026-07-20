@@ -1,21 +1,21 @@
-# Gradle build system ignores
+# MCreator / Minecraft mod project
 .gradle/
 build/
-
-# Other IDE related folders
+out/
+bin/
 .idea/
+*.iml
+*.ipr
+*.iws
 .settings/
-
-# MCreator workspace
-.mcreator/
-
-# Minecraft client/server files
-run/
-
-# MacOS system files
-.DS_STORE
-
-# Other Files (In Eclipse)
 .classpath
 .project
-token.txt
+.factorypath
+.mcreator/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+*.swp
+/run/
