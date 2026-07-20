@@ -355,7 +355,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
     // Lecture du fond sonore si activé
     if (isCassie) {
         String bgSoundName = "bg_" + adjustedTextDuration;
-        ResourceLocation bgSoundID = new ResourceLocation("more_scp_alarm", bgSoundName);
+        ResourceLocation bgSoundID = cassieSoundId(bgSoundName);
         SoundEvent bgSound = ForgeRegistries.SOUND_EVENTS.getValue(bgSoundID);
 
     if (bgSound != null) {
@@ -415,7 +415,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
             }
 
             float wordDuration = wordDurations.getOrDefault(word, 1.0f);
-            ResourceLocation soundID = new ResourceLocation("theo_scp", word);
+            ResourceLocation soundID = cassieSoundId(word);
             SoundEvent sound = ForgeRegistries.SOUND_EVENTS.getValue(soundID);
 
             logInfo("Lecture du mot : " + word + " (Durée: " + wordDuration + "s, Pitch: " + pitch[0] + ")");
@@ -513,12 +513,18 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
     cassieThread.start();
 }
 
+    private static ResourceLocation cassieSoundId(String bareName) {
+        String name = bareName != null ? bareName : "";
+        if (!name.startsWith("cassie_")) name = "cassie_" + name;
+        return new ResourceLocation("more_scp_alarm", name);
+    }
+
     private static void playSound(Level world, ServerPlayer player, String soundName, float pitch) {
         if (player == null) {
             logWarn("Impossible de jouer le son '" + soundName + "' : joueur null");
             return;
         }
-        ResourceLocation soundID = new ResourceLocation("more_scp_alarm", soundName);
+        ResourceLocation soundID = cassieSoundId(soundName);
         SoundEvent sound = ForgeRegistries.SOUND_EVENTS.getValue(soundID);
         if (sound != null) {
             world.playSound(null, player.getX(), player.getY(), player.getZ(), sound, SoundSource.VOICE, 1.0F, pitch);
@@ -543,7 +549,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
                 for (ServerPlayer p : players) {
                     if (currentBgName != null) {
                         logInfo("Stopping bg for player " + p.getName().getString() + " currentBgName=" + currentBgName);
-                        ResourceLocation rl = new ResourceLocation("more_scp_alarm", currentBgName);
+                        ResourceLocation rl = cassieSoundId(currentBgName);
                         p.connection.send(new ClientboundStopSoundPacket(rl, SoundSource.VOICE));
                         p.connection.send(new ClientboundStopSoundPacket(rl, SoundSource.MUSIC));
                         p.connection.send(new ClientboundStopSoundPacket(rl, SoundSource.AMBIENT));
