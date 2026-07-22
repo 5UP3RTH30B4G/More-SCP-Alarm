@@ -1,0 +1,189 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dynamic_alarm_panel",
+          "text": {
+            "fixedValue": "Dynamic Alarm Panel"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_enter_a_sound_id",
+          "text": {
+            "fixedValue": "Enter a sound ID"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "panel_soundid",
+          "width": 120,
+          "height": 20,
+          "x": 87,
+          "y": 62
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "panel_playsound",
+          "text": "Play the alarm ?",
+          "x": 87,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_how_to_get_the_ids",
+          "text": {
+            "fixedValue": "How to get the ID's ?"
+          },
+          "color": {
+            "value": -16737793,
+            "falpha": 0.0
+          },
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_go_to_the_wiki_of",
+          "text": {
+            "fixedValue": "Go to the Wiki of"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_more_scp_alarm",
+          "text": {
+            "fixedValue": "More SCP Alarm"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_wiki",
+          "text": "Wiki",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Panellink"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 123,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_channel",
+          "text": {
+            "fixedValue": "Select Channel"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 258,
+          "y": 44
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "channel1",
+          "text": "Channel 1",
+          "x": 249,
+          "y": 80
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "channel2",
+          "text": "Channel 2",
+          "x": 249,
+          "y": 116
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "channel3",
+          "text": "Channel 3",
+          "x": 249,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_save",
+          "text": "Save",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Panelclose"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 303,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

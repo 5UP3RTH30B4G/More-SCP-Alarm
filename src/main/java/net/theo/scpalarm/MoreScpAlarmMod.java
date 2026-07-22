@@ -4,8 +4,6 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.theo.scpalarm.init.MoreScpAlarmModTabs;
-import net.theo.scpalarm.init.MoreScpAlarmModSounds;
-import net.theo.scpalarm.init.MoreScpAlarmModMenus;
 import net.theo.scpalarm.init.MoreScpAlarmModItems;
 import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
 
@@ -42,14 +40,13 @@ public class MoreScpAlarmMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		MoreScpAlarmModSounds.REGISTRY.register(bus);
+
 		MoreScpAlarmModBlocks.REGISTRY.register(bus);
 
 		MoreScpAlarmModItems.REGISTRY.register(bus);
 
 		MoreScpAlarmModTabs.REGISTRY.register(bus);
 
-		MoreScpAlarmModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

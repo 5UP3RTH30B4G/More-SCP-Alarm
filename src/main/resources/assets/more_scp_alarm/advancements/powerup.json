@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "powerup": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "895",
+        "1": "tv_led_on",
+        "2": "speaker_fon",
+        "3": "speaker_stick"
+      },
+      "name": "default"
+    }
+  }
+}

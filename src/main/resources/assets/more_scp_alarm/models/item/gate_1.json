@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "more_scp_alarm:item/blast_door_top_left"
+  },
+  "render_type": "translucent"
+}

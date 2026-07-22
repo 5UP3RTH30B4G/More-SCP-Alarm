@@ -38,7 +38,6 @@ import net.theo.scpalarm.block.Label008Block;
 import net.theo.scpalarm.block.Label006Block;
 import net.theo.scpalarm.block.Label005Block;
 import net.theo.scpalarm.block.Label002Block;
-import net.theo.scpalarm.block.CassiesignBlock;
 import net.theo.scpalarm.block.AlarmBlock;
 import net.theo.scpalarm.MoreScpAlarmMod;
 
@@ -85,7 +84,6 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> LABEL_131 = REGISTRY.register("label_131", () -> new Label131Block());
 	public static final RegistryObject<Block> LABEL_143FR = REGISTRY.register("label_143fr", () -> new Label143frBlock());
 	public static final RegistryObject<Block> LABEL_143 = REGISTRY.register("label_143", () -> new Label143Block());
-	public static final RegistryObject<Block> CASSIESIGN = REGISTRY.register("cassiesign", () -> new CassiesignBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
