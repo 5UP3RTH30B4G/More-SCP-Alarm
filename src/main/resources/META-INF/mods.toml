@@ -4,11 +4,12 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="more_scp_alarm"
-version="0.0.0"
-displayName="CB label"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+version="3.0.3"
+displayName="More SCP Alarm"
+displayURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm"
+credits="SCP:CB And SCP:SL"
 authors="5UP3R TH30 B4G"
+description="More SCP Alarm is a mod that add SFX and block of any SCP's game"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
