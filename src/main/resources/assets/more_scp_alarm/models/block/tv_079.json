@@ -1,7 +1,7 @@
 {
   "parent": "more_scp_alarm:custom/tv079",
   "textures": {
-    "all": "more_scp_alarm:block/079",
+    "all": "more_scp_alarm:block/079block",
     "particle": "more_scp_alarm:block/speaker_fon",
     "0": "more_scp_alarm:block/079",
     "2": "more_scp_alarm:block/speaker_fon",

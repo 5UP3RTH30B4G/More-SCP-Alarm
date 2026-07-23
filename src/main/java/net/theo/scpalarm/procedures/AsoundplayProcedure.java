@@ -43,7 +43,7 @@ public class AsoundplayProcedure {
 								return blockEntity.getPersistentData().getString(tag);
 							return "";
 						}
-					}.getValue(world, BlockPos.containing(x, y, z), "alarm")) + " master @a ~ ~ ~ " + (new Object() {
+					}.getValue(world, BlockPos.containing(x, y, z), "alarmnormal")) + " master @a ~ ~ ~ " + (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -61,7 +61,7 @@ public class AsoundplayProcedure {
 									return blockEntity.getPersistentData().getString(tag);
 								return "";
 							}
-						}.getValue(world, BlockPos.containing(x, y, z), "alarm")) + " master @a ~ ~ ~ " + (new Object() {
+						}.getValue(world, BlockPos.containing(x, y, z), "alarmnormal")) + " master @a ~ ~ ~ " + (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)

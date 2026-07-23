@@ -85,7 +85,7 @@ public class MoreScpAlarmModItems {
 	public static final RegistryObject<Item> DOOR_7 = block(MoreScpAlarmModBlocks.DOOR_7);
 	public static final RegistryObject<Item> DOOR_8 = block(MoreScpAlarmModBlocks.DOOR_8);
 	public static final RegistryObject<Item> DOOR_FRAME = block(MoreScpAlarmModBlocks.DOOR_FRAME);
-	public static final RegistryObject<Item> ALARM = block(MoreScpAlarmModBlocks.ALARM);
+	public static final RegistryObject<Item> ALARMLABEL = block(MoreScpAlarmModBlocks.ALARMLABEL);
 	public static final RegistryObject<Item> ALARMSENDER = block(MoreScpAlarmModBlocks.ALARMSENDER);
 	public static final RegistryObject<Item> ALARMVA = block(MoreScpAlarmModBlocks.ALARMVA);
 	public static final RegistryObject<Item> TVCHECKPOINT = block(MoreScpAlarmModBlocks.TVCHECKPOINT);
@@ -191,6 +191,7 @@ public class MoreScpAlarmModItems {
 	public static final RegistryObject<Item> DOCF_6 = REGISTRY.register("docf_6", () -> new Docf6Item());
 	public static final RegistryObject<Item> DOCIR_106 = REGISTRY.register("docir_106", () -> new Docir106Item());
 	public static final RegistryObject<Item> CASSIESIGN = block(MoreScpAlarmModBlocks.CASSIESIGN);
+	public static final RegistryObject<Item> ALARMSIREN = block(MoreScpAlarmModBlocks.ALARMSIREN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

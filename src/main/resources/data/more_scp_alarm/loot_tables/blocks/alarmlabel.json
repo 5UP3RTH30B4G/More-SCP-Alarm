@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "more_scp_alarm:blocks/alarm",
+  "random_sequence": "more_scp_alarm:blocks/alarmlabel",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "more_scp_alarm:alarm"
+          "name": "more_scp_alarm:alarmlabel"
         }
       ]
     }

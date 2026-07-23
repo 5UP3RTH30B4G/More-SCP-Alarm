@@ -23,7 +23,7 @@ public class AsoundidProcedure {
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getPersistentData().putString("alarm", (guistate.containsKey("text:aselector") ? ((EditBox) guistate.get("text:aselector")).getValue() : ""));
+				_blockEntity.getPersistentData().putString("alarmnormal", (guistate.containsKey("text:aselectorid") ? ((EditBox) guistate.get("text:aselectorid")).getValue() : ""));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
@@ -38,7 +38,7 @@ public class AsoundidProcedure {
 							return blockEntity.getPersistentData().getString(tag);
 						return "";
 					}
-				}.getValue(world, BlockPos.containing(x, y, z), "alarm")))), false);
+				}.getValue(world, BlockPos.containing(x, y, z), "alarmnormal")))), false);
 		}
 	}
 }

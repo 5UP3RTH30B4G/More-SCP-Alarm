@@ -17,7 +17,7 @@ public class AvargonormalProcedure {
 			return;
 		{
 			BlockPos _bp = BlockPos.containing(x, y, z);
-			BlockState _bs = MoreScpAlarmModBlocks.ALARM.get().defaultBlockState();
+			BlockState _bs = MoreScpAlarmModBlocks.ALARMSIREN.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

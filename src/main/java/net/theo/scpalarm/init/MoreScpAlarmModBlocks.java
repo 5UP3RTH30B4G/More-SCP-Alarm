@@ -61,6 +61,7 @@ import net.theo.scpalarm.block.CassiesignBlock;
 import net.theo.scpalarm.block.AlarmvaBlock;
 import net.theo.scpalarm.block.Alarmva3Block;
 import net.theo.scpalarm.block.Alarmva2Block;
+import net.theo.scpalarm.block.AlarmsirenBlock;
 import net.theo.scpalarm.block.AlarmsenderBlock;
 import net.theo.scpalarm.block.AlarmBlock;
 import net.theo.scpalarm.MoreScpAlarmMod;
@@ -83,7 +84,7 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> DOOR_7 = REGISTRY.register("door_7", () -> new Door7Block());
 	public static final RegistryObject<Block> DOOR_8 = REGISTRY.register("door_8", () -> new Door8Block());
 	public static final RegistryObject<Block> DOOR_FRAME = REGISTRY.register("door_frame", () -> new DoorFrameBlock());
-	public static final RegistryObject<Block> ALARM = REGISTRY.register("alarm", () -> new AlarmBlock());
+	public static final RegistryObject<Block> ALARMLABEL = REGISTRY.register("alarmlabel", () -> new AlarmBlock());
 	public static final RegistryObject<Block> ALARMSENDER = REGISTRY.register("alarmsender", () -> new AlarmsenderBlock());
 	public static final RegistryObject<Block> ALARMVA = REGISTRY.register("alarmva", () -> new AlarmvaBlock());
 	public static final RegistryObject<Block> TVCHECKPOINT = REGISTRY.register("tvcheckpoint", () -> new TvcheckpointBlock());
@@ -132,6 +133,7 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> LABEL_143FR = REGISTRY.register("label_143fr", () -> new Label143frBlock());
 	public static final RegistryObject<Block> LABEL_143 = REGISTRY.register("label_143", () -> new Label143Block());
 	public static final RegistryObject<Block> CASSIESIGN = REGISTRY.register("cassiesign", () -> new CassiesignBlock());
+	public static final RegistryObject<Block> ALARMSIREN = REGISTRY.register("alarmsiren", () -> new AlarmsirenBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -34,6 +34,7 @@ public class MoreScpAlarmModTabs {
 				tabData.accept(MoreScpAlarmModBlocks.TRIG_079.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.TV_895.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.ALARMSIREN.get().asItem());
 			})
 
 					.build());
@@ -133,7 +134,7 @@ public class MoreScpAlarmModTabs {
 				tabData.accept(MoreScpAlarmModBlocks.LABEL_106.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.LABEL_1074.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.LABEL_109.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.ALARM.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.ALARMLABEL.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.LABEL_111.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.LABEL_1162.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.LABEL_124.get().asItem());
