@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "int_gauche_b",
+        "1": "int_gauche_b2",
+        "2": "int_2",
+        "3": "int_1",
+        "missing": "metal914"
+      },
+      "name": "default"
+    }
+  }
+}

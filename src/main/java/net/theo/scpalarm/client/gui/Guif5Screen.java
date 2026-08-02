@@ -62,11 +62,6 @@ public class Guif5Screen extends AbstractContainerScreen<Guif5Menu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 	}
 

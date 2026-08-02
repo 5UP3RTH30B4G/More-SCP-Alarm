@@ -8,6 +8,7 @@ import net.theo.scpalarm.init.MoreScpAlarmModSounds;
 import net.theo.scpalarm.init.MoreScpAlarmModMenus;
 import net.theo.scpalarm.init.MoreScpAlarmModItems;
 import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
+import net.theo.scpalarm.init.MoreScpAlarmModBlockEntities;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -44,12 +45,13 @@ public class MoreScpAlarmMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MoreScpAlarmModSounds.REGISTRY.register(bus);
 		MoreScpAlarmModBlocks.REGISTRY.register(bus);
-
+		MoreScpAlarmModBlockEntities.REGISTRY.register(bus);
 		MoreScpAlarmModItems.REGISTRY.register(bus);
 
 		MoreScpAlarmModTabs.REGISTRY.register(bus);
 
 		MoreScpAlarmModMenus.REGISTRY.register(bus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

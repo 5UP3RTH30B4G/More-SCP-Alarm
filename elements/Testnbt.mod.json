@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "command",
+  "definition": {
+    "commandName": "testnbt",
+    "permissionLevel": "3",
+    "onCommandExecuted": {
+      "name": "Command"
+    }
+  }
+}

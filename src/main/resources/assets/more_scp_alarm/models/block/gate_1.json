@@ -1,0 +1,10 @@
+{
+  "parent": "more_scp_alarm:custom/door1",
+  "textures": {
+    "all": "more_scp_alarm:block/blast_door_top_left",
+    "particle": "more_scp_alarm:block/blast_door_top_left",
+    "0": "more_scp_alarm:block/haut_gauche2",
+    "1": "more_scp_alarm:block/gauche_haut2"
+  },
+  "render_type": "solid"
+}

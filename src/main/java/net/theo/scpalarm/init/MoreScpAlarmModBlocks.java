@@ -4,7 +4,16 @@
  */
 package net.theo.scpalarm.init;
 
+import net.theo.scpalarm.block.TvoffBlock;
+import net.theo.scpalarm.block.TvlightBlock;
+import net.theo.scpalarm.block.TvcheckpointBlock;
+import net.theo.scpalarm.block.Tv895offBlock;
+import net.theo.scpalarm.block.Tv895Block;
+import net.theo.scpalarm.block.Tv079Block;
+import net.theo.scpalarm.block.Trig079Block;
 import net.theo.scpalarm.block.Poster294Block;
+import net.theo.scpalarm.block.NewdoorBlock;
+import net.theo.scpalarm.block.LightoffBlock;
 import net.theo.scpalarm.block.Label143frBlock;
 import net.theo.scpalarm.block.Label143Block;
 import net.theo.scpalarm.block.Label131Block;
@@ -38,7 +47,22 @@ import net.theo.scpalarm.block.Label008Block;
 import net.theo.scpalarm.block.Label006Block;
 import net.theo.scpalarm.block.Label005Block;
 import net.theo.scpalarm.block.Label002Block;
+import net.theo.scpalarm.block.GazBlock;
+import net.theo.scpalarm.block.Gate4Block;
+import net.theo.scpalarm.block.Gate3Block;
+import net.theo.scpalarm.block.Gate2Block;
+import net.theo.scpalarm.block.Gate1Block;
+import net.theo.scpalarm.block.DoorFrameBlock;
+import net.theo.scpalarm.block.Door8Block;
+import net.theo.scpalarm.block.Door7Block;
+import net.theo.scpalarm.block.Door6Block;
+import net.theo.scpalarm.block.Door5Block;
 import net.theo.scpalarm.block.CassiesignBlock;
+import net.theo.scpalarm.block.AlarmvaBlock;
+import net.theo.scpalarm.block.Alarmva3Block;
+import net.theo.scpalarm.block.Alarmva2Block;
+import net.theo.scpalarm.block.AlarmsirenBlock;
+import net.theo.scpalarm.block.AlarmsenderBlock;
 import net.theo.scpalarm.block.AlarmBlock;
 import net.theo.scpalarm.MoreScpAlarmMod;
 
@@ -50,6 +74,30 @@ import net.minecraft.world.level.block.Block;
 
 public class MoreScpAlarmModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MoreScpAlarmMod.MODID);
+	public static final RegistryObject<Block> GAZ = REGISTRY.register("gaz", () -> new GazBlock());
+	public static final RegistryObject<Block> GATE_1 = REGISTRY.register("gate_1", () -> new Gate1Block());
+	public static final RegistryObject<Block> GATE_2 = REGISTRY.register("gate_2", () -> new Gate2Block());
+	public static final RegistryObject<Block> GATE_3 = REGISTRY.register("gate_3", () -> new Gate3Block());
+	public static final RegistryObject<Block> GATE_4 = REGISTRY.register("gate_4", () -> new Gate4Block());
+	public static final RegistryObject<Block> DOOR_5 = REGISTRY.register("door_5", () -> new Door5Block());
+	public static final RegistryObject<Block> DOOR_6 = REGISTRY.register("door_6", () -> new Door6Block());
+	public static final RegistryObject<Block> DOOR_7 = REGISTRY.register("door_7", () -> new Door7Block());
+	public static final RegistryObject<Block> DOOR_8 = REGISTRY.register("door_8", () -> new Door8Block());
+	public static final RegistryObject<Block> DOOR_FRAME = REGISTRY.register("door_frame", () -> new DoorFrameBlock());
+	public static final RegistryObject<Block> ALARMLABEL = REGISTRY.register("alarmlabel", () -> new AlarmBlock());
+	public static final RegistryObject<Block> ALARMSENDER = REGISTRY.register("alarmsender", () -> new AlarmsenderBlock());
+	public static final RegistryObject<Block> ALARMVA = REGISTRY.register("alarmva", () -> new AlarmvaBlock());
+	public static final RegistryObject<Block> TVCHECKPOINT = REGISTRY.register("tvcheckpoint", () -> new TvcheckpointBlock());
+	public static final RegistryObject<Block> TVOFF = REGISTRY.register("tvoff", () -> new TvoffBlock());
+	public static final RegistryObject<Block> TVLIGHT = REGISTRY.register("tvlight", () -> new TvlightBlock());
+	public static final RegistryObject<Block> LIGHTOFF = REGISTRY.register("lightoff", () -> new LightoffBlock());
+	public static final RegistryObject<Block> TRIG_079 = REGISTRY.register("trig_079", () -> new Trig079Block());
+	public static final RegistryObject<Block> TV_079 = REGISTRY.register("tv_079", () -> new Tv079Block());
+	public static final RegistryObject<Block> ALARMVA_2 = REGISTRY.register("alarmva_2", () -> new Alarmva2Block());
+	public static final RegistryObject<Block> ALARMVA_3 = REGISTRY.register("alarmva_3", () -> new Alarmva3Block());
+	public static final RegistryObject<Block> TV_895 = REGISTRY.register("tv_895", () -> new Tv895Block());
+	public static final RegistryObject<Block> TV_895OFF = REGISTRY.register("tv_895off", () -> new Tv895offBlock());
+	public static final RegistryObject<Block> NEWDOOR = REGISTRY.register("newdoor", () -> new NewdoorBlock());
 	public static final RegistryObject<Block> LABEL_008 = REGISTRY.register("label_008", () -> new Label008Block());
 	public static final RegistryObject<Block> LABEL_012 = REGISTRY.register("label_012", () -> new Label012Block());
 	public static final RegistryObject<Block> LABEL_002 = REGISTRY.register("label_002", () -> new Label002Block());
@@ -61,7 +109,6 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> LABEL_020 = REGISTRY.register("label_020", () -> new Label020Block());
 	public static final RegistryObject<Block> LABEL_023 = REGISTRY.register("label_023", () -> new Label023Block());
 	public static final RegistryObject<Block> POSTER_294 = REGISTRY.register("poster_294", () -> new Poster294Block());
-	public static final RegistryObject<Block> ALARM = REGISTRY.register("alarm", () -> new AlarmBlock());
 	public static final RegistryObject<Block> LABEL_027 = REGISTRY.register("label_027", () -> new Label027Block());
 	public static final RegistryObject<Block> LABEL_049 = REGISTRY.register("label_049", () -> new Label049Block());
 	public static final RegistryObject<Block> LABEL_053 = REGISTRY.register("label_053", () -> new Label053Block());
@@ -86,6 +133,7 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> LABEL_143FR = REGISTRY.register("label_143fr", () -> new Label143frBlock());
 	public static final RegistryObject<Block> LABEL_143 = REGISTRY.register("label_143", () -> new Label143Block());
 	public static final RegistryObject<Block> CASSIESIGN = REGISTRY.register("cassiesign", () -> new CassiesignBlock());
+	public static final RegistryObject<Block> ALARMSIREN = REGISTRY.register("alarmsiren", () -> new AlarmsirenBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

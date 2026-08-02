@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "more_scp_alarm:block/079block",
+    "particle": "more_scp_alarm:block/079"
+  },
+  "render_type": "solid"
+}

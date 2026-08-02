@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 73,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -16,7 +16,8 @@
           "image": "docl1.png",
           "use1Xscale": true,
           "x": 214,
-          "y": 6
+          "y": 6,
+          "locked": false
         }
       }
     ],

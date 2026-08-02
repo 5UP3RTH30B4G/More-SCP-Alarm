@@ -62,11 +62,6 @@ public class Gui966Screen extends AbstractContainerScreen<Gui966Menu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 	}
 

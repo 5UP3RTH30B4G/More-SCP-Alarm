@@ -62,11 +62,6 @@ public class Docrand2Screen extends AbstractContainerScreen<Docrand2Menu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 	}
 

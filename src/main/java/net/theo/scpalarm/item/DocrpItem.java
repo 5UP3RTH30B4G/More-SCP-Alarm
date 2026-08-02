@@ -29,7 +29,7 @@ public class DocrpItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("Recall Procedur"));
+		list.add(Component.translatable("item.more_scp_alarm.docrp.description_0"));
 	}
 
 	@Override

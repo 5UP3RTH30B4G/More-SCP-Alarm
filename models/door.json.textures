@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sliding_door_back",
+        "1": "sliding_door_red_l",
+        "2": "sliding_door_white_l"
+      },
+      "name": "default"
+    }
+  }
+}

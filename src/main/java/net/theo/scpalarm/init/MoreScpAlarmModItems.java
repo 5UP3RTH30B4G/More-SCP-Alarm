@@ -4,6 +4,7 @@
  */
 package net.theo.scpalarm.init;
 
+import net.theo.scpalarm.item.LogoItem;
 import net.theo.scpalarm.item.Guirand3Item;
 import net.theo.scpalarm.item.Guirand2Item;
 import net.theo.scpalarm.item.DocstrangeItem;
@@ -73,6 +74,31 @@ import net.minecraft.world.item.BlockItem;
 
 public class MoreScpAlarmModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MoreScpAlarmMod.MODID);
+	public static final RegistryObject<Item> GAZ = block(MoreScpAlarmModBlocks.GAZ);
+	public static final RegistryObject<Item> LOGO = REGISTRY.register("logo", () -> new LogoItem());
+	public static final RegistryObject<Item> GATE_1 = block(MoreScpAlarmModBlocks.GATE_1);
+	public static final RegistryObject<Item> GATE_2 = block(MoreScpAlarmModBlocks.GATE_2);
+	public static final RegistryObject<Item> GATE_3 = block(MoreScpAlarmModBlocks.GATE_3);
+	public static final RegistryObject<Item> GATE_4 = block(MoreScpAlarmModBlocks.GATE_4);
+	public static final RegistryObject<Item> DOOR_5 = block(MoreScpAlarmModBlocks.DOOR_5);
+	public static final RegistryObject<Item> DOOR_6 = block(MoreScpAlarmModBlocks.DOOR_6);
+	public static final RegistryObject<Item> DOOR_7 = block(MoreScpAlarmModBlocks.DOOR_7);
+	public static final RegistryObject<Item> DOOR_8 = block(MoreScpAlarmModBlocks.DOOR_8);
+	public static final RegistryObject<Item> DOOR_FRAME = block(MoreScpAlarmModBlocks.DOOR_FRAME);
+	public static final RegistryObject<Item> ALARMLABEL = block(MoreScpAlarmModBlocks.ALARMLABEL);
+	public static final RegistryObject<Item> ALARMSENDER = block(MoreScpAlarmModBlocks.ALARMSENDER);
+	public static final RegistryObject<Item> ALARMVA = block(MoreScpAlarmModBlocks.ALARMVA);
+	public static final RegistryObject<Item> TVCHECKPOINT = block(MoreScpAlarmModBlocks.TVCHECKPOINT);
+	public static final RegistryObject<Item> TVOFF = block(MoreScpAlarmModBlocks.TVOFF);
+	public static final RegistryObject<Item> TVLIGHT = block(MoreScpAlarmModBlocks.TVLIGHT);
+	public static final RegistryObject<Item> LIGHTOFF = block(MoreScpAlarmModBlocks.LIGHTOFF);
+	public static final RegistryObject<Item> TRIG_079 = block(MoreScpAlarmModBlocks.TRIG_079);
+	public static final RegistryObject<Item> TV_079 = block(MoreScpAlarmModBlocks.TV_079);
+	public static final RegistryObject<Item> ALARMVA_2 = block(MoreScpAlarmModBlocks.ALARMVA_2);
+	public static final RegistryObject<Item> ALARMVA_3 = block(MoreScpAlarmModBlocks.ALARMVA_3);
+	public static final RegistryObject<Item> TV_895 = block(MoreScpAlarmModBlocks.TV_895);
+	public static final RegistryObject<Item> TV_895OFF = block(MoreScpAlarmModBlocks.TV_895OFF);
+	public static final RegistryObject<Item> NEWDOOR = block(MoreScpAlarmModBlocks.NEWDOOR);
 	public static final RegistryObject<Item> LABEL_008 = block(MoreScpAlarmModBlocks.LABEL_008);
 	public static final RegistryObject<Item> LABEL_012 = block(MoreScpAlarmModBlocks.LABEL_012);
 	public static final RegistryObject<Item> LABEL_002 = block(MoreScpAlarmModBlocks.LABEL_002);
@@ -84,7 +110,6 @@ public class MoreScpAlarmModItems {
 	public static final RegistryObject<Item> LABEL_020 = block(MoreScpAlarmModBlocks.LABEL_020);
 	public static final RegistryObject<Item> LABEL_023 = block(MoreScpAlarmModBlocks.LABEL_023);
 	public static final RegistryObject<Item> POSTER_294 = block(MoreScpAlarmModBlocks.POSTER_294);
-	public static final RegistryObject<Item> ALARM = block(MoreScpAlarmModBlocks.ALARM);
 	public static final RegistryObject<Item> LABEL_027 = block(MoreScpAlarmModBlocks.LABEL_027);
 	public static final RegistryObject<Item> LABEL_049 = block(MoreScpAlarmModBlocks.LABEL_049);
 	public static final RegistryObject<Item> LABEL_053 = block(MoreScpAlarmModBlocks.LABEL_053);
@@ -166,6 +191,7 @@ public class MoreScpAlarmModItems {
 	public static final RegistryObject<Item> DOCF_6 = REGISTRY.register("docf_6", () -> new Docf6Item());
 	public static final RegistryObject<Item> DOCIR_106 = REGISTRY.register("docir_106", () -> new Docir106Item());
 	public static final RegistryObject<Item> CASSIESIGN = block(MoreScpAlarmModBlocks.CASSIESIGN);
+	public static final RegistryObject<Item> ALARMSIREN = block(MoreScpAlarmModBlocks.ALARMSIREN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

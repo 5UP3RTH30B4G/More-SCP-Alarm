@@ -61,6 +61,16 @@ import net.theo.scpalarm.client.gui.Gui012Screen;
 import net.theo.scpalarm.client.gui.Gui008Screen;
 import net.theo.scpalarm.client.gui.Docrand3Screen;
 import net.theo.scpalarm.client.gui.Docrand2Screen;
+import net.theo.scpalarm.client.gui.AvarsetidScreen;
+import net.theo.scpalarm.client.gui.Avarsetid3Screen;
+import net.theo.scpalarm.client.gui.Avarsetid2Screen;
+import net.theo.scpalarm.client.gui.AvarselectorScreen;
+import net.theo.scpalarm.client.gui.AvarchannelsetScreen;
+import net.theo.scpalarm.client.gui.AvaralarmguiScreen;
+import net.theo.scpalarm.client.gui.Avaralarmgui3Screen;
+import net.theo.scpalarm.client.gui.Avaralarmgui2Screen;
+import net.theo.scpalarm.client.gui.AlarmpanelScreen;
+import net.theo.scpalarm.client.gui.ASelectorScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -74,6 +84,16 @@ public class MoreScpAlarmModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
+			MenuScreens.register(MoreScpAlarmModMenus.A_SELECTOR.get(), ASelectorScreen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARSELECTOR.get(), AvarselectorScreen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARALARMGUI.get(), AvaralarmguiScreen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARSETID.get(), AvarsetidScreen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARSETID_2.get(), Avarsetid2Screen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARSETID_3.get(), Avarsetid3Screen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARALARMGUI_2.get(), Avaralarmgui2Screen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARALARMGUI_3.get(), Avaralarmgui3Screen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.AVARCHANNELSET.get(), AvarchannelsetScreen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.ALARMPANEL.get(), AlarmpanelScreen::new);
 			MenuScreens.register(MoreScpAlarmModMenus.GUI_008.get(), Gui008Screen::new);
 			MenuScreens.register(MoreScpAlarmModMenus.GUISTRANGE.get(), GuistrangeScreen::new);
 			MenuScreens.register(MoreScpAlarmModMenus.GUI_012.get(), Gui012Screen::new);
