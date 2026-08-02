@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "079block",
@@ -33,6 +33,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Trig 079",
     "specialInformation": {
       "fixedValue": [
@@ -43,9 +44,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:MoreSCPAlarm"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MoreSCPAlarm"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -102,10 +105,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,

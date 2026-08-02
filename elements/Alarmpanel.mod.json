@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 73,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -22,7 +22,8 @@
             "falpha": 0.0
           },
           "x": 159,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -37,7 +38,8 @@
             "falpha": 0.0
           },
           "x": 105,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -48,7 +50,8 @@
           "width": 120,
           "height": 20,
           "x": 87,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -57,7 +60,8 @@
           "name": "panel_playsound",
           "text": "Play the alarm ?",
           "x": 87,
-          "y": 89
+          "y": 89,
+          "locked": false
         }
       },
       {
@@ -72,7 +76,8 @@
             "falpha": 0.0
           },
           "x": 96,
-          "y": 116
+          "y": 116,
+          "locked": false
         }
       },
       {
@@ -87,7 +92,8 @@
             "falpha": 0.0
           },
           "x": 105,
-          "y": 134
+          "y": 134,
+          "locked": false
         }
       },
       {
@@ -102,7 +108,8 @@
             "falpha": 0.0
           },
           "x": 114,
-          "y": 152
+          "y": 152,
+          "locked": false
         }
       },
       {
@@ -117,7 +124,8 @@
           "width": 46,
           "height": 20,
           "x": 123,
-          "y": 170
+          "y": 170,
+          "locked": false
         }
       },
       {
@@ -132,7 +140,8 @@
             "falpha": 0.0
           },
           "x": 258,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -141,7 +150,8 @@
           "name": "channel1",
           "text": "Channel 1",
           "x": 249,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -150,7 +160,8 @@
           "name": "channel2",
           "text": "Channel 2",
           "x": 249,
-          "y": 116
+          "y": 116,
+          "locked": false
         }
       },
       {
@@ -159,7 +170,8 @@
           "name": "channel3",
           "text": "Channel 3",
           "x": 249,
-          "y": 152
+          "y": 152,
+          "locked": false
         }
       },
       {
@@ -174,7 +186,8 @@
           "width": 46,
           "height": 20,
           "x": 303,
-          "y": 188
+          "y": 188,
+          "locked": false
         }
       }
     ],

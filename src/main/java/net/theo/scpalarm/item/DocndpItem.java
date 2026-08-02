@@ -29,7 +29,7 @@ public class DocndpItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("Nuclear Detanation Protocol"));
+		list.add(Component.translatable("item.more_scp_alarm.docndp.description_0"));
 	}
 
 	@Override

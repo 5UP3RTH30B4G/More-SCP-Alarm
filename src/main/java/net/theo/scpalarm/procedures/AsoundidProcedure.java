@@ -1,6 +1,7 @@
 package net.theo.scpalarm.procedures;
 
 import net.theo.scpalarm.network.MoreScpAlarmModVariables;
+import net.theo.scpalarm.MoreScpAlarmMod;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -23,13 +24,14 @@ public class AsoundidProcedure {
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getPersistentData().putString("alarmnormal", (guistate.containsKey("text:aselectorid") ? ((EditBox) guistate.get("text:aselectorid")).getValue() : ""));
+				_blockEntity.getPersistentData().putString("alarmnormal", (guistate.containsKey("text:AlarmSelector") ? ((EditBox) guistate.get("text:AlarmSelector")).getValue() : ""));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
 		if (entity instanceof Player _player)
 			_player.closeContainer();
 		if (MoreScpAlarmModVariables.debug == true) {
+			MoreScpAlarmMod.LOGGER.info((guistate.containsKey("text:AlarmSelector") ? ((EditBox) guistate.get("text:AlarmSelector")).getValue() : ""));
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("[] DEBUG : NBT Tag set to : " + (new Object() {
 					public String getValue(LevelAccessor world, BlockPos pos, String tag) {

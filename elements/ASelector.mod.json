@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 73,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -14,11 +14,12 @@
         "type": "textfield",
         "data": {
           "placeholder": "",
-          "name": "aselector",
+          "name": "AlarmSelector",
           "width": 120,
           "height": 20,
           "x": 150,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -33,7 +34,8 @@
             "falpha": 0.0
           },
           "x": 150,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -48,7 +50,8 @@
           "width": 35,
           "height": 20,
           "x": 195,
-          "y": 89
+          "y": 89,
+          "locked": false
         }
       },
       {
@@ -63,7 +66,8 @@
           "width": 90,
           "height": 20,
           "x": 168,
-          "y": 161
+          "y": 161,
+          "locked": false
         }
       },
       {
@@ -78,7 +82,8 @@
           "width": 30,
           "height": 20,
           "x": 240,
-          "y": 125
+          "y": 125,
+          "locked": false
         }
       },
       {
@@ -93,7 +98,8 @@
           "width": 30,
           "height": 20,
           "x": 159,
-          "y": 125
+          "y": 125,
+          "locked": false
         }
       },
       {
@@ -108,7 +114,8 @@
             "falpha": 0.0
           },
           "x": 198,
-          "y": 113
+          "y": 113,
+          "locked": false
         }
       },
       {
@@ -116,17 +123,22 @@
         "data": {
           "name": "label_bnbtnumbervolume",
           "text": {
-            "fixedValue": "<BNBT:number:volume>"
+            "fixedValue": "<BNBT:number:volume>",
+            "name": "GetAlarmVolumeText"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
           "x": 212,
-          "y": 129
+          "y": 129,
+          "locked": false
         }
       }
     ],
+    "onTick": {
+      "name": "GetAlarmVolumeText"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

@@ -51,6 +51,7 @@ public class MoreScpAlarmMod {
 		MoreScpAlarmModTabs.REGISTRY.register(bus);
 
 		MoreScpAlarmModMenus.REGISTRY.register(bus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

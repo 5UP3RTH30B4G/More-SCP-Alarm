@@ -66,11 +66,6 @@ public class AvarselectorScreen extends AbstractContainerScreen<AvarselectorMenu
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.more_scp_alarm.avarselector.label_select_the_channel"), 34, 41, -1, false);
 	}

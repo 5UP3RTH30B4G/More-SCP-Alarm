@@ -3,7 +3,6 @@
     {
       "name": "Gaz",
       "type": "block",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gaz",
@@ -20,7 +19,6 @@
     {
       "name": "MoreSCPAlarm",
       "type": "tab",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "more_scp_alarm",
@@ -31,7 +29,6 @@
     {
       "name": "Logo",
       "type": "item",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "logo",
@@ -40,12 +37,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/logo.json",
           "src/main/java/net/theo/scpalarm/item/LogoItem.java"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Gate1",
       "type": "block",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gate_1",
@@ -57,12 +54,12 @@
           "src/main/java/net/theo/scpalarm/block/Gate1Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/gate_1.json"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Gate2",
       "type": "block",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gate_2",
@@ -74,12 +71,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_2.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/gate_2.json"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Gate3",
       "type": "block",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gate_3",
@@ -91,12 +88,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_3.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/gate_3.json"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Gate4",
       "type": "block",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gate_4",
@@ -108,12 +105,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_4.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/gate_4.json"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Door5",
       "type": "block",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "door_5",
@@ -125,12 +122,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_5.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/door_5.json"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Door6",
       "type": "block",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "door_6",
@@ -142,12 +139,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/door_6.json",
           "src/main/java/net/theo/scpalarm/block/Door6Block.java"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Door7",
       "type": "block",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "door_7",
@@ -159,12 +156,12 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/door_7.json",
           "src/main/java/net/theo/scpalarm/block/Door7Block.java"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Door8",
       "type": "block",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "door_8",
@@ -176,12 +173,12 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/door_8.json",
           "src/main/java/net/theo/scpalarm/block/Door8Block.java"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "DoorFrame",
       "type": "block",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "door_frame",
@@ -193,12 +190,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/door_frame.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_frame.json"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Alarm",
       "type": "block",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmlabel",
@@ -215,7 +212,6 @@
     {
       "name": "Alarmsender",
       "type": "block",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmsender",
@@ -227,12 +223,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/alarmsender.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/alarmsender.json"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Alarmva",
       "type": "block",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmva",
@@ -245,12 +241,12 @@
           "src/main/java/net/theo/scpalarm/block/entity/AlarmvaBlockEntity.java",
           "src/main/resources/assets/more_scp_alarm/models/item/alarmva.json"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Tvcheckpoint",
       "type": "block",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tvcheckpoint",
@@ -262,12 +258,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tvcheckpoint.json",
           "src/main/resources/assets/more_scp_alarm/models/item/tvcheckpoint.json"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Tvoff",
       "type": "block",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tvoff",
@@ -279,12 +275,12 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/tvoff.json",
           "src/main/resources/assets/more_scp_alarm/models/block/tvoff.json"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "TvSelector",
       "type": "procedure",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_selector",
@@ -310,12 +306,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Tvgooff",
       "type": "procedure",
-      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tvgooff",
@@ -341,12 +337,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Tvlight",
       "type": "block",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tvlight",
@@ -358,12 +354,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/tvlight.json",
           "src/main/resources/assets/more_scp_alarm/models/block/tvlight.json"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Lightgooff",
       "type": "procedure",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightgooff",
@@ -389,12 +385,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Lighton",
       "type": "procedure",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lighton",
@@ -420,12 +416,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Lightoff",
       "type": "block",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightoff",
@@ -437,12 +433,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/lightoff.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/lightoff.json"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Trig079",
       "type": "block",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trig_079",
@@ -454,12 +450,12 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/trig_079.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/trig_079.json"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Trig079on",
       "type": "procedure",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trig_079on",
@@ -473,12 +469,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Trig079off",
       "type": "procedure",
-      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trig_079off",
@@ -492,12 +488,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Tv079",
       "type": "block",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_079",
@@ -509,12 +505,12 @@
           "src/main/java/net/theo/scpalarm/block/Tv079Block.java",
           "src/main/resources/assets/more_scp_alarm/models/block/tv_079.json"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "ASelector",
       "type": "gui",
-      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_selector",
@@ -524,12 +520,12 @@
           "src/main/java/net/theo/scpalarm/network/ASelectorButtonMessage.java",
           "src/main/java/net/theo/scpalarm/world/inventory/ASelectorMenu.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Asoundid",
       "type": "procedure",
-      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "asoundid",
@@ -563,12 +559,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Asoundplay",
       "type": "procedure",
-      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "asoundplay",
@@ -594,12 +590,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Aselectoropen",
       "type": "procedure",
-      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aselectoropen",
@@ -629,12 +625,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Debugon",
       "type": "procedure",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debugon",
@@ -648,12 +644,12 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Debugoff",
       "type": "procedure",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debugoff",
@@ -667,12 +663,12 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avargon",
       "type": "procedure",
-      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avargon",
@@ -702,12 +698,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avaropen",
       "type": "procedure",
-      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaropen",
@@ -737,12 +733,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarselector",
       "type": "gui",
-      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarselector",
@@ -752,12 +748,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/AvarselectorMenu.java",
           "src/main/java/net/theo/scpalarm/network/AvarselectorButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsoundid",
       "type": "procedure",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsoundid",
@@ -779,12 +775,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsoundplay",
       "type": "procedure",
-      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsoundplay",
@@ -810,12 +806,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avaralarmgui",
       "type": "gui",
-      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaralarmgui",
@@ -825,12 +821,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/AvaralarmguiScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/AvaralarmguiMenu.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avaralarmopen",
       "type": "procedure",
-      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaralarmopen",
@@ -860,12 +856,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avargonormal",
       "type": "procedure",
-      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avargonormal",
@@ -895,12 +891,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Plus",
       "type": "procedure",
-      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plus",
@@ -909,6 +905,10 @@
           "src/main/java/net/theo/scpalarm/procedures/PlusProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -926,12 +926,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Minus",
       "type": "procedure",
-      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minus",
@@ -961,12 +961,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsetid",
       "type": "gui",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsetid",
@@ -976,12 +976,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/AvarsetidScreen.java",
           "src/main/java/net/theo/scpalarm/network/AvarsetidButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Alarmva2",
       "type": "block",
-      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmva_2",
@@ -994,12 +994,12 @@
           "src/main/java/net/theo/scpalarm/block/entity/Alarmva2BlockEntity.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/alarmva_2.json"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Alarmva3",
       "type": "block",
-      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmva_3",
@@ -1012,12 +1012,12 @@
           "src/main/java/net/theo/scpalarm/block/Alarmva3Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/alarmva_3.json"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "C1",
       "type": "procedure",
-      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "c_1",
@@ -1047,12 +1047,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsetid2",
       "type": "gui",
-      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsetid_2",
@@ -1062,12 +1062,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Avarsetid2Screen.java",
           "src/main/java/net/theo/scpalarm/network/Avarsetid2ButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "C2",
       "type": "procedure",
-      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "c_2",
@@ -1097,12 +1097,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsoundid2",
       "type": "procedure",
-      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsoundid_2",
@@ -1124,12 +1124,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsoundid3",
       "type": "procedure",
-      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsoundid_3",
@@ -1151,12 +1151,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsetid3",
       "type": "gui",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsetid_3",
@@ -1166,12 +1166,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Avarsetid3Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Avarsetid3Menu.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avaralarmgui2",
       "type": "gui",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaralarmgui_2",
@@ -1181,12 +1181,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Avaralarmgui2Menu.java",
           "src/main/java/net/theo/scpalarm/network/Avaralarmgui2ButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avaralarmgui3",
       "type": "gui",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaralarmgui_3",
@@ -1196,12 +1196,12 @@
           "src/main/java/net/theo/scpalarm/network/Avaralarmgui3ButtonMessage.java",
           "src/main/java/net/theo/scpalarm/client/gui/Avaralarmgui3Screen.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "C3",
       "type": "procedure",
-      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "c_3",
@@ -1231,12 +1231,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avaralarmopen2",
       "type": "procedure",
-      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaralarmopen_2",
@@ -1266,12 +1266,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avaralarmopen3",
       "type": "procedure",
-      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaralarmopen_3",
@@ -1301,12 +1301,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsoundplay2",
       "type": "procedure",
-      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsoundplay_2",
@@ -1332,12 +1332,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarsoundplay3",
       "type": "procedure",
-      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarsoundplay_3",
@@ -1363,12 +1363,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Avarchannelset",
       "type": "gui",
-      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avarchannelset",
@@ -1378,12 +1378,12 @@
           "src/main/java/net/theo/scpalarm/network/AvarchannelsetButtonMessage.java",
           "src/main/java/net/theo/scpalarm/world/inventory/AvarchannelsetMenu.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "SC1",
       "type": "procedure",
-      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sc_1",
@@ -1413,12 +1413,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "SC2",
       "type": "procedure",
-      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sc_2",
@@ -1448,12 +1448,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "SC3",
       "type": "procedure",
-      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sc_3",
@@ -1483,12 +1483,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Tv895",
       "type": "block",
-      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_895",
@@ -1500,12 +1500,12 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/tv_895.json",
           "src/main/java/net/theo/scpalarm/block/Tv895Block.java"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Tv895off",
       "type": "block",
-      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_895off",
@@ -1517,12 +1517,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_895off.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/tv_895off.json"
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Tv895on",
       "type": "procedure",
-      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_895on",
@@ -1548,12 +1548,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Ptv895off",
       "type": "procedure",
-      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ptv_895off",
@@ -1579,12 +1579,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/TV"
     },
     {
       "name": "Newdoor",
       "type": "block",
-      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "newdoor",
@@ -1596,12 +1596,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/newdoor.json",
           "src/main/resources/assets/more_scp_alarm/models/item/newdoor.json"
         ]
-      }
+      },
+      "path": "~/Door"
     },
     {
       "name": "Msa",
       "type": "command",
-      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "msa",
@@ -1614,7 +1614,6 @@
     {
       "name": "Alarmpanel",
       "type": "gui",
-      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmpanel",
@@ -1624,12 +1623,12 @@
           "src/main/java/net/theo/scpalarm/network/AlarmpanelButtonMessage.java",
           "src/main/java/net/theo/scpalarm/client/gui/AlarmpanelScreen.java"
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Panelopen",
       "type": "procedure",
-      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panelopen",
@@ -1659,12 +1658,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Panelclose",
       "type": "procedure",
-      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panelclose",
@@ -1698,12 +1697,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "Panellink",
       "type": "procedure",
-      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panellink",
@@ -1717,23 +1716,23 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Alarm"
     },
     {
       "name": "CBLabel",
       "type": "tab",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cb_label",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label008",
       "type": "block",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_008",
@@ -1745,12 +1744,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/label_008.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_008.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label012",
       "type": "block",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_012",
@@ -1762,12 +1761,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/label_012.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_012.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label002",
       "type": "block",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_002",
@@ -1779,12 +1778,12 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/label_002.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_002.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label005",
       "type": "block",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_005",
@@ -1796,12 +1795,12 @@
           "src/main/java/net/theo/scpalarm/block/Label005Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_005.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label006",
       "type": "block",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_006",
@@ -1813,12 +1812,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_006.json",
           "src/main/java/net/theo/scpalarm/block/Label006Block.java"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label009",
       "type": "block",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_009",
@@ -1830,12 +1829,12 @@
           "src/main/java/net/theo/scpalarm/block/Label009Block.java",
           "src/main/resources/assets/more_scp_alarm/models/block/label_009.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label015",
       "type": "block",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_015",
@@ -1847,12 +1846,12 @@
           "src/main/java/net/theo/scpalarm/block/Label015Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_015.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label019",
       "type": "block",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_019",
@@ -1864,12 +1863,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_019.json",
           "src/main/java/net/theo/scpalarm/block/Label019Block.java"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label020",
       "type": "block",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_020",
@@ -1881,12 +1880,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/label_020.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_020.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label023",
       "type": "block",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_023",
@@ -1898,12 +1897,12 @@
           "src/main/java/net/theo/scpalarm/block/Label023Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_023.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Poster294",
       "type": "block",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "poster_294",
@@ -1915,12 +1914,12 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/poster_294.json",
           "src/main/resources/assets/more_scp_alarm/models/item/poster_294.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label027",
       "type": "block",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_027",
@@ -1932,12 +1931,12 @@
           "src/main/java/net/theo/scpalarm/block/Label027Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_027.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label049",
       "type": "block",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_049",
@@ -1949,12 +1948,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_049.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_049.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label053",
       "type": "block",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_053",
@@ -1966,12 +1965,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/label_053.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_053.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label059fr",
       "type": "block",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_059fr",
@@ -1983,12 +1982,12 @@
           "src/main/java/net/theo/scpalarm/block/Label059frBlock.java",
           "src/main/resources/assets/more_scp_alarm/models/block/label_059fr.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label063",
       "type": "block",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_063",
@@ -2000,12 +1999,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_063.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_063.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label079",
       "type": "block",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_079",
@@ -2017,12 +2016,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_079.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_079.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label087",
       "type": "block",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_087",
@@ -2034,12 +2033,12 @@
           "src/main/java/net/theo/scpalarm/block/Label087Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_087.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label096",
       "type": "block",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_096",
@@ -2051,12 +2050,12 @@
           "src/main/java/net/theo/scpalarm/block/Label096Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_096.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label098",
       "type": "block",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_098",
@@ -2068,12 +2067,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_098.json",
           "src/main/java/net/theo/scpalarm/block/Label098Block.java"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label1000",
       "type": "block",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_1000",
@@ -2085,12 +2084,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_1000.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1000.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label1025",
       "type": "block",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_1025",
@@ -2102,12 +2101,12 @@
           "src/main/java/net/theo/scpalarm/block/Label1025Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_1025.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label1032RU",
       "type": "block",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_1032_ru",
@@ -2119,12 +2118,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_1032_ru.json",
           "src/main/java/net/theo/scpalarm/block/Label1032RUBlock.java"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label1048",
       "type": "block",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_1048",
@@ -2136,12 +2135,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1048.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_1048.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label1057",
       "type": "block",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_1057",
@@ -2153,12 +2152,12 @@
           "src/main/java/net/theo/scpalarm/block/Label1057Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1057.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label106",
       "type": "block",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_106",
@@ -2170,12 +2169,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/label_106.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_106.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label1074",
       "type": "block",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_1074",
@@ -2187,12 +2186,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_1074.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_1074.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label109",
       "type": "block",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_109",
@@ -2204,12 +2203,12 @@
           "src/main/java/net/theo/scpalarm/block/Label109Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_109.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label111",
       "type": "block",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_111",
@@ -2221,12 +2220,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/label_111.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_111.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label1162",
       "type": "block",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_1162",
@@ -2238,12 +2237,12 @@
           "src/main/java/net/theo/scpalarm/block/Label1162Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_1162.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label124",
       "type": "block",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_124",
@@ -2255,12 +2254,12 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_124.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_124.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label131",
       "type": "block",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_131",
@@ -2272,12 +2271,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/label_131.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_131.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label143fr",
       "type": "block",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_143fr",
@@ -2289,12 +2288,12 @@
           "src/main/resources/assets/more_scp_alarm/models/block/label_143fr.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_143fr.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "Label143",
       "type": "block",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "label_143",
@@ -2306,23 +2305,23 @@
           "src/main/resources/assets/more_scp_alarm/blockstates/label_143.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_143.json"
         ]
-      }
+      },
+      "path": "~/LabelCB"
     },
     {
       "name": "PaperCB",
       "type": "tab",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_cb",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docstrange",
       "type": "item",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docstrange",
@@ -2331,12 +2330,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docstrange.json",
           "src/main/java/net/theo/scpalarm/item/DocstrangeItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Secretfile",
       "type": "achievement",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "secretfile",
@@ -2344,12 +2343,12 @@
         "files": [
           "src/main/resources/data/more_scp_alarm/advancements/secretfile.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Strangepro",
       "type": "procedure",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strangepro",
@@ -2379,12 +2378,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Openclose",
       "type": "procedure",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "openclose",
@@ -2410,12 +2409,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc008",
       "type": "item",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_008",
@@ -2424,12 +2423,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_008.json",
           "src/main/java/net/theo/scpalarm/item/Doc008Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui008",
       "type": "gui",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_008",
@@ -2438,12 +2437,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui008Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui008Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro008",
       "type": "procedure",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_008",
@@ -2473,12 +2472,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guistrange",
       "type": "gui",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guistrange",
@@ -2487,12 +2486,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/GuistrangeMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/GuistrangeScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Archivement",
       "type": "procedure",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "archivement",
@@ -2506,12 +2505,12 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui012",
       "type": "gui",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_012",
@@ -2520,12 +2519,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui012Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui012Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui035",
       "type": "gui",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_035",
@@ -2534,12 +2533,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui035Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui035Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui035ad",
       "type": "gui",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_035ad",
@@ -2548,12 +2547,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui035adMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui035adScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui038",
       "type": "gui",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_038",
@@ -2562,12 +2561,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui038Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui038Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui049",
       "type": "gui",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_049",
@@ -2576,12 +2575,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui049Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui049Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui079",
       "type": "gui",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_079",
@@ -2590,12 +2589,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui079Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui079Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui93arm",
       "type": "gui",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_93arm",
@@ -2604,12 +2603,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui93armMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui93armScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui096",
       "type": "gui",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_096",
@@ -2618,12 +2617,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui096Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui096Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui1048",
       "type": "gui",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_1048",
@@ -2632,12 +2631,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui1048Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui1048Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui1048a",
       "type": "gui",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_1048a",
@@ -2646,12 +2645,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui1048aMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui1048aScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui106",
       "type": "gui",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_106",
@@ -2660,12 +2659,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui106Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui106Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui1062",
       "type": "gui",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_1062",
@@ -2674,12 +2673,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui1062Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui1062Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui109",
       "type": "gui",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_109",
@@ -2688,12 +2687,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui109Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui109Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui1123",
       "type": "gui",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_1123",
@@ -2702,12 +2701,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui1123Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui1123Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui1162",
       "type": "gui",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_1162",
@@ -2716,12 +2715,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui1162Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui1162Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui1499",
       "type": "gui",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_1499",
@@ -2730,12 +2729,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui1499Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui1499Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui173",
       "type": "gui",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_173",
@@ -2744,12 +2743,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui173Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui173Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui372",
       "type": "gui",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_372",
@@ -2758,12 +2757,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui372Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui372Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui427",
       "type": "gui",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_427",
@@ -2772,12 +2771,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui427Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui427Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui500",
       "type": "gui",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_500",
@@ -2786,12 +2785,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui500Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui500Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui513",
       "type": "gui",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_513",
@@ -2800,12 +2799,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui513Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui513Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui682",
       "type": "gui",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_682",
@@ -2814,12 +2813,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui682Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui682Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui714",
       "type": "gui",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_714",
@@ -2828,12 +2827,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui714Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui714Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui860",
       "type": "gui",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_860",
@@ -2842,12 +2841,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui860Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui860Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui8601",
       "type": "gui",
-      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_8601",
@@ -2856,12 +2855,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui8601Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui8601Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui895",
       "type": "gui",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_895",
@@ -2870,12 +2869,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui895Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui895Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui914",
       "type": "gui",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_914",
@@ -2884,12 +2883,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Gui914Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Gui914Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui939",
       "type": "gui",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_939",
@@ -2898,12 +2897,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui939Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui939Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui966",
       "type": "gui",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_966",
@@ -2912,12 +2911,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui966Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui966Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Gui970",
       "type": "gui",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_970",
@@ -2926,12 +2925,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Gui970Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Gui970Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guiac",
       "type": "gui",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guiac",
@@ -2940,12 +2939,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuiacScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuiacMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guidan",
       "type": "gui",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guidan",
@@ -2954,12 +2953,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/GuidanMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/GuidanScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guigonzales",
       "type": "gui",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guigonzales",
@@ -2968,12 +2967,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuigonzalesScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuigonzalesMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guiir106",
       "type": "gui",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guiir_106",
@@ -2982,12 +2981,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Guiir106Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Guiir106Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guil1",
       "type": "gui",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guil_1",
@@ -2996,12 +2995,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Guil1Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Guil1Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guimap",
       "type": "gui",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guimap",
@@ -3010,12 +3009,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/GuimapMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/GuimapScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guimsp",
       "type": "gui",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guimsp",
@@ -3024,12 +3023,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/GuimspMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/GuimspScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guimtf",
       "type": "gui",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guimtf",
@@ -3038,12 +3037,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuimtfScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuimtfMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guindp",
       "type": "gui",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guindp",
@@ -3052,12 +3051,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuindpScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuindpMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guibjo",
       "type": "gui",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guibjc",
@@ -3066,12 +3065,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuibjoScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuibjoMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guiori",
       "type": "gui",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guiori",
@@ -3080,12 +3079,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuioriScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuioriMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guirand1",
       "type": "gui",
-      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guirand_1",
@@ -3094,12 +3093,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guirand1Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guirand1Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guirp",
       "type": "gui",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guirp",
@@ -3108,12 +3107,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuirpScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuirpMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guisc",
       "type": "gui",
-      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guisc",
@@ -3122,12 +3121,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/GuiscScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/GuiscMenu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guiarce",
       "type": "gui",
-      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guiarce",
@@ -3136,12 +3135,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/GuiarceMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/GuiarceScreen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guif4",
       "type": "gui",
-      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guif_4",
@@ -3150,12 +3149,12 @@
           "src/main/java/net/theo/scpalarm/world/inventory/Guif4Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Guif4Screen.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guif5",
       "type": "gui",
-      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guif_5",
@@ -3164,12 +3163,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guif5Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guif5Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guif6",
       "type": "gui",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guif_6",
@@ -3178,12 +3177,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guif6Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guif6Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guil2",
       "type": "gui",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guil_2",
@@ -3192,12 +3191,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guil2Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guil2Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guil3",
       "type": "gui",
-      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guil_3",
@@ -3206,12 +3205,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guil3Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guil3Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guil4",
       "type": "gui",
-      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guil_4",
@@ -3220,12 +3219,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guil4Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guil4Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guil5",
       "type": "gui",
-      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guil_5",
@@ -3234,12 +3233,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guil5Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guil5Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guil6",
       "type": "gui",
-      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guil_6",
@@ -3248,12 +3247,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Guil6Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Guil6Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro012",
       "type": "procedure",
-      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_012",
@@ -3283,12 +3282,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro035",
       "type": "procedure",
-      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_035",
@@ -3318,12 +3317,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro035ad",
       "type": "procedure",
-      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_035ad",
@@ -3353,12 +3352,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro038",
       "type": "procedure",
-      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_038",
@@ -3388,12 +3387,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro049",
       "type": "procedure",
-      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_049",
@@ -3423,12 +3422,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro079",
       "type": "procedure",
-      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_079",
@@ -3458,12 +3457,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro93arm",
       "type": "procedure",
-      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_93arm",
@@ -3493,12 +3492,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro096",
       "type": "procedure",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_096",
@@ -3528,12 +3527,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro1048",
       "type": "procedure",
-      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_1048",
@@ -3563,12 +3562,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro1048a",
       "type": "procedure",
-      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_1048a",
@@ -3598,12 +3597,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro106",
       "type": "procedure",
-      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_106",
@@ -3633,12 +3632,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro1062",
       "type": "procedure",
-      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_1062",
@@ -3668,12 +3667,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro109",
       "type": "procedure",
-      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_109",
@@ -3703,12 +3702,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro1123",
       "type": "procedure",
-      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_1123",
@@ -3738,12 +3737,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro1162",
       "type": "procedure",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_1162",
@@ -3773,12 +3772,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro1499",
       "type": "procedure",
-      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_1499",
@@ -3808,12 +3807,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro173",
       "type": "procedure",
-      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_173",
@@ -3843,12 +3842,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro372",
       "type": "procedure",
-      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_372",
@@ -3878,12 +3877,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro457",
       "type": "procedure",
-      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_457",
@@ -3913,12 +3912,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro500",
       "type": "procedure",
-      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_500",
@@ -3948,12 +3947,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro513",
       "type": "procedure",
-      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_513",
@@ -3983,12 +3982,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro682",
       "type": "procedure",
-      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_682",
@@ -4018,12 +4017,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro714",
       "type": "procedure",
-      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_714",
@@ -4053,12 +4052,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro860",
       "type": "procedure",
-      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_860",
@@ -4088,12 +4087,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro8601",
       "type": "procedure",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_8601",
@@ -4123,12 +4122,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro895",
       "type": "procedure",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_895",
@@ -4158,12 +4157,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro914",
       "type": "procedure",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_914",
@@ -4193,12 +4192,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro939",
       "type": "procedure",
-      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_939",
@@ -4228,12 +4227,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro966",
       "type": "procedure",
-      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_966",
@@ -4263,12 +4262,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Pro970",
       "type": "procedure",
-      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pro_970",
@@ -4298,12 +4297,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Proac",
       "type": "procedure",
-      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proac",
@@ -4333,12 +4332,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prodan",
       "type": "procedure",
-      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prodan",
@@ -4368,12 +4367,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Progonzales",
       "type": "procedure",
-      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "progonzales",
@@ -4403,12 +4402,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Proir106",
       "type": "procedure",
-      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proir_106",
@@ -4438,12 +4437,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prol1",
       "type": "procedure",
-      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prol_1",
@@ -4473,12 +4472,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prol2",
       "type": "procedure",
-      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prol_2",
@@ -4508,12 +4507,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prol3",
       "type": "procedure",
-      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prol_3",
@@ -4543,12 +4542,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prol4",
       "type": "procedure",
-      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prol_4",
@@ -4578,12 +4577,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prol5",
       "type": "procedure",
-      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prol_5",
@@ -4613,12 +4612,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prol6",
       "type": "procedure",
-      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prol_6",
@@ -4648,12 +4647,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Promap",
       "type": "procedure",
-      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "promap",
@@ -4683,12 +4682,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Promsp",
       "type": "procedure",
-      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "promsp",
@@ -4718,12 +4717,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Promtf",
       "type": "procedure",
-      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "promtf",
@@ -4753,12 +4752,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prondp",
       "type": "procedure",
-      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prondp",
@@ -4788,12 +4787,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Probjc",
       "type": "procedure",
-      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "probjc",
@@ -4823,12 +4822,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Proir",
       "type": "procedure",
-      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proir",
@@ -4858,12 +4857,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Proran1",
       "type": "procedure",
-      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proran_1",
@@ -4893,12 +4892,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Proran2",
       "type": "procedure",
-      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proran_2",
@@ -4928,12 +4927,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Proran3",
       "type": "procedure",
-      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proran_3",
@@ -4963,12 +4962,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prorp",
       "type": "procedure",
-      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prorp",
@@ -4998,12 +4997,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prosc",
       "type": "procedure",
-      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prosc",
@@ -5033,12 +5032,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Proarce",
       "type": "procedure",
-      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proarce",
@@ -5068,12 +5067,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prof4",
       "type": "procedure",
-      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prof_4",
@@ -5103,12 +5102,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prof5",
       "type": "procedure",
-      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prof_5",
@@ -5138,12 +5137,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Prof6",
       "type": "procedure",
-      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prof_6",
@@ -5173,12 +5172,12 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docrand2",
       "type": "gui",
-      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docrand_2",
@@ -5187,12 +5186,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Docrand2Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Docrand2Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docrand3",
       "type": "gui",
-      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docrand_3",
@@ -5201,12 +5200,12 @@
           "src/main/java/net/theo/scpalarm/client/gui/Docrand3Screen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/Docrand3Menu.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc012",
       "type": "item",
-      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_012",
@@ -5215,12 +5214,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc012Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_012.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc035",
       "type": "item",
-      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_035",
@@ -5229,12 +5228,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_035.json",
           "src/main/java/net/theo/scpalarm/item/Doc035Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc035ad",
       "type": "item",
-      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_035ad",
@@ -5243,12 +5242,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_035ad.json",
           "src/main/java/net/theo/scpalarm/item/Doc035adItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc038",
       "type": "item",
-      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_038",
@@ -5257,12 +5256,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_038.json",
           "src/main/java/net/theo/scpalarm/item/Doc038Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc049",
       "type": "item",
-      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_049",
@@ -5271,12 +5270,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc049Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_049.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc079",
       "type": "item",
-      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_079",
@@ -5285,12 +5284,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_079.json",
           "src/main/java/net/theo/scpalarm/item/Doc079Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc93arm",
       "type": "item",
-      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_93arm",
@@ -5299,12 +5298,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_93arm.json",
           "src/main/java/net/theo/scpalarm/item/Doc93armItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc096",
       "type": "item",
-      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_096",
@@ -5313,12 +5312,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_096.json",
           "src/main/java/net/theo/scpalarm/item/Doc096Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc1048",
       "type": "item",
-      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_1048",
@@ -5327,12 +5326,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc1048Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_1048.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc1048a",
       "type": "item",
-      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_1048a",
@@ -5341,12 +5340,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_1048a.json",
           "src/main/java/net/theo/scpalarm/item/Doc1048aItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc106",
       "type": "item",
-      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_106",
@@ -5355,12 +5354,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc106Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_106.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc1062",
       "type": "item",
-      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_1062",
@@ -5369,12 +5368,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_1062.json",
           "src/main/java/net/theo/scpalarm/item/Doc1062Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc109",
       "type": "item",
-      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_109",
@@ -5383,12 +5382,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc109Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_109.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc1123",
       "type": "item",
-      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_1123",
@@ -5397,12 +5396,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc1123Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_1123.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc1162",
       "type": "item",
-      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_1162",
@@ -5411,12 +5410,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_1162.json",
           "src/main/java/net/theo/scpalarm/item/Doc1162Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc1499",
       "type": "item",
-      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_1499",
@@ -5425,12 +5424,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_1499.json",
           "src/main/java/net/theo/scpalarm/item/Doc1499Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc173",
       "type": "item",
-      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_173",
@@ -5439,12 +5438,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc173Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_173.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc372",
       "type": "item",
-      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_372",
@@ -5453,12 +5452,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc372Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_372.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc427",
       "type": "item",
-      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_427",
@@ -5467,12 +5466,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc427Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_427.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc500",
       "type": "item",
-      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_500",
@@ -5481,12 +5480,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_500.json",
           "src/main/java/net/theo/scpalarm/item/Doc500Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc513",
       "type": "item",
-      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_513",
@@ -5495,12 +5494,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc513Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_513.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc682",
       "type": "item",
-      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_682",
@@ -5509,12 +5508,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc682Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_682.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc714",
       "type": "item",
-      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_714",
@@ -5523,12 +5522,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc714Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_714.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc860",
       "type": "item",
-      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_860",
@@ -5537,12 +5536,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_860.json",
           "src/main/java/net/theo/scpalarm/item/Doc860Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc8601",
       "type": "item",
-      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_8601",
@@ -5551,12 +5550,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc8601Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_8601.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc895",
       "type": "item",
-      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_895",
@@ -5565,12 +5564,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc895Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_895.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc914",
       "type": "item",
-      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_914",
@@ -5579,12 +5578,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc914Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_914.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc939",
       "type": "item",
-      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_939",
@@ -5593,12 +5592,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/doc_939.json",
           "src/main/java/net/theo/scpalarm/item/Doc939Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc966",
       "type": "item",
-      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_966",
@@ -5607,12 +5606,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc966Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_966.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Doc970",
       "type": "item",
-      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_970",
@@ -5621,12 +5620,12 @@
           "src/main/java/net/theo/scpalarm/item/Doc970Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/doc_970.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docac",
       "type": "item",
-      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docac",
@@ -5635,12 +5634,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docac.json",
           "src/main/java/net/theo/scpalarm/item/DocacItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docdan",
       "type": "item",
-      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docdan",
@@ -5649,12 +5648,12 @@
           "src/main/java/net/theo/scpalarm/item/DocdanItem.java",
           "src/main/resources/assets/more_scp_alarm/models/item/docdan.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docgonzales",
       "type": "item",
-      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docgonzales",
@@ -5663,12 +5662,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docgonzales.json",
           "src/main/java/net/theo/scpalarm/item/DocgonzalesItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docl1",
       "type": "item",
-      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docl_1",
@@ -5677,12 +5676,12 @@
           "src/main/java/net/theo/scpalarm/item/Docl1Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/docl_1.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docl2",
       "type": "item",
-      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docl_2",
@@ -5691,12 +5690,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docl_2.json",
           "src/main/java/net/theo/scpalarm/item/Docl2Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docl3",
       "type": "item",
-      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docl_3",
@@ -5705,12 +5704,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docl_3.json",
           "src/main/java/net/theo/scpalarm/item/Docl3Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docl4",
       "type": "item",
-      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docl_4",
@@ -5719,12 +5718,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docl_4.json",
           "src/main/java/net/theo/scpalarm/item/Docl4Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docl5",
       "type": "item",
-      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docl_5",
@@ -5733,12 +5732,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docl_5.json",
           "src/main/java/net/theo/scpalarm/item/Docl5Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docl6",
       "type": "item",
-      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docl_6",
@@ -5747,12 +5746,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docl_6.json",
           "src/main/java/net/theo/scpalarm/item/Docl6Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docmap",
       "type": "item",
-      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docmap",
@@ -5761,12 +5760,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docmap.json",
           "src/main/java/net/theo/scpalarm/item/DocmapItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docmsp",
       "type": "item",
-      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docmsp",
@@ -5775,12 +5774,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docmsp.json",
           "src/main/java/net/theo/scpalarm/item/DocmspItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docmtf",
       "type": "item",
-      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docmtf",
@@ -5789,12 +5788,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docmtf.json",
           "src/main/java/net/theo/scpalarm/item/DocmtfItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docndp",
       "type": "item",
-      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docndp",
@@ -5803,12 +5802,12 @@
           "src/main/java/net/theo/scpalarm/item/DocndpItem.java",
           "src/main/resources/assets/more_scp_alarm/models/item/docndp.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docbjc",
       "type": "item",
-      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docbjc",
@@ -5817,12 +5816,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docbjc.json",
           "src/main/java/net/theo/scpalarm/item/DocbjcItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docori",
       "type": "item",
-      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docori",
@@ -5831,12 +5830,12 @@
           "src/main/java/net/theo/scpalarm/item/DocoriItem.java",
           "src/main/resources/assets/more_scp_alarm/models/item/docori.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docrand1",
       "type": "item",
-      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docrand_1",
@@ -5845,12 +5844,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docrand_1.json",
           "src/main/java/net/theo/scpalarm/item/Docrand1Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guirand2",
       "type": "item",
-      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guirand_2",
@@ -5859,12 +5858,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/guirand_2.json",
           "src/main/java/net/theo/scpalarm/item/Guirand2Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Guirand3",
       "type": "item",
-      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guirand_3",
@@ -5873,12 +5872,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/guirand_3.json",
           "src/main/java/net/theo/scpalarm/item/Guirand3Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docrp",
       "type": "item",
-      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docrp",
@@ -5887,12 +5886,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docrp.json",
           "src/main/java/net/theo/scpalarm/item/DocrpItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docsc",
       "type": "item",
-      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docsc",
@@ -5901,12 +5900,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docsc.json",
           "src/main/java/net/theo/scpalarm/item/DocscItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docarce",
       "type": "item",
-      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docarce",
@@ -5915,12 +5914,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docarce.json",
           "src/main/java/net/theo/scpalarm/item/DocarceItem.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docf5",
       "type": "item",
-      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docf_5",
@@ -5929,12 +5928,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docf_5.json",
           "src/main/java/net/theo/scpalarm/item/Docf5Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docf4",
       "type": "item",
-      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docf_4",
@@ -5943,12 +5942,12 @@
           "src/main/java/net/theo/scpalarm/item/Docf4Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/docf_4.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docf6",
       "type": "item",
-      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docf_6",
@@ -5957,12 +5956,12 @@
           "src/main/resources/assets/more_scp_alarm/models/item/docf_6.json",
           "src/main/java/net/theo/scpalarm/item/Docf6Item.java"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "Docir106",
       "type": "item",
-      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "docir_106",
@@ -5971,23 +5970,23 @@
           "src/main/java/net/theo/scpalarm/item/Docir106Item.java",
           "src/main/resources/assets/more_scp_alarm/models/item/docir_106.json"
         ]
-      }
+      },
+      "path": "~/PaperCB"
     },
     {
       "name": "CASSIE",
       "type": "tab",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cassie",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/CASSIE"
     },
     {
       "name": "Cassiesign",
       "type": "block",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cassiesign",
@@ -5999,28 +5998,28 @@
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/cassiesign.json",
           "src/main/java/net/theo/scpalarm/block/CassiesignBlock.java"
         ]
-      }
+      },
+      "path": "~/CASSIE"
     },
     {
       "name": "CassieCommand",
       "type": "code",
-      "sortid": 9,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "cassie_command"
+      "registry_name": "cassie_command",
+      "path": "~/CASSIE"
     },
     {
       "name": "CassieConfig",
       "type": "code",
-      "sortid": 10,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "cassie_config"
+      "registry_name": "cassie_config",
+      "path": "~/CASSIE"
     },
     {
       "name": "Alarmsiren",
       "type": "block",
-      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmsiren",
@@ -6030,9 +6029,43 @@
           "src/main/java/net/theo/scpalarm/block/AlarmsirenBlock.java",
           "src/main/resources/assets/more_scp_alarm/models/item/alarmsiren.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/alarmsiren.json",
+          "src/main/java/net/theo/scpalarm/block/entity/AlarmsirenBlockEntity.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmsiren.json"
         ]
-      }
+      },
+      "path": "~/Alarm"
+    },
+    {
+      "name": "GetAlarmVolumeText",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_alarm_volume_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/GetAlarmVolumeTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alarm"
     }
   ],
   "variable_elements": [
@@ -15215,6 +15248,7 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:mod:tag": [],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:Newdoor"
     ],
@@ -15222,6 +15256,7 @@
       "~CUSTOM:Newdoor"
     ]
   },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "subtitles.cassie_manual": "",
@@ -15358,6 +15393,7 @@
       "item.paper_cb.docmtf": "Doc NTF",
       "subtitles.cassie_from": "",
       "tile.gate_3.name": "Gate /\\ \u003e|",
+      "block.more_scp_alarm.trig_079.description_0": "this a the block to activate 079 on the TV",
       "subtitles.cassie_right": "",
       "subtitles.cassie_september": "",
       "itemGroup.tabpaper_cb": "Paper Containment Breach",
@@ -15956,6 +15992,7 @@
       "subtitles.cassie_nine_tailed_fox": "",
       "subtitles.cassie_end": "",
       "subtitles.elevator-closing": "",
+      "gui.more_scp_alarm.a_selector.AlarmSelector": "",
       "subtitles.cassie_lights": "",
       "subtitles.cassie_terminal": "",
       "subtitles.cassie_alive": "",
@@ -15963,6 +16000,7 @@
       "block.more_scp_alarm.trig_079": "Trig 079",
       "block.cb_label.label_1000": "Label 1000",
       "subtitles.door-nukegatesiren": "",
+      "block.more_scp_alarm.alarmva_3.description_0": "Alarm with the Var mod activated",
       "subtitles.cassie_protocol": "",
       "subtitles.cassie_minor": "",
       "subtitles.cassie_thermal": "",
@@ -16004,6 +16042,7 @@
       "tile.label_020.name": "Label 020",
       "subtitles.cassie_the": "",
       "item.generatortablet.name": "Generator Tablet",
+      "block.more_scp_alarm.alarmva_2.description_0": "Alarm with the Var mod activated",
       "subtitles.cassie_failed": "",
       "subtitles.cassie_military": "",
       "subtitles.cassie_mobile": "",
@@ -16422,6 +16461,7 @@
       "subtitles.cassie_xmas_jinglebells": "",
       "subtitles.cassie_white": "",
       "subtitles.cassie_procedure": "",
+      "item.more_scp_alarm.docndp.description_0": "Nuclear Detanation Protocol",
       "block.more_scp_alarm.label_079": "Label 079",
       "block.cb_label.label_1162": "Label 1162",
       "subtitles.cassie_stay": "",
@@ -16518,6 +16558,7 @@
       "subtitles.cassie_initializing": "",
       "subtitles.tesla-end": "",
       "advancements.secretfile.descr": "Read a SCP File",
+      "block.more_scp_alarm.alarmva.description_0": "Alarm with the Var mod activated",
       "item.more_scp_alarm.doc_860": "Doc 860",
       "subtitles.intro-guard-ulgrin-escortterminated": "",
       "subtitles.cassie_month": "",
@@ -16756,6 +16797,7 @@
       "item.paper_cb.doc_1162": "Doc 1162",
       "subtitles.intro-guard-conversation2": "",
       "subtitles.intro-guard-conversation1": "",
+      "item.more_scp_alarm.docrp.description_0": "Recall Procedur",
       "block.more_scp_alarm.label_124": "Label 124",
       "subtitles.intro-guard-conversation5": "",
       "subtitles.intro-guard-conversation4": "",
@@ -16781,6 +16823,7 @@
       "subtitles.scp106-magnet-down": "",
       "subtitles.scp-939-1lure": "",
       "subtitles.generator-done": "",
+      "block.more_scp_alarm.alarmva_3.description_0": "Alarm with the Var mod activated",
       "subtitles.scp-049-breath": "",
       "subtitles.decontamination-30s": "",
       "item.more_scp_alarm.docsc": "Doc SC",
@@ -16811,6 +16854,7 @@
       "item.more_scp_alarm.doc_1048": "Doc 1048",
       "subtitles.intro-guard-conversation3a": "",
       "subtitles.ambienta": "",
+      "block.more_scp_alarm.trig_079.description_0": "this a the block to activate 079 on the TV",
       "subtitles.intro-doorproblem": "",
       "block.more_scp_alarm.label_059fr": "Label 059-FR",
       "subtitles.heavy-ambient": "",
@@ -16842,6 +16886,7 @@
       "subtitles.scp-914-refining": "",
       "item.generatortablet.name": "Tablette de générateur",
       "tile.gate_1.name": "Porte /\\ \u003c-",
+      "block.more_scp_alarm.alarmva_2.description_0": "Alarm with the Var mod activated",
       "subtitles.scp-106-chase": "",
       "subtitles.scp-106-walldecay": "",
       "gui.more_scp_alarm.avaralarmgui.label_the_alarm_sound_is_set": "The alarm sound is set :",
@@ -16854,6 +16899,7 @@
       "subtitles.generator-2of5": "",
       "item.more_scp_alarm.doc_914": "Doc 914",
       "gui.more_scp_alarm.avarsetid.avaralarm1": "",
+      "item.more_scp_alarm.docndp.description_0": "Nuclear Detanation Protocol",
       "subtitles.door-open079": "",
       "subtitles.tesla-loop": "",
       "subtitles.mtf-173recontain": "",
@@ -17013,6 +17059,7 @@
       "item.more_scp_alarm.doc_500": "Doc 500",
       "advancements.secretfile.descr": "Read a SCP File",
       "item.more_scp_alarm.docrand_1": "Doc RAND-1",
+      "block.more_scp_alarm.alarmva.description_0": "Alarm with the Var mod activated",
       "block.more_scp_alarm.alarmva": "Alarme (Canal 1)",
       "item.more_scp_alarm.doc_860": "Doc 860",
       "subtitles.intro-guard-ulgrin-escortterminated": "",
@@ -17116,6 +17163,7 @@
       "block.more_scp_alarm.label_006": "Label 006",
       "item.more_scp_alarm.docac": "Doc ac",
       "subtitles.intro-guard-conversation1": "",
+      "item.more_scp_alarm.docrp.description_0": "Recall Procedur",
       "block.more_scp_alarm.label_1162": "Label 1162",
       "block.more_scp_alarm.label_005": "Label 005",
       "block.more_scp_alarm.label_002": "Label 002",
@@ -17138,6 +17186,7 @@
       "item.more_scp_alarm.doc_035": "Doc 035",
       "subtitles.mtf-tesla": "",
       "subtitles.elevator-closing": "",
+      "gui.more_scp_alarm.a_selector.AlarmSelector": "",
       "item.more_scp_alarm.doc_035ad": "Doc 035-Ad",
       "block.more_scp_alarm.label_131": "Label 131",
       "subtitles.generator-off": "",
@@ -17148,7 +17197,32 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "CASSIE",
+        "children": []
+      },
+      {
+        "name": "Alarm",
+        "children": []
+      },
+      {
+        "name": "PaperCB",
+        "children": []
+      },
+      {
+        "name": "LabelCB",
+        "children": []
+      },
+      {
+        "name": "TV",
+        "children": []
+      },
+      {
+        "name": "Door",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "more_scp_alarm",
@@ -17159,6 +17233,7 @@
     "websiteURL": "https://github.com/5UP3RTH30B4G/More-SCP-Alarm",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "bh_nu_header",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -17167,5 +17242,5 @@
     "credits": "SCP:CB And SCP:SL",
     "modElementsPackage": "net.theo.scpalarm"
   },
-  "mcreatorVersion": 202400118518
+  "mcreatorVersion": 202400452410
 }

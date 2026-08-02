@@ -7,6 +7,7 @@ modId="more_scp_alarm"
 version="3.0.3"
 displayName="More SCP Alarm"
 displayURL="https://github.com/5UP3RTH30B4G/More-SCP-Alarm"
+logoFile="logo.png"
 credits="SCP:CB And SCP:SL"
 authors="5UP3R TH30 B4G"
 description="More SCP Alarm is a mod that add SFX and block of any SCP's game"
@@ -18,8 +19,11 @@ description="More SCP Alarm is a mod that add SFX and block of any SCP's game"
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 
 
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -63,11 +63,6 @@ public class AvaralarmguiScreen extends AbstractContainerScreen<AvaralarmguiMenu
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.more_scp_alarm.avaralarmgui.label_the_alarm_sound_is_set"), 25, 4, -65536, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.more_scp_alarm.avaralarmgui.label_varalarm1"), 52, 40, -16776961, false);

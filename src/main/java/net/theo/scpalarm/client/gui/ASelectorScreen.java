@@ -1,6 +1,7 @@
 package net.theo.scpalarm.client.gui;
 
 import net.theo.scpalarm.world.inventory.ASelectorMenu;
+import net.theo.scpalarm.procedures.GetAlarmVolumeTextProcedure;
 import net.theo.scpalarm.network.ASelectorButtonMessage;
 import net.theo.scpalarm.MoreScpAlarmMod;
 
@@ -13,6 +14,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
 
@@ -23,7 +25,7 @@ public class ASelectorScreen extends AbstractContainerScreen<ASelectorMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	EditBox aselector;
+	EditBox AlarmSelector;
 	Button button_ok;
 	Button button_go_on_var_mod;
 	Button button_empty;
@@ -46,7 +48,7 @@ public class ASelectorScreen extends AbstractContainerScreen<ASelectorMenu> {
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-		aselector.render(guiGraphics, mouseX, mouseY, partialTicks);
+		AlarmSelector.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
@@ -65,31 +67,40 @@ public class ASelectorScreen extends AbstractContainerScreen<ASelectorMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-		if (aselector.isFocused())
-			return aselector.keyPressed(key, b, c);
+		if (AlarmSelector.isFocused())
+			return AlarmSelector.keyPressed(key, b, c);
 		return super.keyPressed(key, b, c);
 	}
 
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		aselector.tick();
+		AlarmSelector.tick();
+	}
+
+	@Override
+	public void resize(Minecraft minecraft, int width, int height) {
+		String AlarmSelectorValue = AlarmSelector.getValue();
+		super.resize(minecraft, width, height);
+		AlarmSelector.setValue(AlarmSelectorValue);
 	}
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.more_scp_alarm.a_selector.label_enter_the_id_of_the_alarm"), 16, 5, -1, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.more_scp_alarm.a_selector.label_volume"), 64, 74, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.more_scp_alarm.a_selector.label_bnbtnumbervolume"), 78, 90, -1, false);
+		guiGraphics.drawString(this.font,
+
+				GetAlarmVolumeTextProcedure.execute(world, x, y, z), 78, 90, -1, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		aselector = new EditBox(this.font, this.leftPos + 17, this.topPos + 24, 118, 18, Component.translatable("gui.more_scp_alarm.a_selector.aselector"));
-		aselector.setMaxLength(32767);
-		guistate.put("text:aselector", aselector);
-		this.addWidget(this.aselector);
+		AlarmSelector = new EditBox(this.font, this.leftPos + 17, this.topPos + 24, 118, 18, Component.translatable("gui.more_scp_alarm.a_selector.AlarmSelector"));
+		AlarmSelector.setMaxLength(32767);
+		guistate.put("text:AlarmSelector", AlarmSelector);
+		this.addWidget(this.AlarmSelector);
 		button_ok = Button.builder(Component.translatable("gui.more_scp_alarm.a_selector.button_ok"), e -> {
 			if (true) {
 				MoreScpAlarmMod.PACKET_HANDLER.sendToServer(new ASelectorButtonMessage(0, x, y, z));

@@ -35,9 +35,45 @@ public class MoreScpAlarmModTabs {
 				tabData.accept(MoreScpAlarmModBlocks.TV_895.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.ALARMSIREN.get().asItem());
-			})
-
-					.build());
+			}).build());
+	public static final RegistryObject<CreativeModeTab> CB_LABEL = REGISTRY.register("cb_label",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.more_scp_alarm.cb_label")).icon(() -> new ItemStack(MoreScpAlarmModBlocks.LABEL_012.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MoreScpAlarmModBlocks.ALARMLABEL.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_008.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_012.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_002.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_005.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_006.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_009.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_015.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_019.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_020.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_023.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.POSTER_294.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_027.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_049.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_053.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_059FR.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_063.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_079.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_087.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_096.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_098.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_1000.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_1025.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_1032_RU.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_1048.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_1057.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_106.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_1074.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_109.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_111.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_1162.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_124.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_131.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_143FR.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.LABEL_143.get().asItem());
+			}).withSearchBar().withTabsBefore(MORE_SCP_ALARM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PAPER_CB = REGISTRY.register("paper_cb",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.more_scp_alarm.paper_cb")).icon(() -> new ItemStack(MoreScpAlarmModItems.DOCSTRANGE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MoreScpAlarmModItems.DOCSTRANGE.get());
@@ -97,49 +133,9 @@ public class MoreScpAlarmModTabs {
 				tabData.accept(MoreScpAlarmModItems.DOCF_4.get());
 				tabData.accept(MoreScpAlarmModItems.DOCF_6.get());
 				tabData.accept(MoreScpAlarmModItems.DOCIR_106.get());
-			}).withSearchBar().build());
+			}).withSearchBar().withTabsBefore(CB_LABEL.getId()).build());
 	public static final RegistryObject<CreativeModeTab> CASSIE = REGISTRY.register("cassie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.more_scp_alarm.cassie")).icon(() -> new ItemStack(MoreScpAlarmModBlocks.CASSIESIGN.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MoreScpAlarmModBlocks.CASSIESIGN.get().asItem());
-			})
-
-					.build());
-	public static final RegistryObject<CreativeModeTab> CB_LABEL = REGISTRY.register("cb_label",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.more_scp_alarm.cb_label")).icon(() -> new ItemStack(MoreScpAlarmModBlocks.LABEL_012.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_008.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_012.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_002.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_005.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_006.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_009.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_015.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_019.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_020.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_023.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.POSTER_294.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_027.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_049.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_053.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_059FR.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_063.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_079.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_087.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_096.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_098.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_1000.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_1025.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_1032_RU.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_1048.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_1057.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_106.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_1074.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_109.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.ALARMLABEL.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_111.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_1162.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_124.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_131.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_143FR.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.LABEL_143.get().asItem());
-			}).withSearchBar().build());
+			}).withTabsBefore(PAPER_CB.getId()).build());
 }

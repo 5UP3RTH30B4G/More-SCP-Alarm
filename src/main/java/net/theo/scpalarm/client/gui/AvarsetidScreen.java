@@ -13,6 +13,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
 
@@ -71,6 +72,13 @@ public class AvarsetidScreen extends AbstractContainerScreen<AvarsetidMenu> {
 	public void containerTick() {
 		super.containerTick();
 		avaralarm1.tick();
+	}
+
+	@Override
+	public void resize(Minecraft minecraft, int width, int height) {
+		String avaralarm1Value = avaralarm1.getValue();
+		super.resize(minecraft, width, height);
+		avaralarm1.setValue(avaralarm1Value);
 	}
 
 	@Override

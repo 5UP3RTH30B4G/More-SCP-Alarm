@@ -14,6 +14,7 @@ import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
 
@@ -77,6 +78,13 @@ public class AlarmpanelScreen extends AbstractContainerScreen<AlarmpanelMenu> {
 	public void containerTick() {
 		super.containerTick();
 		panel_soundid.tick();
+	}
+
+	@Override
+	public void resize(Minecraft minecraft, int width, int height) {
+		String panel_soundidValue = panel_soundid.getValue();
+		super.resize(minecraft, width, height);
+		panel_soundid.setValue(panel_soundidValue);
 	}
 
 	@Override

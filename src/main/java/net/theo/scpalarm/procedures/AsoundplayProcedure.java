@@ -23,13 +23,13 @@ public class AsoundplayProcedure {
 					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, BlockPos.containing(x, y, z), "volume") == 0) {
+		}.getValue(world, BlockPos.containing(x, y, z), "AlarmVolume") == 0) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getPersistentData().putDouble("volume", 1);
+					_blockEntity.getPersistentData().putDouble("AlarmVolume", 1);
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -50,7 +50,7 @@ public class AsoundplayProcedure {
 								return blockEntity.getPersistentData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, BlockPos.containing(x, y, z), "volume"))));
+					}.getValue(world, BlockPos.containing(x, y, z), "AlarmVolume"))));
 		if (MoreScpAlarmModVariables.debug == true) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -68,7 +68,7 @@ public class AsoundplayProcedure {
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, BlockPos.containing(x, y, z), "volume"))));
+						}.getValue(world, BlockPos.containing(x, y, z), "AlarmVolume"))));
 		}
 	}
 }
