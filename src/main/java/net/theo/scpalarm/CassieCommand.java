@@ -131,8 +131,8 @@ public class CassieCommand {
     // Return segments to display; if dot-splits are enabled, split on '.'
     private static String[] getPrettySegments(String key) {
         String pretty = prettyWord(key);
-        if (cfgDotSplitsDisplay && pretty.contains(".")) {
-            String[] parts = pretty.split("\\.");
+        if (cfgDotSplitsDisplay && pretty.contains(";")) {
+            String[] parts = pretty.split("\\;");
             List<String> out = new ArrayList<>();
             for (String p : parts) {
                 String t = p.trim(); if (!t.isEmpty()) out.add(t);
