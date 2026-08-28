@@ -1,6 +1,9 @@
 
 package net.theo.scpalarm.block;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.common.util.ForgeSoundType;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -8,13 +11,13 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -22,7 +25,11 @@ public class NewdoorBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public NewdoorBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of()
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("more_scp_alarm:door-break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal.step")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal.hit")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal.fall"))))
+				.strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -44,10 +51,10 @@ public class NewdoorBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, -16, 4, 32, 32, 12);
-			case NORTH -> box(-16, -16, 4, 16, 32, 12);
-			case EAST -> box(4, -16, -16, 12, 32, 16);
-			case WEST -> box(4, -16, 0, 12, 32, 32);
+			default -> box(0, 0, 4, 16, 16, 12);
+			case NORTH -> box(0, 0, 4, 16, 16, 12);
+			case EAST -> box(4, 0, 0, 12, 16, 16);
+			case WEST -> box(4, 0, 0, 12, 16, 16);
 		};
 	}
 

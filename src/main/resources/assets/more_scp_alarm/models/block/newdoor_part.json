@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_scp_alarm:block/blank",
+    "up": "more_scp_alarm:block/blank",
+    "north": "more_scp_alarm:block/blank",
+    "east": "more_scp_alarm:block/blank",
+    "south": "more_scp_alarm:block/blank",
+    "west": "more_scp_alarm:block/blank",
+    "particle": "more_scp_alarm:block/blank"
+  },
+  "render_type": "cutout"
+}
