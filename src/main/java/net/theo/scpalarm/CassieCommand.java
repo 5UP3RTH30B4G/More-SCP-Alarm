@@ -142,6 +142,11 @@ public class CassieCommand {
         return new String[] { pretty };
     }
 
+    private static String getDisplayWord(String key, boolean isCassie) {
+        if (!isCassie && key != null && key.matches("bg_\\d+")) return "...";
+        return prettyWord(key);
+    }
+
     static {
         try {
             ResourceLocation fileLocation = new ResourceLocation("more_scp_alarm", "word_durations.json");
@@ -313,7 +318,7 @@ private static void executeCassie(CommandSourceStack source, String message, boo
     StringBuilder fullPrettySb = new StringBuilder();
     for (String w : words) {
         if (w.startsWith("pitch_") || w.equals(".")) continue;
-        String pw = prettyWord(w);
+        String pw = getDisplayWord(w, isCassie);
         if (pw == null || pw.isEmpty()) continue;
         if (fullPrettySb.length() > 0) fullPrettySb.append(' ');
         fullPrettySb.append(pw);
@@ -434,7 +439,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
             }
 
             // Display pretty segments (split by '.') as action-bar subtitles, spaced across the word duration
-            String[] segments = getPrettySegments(word);
+            String[] segments = getPrettySegments(getDisplayWord(word, isCassie));
             long totalMillis = (long) ((wordDuration / pitch[0]) * 1000);
             if (segments.length <= 1) {
                 // single segment: repeatedly display the subtitle during the whole word duration
