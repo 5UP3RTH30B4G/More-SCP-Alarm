@@ -1,6 +1,8 @@
 
 package net.theo.scpalarm.block;
 
+import net.theo.scpalarm.procedures.BigdoorPlacePartProcedure;
+
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.common.util.ForgeSoundType;
 
@@ -15,6 +17,7 @@ import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.resources.ResourceLocation;
@@ -75,5 +78,11 @@ public class NewdoorBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		BigdoorPlacePartProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate.getValue(FACING));
 	}
 }

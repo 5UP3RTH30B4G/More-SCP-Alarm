@@ -6083,6 +6083,37 @@
         ]
       },
       "path": "~/Door/NewDoor"
+    },
+    {
+      "name": "BigdoorPlacePart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bigdoor_place_part",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/BigdoorPlacePartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Door/NewDoor"
     }
   ],
   "variable_elements": [
