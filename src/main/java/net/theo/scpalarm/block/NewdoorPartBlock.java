@@ -1,6 +1,7 @@
 
 package net.theo.scpalarm.block;
 
+import net.theo.scpalarm.procedures.BigdoorControllerProcedure;
 import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -15,10 +16,12 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.Block;
 
 public class NewdoorPartBlock extends Block {
 	public enum DoorPart implements net.minecraft.util.StringRepresentable {
@@ -81,5 +84,21 @@ public class NewdoorPartBlock extends Block {
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
 		return new ItemStack(MoreScpAlarmModBlocks.NEWDOOR.get());
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (!world.isClientSide() && world instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+			BigdoorControllerProcedure.neighborChanged(serverLevel, pos);
+		}
+	}
+
+	@Override
+	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
+		if (!world.isClientSide()) {
+			BigdoorControllerProcedure.onRemoved((net.minecraft.server.level.ServerLevel) world, pos, newState);
+		}
+		super.onRemove(state, world, pos, newState, isMoving);
 	}
 }

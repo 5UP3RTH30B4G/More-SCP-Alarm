@@ -1,17 +1,32 @@
 {
   "variants": {
-    "facing=north": {
+    "facing=north,animating=false": {
       "model": "more_scp_alarm:block/newdoor"
     },
-    "facing=east": {
+    "facing=north,animating=true": {
+      "model": "more_scp_alarm:block/newdoor"
+    },
+    "facing=east,animating=false": {
       "model": "more_scp_alarm:block/newdoor",
       "y": 90
     },
-    "facing=south": {
+    "facing=east,animating=true": {
+      "model": "more_scp_alarm:block/newdoor",
+      "y": 90
+    },
+    "facing=south,animating=false": {
       "model": "more_scp_alarm:block/newdoor",
       "y": 180
     },
-    "facing=west": {
+    "facing=south,animating=true": {
+      "model": "more_scp_alarm:block/newdoor",
+      "y": 180
+    },
+    "facing=west,animating=false": {
+      "model": "more_scp_alarm:block/newdoor",
+      "y": 270
+    },
+    "facing=west,animating=true": {
       "model": "more_scp_alarm:block/newdoor",
       "y": 270
     }

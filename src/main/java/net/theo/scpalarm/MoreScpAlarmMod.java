@@ -9,6 +9,8 @@ import net.theo.scpalarm.init.MoreScpAlarmModMenus;
 import net.theo.scpalarm.init.MoreScpAlarmModItems;
 import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
 import net.theo.scpalarm.init.MoreScpAlarmModBlockEntities;
+import net.theo.scpalarm.procedures.BigdoorControllerProcedure;
+import net.theo.scpalarm.network.BigdoorAnimationMessage;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -20,6 +22,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.network.PacketDistributor;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
@@ -51,6 +54,7 @@ public class MoreScpAlarmMod {
 		MoreScpAlarmModTabs.REGISTRY.register(bus);
 
 		MoreScpAlarmModMenus.REGISTRY.register(bus);
+		addNetworkMessage(BigdoorAnimationMessage.class, BigdoorAnimationMessage::encode, BigdoorAnimationMessage::decode, BigdoorAnimationMessage::handle);
 
 		// Start of user code block mod init
 		// End of user code block mod init
@@ -77,6 +81,7 @@ public class MoreScpAlarmMod {
 	@SubscribeEvent
 	public void tick(TickEvent.ServerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
+			BigdoorControllerProcedure.tick(event.getServer());
 			List<AbstractMap.SimpleEntry<Runnable, Integer>> actions = new ArrayList<>();
 			workQueue.forEach(work -> {
 				work.setValue(work.getValue() - 1);
