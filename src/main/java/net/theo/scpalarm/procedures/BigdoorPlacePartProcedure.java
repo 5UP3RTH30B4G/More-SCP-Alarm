@@ -29,11 +29,11 @@ public class BigdoorPlacePartProcedure {
         int baseY = (int) y;
         int baseZ = (int) z;
 
-        // Repère local de la porte:
-        // - gauche = X = 0
-        // - droite = X = +1
-        // - hauteur = Y
-        // En face nord = référence.
+        // Local point of the door:
+        // - left = X = 0
+        // - right = X = +1
+        // - height = Y
+        // North Face is the reference.
         placePartAtOffset(world, baseX, baseY, baseZ, facing, 0, -1, 0, NewdoorPartBlock.DoorPart.LEFT_DOWN);
         placePartAtOffset(world, baseX, baseY, baseZ, facing, 0, 1, 0, NewdoorPartBlock.DoorPart.LEFT_UP);
         placePartAtOffset(world, baseX, baseY, baseZ, facing, -1, 1, 0, NewdoorPartBlock.DoorPart.RIGHT_UP);
