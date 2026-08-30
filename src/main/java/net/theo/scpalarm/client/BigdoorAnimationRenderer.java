@@ -6,6 +6,7 @@ import java.util.List;
 
 import net.theo.scpalarm.block.NewdoorBlock;
 import net.theo.scpalarm.network.BigdoorAnimationMessage;
+import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 
@@ -73,14 +74,11 @@ public final class BigdoorAnimationRenderer {
             double x = animation.base().getX() + right.getStepX() * slide - camera.x;
             double y = animation.base().getY() - camera.y;
             double z = animation.base().getZ() + right.getStepZ() * slide - camera.z;
-            BlockState state = animation.state(minecraft.level);
-            if (state == null) {
-                continue;
-            }
+            BlockState state = animation.renderState();
 
             poseStack.pushPose();
             poseStack.translate(x, y, z);
-            dispatcher.renderSingleBlock(state, poseStack, buffers, LevelRenderer.getLightColor(minecraft.level, animation.base()), 0);
+            dispatcher.renderSingleBlock(state, poseStack, buffers, LevelRenderer.getLightColor(minecraft.level, animation.renderPosition()), 0);
             poseStack.popPose();
         }
         buffers.endBatch();
@@ -119,7 +117,8 @@ public final class BigdoorAnimationRenderer {
         }
 
         private float progress(long gameTime, float partialTick) {
-            return Math.min(1.0f, Math.max(0.0f, (gameTime - startTime + partialTick) / message.duration()));
+            float linear = Math.min(1.0f, Math.max(0.0f, (gameTime - startTime + partialTick) / message.duration()));
+            return linear * linear * (3.0f - 2.0f * linear);
         }
 
         private boolean contains(BlockPos pos) {
@@ -131,15 +130,15 @@ public final class BigdoorAnimationRenderer {
             return pos.getY() == base().getY() && ((pos.getX() == fromX && pos.getZ() == fromZ) || (pos.getX() == targetX && pos.getZ() == targetZ));
         }
 
-        private BlockState state(net.minecraft.client.multiplayer.ClientLevel level) {
-            BlockState state = level.getBlockState(base().offset(0, 0, 0));
-            if (state.getBlock() == net.theo.scpalarm.init.MoreScpAlarmModBlocks.NEWDOOR.get()) {
-                return state;
-            }
+        private BlockPos renderPosition() {
             Direction right = facing().getCounterClockWise();
-            BlockPos current = base().relative(right, fromSlide());
-            state = level.getBlockState(current);
-            return state.getBlock() == net.theo.scpalarm.init.MoreScpAlarmModBlocks.NEWDOOR.get() ? state : null;
+            return base().relative(right, Math.round(fromSlide()));
+        }
+
+        private BlockState renderState() {
+            return MoreScpAlarmModBlocks.NEWDOOR.get().defaultBlockState()
+                    .setValue(NewdoorBlock.FACING, facing())
+                    .setValue(NewdoorBlock.ANIMATING, false);
         }
     }
 }
