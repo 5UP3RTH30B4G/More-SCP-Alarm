@@ -14,6 +14,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.block.BlockRenderDispatcher;
 import net.minecraft.client.renderer.LevelRenderer;
+import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -75,10 +76,15 @@ public final class BigdoorAnimationRenderer {
             double y = animation.base().getY() - camera.y;
             double z = animation.base().getZ() + right.getStepZ() * slide - camera.z;
             BlockState state = animation.renderState();
+                BlockPos lightPosition = BlockPos.containing(
+                    animation.base().getX() + right.getStepX() * slide,
+                    animation.base().getY(),
+                    animation.base().getZ() + right.getStepZ() * slide);
 
             poseStack.pushPose();
             poseStack.translate(x, y, z);
-            dispatcher.renderSingleBlock(state, poseStack, buffers, LevelRenderer.getLightColor(minecraft.level, animation.renderPosition()), 0);
+                dispatcher.renderSingleBlock(state, poseStack, buffers,
+                    LevelRenderer.getLightColor(minecraft.level, lightPosition), OverlayTexture.NO_OVERLAY);
             poseStack.popPose();
         }
         buffers.endBatch();
