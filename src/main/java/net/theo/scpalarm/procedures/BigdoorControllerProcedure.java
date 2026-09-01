@@ -62,13 +62,6 @@ public final class BigdoorControllerProcedure {
                     DOORS.remove(door);
                     continue;
                 }
-                if (door.animationTicksRemaining > 0) {
-                    door.animationTicksRemaining--;
-                    if (door.animationTicksRemaining == 0) {
-                        door.finishAnimation();
-                    }
-                    continue;
-                }
                 if (door.slide == door.targetSlide) {
                     continue;
                 }
@@ -192,8 +185,7 @@ public final class BigdoorControllerProcedure {
         private int slide;
         private int targetSlide;
         private int ticksUntilStep = TICKS_PER_STEP;
-        private int animationTicksRemaining;
-            private boolean animationPacketSent;
+        private boolean animationPacketSent;
 
         private DoorController(ServerLevel level, BlockPos base, Direction facing) {
             this.level = level;
@@ -296,7 +288,6 @@ public final class BigdoorControllerProcedure {
                 int totalDuration = TICKS_PER_STEP * MAX_SLIDE;
                 MoreScpAlarmMod.PACKET_HANDLER.send(PacketDistributor.ALL.noArg(),
                         new BigdoorAnimationMessage(base, facing, slide, targetSlide, totalDuration));
-                animationTicksRemaining = totalDuration;
             }
         }
 
