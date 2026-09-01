@@ -43,8 +43,8 @@ public final class BigdoorControllerProcedure {
             level.playSound(null, door.base, door.targetSlide > door.slide
                     ? MoreScpAlarmModSounds.DOOR_BIGDOOR_OPEN.get()
                     : MoreScpAlarmModSounds.DOOR_BIGDOOR_CLOSE.get(), SoundSource.BLOCKS, 1.0f, 1.0f);
-               door.sendAnimationPacket();
-               door.markAnimatingImmediately();
+                door.sendAnimationPacket();
+                door.moveOneStep();
         } else if (!powered) {
             door.powered = false;
         }
@@ -62,6 +62,12 @@ public final class BigdoorControllerProcedure {
                     DOORS.remove(door);
                     continue;
                 }
+                if (door.animationTicksRemaining > 0) {
+                    door.animationTicksRemaining--;
+                    if (door.animationTicksRemaining == 0 && door.slide == door.targetSlide) {
+                        door.finishAnimation();
+                    }
+                }
                 if (door.slide == door.targetSlide) {
                     continue;
                 }
@@ -71,8 +77,6 @@ public final class BigdoorControllerProcedure {
                 door.ticksUntilStep = TICKS_PER_STEP;
                 if (!door.moveOneStep()) {
                     door.targetSlide = door.slide;
-                } else if (door.slide == door.targetSlide) {
-                    door.finishAnimation();
                 }
             }
         }
@@ -155,6 +159,7 @@ public final class BigdoorControllerProcedure {
         return null;
     }
 
+    // Door part placing offsets relative to the base block
     private static List<PartOffset> offsets() {
         return List.of(
                 new PartOffset(0, 0, 0, null),
@@ -185,6 +190,7 @@ public final class BigdoorControllerProcedure {
         private int slide;
         private int targetSlide;
         private int ticksUntilStep = TICKS_PER_STEP;
+        private int animationTicksRemaining;
         private boolean animationPacketSent;
 
         private DoorController(ServerLevel level, BlockPos base, Direction facing) {
@@ -288,6 +294,7 @@ public final class BigdoorControllerProcedure {
                 int totalDuration = TICKS_PER_STEP * MAX_SLIDE;
                 MoreScpAlarmMod.PACKET_HANDLER.send(PacketDistributor.ALL.noArg(),
                         new BigdoorAnimationMessage(base, facing, slide, targetSlide, totalDuration));
+                animationTicksRemaining = totalDuration;
             }
         }
 
