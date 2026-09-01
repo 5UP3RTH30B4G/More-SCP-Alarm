@@ -43,6 +43,8 @@ public final class BigdoorControllerProcedure {
             level.playSound(null, door.base, door.targetSlide > door.slide
                     ? MoreScpAlarmModSounds.DOOR_BIGDOOR_OPEN.get()
                     : MoreScpAlarmModSounds.DOOR_BIGDOOR_CLOSE.get(), SoundSource.BLOCKS, 1.0f, 1.0f);
+               door.sendAnimationPacket();
+               door.markAnimatingImmediately();
         } else if (!powered) {
             door.powered = false;
         }
@@ -191,6 +193,7 @@ public final class BigdoorControllerProcedure {
         private int targetSlide;
         private int ticksUntilStep = TICKS_PER_STEP;
         private int animationTicksRemaining;
+            private boolean animationPacketSent;
 
         private DoorController(ServerLevel level, BlockPos base, Direction facing) {
             this.level = level;
@@ -249,9 +252,6 @@ public final class BigdoorControllerProcedure {
                 states.add(level.getBlockState(current));
             }
             states.set(0, states.get(0).setValue(NewdoorBlock.ANIMATING, true));
-            MoreScpAlarmMod.PACKET_HANDLER.send(PacketDistributor.ALL.noArg(),
-                    new BigdoorAnimationMessage(base, facing, slide, nextSlide, TICKS_PER_STEP));
-            animationTicksRemaining = TICKS_PER_STEP;
             internalChange = true;
             try {
                 for (BlockPos current : currentPositions) {
@@ -273,6 +273,35 @@ public final class BigdoorControllerProcedure {
             if (state.getBlock() == MoreScpAlarmModBlocks.NEWDOOR.get()) {
                 level.setBlock(mainPos, state.setValue(NewdoorBlock.ANIMATING, false), 3);
             }
+            resetAnimationState();
+        }
+
+        private void markAnimatingImmediately() {
+            BlockPos mainPos = base.relative(facing.getCounterClockWise(), slide);
+            BlockState state = level.getBlockState(mainPos);
+            if (state.getBlock() == MoreScpAlarmModBlocks.NEWDOOR.get()) {
+                state = state.setValue(NewdoorBlock.ANIMATING, true);
+                internalChange = true;
+                try {
+                    level.setBlock(mainPos, state, 3);
+                } finally {
+                    internalChange = false;
+                }
+            }
+        }
+
+        private void sendAnimationPacket() {
+            if (!animationPacketSent) {
+                animationPacketSent = true;
+                int totalDuration = TICKS_PER_STEP * MAX_SLIDE;
+                MoreScpAlarmMod.PACKET_HANDLER.send(PacketDistributor.ALL.noArg(),
+                        new BigdoorAnimationMessage(base, facing, slide, targetSlide, totalDuration));
+                animationTicksRemaining = totalDuration;
+            }
+        }
+
+        private void resetAnimationState() {
+            animationPacketSent = false;
         }
     }
 }
