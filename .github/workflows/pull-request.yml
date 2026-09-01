@@ -1,0 +1,46 @@
+name: Pull Request Build
+
+on:
+  pull_request:
+    branches:
+      - "1.20.1"
+      - "1.20.1-dev"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Verify Mod Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make Gradle executable
+        run: chmod +x gradlew
+
+      - name: Build mod
+        run: ./gradlew build --no-daemon
+
+      - name: Verify JAR
+        run: |
+          echo "Generated JAR files:"
+          ls -lah build/libs/
+
+          if ! ls build/libs/*.jar >/dev/null 2>&1; then
+            echo "No JAR was generated!"
+            exit 1
+          fi
+
+          echo "Build verification successful."
