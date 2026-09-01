@@ -1,0 +1,47 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - "1.20.1"
+      - "1.20.1-dev"
+
+  pull_request:
+    branches:
+      - "1.20.1"
+      - "1.20.1-dev"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build More SCP Alarm
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
+
+      - name: Build with Gradle
+        run: ./gradlew build --no-daemon
+
+      - name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: More-SCP-Alarm-${{ replace(github.ref_name, '/', '-') }}-${{ github.sha }}
+          path: build/libs/*.jar
+          if-no-files-found: error
+          retention-days: 14
