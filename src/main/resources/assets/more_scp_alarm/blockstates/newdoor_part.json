@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,door_part=left_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 0 },
+    "facing=south,door_part=left_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 180 },
+    "facing=west,door_part=left_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 270 },
+    "facing=east,door_part=left_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 90 },
+
+    "facing=north,door_part=left_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 0 },
+    "facing=south,door_part=left_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 180 },
+    "facing=west,door_part=left_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 270 },
+    "facing=east,door_part=left_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 90 },
+
+    "facing=north,door_part=right_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 0 },
+    "facing=south,door_part=right_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 180 },
+    "facing=west,door_part=right_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 270 },
+    "facing=east,door_part=right_up": { "model": "more_scp_alarm:block/newdoor_part", "y": 90 },
+
+    "facing=north,door_part=right_mid": { "model": "more_scp_alarm:block/newdoor_part", "y": 0 },
+    "facing=south,door_part=right_mid": { "model": "more_scp_alarm:block/newdoor_part", "y": 180 },
+    "facing=west,door_part=right_mid": { "model": "more_scp_alarm:block/newdoor_part", "y": 270 },
+    "facing=east,door_part=right_mid": { "model": "more_scp_alarm:block/newdoor_part", "y": 90 },
+
+    "facing=north,door_part=right_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 0 },
+    "facing=south,door_part=right_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 180 },
+    "facing=west,door_part=right_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 270 },
+    "facing=east,door_part=right_down": { "model": "more_scp_alarm:block/newdoor_part", "y": 90 }
+  }
+}

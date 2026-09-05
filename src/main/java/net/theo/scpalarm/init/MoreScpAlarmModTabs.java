@@ -35,6 +35,7 @@ public class MoreScpAlarmModTabs {
 				tabData.accept(MoreScpAlarmModBlocks.TV_895.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.ALARMSIREN.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR_PART.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> CB_LABEL = REGISTRY.register("cb_label",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.more_scp_alarm.cb_label")).icon(() -> new ItemStack(MoreScpAlarmModBlocks.LABEL_012.get())).displayItems((parameters, tabData) -> {

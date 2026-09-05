@@ -40,6 +40,7 @@ public class MoreScpAlarmMod {
 
 	public MoreScpAlarmMod() {
 		// Start of user code block mod constructor
+		MinecraftForge.EVENT_BUS.register(new BigdoorServerTickHandler());
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -47,16 +48,24 @@ public class MoreScpAlarmMod {
 		MoreScpAlarmModBlocks.REGISTRY.register(bus);
 		MoreScpAlarmModBlockEntities.REGISTRY.register(bus);
 		MoreScpAlarmModItems.REGISTRY.register(bus);
-
 		MoreScpAlarmModTabs.REGISTRY.register(bus);
-
 		MoreScpAlarmModMenus.REGISTRY.register(bus);
-
 		// Start of user code block mod init
+		addNetworkMessage(net.theo.scpalarm.network.BigdoorAnimationMessage.class, net.theo.scpalarm.network.BigdoorAnimationMessage::encode, net.theo.scpalarm.network.BigdoorAnimationMessage::decode,
+				net.theo.scpalarm.network.BigdoorAnimationMessage::handle);
 		// End of user code block mod init
 	}
 
 	// Start of user code block mod methods
+	private static final class BigdoorServerTickHandler {
+		@SubscribeEvent
+		public void tick(TickEvent.ServerTickEvent event) {
+			if (event.phase == TickEvent.Phase.END) {
+				net.theo.scpalarm.procedures.BigdoorControllerProcedure.tick(event.getServer());
+			}
+		}
+	}
+
 	// End of user code block mod methods
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);

@@ -192,6 +192,7 @@ public class MoreScpAlarmModItems {
 	public static final RegistryObject<Item> DOCIR_106 = REGISTRY.register("docir_106", () -> new Docir106Item());
 	public static final RegistryObject<Item> CASSIESIGN = block(MoreScpAlarmModBlocks.CASSIESIGN);
 	public static final RegistryObject<Item> ALARMSIREN = block(MoreScpAlarmModBlocks.ALARMSIREN);
+	public static final RegistryObject<Item> NEWDOOR_PART = block(MoreScpAlarmModBlocks.NEWDOOR_PART);
 
 	// Start of user code block custom items
 	// End of user code block custom items
