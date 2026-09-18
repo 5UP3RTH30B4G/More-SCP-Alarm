@@ -76,14 +76,14 @@ public final class BigdoorAnimationRenderer {
             double y = animation.base().getY() - camera.y;
             double z = animation.base().getZ() + right.getStepZ() * slide - camera.z;
             BlockState state = animation.renderState();
-                BlockPos lightPosition = BlockPos.containing(
+            BlockPos lightPosition = BlockPos.containing(
                     animation.base().getX() + right.getStepX() * slide,
                     animation.base().getY(),
                     animation.base().getZ() + right.getStepZ() * slide);
 
             poseStack.pushPose();
             poseStack.translate(x, y, z);
-                dispatcher.renderSingleBlock(state, poseStack, buffers,
+            dispatcher.renderSingleBlock(state, poseStack, buffers,
                     LevelRenderer.getLightColor(minecraft.level, lightPosition), OverlayTexture.NO_OVERLAY);
             poseStack.popPose();
         }
@@ -134,11 +134,6 @@ public final class BigdoorAnimationRenderer {
             int targetX = base().getX() + right.getStepX() * targetSlide();
             int targetZ = base().getZ() + right.getStepZ() * targetSlide();
             return pos.getY() == base().getY() && ((pos.getX() == fromX && pos.getZ() == fromZ) || (pos.getX() == targetX && pos.getZ() == targetZ));
-        }
-
-        private BlockPos renderPosition() {
-            Direction right = facing().getCounterClockWise();
-            return base().relative(right, Math.round(fromSlide()));
         }
 
         private BlockState renderState() {

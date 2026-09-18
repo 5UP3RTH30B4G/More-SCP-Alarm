@@ -43,8 +43,8 @@ public final class BigdoorControllerProcedure {
             level.playSound(null, door.base, door.targetSlide > door.slide
                     ? MoreScpAlarmModSounds.DOOR_BIGDOOR_OPEN.get()
                     : MoreScpAlarmModSounds.DOOR_BIGDOOR_CLOSE.get(), SoundSource.BLOCKS, 1.0f, 1.0f);
-                door.sendAnimationPacket();
-                door.moveOneStep();
+            door.sendAnimationPacket();
+            door.moveOneStep();
         } else if (!powered) {
             door.powered = false;
         }
@@ -159,7 +159,6 @@ public final class BigdoorControllerProcedure {
         return null;
     }
 
-    // Door part placing offsets relative to the base block
     private static List<PartOffset> offsets() {
         return List.of(
                 new PartOffset(0, 0, 0, null),
@@ -272,20 +271,6 @@ public final class BigdoorControllerProcedure {
                 level.setBlock(mainPos, state.setValue(NewdoorBlock.ANIMATING, false), 3);
             }
             resetAnimationState();
-        }
-
-        private void markAnimatingImmediately() {
-            BlockPos mainPos = base.relative(facing.getCounterClockWise(), slide);
-            BlockState state = level.getBlockState(mainPos);
-            if (state.getBlock() == MoreScpAlarmModBlocks.NEWDOOR.get()) {
-                state = state.setValue(NewdoorBlock.ANIMATING, true);
-                internalChange = true;
-                try {
-                    level.setBlock(mainPos, state, 3);
-                } finally {
-                    internalChange = false;
-                }
-            }
         }
 
         private void sendAnimationPacket() {

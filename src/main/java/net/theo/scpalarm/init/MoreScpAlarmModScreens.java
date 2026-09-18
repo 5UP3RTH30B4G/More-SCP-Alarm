@@ -4,6 +4,7 @@
  */
 package net.theo.scpalarm.init;
 
+import net.theo.scpalarm.client.gui.TVSelectorScreen;
 import net.theo.scpalarm.client.gui.GuistrangeScreen;
 import net.theo.scpalarm.client.gui.GuiscScreen;
 import net.theo.scpalarm.client.gui.GuirpScreen;
@@ -151,6 +152,7 @@ public class MoreScpAlarmModScreens {
 			MenuScreens.register(MoreScpAlarmModMenus.GUIL_6.get(), Guil6Screen::new);
 			MenuScreens.register(MoreScpAlarmModMenus.DOCRAND_2.get(), Docrand2Screen::new);
 			MenuScreens.register(MoreScpAlarmModMenus.DOCRAND_3.get(), Docrand3Screen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.TV_SELECTOR.get(), TVSelectorScreen::new);
 		});
 	}
 }

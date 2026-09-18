@@ -1,7 +1,66 @@
 {
   "_fv": 73,
-  "_type": "procedure",
+  "_type": "gui",
   "definition": {
-    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"419\" y=\"151\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_binary_ops\"><field name=\"OP\">EQ</field><value name=\"A\"><block type=\"variables_get_logic\"><field name=\"VAR\">global:tv079</field></block></value><value name=\"B\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></value><statement name=\"DO0\"><block type=\"block_replace\"><field name=\"state\">TRUE</field><field name=\"nbt\">FALSE</field><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Tv079</field></block></value></block></statement><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_binary_ops\"><field name=\"OP\">EQ</field><value name=\"A\"><block type=\"variables_get_logic\"><field name=\"VAR\">global:tv079</field></block></value><value name=\"B\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></value><statement name=\"DO0\"><block type=\"block_replace\"><field name=\"state\">TRUE</field><field name=\"nbt\">FALSE</field><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Tvcheckpoint</field></block></value></block></statement></block></next></block></next></block></xml>"
+    "type": 0,
+    "width": 400,
+    "height": 165,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_a_tv_screen_to_display",
+          "text": {
+            "fixedValue": "Select a TV screen to display"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 141,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_lockdownscreen",
+          "image": "lockdownscreen.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TVSelectorOption1"
+          },
+          "x": 42,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_lockdownscreenlight",
+          "image": "lockdownscreenlight.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TVSelectorOption2"
+          },
+          "x": 240,
+          "y": 62,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
   }
 }
