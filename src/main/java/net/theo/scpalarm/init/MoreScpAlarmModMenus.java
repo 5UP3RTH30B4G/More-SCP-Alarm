@@ -4,6 +4,7 @@
  */
 package net.theo.scpalarm.init;
 
+import net.theo.scpalarm.world.inventory.TVSelectorMenu;
 import net.theo.scpalarm.world.inventory.GuistrangeMenu;
 import net.theo.scpalarm.world.inventory.GuiscMenu;
 import net.theo.scpalarm.world.inventory.GuirpMenu;
@@ -149,4 +150,5 @@ public class MoreScpAlarmModMenus {
 	public static final RegistryObject<MenuType<Guil6Menu>> GUIL_6 = REGISTRY.register("guil_6", () -> IForgeMenuType.create(Guil6Menu::new));
 	public static final RegistryObject<MenuType<Docrand2Menu>> DOCRAND_2 = REGISTRY.register("docrand_2", () -> IForgeMenuType.create(Docrand2Menu::new));
 	public static final RegistryObject<MenuType<Docrand3Menu>> DOCRAND_3 = REGISTRY.register("docrand_3", () -> IForgeMenuType.create(Docrand3Menu::new));
+	public static final RegistryObject<MenuType<TVSelectorMenu>> TV_SELECTOR = REGISTRY.register("tv_selector", () -> IForgeMenuType.create(TVSelectorMenu::new));
 }

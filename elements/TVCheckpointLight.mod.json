@@ -1,0 +1,196 @@
+{
+  "_fv": 73,
+  "_type": "block",
+  "definition": {
+    "texture": "tv_led_off",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "tvlight:default",
+    "rotationMode": 3,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 1.0,
+        "my": 2.0,
+        "mz": 10.0,
+        "Mx": 15.0,
+        "My": 11.1,
+        "Mz": 11.35,
+        "subtract": false
+      },
+      {
+        "mx": 1.0,
+        "my": 1.3,
+        "mz": 8.2,
+        "Mx": 3.0,
+        "My": 2.0,
+        "Mz": 8.7,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 7.0,
+        "mz": 11.0,
+        "Mx": 9.0,
+        "My": 9.0,
+        "Mz": 16.6,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 2.01294,
+        "mz": 11.20178,
+        "Mx": 16.0,
+        "My": 3.01294,
+        "Mz": 13.30178,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 12.01294,
+        "mz": 11.20178,
+        "Mx": 16.0,
+        "My": 13.01294,
+        "Mz": 13.30178,
+        "subtract": false
+      },
+      {
+        "mx": 15.0,
+        "my": 2.01294,
+        "mz": 11.20178,
+        "Mx": 16.0,
+        "My": 13.01294,
+        "Mz": 13.30178,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 2.01294,
+        "mz": 11.20178,
+        "Mx": 1.0,
+        "My": 13.01294,
+        "Mz": 13.30178,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "TV Checkpoint Light",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": true,
+    "lightOpacity": 0,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": "CUSTOM:TVOFF"
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "STONE"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "hasInventory": true,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "TV079TickUpdate"
+    },
+    "onRedstoneOn": {
+      "name": "TVRedstoneOn"
+    },
+    "onRedstoneOff": {
+      "name": "TVRedstoneOff"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

@@ -54,7 +54,7 @@ public class CassieCommand {
     private static String cfgNumberPrefix = "number_";
     // use CassieConfig for runtime config values
 
-    // Affiche un message dans la barre d'action d'un joueur (ou de tous)
+    // Display a message in the action bar of a player (or everyone)
     private static void displayActionBar(ServerPlayer player, String message) {
         if (player == null) return;
         String out = applyCassiePrefix(message);
@@ -131,8 +131,8 @@ public class CassieCommand {
     // Return segments to display; if dot-splits are enabled, split on '.'
     private static String[] getPrettySegments(String key) {
         String pretty = prettyWord(key);
-        if (cfgDotSplitsDisplay && pretty.contains(".")) {
-            String[] parts = pretty.split("\\.");
+        if (cfgDotSplitsDisplay && pretty.contains(";")) {
+            String[] parts = pretty.split("\\;");
             List<String> out = new ArrayList<>();
             for (String p : parts) {
                 String t = p.trim(); if (!t.isEmpty()) out.add(t);
@@ -142,15 +142,20 @@ public class CassieCommand {
         return new String[] { pretty };
     }
 
+    private static String getDisplayWord(String key, boolean isCassie) {
+        if (!isCassie && key != null && key.matches("bg_\\d+")) return "...";
+        return prettyWord(key);
+    }
+
     static {
         try {
             ResourceLocation fileLocation = new ResourceLocation("more_scp_alarm", "word_durations.json");
             InputStreamReader reader = new InputStreamReader(CassieCommand.class.getResourceAsStream("/assets/more_scp_alarm/" + fileLocation.getPath()));
             wordDurations.putAll(gson.fromJson(reader, new TypeToken<Map<String, Float>>() {}.getType()));
             reader.close();
-            logInfo("Fichier des durées des mots chargé avec succès !");
+            logInfo("Word durations file loaded successfully!");
         } catch (Exception e) {
-            logError("Impossible de charger le fichier des durées des mots !");
+            logError("Unable to load the word durations file!");
             e.printStackTrace();
         }
         // Load word_exception.json (defaults + map)
@@ -180,9 +185,9 @@ public class CassieCommand {
                     }
                 }
             }
-            logInfo("Fichier de nettoyage des mots (word_exception.json) chargé : " + wordCleanMap.size() + " entrées.");
+            logInfo("Word cleaning file (word_exception.json) loaded: " + wordCleanMap.size() + " entries.");
         } catch (Exception ex) {
-            logWarn("Impossible de charger word_exception.json : " + ex.getMessage());
+            logWarn("Unable to load word_exception.json: " + ex.getMessage());
         }
 
         // Load external config via CassieConfig helper (creates default config if missing)
@@ -282,7 +287,7 @@ public class CassieCommand {
                 .executes(context -> {
                         queue.clear();
                     stopCassie();
-                    logInfo("Annonce arrêtée et file vidée.");
+                    logInfo("Announcement stopped and queue cleared.");
                     isCassiePlaying = false;
                     return Command.SINGLE_SUCCESS;
                 })
@@ -301,7 +306,7 @@ private static void executeCassie(CommandSourceStack source, String message, boo
     Level world = source.getLevel();
     if (!(source.getEntity() instanceof ServerPlayer)) {
         // Allow execution from console/command-block: will broadcast to all players
-        logInfo("Commande exécutée depuis une source non-joueur — utilisation du mode broadcast.");
+        logInfo("Command executed from a non-player source - using broadcast mode.");
     }
 
     final ServerPlayer[] playerRef = new ServerPlayer[] { null };
@@ -313,13 +318,13 @@ private static void executeCassie(CommandSourceStack source, String message, boo
     StringBuilder fullPrettySb = new StringBuilder();
     for (String w : words) {
         if (w.startsWith("pitch_") || w.equals(".")) continue;
-        String pw = prettyWord(w);
+        String pw = getDisplayWord(w, isCassie);
         if (pw == null || pw.isEmpty()) continue;
         if (fullPrettySb.length() > 0) fullPrettySb.append(' ');
         fullPrettySb.append(pw);
     }
     String fullPretty = fullPrettySb.toString();
-    final float[] pitch = {1.0f};  // Valeur de pitch par défaut
+    final float[] pitch = {1.0f};  // Default pitch value
     float estimatedTextDuration = 0.0f;
 float currentPitch = 1.0f;
 
@@ -328,31 +333,31 @@ for (String word : words) {
         try {
             float parsedPitch = Float.parseFloat(word.substring(6));
             currentPitch = Math.max(0.5f, Math.min(parsedPitch, 2.0f));
-            logInfo("Pitch ajusté à : " + currentPitch);
+            logInfo("Pitch adjusted to: " + currentPitch);
         } catch (NumberFormatException e) {
-            logWarn("Pitch invalide. Ignoré.");
+            logWarn("Invalid pitch. Ignored.");
         }
     } else if (!word.equals(".")) {
         float baseDuration = wordDurations.getOrDefault(word, 1.0f);
         float adjustedDuration = baseDuration / currentPitch;
         estimatedTextDuration = adjustedDuration + estimatedTextDuration;
-    logInfo("Mot : " + word + " | Durée base: " + baseDuration + "s | Pitch: " + currentPitch + " | Durée ajustée: " + adjustedDuration + "s");
+    logInfo("Word: " + word + " | Base duration: " + baseDuration + "s | Pitch: " + currentPitch + " | Adjusted duration: " + adjustedDuration + "s");
     }
 }
 
-// Calcul du temps total ajusté
+// Calculate total adjusted time
 int textDuration = Math.round(estimatedTextDuration);
 int adjustedTextDuration =   (textDuration < 20) ? textDuration + 2
                            : (textDuration < 40) ? textDuration + 3
                            : textDuration;
 // Enforce minimum bg index of 4
 if (adjustedTextDuration < 4) {
-    logInfo("Ajustement du fond sonore à la valeur minimale de 4 (valeur calculée: " + adjustedTextDuration + ")");
+    logInfo("Adjusting background sound to minimum value of 4 (calculated value: " + adjustedTextDuration + ")");
     adjustedTextDuration = 4;
 }
-logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s => fond sonore : bg_" + adjustedTextDuration);
+logInfo("Final estimated duration (with pitches): " + estimatedTextDuration + "s => background sound: bg_" + adjustedTextDuration);
 
-    // Lecture du fond sonore si activé
+    // Play background sound if enabled
     if (isCassie) {
         String bgSoundName = "bg_" + adjustedTextDuration;
         ResourceLocation bgSoundID = cassieSoundId(bgSoundName);
@@ -370,23 +375,23 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
             playSound(world, p, bgSoundName, 1.0f);
             }
         }
-        logInfo("Lecture du fond sonore (broadcast forcé) : " + bgSoundName);
+        logInfo("Playing background sound (forced broadcast): " + bgSoundName);
         } else {
-            logWarn("Fond sonore introuvable : " + bgSoundName);
+            logWarn("Background sound not found: " + bgSoundName);
         }
     }
 
-    // Thread de lecture de l’annonce
+    // Announcement playback thread
     cassieThread = new Thread(() -> {
         try {
-            Thread.sleep(2500); // Petite pause avant l’annonce
+            Thread.sleep(2500); // Small pause before the announcement
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         for (String word : words) {
                 if (!isCassiePlaying) {
-                logInfo("Lecture interrompue.");
+                logInfo("Playback interrupted.");
                 break;
             }
 
@@ -397,9 +402,9 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
                     float parsedPitch = Float.parseFloat(word.substring(6));
                     parsedPitch = Math.max(0.5f, Math.min(parsedPitch, 2.0f));
                     pitch[0] = parsedPitch;
-                    logInfo("Pitch ajusté à : " + pitch[0]);
+                    logInfo("Pitch adjusted to: " + pitch[0]);
                 } catch (NumberFormatException e) {
-                    logWarn("Pitch invalide dans la boucle. Ignoré.");
+                    logWarn("Invalid pitch in loop. Ignored.");
                 }
                 continue;
             }
@@ -418,7 +423,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
             ResourceLocation soundID = cassieSoundId(word);
             SoundEvent sound = ForgeRegistries.SOUND_EVENTS.getValue(soundID);
 
-            logInfo("Lecture du mot : " + word + " (Durée: " + wordDuration + "s, Pitch: " + pitch[0] + ")");
+            logInfo("Playing word: " + word + " (Duration: " + wordDuration + "s, Pitch: " + pitch[0] + ")");
 
             if (sound != null) {
                 if (playerRef[0] != null) {
@@ -434,7 +439,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
             }
 
             // Display pretty segments (split by '.') as action-bar subtitles, spaced across the word duration
-            String[] segments = getPrettySegments(word);
+            String[] segments = getPrettySegments(getDisplayWord(word, isCassie));
             long totalMillis = (long) ((wordDuration / pitch[0]) * 1000);
             if (segments.length <= 1) {
                 // single segment: repeatedly display the subtitle during the whole word duration
@@ -504,7 +509,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
         }
 
         isCassiePlaying = false;
-        logInfo("Annonce terminée.");
+        logInfo("Announcement completed.");
         // stop background when announcement finished
         startQueueProcessor();
     });
@@ -521,7 +526,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
 
     private static void playSound(Level world, ServerPlayer player, String soundName, float pitch) {
         if (player == null) {
-            logWarn("Impossible de jouer le son '" + soundName + "' : joueur null");
+            logWarn("Unable to play sound '" + soundName + "': player is null");
             return;
         }
         ResourceLocation soundID = cassieSoundId(soundName);
@@ -529,7 +534,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
         if (sound != null) {
             world.playSound(null, player.getX(), player.getY(), player.getZ(), sound, SoundSource.VOICE, 1.0F, pitch);
         } else {
-            logWarn("Son introuvable : " + soundName);
+            logWarn("Sound not found: " + soundName);
         }
     }
 
@@ -537,7 +542,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
         if (cassieThread != null && cassieThread.isAlive()) {
             isCassiePlaying = false;
             cassieThread.interrupt();
-            logInfo("Cassie thread interrompu.");
+            logInfo("Cassie thread interrupted.");
         }
         // Stop background sound for all players or specific bg if known
         try {
@@ -563,7 +568,7 @@ logInfo("Durée finale estimée (avec pitchs) : " + estimatedTextDuration + "s =
                 }
             }
         } catch (Exception e) {
-            logWarn("Échec de l'envoi des paquets d'arrêt de son: " + e.getMessage());
+            logWarn("Failed to send sound stop packets: " + e.getMessage());
         }
         currentBgName = null;
     }

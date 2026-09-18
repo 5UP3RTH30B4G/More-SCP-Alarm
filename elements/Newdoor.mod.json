@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "door:default",
-    "rotationMode": 2,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -20,15 +20,15 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -16.0,
-        "my": -16.0,
+        "mx": 0.0,
+        "my": 0.0,
         "mz": 4.0,
         "Mx": 16.0,
-        "My": 32.0,
+        "My": 16.0,
         "Mz": 12.0,
         "subtract": false
       }
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -82,7 +82,7 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "METAL"
     },
@@ -90,16 +90,16 @@
       "value": "CUSTOM:door-break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.metal.fall"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.metal.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.metal.place"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.metal.step"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onBlockAdded": {
+      "name": "BigdoorPlacePart"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

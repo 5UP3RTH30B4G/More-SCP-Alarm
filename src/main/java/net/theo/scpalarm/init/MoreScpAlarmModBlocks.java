@@ -4,16 +4,15 @@
  */
 package net.theo.scpalarm.init;
 
-import net.theo.scpalarm.block.TvoffBlock;
-import net.theo.scpalarm.block.TvlightBlock;
-import net.theo.scpalarm.block.TvcheckpointBlock;
-import net.theo.scpalarm.block.Tv895offBlock;
-import net.theo.scpalarm.block.Tv895Block;
-import net.theo.scpalarm.block.Tv079Block;
-import net.theo.scpalarm.block.Trig079Block;
+import net.theo.scpalarm.block.TVOFFBlock;
+import net.theo.scpalarm.block.TVCheckpointLightBlock;
+import net.theo.scpalarm.block.TVCheckpointBlock;
+import net.theo.scpalarm.block.TV895Block;
+import net.theo.scpalarm.block.TV079TriggerBlock;
+import net.theo.scpalarm.block.TV079Block;
 import net.theo.scpalarm.block.Poster294Block;
+import net.theo.scpalarm.block.NewdoorPartBlock;
 import net.theo.scpalarm.block.NewdoorBlock;
-import net.theo.scpalarm.block.LightoffBlock;
 import net.theo.scpalarm.block.Label143frBlock;
 import net.theo.scpalarm.block.Label143Block;
 import net.theo.scpalarm.block.Label131Block;
@@ -87,16 +86,8 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> ALARMLABEL = REGISTRY.register("alarmlabel", () -> new AlarmBlock());
 	public static final RegistryObject<Block> ALARMSENDER = REGISTRY.register("alarmsender", () -> new AlarmsenderBlock());
 	public static final RegistryObject<Block> ALARMVA = REGISTRY.register("alarmva", () -> new AlarmvaBlock());
-	public static final RegistryObject<Block> TVCHECKPOINT = REGISTRY.register("tvcheckpoint", () -> new TvcheckpointBlock());
-	public static final RegistryObject<Block> TVOFF = REGISTRY.register("tvoff", () -> new TvoffBlock());
-	public static final RegistryObject<Block> TVLIGHT = REGISTRY.register("tvlight", () -> new TvlightBlock());
-	public static final RegistryObject<Block> LIGHTOFF = REGISTRY.register("lightoff", () -> new LightoffBlock());
-	public static final RegistryObject<Block> TRIG_079 = REGISTRY.register("trig_079", () -> new Trig079Block());
-	public static final RegistryObject<Block> TV_079 = REGISTRY.register("tv_079", () -> new Tv079Block());
 	public static final RegistryObject<Block> ALARMVA_2 = REGISTRY.register("alarmva_2", () -> new Alarmva2Block());
 	public static final RegistryObject<Block> ALARMVA_3 = REGISTRY.register("alarmva_3", () -> new Alarmva3Block());
-	public static final RegistryObject<Block> TV_895 = REGISTRY.register("tv_895", () -> new Tv895Block());
-	public static final RegistryObject<Block> TV_895OFF = REGISTRY.register("tv_895off", () -> new Tv895offBlock());
 	public static final RegistryObject<Block> NEWDOOR = REGISTRY.register("newdoor", () -> new NewdoorBlock());
 	public static final RegistryObject<Block> LABEL_008 = REGISTRY.register("label_008", () -> new Label008Block());
 	public static final RegistryObject<Block> LABEL_012 = REGISTRY.register("label_012", () -> new Label012Block());
@@ -134,6 +125,13 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> LABEL_143 = REGISTRY.register("label_143", () -> new Label143Block());
 	public static final RegistryObject<Block> CASSIESIGN = REGISTRY.register("cassiesign", () -> new CassiesignBlock());
 	public static final RegistryObject<Block> ALARMSIREN = REGISTRY.register("alarmsiren", () -> new AlarmsirenBlock());
+	public static final RegistryObject<Block> NEWDOOR_PART = REGISTRY.register("newdoor_part", () -> new NewdoorPartBlock());
+	public static final RegistryObject<Block> TVOFF = REGISTRY.register("tvoff", () -> new TVOFFBlock());
+	public static final RegistryObject<Block> TV_CHECKPOINT = REGISTRY.register("tv_checkpoint", () -> new TVCheckpointBlock());
+	public static final RegistryObject<Block> TV_CHECKPOINT_LIGHT = REGISTRY.register("tv_checkpoint_light", () -> new TVCheckpointLightBlock());
+	public static final RegistryObject<Block> TV_079 = REGISTRY.register("tv_079", () -> new TV079Block());
+	public static final RegistryObject<Block> TV_895 = REGISTRY.register("tv_895", () -> new TV895Block());
+	public static final RegistryObject<Block> TV_079_TRIGGER = REGISTRY.register("tv_079_trigger", () -> new TV079TriggerBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

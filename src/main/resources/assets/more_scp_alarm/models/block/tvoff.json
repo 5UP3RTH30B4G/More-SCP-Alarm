@@ -1,8 +1,8 @@
 {
   "parent": "more_scp_alarm:custom/tv-off",
   "textures": {
-    "all": "more_scp_alarm:block/speaker_stick",
-    "particle": "more_scp_alarm:block/speaker_fon",
+    "all": "more_scp_alarm:block/tv_led_off",
+    "particle": "more_scp_alarm:block/tv_led_off",
     "2": "more_scp_alarm:block/speaker_fon",
     "3": "more_scp_alarm:block/speaker_stick",
     "4": "more_scp_alarm:block/tv_led_off"

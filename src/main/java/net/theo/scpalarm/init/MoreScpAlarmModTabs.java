@@ -29,12 +29,12 @@ public class MoreScpAlarmModTabs {
 				tabData.accept(MoreScpAlarmModBlocks.DOOR_8.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.DOOR_FRAME.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.ALARMSENDER.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.TVCHECKPOINT.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.TVLIGHT.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.TRIG_079.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.TV_895.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.ALARMSIREN.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR_PART.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.TVOFF.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.TV_895.get().asItem());
+				tabData.accept(MoreScpAlarmModBlocks.TV_079_TRIGGER.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> CB_LABEL = REGISTRY.register("cb_label",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.more_scp_alarm.cb_label")).icon(() -> new ItemStack(MoreScpAlarmModBlocks.LABEL_012.get())).displayItems((parameters, tabData) -> {

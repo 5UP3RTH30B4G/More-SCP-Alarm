@@ -8,11 +8,11 @@
       "registry_name": "gaz",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gaz.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/gaz.json",
           "src/main/java/net/theo/scpalarm/block/GazBlock.java",
           "src/main/resources/assets/more_scp_alarm/models/item/gaz.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/gaz.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/gaz.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gaz.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/gaz.json"
         ]
       }
     },
@@ -34,8 +34,8 @@
       "registry_name": "logo",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/logo.json",
-          "src/main/java/net/theo/scpalarm/item/LogoItem.java"
+          "src/main/java/net/theo/scpalarm/item/LogoItem.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/logo.json"
         ]
       },
       "path": "~/Door"
@@ -48,11 +48,11 @@
       "registry_name": "gate_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/gate_1.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/gate_1.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_1.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/gate_1.json",
           "src/main/java/net/theo/scpalarm/block/Gate1Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/gate_1.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/gate_1.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/gate_1.json"
         ]
       },
       "path": "~/Door"
@@ -65,11 +65,11 @@
       "registry_name": "gate_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/gate_2.json",
           "src/main/java/net/theo/scpalarm/block/Gate2Block.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/gate_2.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/gate_2.json",
           "src/main/resources/assets/more_scp_alarm/models/block/gate_2.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_2.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/gate_2.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_2.json"
         ]
       },
       "path": "~/Door"
@@ -82,11 +82,11 @@
       "registry_name": "gate_3",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/block/Gate3Block.java",
+          "src/main/resources/assets/more_scp_alarm/blockstates/gate_3.json",
           "src/main/resources/assets/more_scp_alarm/models/block/gate_3.json",
+          "src/main/java/net/theo/scpalarm/block/Gate3Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/gate_3.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_3.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/gate_3.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_3.json"
         ]
       },
       "path": "~/Door"
@@ -99,10 +99,10 @@
       "registry_name": "gate_4",
       "metadata": {
         "files": [
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_4.json",
           "src/main/resources/assets/more_scp_alarm/models/block/gate_4.json",
           "src/main/resources/assets/more_scp_alarm/models/item/gate_4.json",
           "src/main/java/net/theo/scpalarm/block/Gate4Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/gate_4.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/gate_4.json"
         ]
       },
@@ -116,11 +116,11 @@
       "registry_name": "door_5",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/block/Door5Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/door_5.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/door_5.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_5.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/door_5.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/door_5.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/door_5.json",
+          "src/main/java/net/theo/scpalarm/block/Door5Block.java"
         ]
       },
       "path": "~/Door"
@@ -133,10 +133,10 @@
       "registry_name": "door_6",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/door_6.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/door_6.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_6.json",
           "src/main/resources/assets/more_scp_alarm/models/item/door_6.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/door_6.json",
           "src/main/java/net/theo/scpalarm/block/Door6Block.java"
         ]
       },
@@ -151,10 +151,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/more_scp_alarm/models/item/door_7.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_7.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/door_7.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/door_7.json",
-          "src/main/java/net/theo/scpalarm/block/Door7Block.java"
+          "src/main/java/net/theo/scpalarm/block/Door7Block.java",
+          "src/main/resources/assets/more_scp_alarm/models/block/door_7.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_7.json"
         ]
       },
       "path": "~/Door"
@@ -167,11 +167,11 @@
       "registry_name": "door_8",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/door_8.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_8.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/door_8.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/door_8.json",
-          "src/main/java/net/theo/scpalarm/block/Door8Block.java"
+          "src/main/java/net/theo/scpalarm/block/Door8Block.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/door_8.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/door_8.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_8.json"
         ]
       },
       "path": "~/Door"
@@ -184,11 +184,11 @@
       "registry_name": "door_frame",
       "metadata": {
         "files": [
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_frame.json",
           "src/main/resources/assets/more_scp_alarm/models/item/door_frame.json",
-          "src/main/java/net/theo/scpalarm/block/DoorFrameBlock.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/door_frame.json",
           "src/main/resources/assets/more_scp_alarm/models/block/door_frame.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/door_frame.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/door_frame.json",
+          "src/main/java/net/theo/scpalarm/block/DoorFrameBlock.java"
         ]
       },
       "path": "~/Door"
@@ -201,11 +201,11 @@
       "registry_name": "alarmlabel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/alarmlabel.json",
           "src/main/resources/assets/more_scp_alarm/models/block/alarmlabel.json",
           "src/main/java/net/theo/scpalarm/block/AlarmBlock.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmlabel.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/alarmlabel.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/alarmlabel.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/alarmlabel.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmlabel.json"
         ]
       }
     },
@@ -217,11 +217,11 @@
       "registry_name": "alarmsender",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/alarmsender.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmsender.json",
           "src/main/java/net/theo/scpalarm/block/AlarmsenderBlock.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmsender.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/alarmsender.json",
           "src/main/resources/assets/more_scp_alarm/models/item/alarmsender.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/alarmsender.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/alarmsender.json"
         ]
       },
       "path": "~/Alarm"
@@ -234,279 +234,15 @@
       "registry_name": "alarmva",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/alarmva.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmva.json",
-          "src/main/java/net/theo/scpalarm/block/AlarmvaBlock.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/alarmva.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/alarmva.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/alarmva.json",
           "src/main/java/net/theo/scpalarm/block/entity/AlarmvaBlockEntity.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/alarmva.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmva.json",
+          "src/main/java/net/theo/scpalarm/block/AlarmvaBlock.java"
         ]
       },
       "path": "~/Alarm"
-    },
-    {
-      "name": "Tvcheckpoint",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tvcheckpoint",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/block/TvcheckpointBlock.java",
-          "src/main/resources/assets/more_scp_alarm/models/block/tvcheckpoint.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/tvcheckpoint.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tvcheckpoint.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/tvcheckpoint.json"
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Tvoff",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tvoff",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tvoff.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/tvoff.json",
-          "src/main/java/net/theo/scpalarm/block/TvoffBlock.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/tvoff.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/tvoff.json"
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "TvSelector",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_selector",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/TvSelectorProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Tvgooff",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tvgooff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/TvgooffProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Tvlight",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tvlight",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/tvlight.json",
-          "src/main/java/net/theo/scpalarm/block/TvlightBlock.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tvlight.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/tvlight.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/tvlight.json"
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Lightgooff",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lightgooff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/LightgooffProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Lighton",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lighton",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/LightonProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Lightoff",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lightoff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/block/LightoffBlock.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/lightoff.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/lightoff.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/lightoff.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/lightoff.json"
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Trig079",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trig_079",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/trig_079.json",
-          "src/main/java/net/theo/scpalarm/block/Trig079Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/block/trig_079.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/trig_079.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/trig_079.json"
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Trig079on",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trig_079on",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/Trig079onProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Trig079off",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trig_079off",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/Trig079offProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Tv079",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_079",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/tv_079.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_079.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/tv_079.json",
-          "src/main/java/net/theo/scpalarm/block/Tv079Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/block/tv_079.json"
-        ]
-      },
-      "path": "~/TV"
     },
     {
       "name": "ASelector",
@@ -516,9 +252,9 @@
       "registry_name": "a_selector",
       "metadata": {
         "files": [
+          "src/main/java/net/theo/scpalarm/world/inventory/ASelectorMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/ASelectorScreen.java",
-          "src/main/java/net/theo/scpalarm/network/ASelectorButtonMessage.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/ASelectorMenu.java"
+          "src/main/java/net/theo/scpalarm/network/ASelectorButtonMessage.java"
         ]
       },
       "path": "~/Alarm"
@@ -744,9 +480,9 @@
       "registry_name": "avarselector",
       "metadata": {
         "files": [
+          "src/main/java/net/theo/scpalarm/network/AvarselectorButtonMessage.java",
           "src/main/java/net/theo/scpalarm/client/gui/AvarselectorScreen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/AvarselectorMenu.java",
-          "src/main/java/net/theo/scpalarm/network/AvarselectorButtonMessage.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/AvarselectorMenu.java"
         ]
       },
       "path": "~/Alarm"
@@ -817,9 +553,9 @@
       "registry_name": "avaralarmgui",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/network/AvaralarmguiButtonMessage.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/AvaralarmguiMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/AvaralarmguiScreen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/AvaralarmguiMenu.java"
+          "src/main/java/net/theo/scpalarm/network/AvaralarmguiButtonMessage.java"
         ]
       },
       "path": "~/Alarm"
@@ -972,9 +708,9 @@
       "registry_name": "avarsetid",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/world/inventory/AvarsetidMenu.java",
+          "src/main/java/net/theo/scpalarm/network/AvarsetidButtonMessage.java",
           "src/main/java/net/theo/scpalarm/client/gui/AvarsetidScreen.java",
-          "src/main/java/net/theo/scpalarm/network/AvarsetidButtonMessage.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/AvarsetidMenu.java"
         ]
       },
       "path": "~/Alarm"
@@ -987,12 +723,12 @@
       "registry_name": "alarmva_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/alarmva_2.json",
-          "src/main/java/net/theo/scpalarm/block/Alarmva2Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmva_2.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/alarmva_2.json",
           "src/main/java/net/theo/scpalarm/block/entity/Alarmva2BlockEntity.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/alarmva_2.json"
+          "src/main/java/net/theo/scpalarm/block/Alarmva2Block.java",
+          "src/main/resources/assets/more_scp_alarm/blockstates/alarmva_2.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmva_2.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/alarmva_2.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/alarmva_2.json"
         ]
       },
       "path": "~/Alarm"
@@ -1005,12 +741,12 @@
       "registry_name": "alarmva_3",
       "metadata": {
         "files": [
+          "src/main/resources/assets/more_scp_alarm/blockstates/alarmva_3.json",
           "src/main/resources/assets/more_scp_alarm/models/item/alarmva_3.json",
-          "src/main/java/net/theo/scpalarm/block/entity/Alarmva3BlockEntity.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmva_3.json",
           "src/main/resources/assets/more_scp_alarm/models/block/alarmva_3.json",
           "src/main/java/net/theo/scpalarm/block/Alarmva3Block.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/alarmva_3.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmva_3.json",
+          "src/main/java/net/theo/scpalarm/block/entity/Alarmva3BlockEntity.java"
         ]
       },
       "path": "~/Alarm"
@@ -1058,8 +794,8 @@
       "registry_name": "avarsetid_2",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/world/inventory/Avarsetid2Menu.java",
           "src/main/java/net/theo/scpalarm/client/gui/Avarsetid2Screen.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/Avarsetid2Menu.java",
           "src/main/java/net/theo/scpalarm/network/Avarsetid2ButtonMessage.java"
         ]
       },
@@ -1163,8 +899,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/theo/scpalarm/network/Avarsetid3ButtonMessage.java",
-          "src/main/java/net/theo/scpalarm/client/gui/Avarsetid3Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Avarsetid3Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Avarsetid3Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Avarsetid3Screen.java"
         ]
       },
       "path": "~/Alarm"
@@ -1178,8 +914,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/theo/scpalarm/client/gui/Avaralarmgui2Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Avaralarmgui2Menu.java",
-          "src/main/java/net/theo/scpalarm/network/Avaralarmgui2ButtonMessage.java"
+          "src/main/java/net/theo/scpalarm/network/Avaralarmgui2ButtonMessage.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/Avaralarmgui2Menu.java"
         ]
       },
       "path": "~/Alarm"
@@ -1193,8 +929,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/theo/scpalarm/world/inventory/Avaralarmgui3Menu.java",
-          "src/main/java/net/theo/scpalarm/network/Avaralarmgui3ButtonMessage.java",
-          "src/main/java/net/theo/scpalarm/client/gui/Avaralarmgui3Screen.java"
+          "src/main/java/net/theo/scpalarm/client/gui/Avaralarmgui3Screen.java",
+          "src/main/java/net/theo/scpalarm/network/Avaralarmgui3ButtonMessage.java"
         ]
       },
       "path": "~/Alarm"
@@ -1374,9 +1110,9 @@
       "registry_name": "avarchannelset",
       "metadata": {
         "files": [
+          "src/main/java/net/theo/scpalarm/world/inventory/AvarchannelsetMenu.java",
           "src/main/java/net/theo/scpalarm/client/gui/AvarchannelsetScreen.java",
-          "src/main/java/net/theo/scpalarm/network/AvarchannelsetButtonMessage.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/AvarchannelsetMenu.java"
+          "src/main/java/net/theo/scpalarm/network/AvarchannelsetButtonMessage.java"
         ]
       },
       "path": "~/Alarm"
@@ -1487,106 +1223,10 @@
       "path": "~/Alarm"
     },
     {
-      "name": "Tv895",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_895",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_895.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/tv_895.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/tv_895.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/tv_895.json",
-          "src/main/java/net/theo/scpalarm/block/Tv895Block.java"
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Tv895off",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_895off",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/block/Tv895offBlock.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/tv_895off.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/tv_895off.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_895off.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/tv_895off.json"
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Tv895on",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_895on",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/Tv895onProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
-      "name": "Ptv895off",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ptv_895off",
-      "metadata": {
-        "files": [
-          "src/main/java/net/theo/scpalarm/procedures/Ptv895offProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TV"
-    },
-    {
       "name": "Newdoor",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "newdoor",
       "metadata": {
         "files": [
@@ -1597,7 +1237,7 @@
           "src/main/resources/assets/more_scp_alarm/models/item/newdoor.json"
         ]
       },
-      "path": "~/Door"
+      "path": "~/Door/NewDoor"
     },
     {
       "name": "Msa",
@@ -1738,10 +1378,10 @@
       "registry_name": "label_008",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/block/Label008Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_008.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_008.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_008.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_008.json",
+          "src/main/java/net/theo/scpalarm/block/Label008Block.java",
           "src/main/resources/assets/more_scp_alarm/models/block/label_008.json"
         ]
       },
@@ -1755,8 +1395,8 @@
       "registry_name": "label_012",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/block/Label012Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_012.json",
+          "src/main/java/net/theo/scpalarm/block/Label012Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_012.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_012.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_012.json"
@@ -1772,11 +1412,11 @@
       "registry_name": "label_002",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_002.json",
-          "src/main/java/net/theo/scpalarm/block/Label002Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_002.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_002.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_002.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/label_002.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_002.json",
+          "src/main/java/net/theo/scpalarm/block/Label002Block.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_002.json"
         ]
       },
       "path": "~/LabelCB"
@@ -1789,11 +1429,11 @@
       "registry_name": "label_005",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/label_005.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_005.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_005.json",
-          "src/main/java/net/theo/scpalarm/block/Label005Block.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_005.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/label_005.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_005.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_005.json",
+          "src/main/java/net/theo/scpalarm/block/Label005Block.java"
         ]
       },
       "path": "~/LabelCB"
@@ -1806,10 +1446,10 @@
       "registry_name": "label_006",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_006.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_006.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_006.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_006.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_006.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_006.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_006.json",
           "src/main/java/net/theo/scpalarm/block/Label006Block.java"
         ]
       },
@@ -1823,11 +1463,11 @@
       "registry_name": "label_009",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/label_009.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_009.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_009.json",
-          "src/main/java/net/theo/scpalarm/block/Label009Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_009.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_009.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_009.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_009.json",
+          "src/main/java/net/theo/scpalarm/block/Label009Block.java"
         ]
       },
       "path": "~/LabelCB"
@@ -1840,11 +1480,11 @@
       "registry_name": "label_015",
       "metadata": {
         "files": [
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_015.json",
+          "src/main/java/net/theo/scpalarm/block/Label015Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/label_015.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_015.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_015.json",
-          "src/main/java/net/theo/scpalarm/block/Label015Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_015.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_015.json"
         ]
       },
       "path": "~/LabelCB"
@@ -1857,11 +1497,11 @@
       "registry_name": "label_019",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_019.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_019.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_019.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_019.json",
-          "src/main/java/net/theo/scpalarm/block/Label019Block.java"
+          "src/main/java/net/theo/scpalarm/block/Label019Block.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_019.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_019.json"
         ]
       },
       "path": "~/LabelCB"
@@ -1874,11 +1514,11 @@
       "registry_name": "label_020",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_020.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_020.json",
-          "src/main/java/net/theo/scpalarm/block/Label020Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/label_020.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_020.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_020.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_020.json",
+          "src/main/java/net/theo/scpalarm/block/Label020Block.java"
         ]
       },
       "path": "~/LabelCB"
@@ -1891,11 +1531,11 @@
       "registry_name": "label_023",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/label_023.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_023.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_023.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_023.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_023.json",
           "src/main/java/net/theo/scpalarm/block/Label023Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_023.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_023.json"
         ]
       },
       "path": "~/LabelCB"
@@ -1908,11 +1548,11 @@
       "registry_name": "poster_294",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/poster_294.json",
-          "src/main/java/net/theo/scpalarm/block/Poster294Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/poster_294.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/poster_294.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/poster_294.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/poster_294.json",
+          "src/main/java/net/theo/scpalarm/block/Poster294Block.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/poster_294.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/poster_294.json"
         ]
       },
       "path": "~/LabelCB"
@@ -1925,11 +1565,11 @@
       "registry_name": "label_027",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_027.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_027.json",
+          "src/main/java/net/theo/scpalarm/block/Label027Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/label_027.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_027.json",
-          "src/main/java/net/theo/scpalarm/block/Label027Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_027.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_027.json"
         ]
       },
       "path": "~/LabelCB"
@@ -1944,9 +1584,9 @@
         "files": [
           "src/main/java/net/theo/scpalarm/block/Label049Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_049.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_049.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_049.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_049.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_049.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/label_049.json"
         ]
       },
       "path": "~/LabelCB"
@@ -1959,11 +1599,11 @@
       "registry_name": "label_053",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_053.json",
-          "src/main/java/net/theo/scpalarm/block/Label053Block.java",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_053.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_053.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_053.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/label_053.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_053.json",
+          "src/main/java/net/theo/scpalarm/block/Label053Block.java"
         ]
       },
       "path": "~/LabelCB"
@@ -1976,10 +1616,10 @@
       "registry_name": "label_059fr",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_059fr.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_059fr.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_059fr.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_059fr.json",
           "src/main/java/net/theo/scpalarm/block/Label059frBlock.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_059fr.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_059fr.json"
         ]
       },
@@ -1993,11 +1633,11 @@
       "registry_name": "label_063",
       "metadata": {
         "files": [
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_063.json",
           "src/main/java/net/theo/scpalarm/block/Label063Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_063.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_063.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_063.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_063.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/label_063.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2010,11 +1650,11 @@
       "registry_name": "label_079",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_079.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_079.json",
-          "src/main/java/net/theo/scpalarm/block/Label079Block.java",
           "src/main/resources/assets/more_scp_alarm/models/block/label_079.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_079.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_079.json",
+          "src/main/java/net/theo/scpalarm/block/Label079Block.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_079.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_079.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2027,11 +1667,11 @@
       "registry_name": "label_087",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/label_087.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_087.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_087.json",
           "src/main/java/net/theo/scpalarm/block/Label087Block.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_087.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_087.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_087.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2044,11 +1684,11 @@
       "registry_name": "label_096",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_096.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_096.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_096.json",
           "src/main/java/net/theo/scpalarm/block/Label096Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_096.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/label_096.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_096.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_096.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_096.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2061,10 +1701,10 @@
       "registry_name": "label_098",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_098.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_098.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_098.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_098.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_098.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_098.json",
           "src/main/java/net/theo/scpalarm/block/Label098Block.java"
         ]
       },
@@ -2078,11 +1718,11 @@
       "registry_name": "label_1000",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_1000.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_1000.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1000.json",
           "src/main/java/net/theo/scpalarm/block/Label1000Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/label_1000.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_1000.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1000.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_1000.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2095,10 +1735,10 @@
       "registry_name": "label_1025",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/label_1025.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1025.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_1025.json",
           "src/main/java/net/theo/scpalarm/block/Label1025Block.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1025.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_1025.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_1025.json"
         ]
       },
@@ -2112,11 +1752,11 @@
       "registry_name": "label_1032_ru",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_1032_ru.json",
+          "src/main/java/net/theo/scpalarm/block/Label1032RUBlock.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1032_ru.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_1032_ru.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_1032_ru.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_1032_ru.json",
-          "src/main/java/net/theo/scpalarm/block/Label1032RUBlock.java"
+          "src/main/resources/assets/more_scp_alarm/models/item/label_1032_ru.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2129,11 +1769,11 @@
       "registry_name": "label_1048",
       "metadata": {
         "files": [
+          "src/main/java/net/theo/scpalarm/block/Label1048Block.java",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_1048.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_1048.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_1048.json",
-          "src/main/java/net/theo/scpalarm/block/Label1048Block.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1048.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_1048.json"
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1048.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2147,9 +1787,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/more_scp_alarm/models/block/label_1057.json",
+          "src/main/java/net/theo/scpalarm/block/Label1057Block.java",
           "src/main/resources/assets/more_scp_alarm/models/item/label_1057.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_1057.json",
-          "src/main/java/net/theo/scpalarm/block/Label1057Block.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1057.json"
         ]
       },
@@ -2164,9 +1804,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/theo/scpalarm/block/Label106Block.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_106.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_106.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_106.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_106.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_106.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_106.json"
         ]
       },
@@ -2182,9 +1822,9 @@
         "files": [
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1074.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_1074.json",
-          "src/main/java/net/theo/scpalarm/block/Label1074Block.java",
           "src/main/resources/assets/more_scp_alarm/models/block/label_1074.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_1074.json"
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_1074.json",
+          "src/main/java/net/theo/scpalarm/block/Label1074Block.java"
         ]
       },
       "path": "~/LabelCB"
@@ -2197,11 +1837,11 @@
       "registry_name": "label_109",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/label_109.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_109.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_109.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_109.json",
           "src/main/java/net/theo/scpalarm/block/Label109Block.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_109.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/label_109.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_109.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2214,10 +1854,10 @@
       "registry_name": "label_111",
       "metadata": {
         "files": [
+          "src/main/resources/assets/more_scp_alarm/models/item/label_111.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_111.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_111.json",
           "src/main/java/net/theo/scpalarm/block/Label111Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_111.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_111.json"
         ]
       },
@@ -2231,11 +1871,11 @@
       "registry_name": "label_1162",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/label_1162.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_1162.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_1162.json",
           "src/main/java/net/theo/scpalarm/block/Label1162Block.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_1162.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/label_1162.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_1162.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_1162.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2248,10 +1888,10 @@
       "registry_name": "label_124",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_124.json",
-          "src/main/java/net/theo/scpalarm/block/Label124Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_124.json",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_124.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/label_124.json",
+          "src/main/java/net/theo/scpalarm/block/Label124Block.java",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_124.json",
           "src/main/resources/assets/more_scp_alarm/models/block/label_124.json"
         ]
       },
@@ -2265,11 +1905,11 @@
       "registry_name": "label_131",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_131.json",
           "src/main/java/net/theo/scpalarm/block/Label131Block.java",
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_131.json",
           "src/main/resources/assets/more_scp_alarm/models/item/label_131.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_131.json"
+          "src/main/resources/assets/more_scp_alarm/models/block/label_131.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_131.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_131.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2282,11 +1922,11 @@
       "registry_name": "label_143fr",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/blockstates/label_143fr.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_143fr.json",
           "src/main/java/net/theo/scpalarm/block/Label143frBlock.java",
           "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_143fr.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_143fr.json",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_143fr.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/label_143fr.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/label_143fr.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2299,11 +1939,11 @@
       "registry_name": "label_143",
       "metadata": {
         "files": [
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_143.json",
           "src/main/java/net/theo/scpalarm/block/Label143Block.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/label_143.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/label_143.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/label_143.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/label_143.json",
-          "src/main/resources/assets/more_scp_alarm/models/block/label_143.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/label_143.json"
         ]
       },
       "path": "~/LabelCB"
@@ -2327,8 +1967,8 @@
       "registry_name": "docstrange",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docstrange.json",
-          "src/main/java/net/theo/scpalarm/item/DocstrangeItem.java"
+          "src/main/java/net/theo/scpalarm/item/DocstrangeItem.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docstrange.json"
         ]
       },
       "path": "~/PaperCB"
@@ -2420,8 +2060,8 @@
       "registry_name": "doc_008",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_008.json",
-          "src/main/java/net/theo/scpalarm/item/Doc008Item.java"
+          "src/main/java/net/theo/scpalarm/item/Doc008Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_008.json"
         ]
       },
       "path": "~/PaperCB"
@@ -2516,8 +2156,8 @@
       "registry_name": "gui_012",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui012Menu.java",
-          "src/main/java/net/theo/scpalarm/client/gui/Gui012Screen.java"
+          "src/main/java/net/theo/scpalarm/client/gui/Gui012Screen.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui012Menu.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2572,8 +2212,8 @@
       "registry_name": "gui_049",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui049Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui049Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui049Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui049Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2614,8 +2254,8 @@
       "registry_name": "gui_096",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui096Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui096Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui096Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui096Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2642,8 +2282,8 @@
       "registry_name": "gui_1048a",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui1048aMenu.java",
-          "src/main/java/net/theo/scpalarm/client/gui/Gui1048aScreen.java"
+          "src/main/java/net/theo/scpalarm/client/gui/Gui1048aScreen.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui1048aMenu.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2656,8 +2296,8 @@
       "registry_name": "gui_106",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui106Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui106Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui106Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui106Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2698,8 +2338,8 @@
       "registry_name": "gui_1123",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui1123Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui1123Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui1123Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui1123Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2726,8 +2366,8 @@
       "registry_name": "gui_1499",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui1499Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui1499Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui1499Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui1499Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2796,8 +2436,8 @@
       "registry_name": "gui_513",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui513Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui513Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui513Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui513Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2810,8 +2450,8 @@
       "registry_name": "gui_682",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui682Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui682Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui682Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui682Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2824,8 +2464,8 @@
       "registry_name": "gui_714",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui714Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui714Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui714Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui714Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2866,8 +2506,8 @@
       "registry_name": "gui_895",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui895Menu.java",
-          "src/main/java/net/theo/scpalarm/client/gui/Gui895Screen.java"
+          "src/main/java/net/theo/scpalarm/client/gui/Gui895Screen.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui895Menu.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2894,8 +2534,8 @@
       "registry_name": "gui_939",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui939Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui939Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui939Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui939Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2922,8 +2562,8 @@
       "registry_name": "gui_970",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Gui970Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Gui970Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Gui970Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Gui970Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -2964,8 +2604,8 @@
       "registry_name": "guigonzales",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/GuigonzalesScreen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/GuigonzalesMenu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/GuigonzalesMenu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/GuigonzalesScreen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3006,8 +2646,8 @@
       "registry_name": "guimap",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/world/inventory/GuimapMenu.java",
-          "src/main/java/net/theo/scpalarm/client/gui/GuimapScreen.java"
+          "src/main/java/net/theo/scpalarm/client/gui/GuimapScreen.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/GuimapMenu.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3034,8 +2674,8 @@
       "registry_name": "guimtf",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/GuimtfScreen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/GuimtfMenu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/GuimtfMenu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/GuimtfScreen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3062,8 +2702,8 @@
       "registry_name": "guibjc",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/GuibjoScreen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/GuibjoMenu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/GuibjoMenu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/GuibjoScreen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3076,8 +2716,8 @@
       "registry_name": "guiori",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/GuioriScreen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/GuioriMenu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/GuioriMenu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/GuioriScreen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3146,8 +2786,8 @@
       "registry_name": "guif_4",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/world/inventory/Guif4Menu.java",
-          "src/main/java/net/theo/scpalarm/client/gui/Guif4Screen.java"
+          "src/main/java/net/theo/scpalarm/client/gui/Guif4Screen.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/Guif4Menu.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3160,8 +2800,8 @@
       "registry_name": "guif_5",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Guif5Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Guif5Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Guif5Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Guif5Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3188,8 +2828,8 @@
       "registry_name": "guil_2",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Guil2Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Guil2Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Guil2Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Guil2Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3202,8 +2842,8 @@
       "registry_name": "guil_3",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Guil3Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Guil3Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Guil3Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Guil3Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3216,8 +2856,8 @@
       "registry_name": "guil_4",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Guil4Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Guil4Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Guil4Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Guil4Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -3244,8 +2884,8 @@
       "registry_name": "guil_6",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Guil6Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Guil6Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Guil6Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Guil6Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5183,8 +4823,8 @@
       "registry_name": "docrand_2",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/client/gui/Docrand2Screen.java",
-          "src/main/java/net/theo/scpalarm/world/inventory/Docrand2Menu.java"
+          "src/main/java/net/theo/scpalarm/world/inventory/Docrand2Menu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/Docrand2Screen.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5225,8 +4865,8 @@
       "registry_name": "doc_035",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_035.json",
-          "src/main/java/net/theo/scpalarm/item/Doc035Item.java"
+          "src/main/java/net/theo/scpalarm/item/Doc035Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_035.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5267,8 +4907,8 @@
       "registry_name": "doc_049",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc049Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_049.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_049.json",
+          "src/main/java/net/theo/scpalarm/item/Doc049Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5295,8 +4935,8 @@
       "registry_name": "doc_93arm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_93arm.json",
-          "src/main/java/net/theo/scpalarm/item/Doc93armItem.java"
+          "src/main/java/net/theo/scpalarm/item/Doc93armItem.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_93arm.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5309,8 +4949,8 @@
       "registry_name": "doc_096",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_096.json",
-          "src/main/java/net/theo/scpalarm/item/Doc096Item.java"
+          "src/main/java/net/theo/scpalarm/item/Doc096Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_096.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5323,8 +4963,8 @@
       "registry_name": "doc_1048",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc1048Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_1048.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_1048.json",
+          "src/main/java/net/theo/scpalarm/item/Doc1048Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5337,8 +4977,8 @@
       "registry_name": "doc_1048a",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_1048a.json",
-          "src/main/java/net/theo/scpalarm/item/Doc1048aItem.java"
+          "src/main/java/net/theo/scpalarm/item/Doc1048aItem.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_1048a.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5351,8 +4991,8 @@
       "registry_name": "doc_106",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc106Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_106.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_106.json",
+          "src/main/java/net/theo/scpalarm/item/Doc106Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5365,8 +5005,8 @@
       "registry_name": "doc_1062",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_1062.json",
-          "src/main/java/net/theo/scpalarm/item/Doc1062Item.java"
+          "src/main/java/net/theo/scpalarm/item/Doc1062Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_1062.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5379,8 +5019,8 @@
       "registry_name": "doc_109",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc109Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_109.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_109.json",
+          "src/main/java/net/theo/scpalarm/item/Doc109Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5393,8 +5033,8 @@
       "registry_name": "doc_1123",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc1123Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_1123.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_1123.json",
+          "src/main/java/net/theo/scpalarm/item/Doc1123Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5407,8 +5047,8 @@
       "registry_name": "doc_1162",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_1162.json",
-          "src/main/java/net/theo/scpalarm/item/Doc1162Item.java"
+          "src/main/java/net/theo/scpalarm/item/Doc1162Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_1162.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5421,8 +5061,8 @@
       "registry_name": "doc_1499",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_1499.json",
-          "src/main/java/net/theo/scpalarm/item/Doc1499Item.java"
+          "src/main/java/net/theo/scpalarm/item/Doc1499Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_1499.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5435,8 +5075,8 @@
       "registry_name": "doc_173",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc173Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_173.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_173.json",
+          "src/main/java/net/theo/scpalarm/item/Doc173Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5491,8 +5131,8 @@
       "registry_name": "doc_513",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc513Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_513.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_513.json",
+          "src/main/java/net/theo/scpalarm/item/Doc513Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5505,8 +5145,8 @@
       "registry_name": "doc_682",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc682Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_682.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_682.json",
+          "src/main/java/net/theo/scpalarm/item/Doc682Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5519,8 +5159,8 @@
       "registry_name": "doc_714",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc714Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_714.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_714.json",
+          "src/main/java/net/theo/scpalarm/item/Doc714Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5533,8 +5173,8 @@
       "registry_name": "doc_860",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_860.json",
-          "src/main/java/net/theo/scpalarm/item/Doc860Item.java"
+          "src/main/java/net/theo/scpalarm/item/Doc860Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_860.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5547,8 +5187,8 @@
       "registry_name": "doc_8601",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc8601Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_8601.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_8601.json",
+          "src/main/java/net/theo/scpalarm/item/Doc8601Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5561,8 +5201,8 @@
       "registry_name": "doc_895",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc895Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_895.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_895.json",
+          "src/main/java/net/theo/scpalarm/item/Doc895Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5603,8 +5243,8 @@
       "registry_name": "doc_966",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/Doc966Item.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/doc_966.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/doc_966.json",
+          "src/main/java/net/theo/scpalarm/item/Doc966Item.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5715,8 +5355,8 @@
       "registry_name": "docl_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docl_4.json",
-          "src/main/java/net/theo/scpalarm/item/Docl4Item.java"
+          "src/main/java/net/theo/scpalarm/item/Docl4Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docl_4.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5729,8 +5369,8 @@
       "registry_name": "docl_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docl_5.json",
-          "src/main/java/net/theo/scpalarm/item/Docl5Item.java"
+          "src/main/java/net/theo/scpalarm/item/Docl5Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docl_5.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5743,8 +5383,8 @@
       "registry_name": "docl_6",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docl_6.json",
-          "src/main/java/net/theo/scpalarm/item/Docl6Item.java"
+          "src/main/java/net/theo/scpalarm/item/Docl6Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docl_6.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5799,8 +5439,8 @@
       "registry_name": "docndp",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/DocndpItem.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/docndp.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/docndp.json",
+          "src/main/java/net/theo/scpalarm/item/DocndpItem.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5813,8 +5453,8 @@
       "registry_name": "docbjc",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docbjc.json",
-          "src/main/java/net/theo/scpalarm/item/DocbjcItem.java"
+          "src/main/java/net/theo/scpalarm/item/DocbjcItem.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docbjc.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5827,8 +5467,8 @@
       "registry_name": "docori",
       "metadata": {
         "files": [
-          "src/main/java/net/theo/scpalarm/item/DocoriItem.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/docori.json"
+          "src/main/resources/assets/more_scp_alarm/models/item/docori.json",
+          "src/main/java/net/theo/scpalarm/item/DocoriItem.java"
         ]
       },
       "path": "~/PaperCB"
@@ -5841,8 +5481,8 @@
       "registry_name": "docrand_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docrand_1.json",
-          "src/main/java/net/theo/scpalarm/item/Docrand1Item.java"
+          "src/main/java/net/theo/scpalarm/item/Docrand1Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docrand_1.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5869,8 +5509,8 @@
       "registry_name": "guirand_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/guirand_3.json",
-          "src/main/java/net/theo/scpalarm/item/Guirand3Item.java"
+          "src/main/java/net/theo/scpalarm/item/Guirand3Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/guirand_3.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5883,8 +5523,8 @@
       "registry_name": "docrp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docrp.json",
-          "src/main/java/net/theo/scpalarm/item/DocrpItem.java"
+          "src/main/java/net/theo/scpalarm/item/DocrpItem.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docrp.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5897,8 +5537,8 @@
       "registry_name": "docsc",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docsc.json",
-          "src/main/java/net/theo/scpalarm/item/DocscItem.java"
+          "src/main/java/net/theo/scpalarm/item/DocscItem.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docsc.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5925,8 +5565,8 @@
       "registry_name": "docf_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docf_5.json",
-          "src/main/java/net/theo/scpalarm/item/Docf5Item.java"
+          "src/main/java/net/theo/scpalarm/item/Docf5Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docf_5.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5953,8 +5593,8 @@
       "registry_name": "docf_6",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/item/docf_6.json",
-          "src/main/java/net/theo/scpalarm/item/Docf6Item.java"
+          "src/main/java/net/theo/scpalarm/item/Docf6Item.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/docf_6.json"
         ]
       },
       "path": "~/PaperCB"
@@ -5992,11 +5632,11 @@
       "registry_name": "cassiesign",
       "metadata": {
         "files": [
-          "src/main/resources/assets/more_scp_alarm/models/block/cassiesign.json",
           "src/main/resources/assets/more_scp_alarm/models/item/cassiesign.json",
           "src/main/resources/assets/more_scp_alarm/blockstates/cassiesign.json",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/cassiesign.json",
-          "src/main/java/net/theo/scpalarm/block/CassiesignBlock.java"
+          "src/main/resources/assets/more_scp_alarm/models/block/cassiesign.json",
+          "src/main/java/net/theo/scpalarm/block/CassiesignBlock.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/cassiesign.json"
         ]
       },
       "path": "~/CASSIE"
@@ -6026,11 +5666,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/more_scp_alarm/models/block/alarmsiren.json",
-          "src/main/java/net/theo/scpalarm/block/AlarmsirenBlock.java",
-          "src/main/resources/assets/more_scp_alarm/models/item/alarmsiren.json",
-          "src/main/resources/assets/more_scp_alarm/blockstates/alarmsiren.json",
           "src/main/java/net/theo/scpalarm/block/entity/AlarmsirenBlockEntity.java",
-          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmsiren.json"
+          "src/main/java/net/theo/scpalarm/block/AlarmsirenBlock.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/alarmsiren.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/alarmsiren.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/alarmsiren.json"
         ]
       },
       "path": "~/Alarm"
@@ -6066,6 +5706,412 @@
         ]
       },
       "path": "~/Alarm"
+    },
+    {
+      "name": "NewdoorPart",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "newdoor_part",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_scp_alarm/blockstates/newdoor_part.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/newdoor_part.json",
+          "src/main/java/net/theo/scpalarm/block/NewdoorPartBlock.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/newdoor_part.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/newdoor_part.json"
+        ]
+      },
+      "path": "~/Door/NewDoor"
+    },
+    {
+      "name": "BigdoorPlacePart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bigdoor_place_part",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/BigdoorPlacePartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Door/NewDoor"
+    },
+    {
+      "name": "TVOFF",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tvoff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_scp_alarm/blockstates/tvoff.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/tvoff.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tvoff.json",
+          "src/main/java/net/theo/scpalarm/block/entity/TVOFFBlockEntity.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/tvoff.json",
+          "src/main/java/net/theo/scpalarm/block/TVOFFBlock.java"
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TV079TickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TV079TickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVSelector",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_selector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/network/TVSelectorButtonMessage.java",
+          "src/main/java/net/theo/scpalarm/world/inventory/TVSelectorMenu.java",
+          "src/main/java/net/theo/scpalarm/client/gui/TVSelectorScreen.java"
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVSelectorOption1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_selector_option_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TVSelectorOption1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVSelectorOption2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_selector_option_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TVSelectorOption2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TVOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVCheckpoint",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_checkpoint",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_checkpoint.json",
+          "src/main/java/net/theo/scpalarm/block/entity/TVCheckpointBlockEntity.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/tv_checkpoint.json",
+          "src/main/java/net/theo/scpalarm/block/TVCheckpointBlock.java",
+          "src/main/resources/assets/more_scp_alarm/blockstates/tv_checkpoint.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/tv_checkpoint.json"
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVCheckpointLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_checkpoint_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_scp_alarm/models/item/tv_checkpoint_light.json",
+          "src/main/resources/assets/more_scp_alarm/blockstates/tv_checkpoint_light.json",
+          "src/main/java/net/theo/scpalarm/block/TVCheckpointLightBlock.java",
+          "src/main/java/net/theo/scpalarm/block/entity/TVCheckpointLightBlockEntity.java",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_checkpoint_light.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/tv_checkpoint_light.json"
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TVRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TVRedstoneOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TVRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TV079",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_079",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_scp_alarm/blockstates/tv_079.json",
+          "src/main/resources/assets/more_scp_alarm/models/block/tv_079.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_079.json",
+          "src/main/java/net/theo/scpalarm/block/TV079Block.java",
+          "src/main/java/net/theo/scpalarm/block/entity/TV079BlockEntity.java",
+          "src/main/resources/assets/more_scp_alarm/models/item/tv_079.json"
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TV895",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_895",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_scp_alarm/models/block/tv_895.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_895.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/tv_895.json",
+          "src/main/java/net/theo/scpalarm/block/entity/TV895BlockEntity.java",
+          "src/main/java/net/theo/scpalarm/block/TV895Block.java",
+          "src/main/resources/assets/more_scp_alarm/blockstates/tv_895.json"
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TV079TriggerRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_079_trigger_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TV079TriggerRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TV079TriggerRedstoneOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_079_trigger_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/TV079TriggerRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TV"
+    },
+    {
+      "name": "TV079Trigger",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_079_trigger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_scp_alarm/blockstates/tv_079_trigger.json",
+          "src/main/java/net/theo/scpalarm/block/TV079TriggerBlock.java",
+          "src/main/resources/assets/more_scp_alarm/models/block/tv_079_trigger.json",
+          "src/main/resources/assets/more_scp_alarm/models/item/tv_079_trigger.json",
+          "src/main/resources/data/more_scp_alarm/loot_tables/blocks/tv_079_trigger.json"
+        ]
+      },
+      "path": "~/TV"
     }
   ],
   "variable_elements": [
@@ -15247,15 +15293,7 @@
       "subtitle": ""
     }
   ],
-  "tag_elements": {
-    "BLOCKS:mod:tag": [],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:Newdoor"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Newdoor"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -15278,6 +15316,7 @@
       "subtitles.cassie_arrival": "",
       "item.paper_cb.doc_035ad": "Doc 035-Ad",
       "subtitles.cassie_all-remaining-personnel": "",
+      "block.more_scp_alarm.newdoor_part": "Newdoor Part",
       "subtitles.cassie_green": "",
       "subtitles.cassie_defence": "",
       "subtitles.cassie_squad": "",
@@ -15329,7 +15368,6 @@
       "subtitles.cassie_shot": "",
       "subtitles.cassie_space": "",
       "subtitles.cassie_need": "",
-      "block.more_scp_alarm.tv_895off": "Tv OFF [WIP]",
       "item.paper_cb.docac": "Doc ac",
       "subtitles.generator-4of5": "",
       "subtitles.cassie_amplitude": "",
@@ -15393,7 +15431,6 @@
       "item.paper_cb.docmtf": "Doc NTF",
       "subtitles.cassie_from": "",
       "tile.gate_3.name": "Gate /\\ \u003e|",
-      "block.more_scp_alarm.trig_079.description_0": "this a the block to activate 079 on the TV",
       "subtitles.cassie_right": "",
       "subtitles.cassie_september": "",
       "itemGroup.tabpaper_cb": "Paper Containment Breach",
@@ -15478,7 +15515,6 @@
       "subtitles.cassie_look": "",
       "item.more_scp_alarm.docl_4": "Doc L4",
       "subtitles.mtf-": "",
-      "block.more_scp_alarm.tvcheckpoint": "Tv checkpoint [WIP]",
       "subtitles.cassie_number_20": "",
       "subtitles.cassie_organism": "",
       "item.docl_3.name": "Doc L3",
@@ -15509,6 +15545,7 @@
       "subtitles.cassie_bg_18": "",
       "subtitles.cassie_bg_17": "",
       "tile.label_023.name": "Label 023",
+      "block.more_scp_alarm.tv_079_trigger": "TV 079 Trigger",
       "item.doc_035.name": "Doc 035",
       "block.more_scp_alarm.cassiesign": "Cassiesign",
       "subtitles.cassie_celsius": "",
@@ -15722,7 +15759,7 @@
       "subtitles.cassie_on": "",
       "subtitles.cassie_begun": "",
       "subtitles.cassie_or": "",
-      "block.more_scp_alarm.tv_079": "Tv 079 [WIP]",
+      "block.more_scp_alarm.tv_079": "TV 079",
       "subtitles.cassie_pi": "",
       "subtitles.cassie_activating": "",
       "subtitles.cassie_all_remaining_personnel": "",
@@ -15981,6 +16018,7 @@
       "subtitles.door-open173": "",
       "subtitles.scp-106-magnet-down": "",
       "subtitles.cassie_must": "",
+      "block.more_scp_alarm.tv_checkpoint": "TV Checkpoint",
       "subtitles.cassie_critical": "",
       "subtitles.room-rumble": "",
       "subtitles.cassie_activated": "",
@@ -15997,7 +16035,6 @@
       "subtitles.cassie_terminal": "",
       "subtitles.cassie_alive": "",
       "subtitles.cassie_wall": "",
-      "block.more_scp_alarm.trig_079": "Trig 079",
       "block.cb_label.label_1000": "Label 1000",
       "subtitles.door-nukegatesiren": "",
       "block.more_scp_alarm.alarmva_3.description_0": "Alarm with the Var mod activated",
@@ -16028,9 +16065,10 @@
       "item.docl_2.name": "Doc L2",
       "block.cb_label.label_1025": "Label 1025",
       "subtitles.cassie_retreat": "",
-      "block.more_scp_alarm.tvoff": "Tv OFF [WIP]",
+      "block.more_scp_alarm.tvoff": "TV",
       "tile.label_059fr.name": "Label 059-FR",
       "subtitles.scp-049-searching": "",
+      "block.more_scp_alarm.tv_checkpoint_light": "TV Checkpoint Light",
       "subtitles.scp-106-laugh": "",
       "subtitles.cassie_community": "",
       "subtitles.cassie_respect": "",
@@ -16092,7 +16130,6 @@
       "gui.more_scp_alarm.alarmpanel.panel_playsound": "Play the alarm ?",
       "subtitles.cassie_time": "",
       "subtitles.cassie_found": "",
-      "block.more_scp_alarm.lightoff": "Tv OFF [WIP]",
       "subtitles.cassie_weapon": "",
       "item.docmsp.name": "Doc MSP",
       "subtitles.cassie_message": "",
@@ -16256,8 +16293,8 @@
       "subtitles.cassie_g4": "",
       "subtitles.cassie_g3": "",
       "subtitles.cassie_ed": "",
-      "block.more_scp_alarm.tv_895": "Tv 895",
       "gui.more_scp_alarm.alarmpanel.label_more_scp_alarm": "More SCP Alarm",
+      "block.more_scp_alarm.tv_895": "TV 895",
       "subtitles.cassie_frequency": "",
       "subtitles.cassie_checkpoint": "",
       "block.cb_label.label_098": "Label 098",
@@ -16476,7 +16513,6 @@
       "subtitles.cassie_join": "",
       "item.paper_cb.docstrange": "Strange",
       "item.more_scp_alarm.doc_93arm": "Doc 093",
-      "block.more_scp_alarm.tvlight": "Tv Light [WIP]",
       "subtitles.cassie_charge": "",
       "subtitles.cassie_scan": "",
       "subtitles.cassie_where": "",
@@ -16584,6 +16620,7 @@
       "subtitles.cassie_reactivating": "",
       "block.cb_label.label_027": "Label 027",
       "subtitles.cassie_nuclear": "",
+      "gui.more_scp_alarm.tv_selector.label_select_a_tv_screen_to_display": "Select a TV screen to display",
       "subtitles.cassie_pro": "",
       "subtitles.cassie_generators": "",
       "tile.label_1057.name": "Label 1057",
@@ -16830,8 +16867,8 @@
       "gui.more_scp_alarm.alarmpanel.channel1": "Channel 1",
       "subtitles.intro-guard-ulgrin-exitcellrefuse": "",
       "gui.more_scp_alarm.alarmpanel.channel2": "Channel 2",
-      "gui.more_scp_alarm.avaralarmgui.label_varalarm1": "\u003cVAR:alarm1\u003e",
       "subtitles.generator-1of5": "",
+      "gui.more_scp_alarm.avaralarmgui.label_varalarm1": "\u003cVAR:alarm1\u003e",
       "tile.tv_895.name": "Tv 895",
       "subtitles.intro-guard-balcony-alert": "",
       "subtitles.intro-guard-conversation2a": "",
@@ -16854,14 +16891,14 @@
       "item.more_scp_alarm.doc_1048": "Doc 1048",
       "subtitles.intro-guard-conversation3a": "",
       "subtitles.ambienta": "",
-      "block.more_scp_alarm.trig_079.description_0": "this a the block to activate 079 on the TV",
       "subtitles.intro-doorproblem": "",
       "block.more_scp_alarm.label_059fr": "Label 059-FR",
       "subtitles.heavy-ambient": "",
-      "block.more_scp_alarm.tvoff": "Tv OFF [WIP]",
+      "block.more_scp_alarm.tvoff": "TV",
       "gui.more_scp_alarm.avaralarmgui_3.button_go_back_to_normal": "Go back to Normal",
       "subtitles.scp-049-searching": "",
       "subtitles.intro-guard-ulgrin-escort": "",
+      "block.more_scp_alarm.tv_checkpoint_light": "TV Checkpoint",
       "subtitles.alarm-1": "",
       "subtitles.alarm-2": "",
       "subtitles.scp-106-laugh": "",
@@ -16891,6 +16928,7 @@
       "subtitles.scp-106-walldecay": "",
       "gui.more_scp_alarm.avaralarmgui.label_the_alarm_sound_is_set": "The alarm sound is set :",
       "subtitles.tesla-windup": "",
+      "block.more_scp_alarm.newdoor_part": "Newdoor Part",
       "subtitles.scp-106-decay": "",
       "gui.more_scp_alarm.avaralarmgui_3.label_the_alarm_sound_is_set": "The alarm sound is set :",
       "subtitles.mtf-random": "",
@@ -16931,7 +16969,6 @@
       "subtitles.mtf-after2": "",
       "item.more_scp_alarm.doc_93arm": "Doc 093",
       "subtitles.door-vault-close": "",
-      "block.more_scp_alarm.tvlight": "Tv Light [WIP]",
       "subtitles.elevator-ding": "",
       "item.more_scp_alarm.doc_1123": "Doc 1123",
       "item.more_scp_alarm.doc_895": "Doc 895",
@@ -16959,8 +16996,8 @@
       "item.more_scp_alarm.doc_427": "Doc 427",
       "subtitles.generator-3of5": "",
       "subtitles.intro-guard-ulgrin-escortkill": "",
-      "block.more_scp_alarm.tv_895": "Tv 895",
       "gui.more_scp_alarm.alarmpanel.label_more_scp_alarm": "More SCP Alarm",
+      "block.more_scp_alarm.tv_895": "TV",
       "subtitles.scp-106-corrosion": "",
       "tile.tvcheckpoint.name": "Tv checkpoint",
       "gui.more_scp_alarm.alarmpanel.panel_soundid": "",
@@ -16998,7 +17035,6 @@
       "subtitles.scp-939-1attack": "",
       "gui.more_scp_alarm.avaralarmgui_3.label_varalarm3": "\u003cVAR:alarm3\u003e",
       "gui.more_scp_alarm.a_selector.label_enter_the_id_of_the_alarm": "Enter the ID of the alarm",
-      "block.more_scp_alarm.lightoff": "Tv OFF [WIP]",
       "subtitles.scp-106-magnet-up": "",
       "item.more_scp_alarm.doc_173": "Doc 173",
       "subtitles.mtf-searching": "",
@@ -17011,7 +17047,7 @@
       "item.more_scp_alarm.doc_966": "Doc 966",
       "item_group.more_scp_alarm.more_scp_alarm": "More SCP Alarm",
       "block.more_scp_alarm.newdoor": "Newdoor",
-      "block.more_scp_alarm.tv_079": "Tv 079 [WIP]",
+      "block.more_scp_alarm.tv_079": "TV",
       "subtitles.tesla-powerup": "",
       "subtitles.bigdoor-close": "",
       "block.more_scp_alarm.label_027": "Label 027",
@@ -17032,9 +17068,7 @@
       "item.more_scp_alarm.doc_970": "Doc 970",
       "subtitles.mtf-": "",
       "item.more_scp_alarm.docbjc": "Doc BJC",
-      "block.more_scp_alarm.tv_895off": "Tv OFF [WIP]",
       "subtitles.room-server": "",
-      "block.more_scp_alarm.tvcheckpoint": "Tv checkpoint [WIP]",
       "tile.door_7.name": "Porte \\/ \u003e|",
       "subtitles.generator-4of5": "",
       "subtitles.scp173-vent": "",
@@ -17073,6 +17107,7 @@
       "block.more_scp_alarm.label_049": "Label 0049",
       "tile.gate_4.name": "Porte /\\ \u003e",
       "subtitles.scp106-magnet-up": "",
+      "block.more_scp_alarm.tv_079_trigger": "TV 079 Trigger",
       "block.more_scp_alarm.cassiesign": "Cassiesign",
       "subtitles.door-openfast": "",
       "subtitles.mtf-announc": "",
@@ -17115,6 +17150,7 @@
       "block.more_scp_alarm.label_106": "Label 106",
       "subtitles.scp-049-714": "",
       "item.more_scp_alarm.doc_1048a": "Doc 1048-A",
+      "gui.more_scp_alarm.tv_selector.label_select_a_tv_screen_to_display": "Select a TV screen to display",
       "subtitles.intro-escape": "",
       "item.more_scp_alarm.docf_6": "Doc F6",
       "block.more_scp_alarm.label_109": "Label 109",
@@ -17137,6 +17173,7 @@
       "gui.more_scp_alarm.avarsetid_2.label_enter_the_id_of_the_alarm": "Enter the ID of the alarm",
       "gui.more_scp_alarm.alarmpanel.button_save": "Save",
       "block.more_scp_alarm.label_012": "Label 012",
+      "block.more_scp_alarm.tv_checkpoint": "TV",
       "subtitles.door-checkpiont": "",
       "subtitles.scp-106-breathing": "",
       "subtitles.smoke": "",
@@ -17191,8 +17228,7 @@
       "block.more_scp_alarm.label_131": "Label 131",
       "subtitles.generator-off": "",
       "item.more_scp_alarm.doc_714": "Doc 714",
-      "block.more_scp_alarm.label_1048": "Label 1048",
-      "block.more_scp_alarm.trig_079": "Trig 079"
+      "block.more_scp_alarm.label_1048": "Label 1048"
     }
   },
   "foldersRoot": {
@@ -17220,14 +17256,19 @@
       },
       {
         "name": "Door",
-        "children": []
+        "children": [
+          {
+            "name": "NewDoor",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "more_scp_alarm",
     "modName": "More SCP Alarm",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "More SCP Alarm is a mod that add SFX and block of any SCP\u0027s game",
     "author": "5UP3R TH30 B4G",
     "websiteURL": "https://github.com/5UP3RTH30B4G/More-SCP-Alarm",

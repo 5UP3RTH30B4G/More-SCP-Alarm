@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "lockdown_check1",
+    "texture": "tv_led_off",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "speaker_fon",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -24,17 +24,71 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
+        "mx": 1.0,
+        "my": 2.0,
+        "mz": 10.0,
+        "Mx": 15.0,
+        "My": 11.1,
+        "Mz": 11.35,
+        "subtract": false
+      },
+      {
+        "mx": 1.0,
+        "my": 1.3,
+        "mz": 8.2,
+        "Mx": 3.0,
+        "My": 2.0,
+        "Mz": 8.7,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 7.0,
+        "mz": 11.0,
+        "Mx": 9.0,
+        "My": 9.0,
+        "Mz": 16.6,
+        "subtract": false
+      },
+      {
         "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
+        "my": 2.01294,
+        "mz": 11.20178,
         "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "My": 3.01294,
+        "Mz": 13.30178,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 12.01294,
+        "mz": 11.20178,
+        "Mx": 16.0,
+        "My": 13.01294,
+        "Mz": 13.30178,
+        "subtract": false
+      },
+      {
+        "mx": 15.0,
+        "my": 2.01294,
+        "mz": 11.20178,
+        "Mx": 16.0,
+        "My": 13.01294,
+        "Mz": 13.30178,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 2.01294,
+        "mz": 11.20178,
+        "Mx": 1.0,
+        "My": 13.01294,
+        "Mz": 13.30178,
         "subtract": false
       }
     ],
     "customProperties": [],
-    "name": "Tv checkpoint [WIP]",
+    "name": "TV Checkpoint",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,11 +96,7 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:MoreSCPAlarm"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -56,10 +106,10 @@
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": false,
+    "canRedstoneConnect": true,
     "lightOpacity": 0,
     "material": {
-      "value": "MISCELLANEOUS"
+      "value": "NONE"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -70,7 +120,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:TVOFF"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -81,10 +131,10 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -103,9 +153,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -121,23 +171,20 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "TV079TickUpdate"
+    },
+    "onRedstoneOn": {
+      "name": "TVRedstoneOn"
+    },
     "onRedstoneOff": {
-      "name": "Tvgooff"
+      "name": "TVRedstoneOff"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
