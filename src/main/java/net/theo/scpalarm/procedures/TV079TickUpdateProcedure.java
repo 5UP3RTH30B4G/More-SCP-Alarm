@@ -2,7 +2,6 @@ package net.theo.scpalarm.procedures;
 
 import net.theo.scpalarm.network.MoreScpAlarmModVariables;
 import net.theo.scpalarm.init.MoreScpAlarmModBlocks;
-import net.theo.scpalarm.MoreScpAlarmMod;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
@@ -15,9 +14,6 @@ import java.util.Map;
 
 public class TV079TickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (MoreScpAlarmModVariables.debug == true) {
-			MoreScpAlarmMod.LOGGER.debug("TV Tick Updated.");
-		}
 		if (MoreScpAlarmModVariables.MapVariables.get(world).tv079 == true) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
