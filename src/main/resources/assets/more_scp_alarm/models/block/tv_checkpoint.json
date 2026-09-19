@@ -1,8 +1,8 @@
 {
   "parent": "more_scp_alarm:custom/tvcheckpoint-on",
   "textures": {
-    "all": "more_scp_alarm:block/tv_led_off",
-    "particle": "more_scp_alarm:block/tv_led_off",
+    "all": "more_scp_alarm:block/lockdown_check1",
+    "particle": "more_scp_alarm:block/lockdown_check1",
     "0": "more_scp_alarm:block/lockdown_check1",
     "2": "more_scp_alarm:block/speaker_fon",
     "3": "more_scp_alarm:block/speaker_stick",
