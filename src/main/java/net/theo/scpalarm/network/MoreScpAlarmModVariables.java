@@ -90,12 +90,6 @@ public class MoreScpAlarmModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "more_scp_alarm_mapvars";
 		public boolean tv079 = false;
-		public String alarm1 = "";
-		public String alarm2 = "";
-		public String alarm3 = "";
-		public double volume1 = 0;
-		public double volume2 = 0;
-		public double volume3 = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -105,23 +99,11 @@ public class MoreScpAlarmModVariables {
 
 		public void read(CompoundTag nbt) {
 			tv079 = nbt.getBoolean("tv079");
-			alarm1 = nbt.getString("alarm1");
-			alarm2 = nbt.getString("alarm2");
-			alarm3 = nbt.getString("alarm3");
-			volume1 = nbt.getDouble("volume1");
-			volume2 = nbt.getDouble("volume2");
-			volume3 = nbt.getDouble("volume3");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("tv079", tv079);
-			nbt.putString("alarm1", alarm1);
-			nbt.putString("alarm2", alarm2);
-			nbt.putString("alarm3", alarm3);
-			nbt.putDouble("volume1", volume1);
-			nbt.putDouble("volume2", volume2);
-			nbt.putDouble("volume3", volume3);
 			return nbt;
 		}
 
