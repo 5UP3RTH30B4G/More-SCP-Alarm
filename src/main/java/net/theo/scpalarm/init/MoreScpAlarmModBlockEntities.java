@@ -9,6 +9,7 @@ import net.theo.scpalarm.block.entity.TVCheckpointLightBlockEntity;
 import net.theo.scpalarm.block.entity.TVCheckpointBlockEntity;
 import net.theo.scpalarm.block.entity.TV895BlockEntity;
 import net.theo.scpalarm.block.entity.TV079BlockEntity;
+import net.theo.scpalarm.block.entity.AlarmBlockBlockEntity;
 import net.theo.scpalarm.MoreScpAlarmMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -25,6 +26,7 @@ public class MoreScpAlarmModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> TV_CHECKPOINT_LIGHT = register("tv_checkpoint_light", MoreScpAlarmModBlocks.TV_CHECKPOINT_LIGHT, TVCheckpointLightBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TV_079 = register("tv_079", MoreScpAlarmModBlocks.TV_079, TV079BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TV_895 = register("tv_895", MoreScpAlarmModBlocks.TV_895, TV895BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ALARM_BLOCK = register("alarm_block", MoreScpAlarmModBlocks.ALARM_BLOCK, AlarmBlockBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

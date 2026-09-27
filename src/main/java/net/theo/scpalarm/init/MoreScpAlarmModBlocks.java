@@ -57,6 +57,7 @@ import net.theo.scpalarm.block.Door7Block;
 import net.theo.scpalarm.block.Door6Block;
 import net.theo.scpalarm.block.Door5Block;
 import net.theo.scpalarm.block.CassiesignBlock;
+import net.theo.scpalarm.block.AlarmBlockBlock;
 import net.theo.scpalarm.block.AlarmBlock;
 import net.theo.scpalarm.MoreScpAlarmMod;
 
@@ -122,6 +123,7 @@ public class MoreScpAlarmModBlocks {
 	public static final RegistryObject<Block> TV_079 = REGISTRY.register("tv_079", () -> new TV079Block());
 	public static final RegistryObject<Block> TV_895 = REGISTRY.register("tv_895", () -> new TV895Block());
 	public static final RegistryObject<Block> TV_079_TRIGGER = REGISTRY.register("tv_079_trigger", () -> new TV079TriggerBlock());
+	public static final RegistryObject<Block> ALARM_BLOCK = REGISTRY.register("alarm_block", () -> new AlarmBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

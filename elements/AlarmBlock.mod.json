@@ -1,0 +1,275 @@
+{
+  "_fv": 73,
+  "_type": "block",
+  "definition": {
+    "texture": "speaker_base",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "siren:default",
+    "rotationMode": 3,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "logocreatife",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 3.0,
+        "my": 10.0,
+        "mz": 16.0,
+        "Mx": 13.0,
+        "My": 11.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 13.0,
+        "my": 10.0,
+        "mz": 13.0,
+        "Mx": 13.0,
+        "My": 11.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 10.0,
+        "mz": 13.0,
+        "Mx": 3.0,
+        "My": 11.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 7.0,
+        "mz": 12.0,
+        "Mx": 13.0,
+        "My": 13.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 6.1327,
+        "mz": 7.66164,
+        "Mx": 13.0,
+        "My": 7.1327,
+        "Mz": 13.16164,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 9.0,
+        "mz": 6.0,
+        "Mx": 9.0,
+        "My": 11.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 7.1327,
+        "mz": 7.66164,
+        "Mx": 13.0,
+        "My": 10.6327,
+        "Mz": 13.26164,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 9.0,
+        "mz": 6.0,
+        "Mx": 13.0,
+        "My": 12.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 9.0,
+        "mz": 6.0,
+        "Mx": 4.0,
+        "My": 12.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 12.0,
+        "mz": 6.0,
+        "Mx": 13.0,
+        "My": 13.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 7.1327,
+        "mz": 7.66164,
+        "Mx": 4.0,
+        "My": 10.6327,
+        "Mz": 13.26164,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 4.0,
+        "mz": 9.0,
+        "Mx": 9.0,
+        "My": 6.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.0,
+        "my": 7.0,
+        "mz": 13.0,
+        "Mx": 9.0,
+        "My": 8.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 7.0,
+        "mz": 13.0,
+        "Mx": 7.0,
+        "My": 8.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 7.0,
+        "mz": 16.0,
+        "Mx": 9.0,
+        "My": 8.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Alarm",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MoreSCPAlarm"
+      }
+    ],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "hasInventory": true,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onBlockAdded": {
+      "name": "AlarmBlockBlockAdded"
+    },
+    "onDestroyedByPlayer": {
+      "name": "AlarmBlockBlockDestroyed"
+    },
+    "onDestroyedByExplosion": {
+      "name": "AlarmBlockBlockDestroyed"
+    },
+    "onHitByProjectile": {
+      "name": "AlarmBlockOnBlockHitByProjectile"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

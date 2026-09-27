@@ -186,6 +186,7 @@ public class MoreScpAlarmModItems {
 	public static final RegistryObject<Item> TV_079 = block(MoreScpAlarmModBlocks.TV_079);
 	public static final RegistryObject<Item> TV_895 = block(MoreScpAlarmModBlocks.TV_895);
 	public static final RegistryObject<Item> TV_079_TRIGGER = block(MoreScpAlarmModBlocks.TV_079_TRIGGER);
+	public static final RegistryObject<Item> ALARM_BLOCK = block(MoreScpAlarmModBlocks.ALARM_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items
