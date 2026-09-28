@@ -259,6 +259,9 @@
     "onDestroyedByExplosion": {
       "name": "AlarmBlockBlockDestroyed"
     },
+    "onRedstoneOn": {
+      "name": "AlarmBlockRedstoneOn"
+    },
     "onHitByProjectile": {
       "name": "AlarmBlockOnBlockHitByProjectile"
     },

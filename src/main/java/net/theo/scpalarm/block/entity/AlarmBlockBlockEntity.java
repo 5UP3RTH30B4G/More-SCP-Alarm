@@ -29,41 +29,12 @@ import java.util.stream.IntStream;
 
 public class AlarmBlockBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
-	private String selectedAlarmSound = "";
 	private boolean globalMode;
+	private String selectedAlarmSound = "";
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public AlarmBlockBlockEntity(BlockPos position, BlockState state) {
 		super(MoreScpAlarmModBlockEntities.ALARM_BLOCK.get(), position, state);
-	}
-
-	@Override
-	public void load(CompoundTag compound) {
-		super.load(compound);
-		this.selectedAlarmSound = compound.getString("SelectedAlarmSound");
-		this.globalMode = compound.getBoolean("GlobalMode");
-		if (!this.tryLoadLootTable(compound))
-			this.stacks = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
-		ContainerHelper.loadAllItems(compound, this.stacks);
-	}
-
-	@Override
-	public void saveAdditional(CompoundTag compound) {
-		super.saveAdditional(compound);
-		compound.putString("SelectedAlarmSound", this.selectedAlarmSound);
-		compound.putBoolean("GlobalMode", this.globalMode);
-		if (!this.trySaveLootTable(compound)) {
-			ContainerHelper.saveAllItems(compound, this.stacks);
-		}
-	}
-
-	public String getSelectedAlarmSound() {
-		return this.selectedAlarmSound;
-	}
-
-	public void setSelectedAlarmSound(String soundId) {
-		this.selectedAlarmSound = soundId;
-		this.syncBlockEntity();
 	}
 
 	public boolean isGlobalMode() {
@@ -72,13 +43,42 @@ public class AlarmBlockBlockEntity extends RandomizableContainerBlockEntity impl
 
 	public void setGlobalMode(boolean globalMode) {
 		this.globalMode = globalMode;
+		this.setChanged();
+		this.syncBlockEntity();
+	}
+
+	public String getSelectedAlarmSound() {
+		return this.selectedAlarmSound;
+	}
+
+	public void setSelectedAlarmSound(String selectedAlarmSound) {
+		this.selectedAlarmSound = selectedAlarmSound == null ? "" : selectedAlarmSound;
+		this.setChanged();
 		this.syncBlockEntity();
 	}
 
 	private void syncBlockEntity() {
-		this.setChanged();
-		if (this.level != null && !this.level.isClientSide) {
+		if (this.level != null && !this.level.isClientSide())
 			this.level.sendBlockUpdated(this.worldPosition, this.getBlockState(), this.getBlockState(), 3);
+	}
+
+	@Override
+	public void load(CompoundTag compound) {
+		super.load(compound);
+		this.globalMode = compound.getBoolean("GlobalMode");
+		this.selectedAlarmSound = compound.getString("SelectedAlarmSound");
+		if (!this.tryLoadLootTable(compound))
+			this.stacks = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
+		ContainerHelper.loadAllItems(compound, this.stacks);
+	}
+
+	@Override
+	public void saveAdditional(CompoundTag compound) {
+		super.saveAdditional(compound);
+		compound.putBoolean("GlobalMode", this.globalMode);
+		compound.putString("SelectedAlarmSound", this.selectedAlarmSound);
+		if (!this.trySaveLootTable(compound)) {
+			ContainerHelper.saveAllItems(compound, this.stacks);
 		}
 	}
 
