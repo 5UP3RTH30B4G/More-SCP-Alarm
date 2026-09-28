@@ -91,7 +91,7 @@ public class MoreScpAlarmModVariables {
 		public static final String DATA_NAME = "more_scp_alarm_mapvars";
 		public boolean tv079 = false;
 		public String AlarmPos = "\"\"";
-		public String GlobalAlarmSound = "";
+		public String GlobalAlarmSound = "\"\"";
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();

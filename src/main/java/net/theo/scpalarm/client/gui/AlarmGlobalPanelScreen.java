@@ -80,7 +80,7 @@ public class AlarmGlobalPanelScreen extends AbstractContainerScreen<AlarmGlobalP
 		super.init();
 		this.scrollBar = new SoundScrollBar(this.leftPos + LIST_X + LIST_WIDTH - 8, this.topPos + LIST_Y);
 		this.addRenderableWidget(this.scrollBar);
-		this.addRenderableWidget(Button.builder(Component.literal("Test global sound"), button -> {
+		this.addRenderableWidget(Button.builder(Component.literal("Play Sound"), button -> {
 			this.minecraft.gameMode.handleInventoryButtonClick(this.menu.containerId, this.sounds.size());
 			this.debug("Test du son global: " + this.selectedSound);
 		}).bounds(this.leftPos + 12, this.topPos + 174, 150, 20).build());
