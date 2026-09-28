@@ -52,7 +52,7 @@ public class AlarmGlobalPanelMenu extends AbstractContainerMenu implements Suppl
 			return false;
 		List<ResourceLocation> sounds = AlarmGUIMenu.getAvailableSounds();
 		if (buttonId == sounds.size()) {
-			int playedAt = AlarmGlobalSoundProcedure.play(this.world, this.x, this.y, this.z);
+			int playedAt = AlarmGlobalSoundProcedure.play(this.world, this.x, this.y, this.z, player);
 			if (MoreScpAlarmModVariables.debug)
 				player.sendSystemMessage(net.minecraft.network.chat.Component.literal("[Alarm debug] Test global: " + playedAt + " position(s)"));
 			return true;
