@@ -62,6 +62,7 @@ import net.theo.scpalarm.client.gui.Gui012Screen;
 import net.theo.scpalarm.client.gui.Gui008Screen;
 import net.theo.scpalarm.client.gui.Docrand3Screen;
 import net.theo.scpalarm.client.gui.Docrand2Screen;
+import net.theo.scpalarm.client.gui.AlarmGUIScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -133,6 +134,7 @@ public class MoreScpAlarmModScreens {
 			MenuScreens.register(MoreScpAlarmModMenus.DOCRAND_2.get(), Docrand2Screen::new);
 			MenuScreens.register(MoreScpAlarmModMenus.DOCRAND_3.get(), Docrand3Screen::new);
 			MenuScreens.register(MoreScpAlarmModMenus.TV_SELECTOR.get(), TVSelectorScreen::new);
+			MenuScreens.register(MoreScpAlarmModMenus.ALARM_GUI.get(), AlarmGUIScreen::new);
 		});
 	}
 }
