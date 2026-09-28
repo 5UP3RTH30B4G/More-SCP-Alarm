@@ -5079,12 +5079,47 @@
       "name": "AlarmGUI",
       "type": "gui",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "alarm_gui",
       "metadata": {
         "files": [
           "src/main/java/net/theo/scpalarm/client/gui/AlarmGUIScreen.java",
           "src/main/java/net/theo/scpalarm/world/inventory/AlarmGUIMenu.java"
+        ]
+      },
+      "path": "~/Alarm"
+    },
+    {
+      "name": "AlarmBlockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/theo/scpalarm/procedures/AlarmBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/Alarm"
@@ -14243,8 +14278,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.cb_label.label_1000": "Label 1000",
       "subtitles.door-nukegatesiren": "",
+      "block.cb_label.label_1000": "Label 1000",
       "subtitles.cassie_manual": "",
       "subtitles.cassie_protocol": "",
       "subtitles.cassie_minor": "",
@@ -14261,23 +14296,23 @@
       "subtitles.mtf-classd": "",
       "subtitles.scp-939-0alert": "",
       "subtitles.cassie_equal": "",
-      "block.cb_label.label_111": "Label 111",
       "subtitles.cassie_because": "",
-      "subtitles.cassie_mobile_task_force_unit": "",
+      "block.cb_label.label_111": "Label 111",
       "subtitles.cassie_detonating": "",
+      "subtitles.cassie_mobile_task_force_unit": "",
       "subtitles.bigdoor-": "",
       "subtitles.cassie_question": "",
       "subtitles.cassie_mode": "",
       "item_group.paper_cb.paper_cb": "Paper Containment Breach",
-      "subtitles.cassie_body": "",
       "item.more_scp_alarm.doc_1162": "Doc 1162",
+      "subtitles.cassie_body": "",
       "subtitles.cassie_stable": "",
-      "subtitles.cassie_explosive": "",
       "subtitles.cassie_optimal": "",
+      "subtitles.cassie_explosive": "",
       "subtitles.cassie_xmas_epsilon11": "",
       "subtitles.cassie_doctor": "",
-      "subtitles.cassie_without": "",
       "subtitles.cassie_less": "",
+      "subtitles.cassie_without": "",
       "subtitles.ambienta": "",
       "subtitles.cassie_scp_multiple_remaining": "",
       "subtitles.cassie_want": "",
@@ -14317,15 +14352,15 @@
       "subtitles.cassie_exception": "",
       "subtitles.cassie_trillion": "",
       "item.more_scp_alarm.doc_914": "Doc 914",
-      "item.paper_cb.doc_8601": "Doc 860-1",
       "subtitles.tesla-loop": "",
+      "item.paper_cb.doc_8601": "Doc 860-1",
       "block.cb_label.label_1048": "Label 1048",
       "subtitles.cassie_monday": "",
       "subtitles.cassie_xmas_bouncyballs": "",
-      "subtitles.cassie_remind": "",
       "item.more_scp_alarm.doc_096": "Doc 096",
-      "subtitles.cassie_chamber": "",
+      "subtitles.cassie_remind": "",
       "item.more_scp_alarm.docgonzales": "Doc an2",
+      "subtitles.cassie_chamber": "",
       "subtitles.cassie_password": "",
       "subtitles.cassie_team": "",
       "subtitles.mtf-stop": "",
@@ -15748,12 +15783,12 @@
       "subtitles.cassie_divided": ""
     },
     "fr_fr": {
-      "block.more_scp_alarm.label_1074": "Label 1074",
-      "tile.door_6.name": "Porte \\/ |\u003c",
-      "subtitles.mtf-threatannouncpossession": "",
       "subtitles.mtf-camera-dclass": "",
-      "subtitles.intro-guard-music": "",
+      "subtitles.mtf-threatannouncpossession": "",
+      "tile.door_6.name": "Porte \\/ |\u003c",
+      "block.more_scp_alarm.label_1074": "Label 1074",
       "item.more_scp_alarm.docrp": "Doc RP",
+      "subtitles.intro-guard-music": "",
       "subtitles.door-nukegatesiren": "",
       "subtitles.scp106-magnet-down": "",
       "subtitles.scp-939-1lure": "",
@@ -15763,8 +15798,8 @@
       "item.more_scp_alarm.docsc": "Doc SC",
       "subtitles.intro-guard-ulgrin-exitcellrefuse": "",
       "subtitles.generator-1of5": "",
-      "subtitles.intro-guard-balcony-alert": "",
       "tile.tv_895.name": "Tv 895",
+      "subtitles.intro-guard-balcony-alert": "",
       "subtitles.intro-guard-conversation2a": "",
       "subtitles.mtf-classd": "",
       "subtitles.scp-939-0alert": "",
@@ -15776,12 +15811,12 @@
       "subtitles.door-break": "",
       "item.more_scp_alarm.doc_1162": "Doc 1162",
       "subtitles.mtf-breath": "",
-      "block.more_scp_alarm.door_frame": "Cadre de porte",
-      "tile.tv_895off.name": "Tv OFF",
       "tile.gate_3.name": "Porte /\\ \u003e|",
+      "tile.tv_895off.name": "Tv OFF",
+      "block.more_scp_alarm.door_frame": "Cadre de porte",
       "subtitles.scp-079-gateb": "",
-      "gui.more_scp_alarm.a_selector.label_bnbtnumbervolume": "\u003cBNBT:number:volume\u003e",
       "item.more_scp_alarm.doc_1048": "Doc 1048",
+      "gui.more_scp_alarm.a_selector.label_bnbtnumbervolume": "\u003cBNBT:number:volume\u003e",
       "subtitles.intro-guard-conversation3a": "",
       "subtitles.ambienta": "",
       "subtitles.intro-doorproblem": "",

@@ -29,6 +29,8 @@ import java.util.stream.IntStream;
 
 public class AlarmBlockBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+	private String selectedAlarmSound = "";
+	private boolean globalMode;
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public AlarmBlockBlockEntity(BlockPos position, BlockState state) {
@@ -38,6 +40,8 @@ public class AlarmBlockBlockEntity extends RandomizableContainerBlockEntity impl
 	@Override
 	public void load(CompoundTag compound) {
 		super.load(compound);
+		this.selectedAlarmSound = compound.getString("SelectedAlarmSound");
+		this.globalMode = compound.getBoolean("GlobalMode");
 		if (!this.tryLoadLootTable(compound))
 			this.stacks = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
 		ContainerHelper.loadAllItems(compound, this.stacks);
@@ -46,8 +50,35 @@ public class AlarmBlockBlockEntity extends RandomizableContainerBlockEntity impl
 	@Override
 	public void saveAdditional(CompoundTag compound) {
 		super.saveAdditional(compound);
+		compound.putString("SelectedAlarmSound", this.selectedAlarmSound);
+		compound.putBoolean("GlobalMode", this.globalMode);
 		if (!this.trySaveLootTable(compound)) {
 			ContainerHelper.saveAllItems(compound, this.stacks);
+		}
+	}
+
+	public String getSelectedAlarmSound() {
+		return this.selectedAlarmSound;
+	}
+
+	public void setSelectedAlarmSound(String soundId) {
+		this.selectedAlarmSound = soundId;
+		this.syncBlockEntity();
+	}
+
+	public boolean isGlobalMode() {
+		return this.globalMode;
+	}
+
+	public void setGlobalMode(boolean globalMode) {
+		this.globalMode = globalMode;
+		this.syncBlockEntity();
+	}
+
+	private void syncBlockEntity() {
+		this.setChanged();
+		if (this.level != null && !this.level.isClientSide) {
+			this.level.sendBlockUpdated(this.worldPosition, this.getBlockState(), this.getBlockState(), 3);
 		}
 	}
 

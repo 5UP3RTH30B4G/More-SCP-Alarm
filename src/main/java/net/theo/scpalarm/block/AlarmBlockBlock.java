@@ -1,6 +1,7 @@
 
 package net.theo.scpalarm.block;
 
+import net.theo.scpalarm.procedures.AlarmBlockOnBlockRightClickedProcedure;
 import net.theo.scpalarm.procedures.AlarmBlockOnBlockHitByProjectileProcedure;
 import net.theo.scpalarm.procedures.AlarmBlockBlockDestroyedProcedure;
 import net.theo.scpalarm.procedures.AlarmBlockBlockAddedProcedure;
@@ -30,6 +31,8 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -114,6 +117,20 @@ public class AlarmBlockBlock extends Block implements EntityBlock {
 	@Override
 	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
 		AlarmBlockOnBlockHitByProjectileProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
+	}
+
+	@Override
+	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
+		super.use(blockstate, world, pos, entity, hand, hit);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+		AlarmBlockOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		return InteractionResult.SUCCESS;
 	}
 
 	@Override
