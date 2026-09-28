@@ -1,11 +1,10 @@
 package net.theo.scpalarm.client.gui;
 
+import net.theo.scpalarm.world.inventory.AlarmGlobalPanelMenu;
 import net.theo.scpalarm.world.inventory.AlarmGUIMenu;
 import net.theo.scpalarm.network.MoreScpAlarmModVariables;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -21,35 +20,22 @@ import java.util.List;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class AlarmGUIScreen extends AbstractContainerScreen<AlarmGUIMenu> {
-	private final static HashMap<String, Object> guistate = AlarmGUIMenu.guistate;
-	private final Level world;
-	private final int x, y, z;
-	private final Player entity;
+public class AlarmGlobalPanelScreen extends AbstractContainerScreen<AlarmGlobalPanelMenu> {
 	private final List<ResourceLocation> sounds = AlarmGUIMenu.getAvailableSounds();
 	private int scrollOffset;
-	private boolean globalMode;
-	private Button modeButton;
 	private SoundScrollBar scrollBar;
 	private final List<Button> soundButtons = new ArrayList<>();
 	private String selectedSound;
 	private int renderedScrollOffset = -1;
-	private boolean renderedGlobalMode;
 	private static final int LIST_X = 12;
 	private static final int LIST_Y = 43;
 	private static final int LIST_WIDTH = 270;
 	private static final int LIST_HEIGHT = 122;
 	private static final int ROW_HEIGHT = 12;
 
-	public AlarmGUIScreen(AlarmGUIMenu container, Inventory inventory, Component text) {
+	public AlarmGlobalPanelScreen(AlarmGlobalPanelMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
-		this.world = container.world;
-		this.x = container.x;
-		this.y = container.y;
-		this.z = container.z;
-		this.entity = container.entity;
-		this.globalMode = container.isGlobalMode();
-		this.selectedSound = container.getSelectedAlarmSound();
+		this.selectedSound = container.getGlobalAlarmSound();
 		this.imageWidth = 300;
 		this.imageHeight = 200;
 	}
@@ -59,7 +45,7 @@ public class AlarmGUIScreen extends AbstractContainerScreen<AlarmGUIMenu> {
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-		if (this.renderedScrollOffset != this.scrollOffset || this.renderedGlobalMode != this.globalMode)
+		if (this.renderedScrollOffset != this.scrollOffset)
 			this.refreshSoundButtons();
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
@@ -85,23 +71,19 @@ public class AlarmGUIScreen extends AbstractContainerScreen<AlarmGUIMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, "ALARM SOUND", 12, 8, 0x404040, false);
+		guiGraphics.drawString(this.font, "GLOBAL ALARM SOUND", 12, 8, 0x202020, false);
 		guiGraphics.drawString(this.font, this.selectedSound.isEmpty() ? "Selected: none" : "Selected: " + soundName(this.selectedSound), 12, 25, 0x404040, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		this.modeButton = Button.builder(Component.literal(this.globalMode ? "Mode: GLOBAL" : "Mode: LOCAL"), button -> {
-			this.minecraft.gameMode.handleInventoryButtonClick(this.menu.containerId, 0);
-			this.globalMode = !this.globalMode;
-			this.selectedSound = this.globalMode ? this.menu.getGlobalAlarmSound() : this.menu.getLocalAlarmSound();
-			button.setMessage(Component.literal(this.globalMode ? "Mode: GLOBAL" : "Mode: LOCAL"));
-			this.refreshSoundButtons();
-		}).bounds(this.leftPos + 12, this.topPos + 174, 110, 20).build();
-		this.addRenderableWidget(this.modeButton);
 		this.scrollBar = new SoundScrollBar(this.leftPos + LIST_X + LIST_WIDTH - 8, this.topPos + LIST_Y);
 		this.addRenderableWidget(this.scrollBar);
+		this.addRenderableWidget(Button.builder(Component.literal("Test global sound"), button -> {
+			this.minecraft.gameMode.handleInventoryButtonClick(this.menu.containerId, this.sounds.size());
+			this.debug("Test du son global: " + this.selectedSound);
+		}).bounds(this.leftPos + 12, this.topPos + 174, 150, 20).build());
 		this.refreshSoundButtons();
 	}
 
@@ -110,7 +92,6 @@ public class AlarmGUIScreen extends AbstractContainerScreen<AlarmGUIMenu> {
 			this.removeWidget(button);
 		this.soundButtons.clear();
 		this.renderedScrollOffset = this.scrollOffset;
-		this.renderedGlobalMode = this.globalMode;
 		int visibleRows = LIST_HEIGHT / ROW_HEIGHT;
 		int end = Math.min(this.sounds.size(), this.scrollOffset + visibleRows);
 		for (int index = this.scrollOffset; index < end; index++) {
@@ -120,13 +101,10 @@ public class AlarmGUIScreen extends AbstractContainerScreen<AlarmGUIMenu> {
 			label = this.font.plainSubstrByWidth(label, LIST_WIDTH - 18);
 			int soundIndex = index;
 			Button soundButton = Button.builder(Component.literal(label), button -> {
-				if (!this.globalMode) {
-					this.selectedSound = this.sounds.get(soundIndex).toString();
-					this.minecraft.gameMode.handleInventoryButtonClick(this.menu.containerId, soundIndex + 1);
-					this.debug("Clic son index=" + soundIndex + ": " + this.selectedSound);
-				}
+				this.selectedSound = this.sounds.get(soundIndex).toString();
+				this.minecraft.gameMode.handleInventoryButtonClick(this.menu.containerId, soundIndex);
+				this.debug("Clic son global index=" + soundIndex + ": " + this.selectedSound);
 			}).bounds(this.leftPos + LIST_X, this.topPos + rowY, LIST_WIDTH - 10, ROW_HEIGHT).build();
-			soundButton.active = !this.globalMode;
 			this.soundButtons.add(soundButton);
 			this.addRenderableWidget(soundButton);
 		}
@@ -167,7 +145,7 @@ public class AlarmGUIScreen extends AbstractContainerScreen<AlarmGUIMenu> {
 			int thumbY = maxOffset == 0 ? 0 : thumbTravel * scrollOffset / maxOffset;
 			guiGraphics.fill(this.getX() + 1, this.getY(), this.getX() + 6, this.getY() + LIST_HEIGHT, 0xFF555555);
 			guiGraphics.fill(this.getX() + 1, this.getY() + thumbY, this.getX() + 6, this.getY() + thumbY + thumbHeight,
-					globalMode ? 0xFF777777 : 0xFFDDDDDD);
+					0xFFDDDDDD);
 		}
 
 		@Override

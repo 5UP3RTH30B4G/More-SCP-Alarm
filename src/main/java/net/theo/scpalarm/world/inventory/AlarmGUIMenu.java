@@ -71,6 +71,14 @@ public class AlarmGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 	}
 
 	public String getSelectedAlarmSound() {
+		return this.isGlobalMode() ? this.getGlobalAlarmSound() : this.getLocalAlarmSound();
+	}
+
+	public String getGlobalAlarmSound() {
+		return MoreScpAlarmModVariables.MapVariables.get(this.world).GlobalAlarmSound;
+	}
+
+	public String getLocalAlarmSound() {
 		return this.world.getBlockEntity(new BlockPos(this.x, this.y, this.z)) instanceof AlarmBlockBlockEntity blockEntity ? blockEntity.getSelectedAlarmSound() : "";
 	}
 

@@ -10,7 +10,9 @@ public class AlarmBlockBlockDestroyedProcedure {
 			return;
 
 		BlockPos blockPos = BlockPos.containing(x, y, z);
-		String destroyedPos = blockPos.getX() + "," + blockPos.getY() + "," + blockPos.getZ();
+		String coordinates = blockPos.getX() + "," + blockPos.getY() + "," + blockPos.getZ();
+		String dimension = world instanceof net.minecraft.world.level.Level level ? level.dimension().location().toString() : "minecraft:overworld";
+		String destroyedPos = dimension + "@" + coordinates;
 		MoreScpAlarmModVariables.MapVariables mapVariables = MoreScpAlarmModVariables.MapVariables.get(world);
 		String storedPositions = mapVariables.AlarmPos;
 		if (storedPositions == null || storedPositions.isEmpty() || storedPositions.equals("\"\""))
@@ -18,7 +20,7 @@ public class AlarmBlockBlockDestroyedProcedure {
 
 		java.util.List<String> remainingPositions = new java.util.ArrayList<>();
 		for (String position : storedPositions.split(";")) {
-			if (!position.equals(destroyedPos))
+			if (!position.equals(destroyedPos) && !(dimension.equals("minecraft:overworld") && position.equals(coordinates)))
 				remainingPositions.add(position);
 		}
 		if (remainingPositions.size() != storedPositions.split(";").length) {

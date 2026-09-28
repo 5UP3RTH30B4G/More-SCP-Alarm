@@ -25,9 +25,7 @@ public class AlarmBlockOnBlockHitByProjectileProcedure {
 				return false;
 			}
 		}.getValue(world, BlockPos.containing(x, y, z), "AlarmTimerHit")) == true) {
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"playsound more_scp_alarm:scp-079-testroom block ~ ~ ~ @a 1 1.5");
+			AlarmGlobalSoundProcedure.play(world, x, y, z);
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);

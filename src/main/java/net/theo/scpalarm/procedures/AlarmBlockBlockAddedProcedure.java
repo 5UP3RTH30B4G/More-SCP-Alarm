@@ -12,11 +12,13 @@ public class AlarmBlockBlockAddedProcedure {
 		if (!world.isClientSide()) {
 			BlockPos _bp = BlockPos.containing(x, y, z);
 			MoreScpAlarmModVariables.MapVariables mapVariables = MoreScpAlarmModVariables.MapVariables.get(world);
-			String alarmPos = _bp.getX() + "," + _bp.getY() + "," + _bp.getZ();
+			String dimension = world instanceof Level level ? level.dimension().location().toString() : "minecraft:overworld";
+			String alarmPos = dimension + "@" + _bp.getX() + "," + _bp.getY() + "," + _bp.getZ();
 			String storedPositions = mapVariables.AlarmPos;
 			if (storedPositions == null || storedPositions.isEmpty() || storedPositions.equals("\"\"")) {
 				mapVariables.AlarmPos = alarmPos;
-			} else if (!java.util.Arrays.asList(storedPositions.split(";")).contains(alarmPos)) {
+			} else if (!java.util.Arrays.asList(storedPositions.split(";")).contains(alarmPos)
+					&& !(dimension.equals("minecraft:overworld") && java.util.Arrays.asList(storedPositions.split(";")).contains(_bp.getX() + "," + _bp.getY() + "," + _bp.getZ()))) {
 				mapVariables.AlarmPos = storedPositions + ";" + alarmPos;
 			}
 			mapVariables.syncData(world);

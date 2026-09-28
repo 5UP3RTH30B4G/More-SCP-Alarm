@@ -62,6 +62,7 @@ import net.theo.scpalarm.world.inventory.Gui012Menu;
 import net.theo.scpalarm.world.inventory.Gui008Menu;
 import net.theo.scpalarm.world.inventory.Docrand3Menu;
 import net.theo.scpalarm.world.inventory.Docrand2Menu;
+import net.theo.scpalarm.world.inventory.AlarmGlobalPanelMenu;
 import net.theo.scpalarm.world.inventory.AlarmGUIMenu;
 import net.theo.scpalarm.MoreScpAlarmMod;
 
@@ -133,4 +134,5 @@ public class MoreScpAlarmModMenus {
 	public static final RegistryObject<MenuType<Docrand3Menu>> DOCRAND_3 = REGISTRY.register("docrand_3", () -> IForgeMenuType.create(Docrand3Menu::new));
 	public static final RegistryObject<MenuType<TVSelectorMenu>> TV_SELECTOR = REGISTRY.register("tv_selector", () -> IForgeMenuType.create(TVSelectorMenu::new));
 	public static final RegistryObject<MenuType<AlarmGUIMenu>> ALARM_GUI = REGISTRY.register("alarm_gui", () -> IForgeMenuType.create(AlarmGUIMenu::new));
+	public static final RegistryObject<MenuType<AlarmGlobalPanelMenu>> ALARM_GLOBAL_PANEL = REGISTRY.register("alarm_global_panel", () -> IForgeMenuType.create(AlarmGlobalPanelMenu::new));
 }
