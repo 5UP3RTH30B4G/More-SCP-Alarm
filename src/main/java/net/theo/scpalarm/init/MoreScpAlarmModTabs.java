@@ -29,7 +29,6 @@ public class MoreScpAlarmModTabs {
 				tabData.accept(MoreScpAlarmModBlocks.DOOR_8.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.DOOR_FRAME.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR.get().asItem());
-				tabData.accept(MoreScpAlarmModBlocks.NEWDOOR_PART.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.TVOFF.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.TV_895.get().asItem());
 				tabData.accept(MoreScpAlarmModBlocks.TV_079_TRIGGER.get().asItem());
