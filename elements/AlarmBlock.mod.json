@@ -2,19 +2,19 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "lockdownlight",
+    "texture": "speaker_base",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "tvlight:default",
+    "customModelName": "siren:default",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "logocreatife",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -24,71 +24,143 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 1.0,
-        "my": 2.0,
-        "mz": 10.0,
-        "Mx": 15.0,
-        "My": 11.1,
-        "Mz": 11.35,
+        "mx": 3.0,
+        "my": 10.0,
+        "mz": 16.0,
+        "Mx": 13.0,
+        "My": 11.0,
+        "Mz": 16.0,
         "subtract": false
       },
       {
-        "mx": 1.0,
-        "my": 1.3,
-        "mz": 8.2,
+        "mx": 13.0,
+        "my": 10.0,
+        "mz": 13.0,
+        "Mx": 13.0,
+        "My": 11.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 10.0,
+        "mz": 13.0,
         "Mx": 3.0,
-        "My": 2.0,
-        "Mz": 8.7,
+        "My": 11.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 7.0,
+        "mz": 12.0,
+        "Mx": 13.0,
+        "My": 13.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 6.1327,
+        "mz": 7.66164,
+        "Mx": 13.0,
+        "My": 7.1327,
+        "Mz": 13.16164,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 9.0,
+        "mz": 6.0,
+        "Mx": 9.0,
+        "My": 11.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 7.1327,
+        "mz": 7.66164,
+        "Mx": 13.0,
+        "My": 10.6327,
+        "Mz": 13.26164,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 9.0,
+        "mz": 6.0,
+        "Mx": 13.0,
+        "My": 12.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 9.0,
+        "mz": 6.0,
+        "Mx": 4.0,
+        "My": 12.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 12.0,
+        "mz": 6.0,
+        "Mx": 13.0,
+        "My": 13.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 7.1327,
+        "mz": 7.66164,
+        "Mx": 4.0,
+        "My": 10.6327,
+        "Mz": 13.26164,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 4.0,
+        "mz": 9.0,
+        "Mx": 9.0,
+        "My": 6.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.0,
+        "my": 7.0,
+        "mz": 13.0,
+        "Mx": 9.0,
+        "My": 8.0,
+        "Mz": 16.0,
         "subtract": false
       },
       {
         "mx": 7.0,
         "my": 7.0,
-        "mz": 11.0,
+        "mz": 13.0,
+        "Mx": 7.0,
+        "My": 8.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 7.0,
+        "mz": 16.0,
         "Mx": 9.0,
-        "My": 9.0,
-        "Mz": 16.6,
-        "subtract": false
-      },
-      {
-        "mx": 0.0,
-        "my": 2.01294,
-        "mz": 11.20178,
-        "Mx": 16.0,
-        "My": 3.01294,
-        "Mz": 13.30178,
-        "subtract": false
-      },
-      {
-        "mx": 0.0,
-        "my": 12.01294,
-        "mz": 11.20178,
-        "Mx": 16.0,
-        "My": 13.01294,
-        "Mz": 13.30178,
-        "subtract": false
-      },
-      {
-        "mx": 15.0,
-        "my": 2.01294,
-        "mz": 11.20178,
-        "Mx": 16.0,
-        "My": 13.01294,
-        "Mz": 13.30178,
-        "subtract": false
-      },
-      {
-        "mx": 0.0,
-        "my": 2.01294,
-        "mz": 11.20178,
-        "Mx": 1.0,
-        "My": 13.01294,
-        "Mz": 13.30178,
+        "My": 8.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
     "customProperties": [],
-    "name": "TV Checkpoint Light",
+    "name": "Alarm",
     "specialInformation": {
       "fixedValue": []
     },
@@ -96,7 +168,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MoreSCPAlarm"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -106,12 +182,12 @@
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "NONE"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -120,7 +196,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:TVOFF"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -134,7 +210,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -171,14 +247,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "TV079TickUpdate"
+    "onRightClicked": {
+      "name": "AlarmBlockOnBlockRightClicked"
+    },
+    "onBlockAdded": {
+      "name": "AlarmBlockBlockAdded"
+    },
+    "onDestroyedByPlayer": {
+      "name": "AlarmBlockBlockDestroyed"
+    },
+    "onDestroyedByExplosion": {
+      "name": "AlarmBlockBlockDestroyed"
     },
     "onRedstoneOn": {
-      "name": "TVRedstoneOn"
+      "name": "AlarmBlockRedstoneOn"
     },
-    "onRedstoneOff": {
-      "name": "TVRedstoneOff"
+    "onHitByProjectile": {
+      "name": "AlarmBlockOnBlockHitByProjectile"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
