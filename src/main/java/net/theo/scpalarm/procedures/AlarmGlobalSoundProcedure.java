@@ -15,7 +15,9 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class AlarmGlobalSoundProcedure {
@@ -41,7 +43,8 @@ public class AlarmGlobalSoundProcedure {
 
 		String[] positions = variables.AlarmPos == null || variables.AlarmPos.isEmpty() || variables.AlarmPos.equals("\"\"")
 				? new String[0] : variables.AlarmPos.split(";");
-		Set<String> playedPositions = new HashSet<>();
+		Set<String> seenPositions = new HashSet<>();
+		List<String> playedPositions = new ArrayList<>();
 		int playedAt = 0;
 		for (String storedPosition : positions) {
 			try {
@@ -65,12 +68,13 @@ public class AlarmGlobalSoundProcedure {
 				if (coordinates.length != 3)
 					continue;
 				BlockPos position = new BlockPos(Integer.parseInt(coordinates[0]), Integer.parseInt(coordinates[1]), Integer.parseInt(coordinates[2]));
-				String positionKey = dimension + "@" + position;
-				if (!playedPositions.add(positionKey))
+				String positionKey = dimension + "@" + position.getX() + "," + position.getY() + "," + position.getZ();
+				if (!seenPositions.add(positionKey))
 					continue;
 				if (!alarmLevel.hasChunkAt(position) || !(alarmLevel.getBlockEntity(position) instanceof AlarmBlockBlockEntity))
 					continue;
 				alarmLevel.playSound(null, position, soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
+				playedPositions.add(positionKey);
 				playedAt++;
 			} catch (NumberFormatException ignored) {
 			}
@@ -79,13 +83,15 @@ public class AlarmGlobalSoundProcedure {
 		if (playedAt == 0) {
 			BlockPos fallbackPos = BlockPos.containing(fallbackX, fallbackY, fallbackZ);
 			fallbackLevel.playSound(null, fallbackPos, soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
+			playedPositions.add(fallbackLevel.dimension().location() + "@" + fallbackPos.getX() + "," + fallbackPos.getY() + "," + fallbackPos.getZ());
 			playedAt = 1;
 		}
 		if (previewPlayer instanceof ServerPlayer serverPlayer)
 			serverPlayer.playNotifySound(soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
 
 		if (MoreScpAlarmModVariables.debug)
-			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("[Alarm debug] Son global " + sound + " joue a " + playedAt + " position(s)"), false);
+			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(
+					"[Alarm debug] Son global " + sound + " joue a " + playedAt + " position(s): " + String.join("; ", playedPositions)), false);
 		return playedAt;
 	}
 }
