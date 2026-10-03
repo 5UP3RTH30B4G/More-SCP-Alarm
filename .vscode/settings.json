@@ -1,5 +1,11 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.compile.nullAnalysis.mode": "automatic",
-    "problems.decorations.enabled": false
+    "problems.decorations.enabled": false,
+    "chat.tools.terminal.autoApprove": {
+        "/^\\.\\\\gradlew\\.bat compileJava$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }
