@@ -10,8 +10,10 @@ public class DebugOffProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		MoreScpAlarmModVariables.debug = false;
-		if (entity instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal("Debug off"), false);
+		if (entity instanceof Player _plr ? _plr.getAbilities().instabuild : false) {
+			MoreScpAlarmModVariables.debug = false;
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("Debug off"), false);
+		}
 	}
 }
