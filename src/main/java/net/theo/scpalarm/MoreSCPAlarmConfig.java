@@ -7,10 +7,11 @@ import java.io.FileWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CassieConfig {
+public class MoreSCPAlarmConfig {
 	private static final Gson gson = new Gson();
 	private static boolean useActionBar = true;
 	private static int actionBarIntervalMs = 150;
+	private static float globalAlarmVolume = 1.0F;
 
 	public static void load() {
 		try {
@@ -26,11 +27,20 @@ public class CassieConfig {
 						else if (iv instanceof String) {
 							try { actionBarIntervalMs = Integer.parseInt((String) iv); } catch (Exception ex) {}
 						}
+						Object volume = root.get("global_alarm_volume");
+						if (volume instanceof Number) {
+							float parsedVolume = ((Number) volume).floatValue();
+							if (Float.isFinite(parsedVolume) && parsedVolume >= 0.0F) {
+								globalAlarmVolume = parsedVolume;
+							} else {
+								System.out.println("[Cassie][WARN] Invalid global_alarm_volume; keeping default " + globalAlarmVolume);
+							}
+						}
 					}
 				}
 			} else {
 				// Attempt to copy a bundled resource named /assets/more_scp_alarm/MoreSCPAlarmConfig.json into config/MoreSCPAlarmConfig.json
-				java.io.InputStream res = CassieConfig.class.getResourceAsStream("/assets/more_scp_alarm/MoreSCPAlarmConfig.json");
+				java.io.InputStream res = MoreSCPAlarmConfig.class.getResourceAsStream("/assets/more_scp_alarm/MoreSCPAlarmConfig.json");
 				if (res != null) {
 					File cfgDir = new File("config");
 					if (!cfgDir.exists()) cfgDir.mkdirs();
@@ -51,6 +61,7 @@ public class CassieConfig {
 					Map<String, Object> defaults = new HashMap<>();
 					defaults.put("use_action_bar", Boolean.valueOf(true));
 					defaults.put("action_bar_interval_ms", Integer.valueOf(actionBarIntervalMs));
+					defaults.put("global_alarm_volume", Float.valueOf(globalAlarmVolume));
 					try (FileWriter fw = new FileWriter(cfgFile)) {
 						gson.toJson(defaults, fw);
 						fw.flush();
@@ -69,5 +80,9 @@ public class CassieConfig {
 
 	public static int getActionBarIntervalMs() {
 		return actionBarIntervalMs;
+	}
+
+	public static float getGlobalAlarmVolume() {
+		return globalAlarmVolume;
 	}
 }

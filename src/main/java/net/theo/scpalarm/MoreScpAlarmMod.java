@@ -40,6 +40,7 @@ public class MoreScpAlarmMod {
 
 	public MoreScpAlarmMod() {
 		// Start of user code block mod constructor
+		MoreSCPAlarmConfig.load();
 		MinecraftForge.EVENT_BUS.register(new BigdoorServerTickHandler());
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);

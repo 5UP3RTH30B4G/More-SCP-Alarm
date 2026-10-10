@@ -1,6 +1,7 @@
 {
-    "comment": "Configuration file for Cassie mod. 'use_action_bar' enables displaying messages in the action bar instead of chat. 'action_bar_interval_ms' sets the interval (in milliseconds) between action bar messages.",
+    "comment": "Configuration file for More SCP Alarm. 'use_action_bar' enables displaying Cassie messages in the action bar instead of chat. 'action_bar_interval_ms' sets the interval between action bar messages in milliseconds. 'global_alarm_volume' controls global alarm loudness and audible distance (1.0 is the normal volume/range).",
 
     "use_action_bar": true,
-    "action_bar_interval_ms": 150
+    "action_bar_interval_ms": 150,
+    "global_alarm_volume": 1.0
 }

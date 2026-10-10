@@ -41,6 +41,12 @@ public class AlarmGlobalSoundProcedure {
 		if (soundEvent == null)
 			return 0;
 
+		double configuredVolume = net.theo.scpalarm.MoreSCPAlarmConfig.getGlobalAlarmVolume();
+		if (Double.compare(variables.AlarmVolume, configuredVolume) != 0) {
+			variables.AlarmVolume = configuredVolume;
+			variables.setDirty();
+		}
+		float volume = (float) variables.AlarmVolume;
 		String[] positions = variables.AlarmPos == null || variables.AlarmPos.isEmpty() || variables.AlarmPos.equals("\"\"")
 				? new String[0] : variables.AlarmPos.split(";");
 		Set<String> seenPositions = new HashSet<>();
@@ -73,7 +79,7 @@ public class AlarmGlobalSoundProcedure {
 					continue;
 				if (!alarmLevel.hasChunkAt(position) || !(alarmLevel.getBlockEntity(position) instanceof AlarmBlockBlockEntity))
 					continue;
-				alarmLevel.playSound(null, position, soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
+				alarmLevel.playSound(null, position, soundEvent, SoundSource.BLOCKS, volume, 1.0F);
 				playedPositions.add(positionKey);
 				playedAt++;
 			} catch (NumberFormatException ignored) {
@@ -82,12 +88,12 @@ public class AlarmGlobalSoundProcedure {
 
 		if (playedAt == 0) {
 			BlockPos fallbackPos = BlockPos.containing(fallbackX, fallbackY, fallbackZ);
-			fallbackLevel.playSound(null, fallbackPos, soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
+			fallbackLevel.playSound(null, fallbackPos, soundEvent, SoundSource.BLOCKS, volume, 1.0F);
 			playedPositions.add(fallbackLevel.dimension().location() + "@" + fallbackPos.getX() + "," + fallbackPos.getY() + "," + fallbackPos.getZ());
 			playedAt = 1;
 		}
 		if (previewPlayer instanceof ServerPlayer serverPlayer)
-			serverPlayer.playNotifySound(soundEvent, SoundSource.BLOCKS, 1.0F, 1.0F);
+			serverPlayer.playNotifySound(soundEvent, SoundSource.BLOCKS, volume, 1.0F);
 
 		if (MoreScpAlarmModVariables.debug)
 			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(

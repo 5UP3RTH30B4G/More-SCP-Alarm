@@ -52,7 +52,7 @@ public class CassieCommand {
     private static boolean cfgTitleCaseEachWord = true;
     private static boolean cfgDotSplitsDisplay = true;
     private static String cfgNumberPrefix = "number_";
-    // use CassieConfig for runtime config values
+    // use MoreSCPAlarmConfig for runtime config values
 
     // Display a message in the action bar of a player (or everyone)
     private static void displayActionBar(ServerPlayer player, String message) {
@@ -69,7 +69,7 @@ public class CassieCommand {
 
     private static void sendToPlayer(ServerPlayer player, String message) {
         if (player == null) return;
-        if (CassieConfig.isUseActionBar()) displayActionBar(player, message);
+        if (MoreSCPAlarmConfig.isUseActionBar()) displayActionBar(player, message);
         else sendChat(player, message);
     }
 
@@ -190,12 +190,12 @@ public class CassieCommand {
             logWarn("Unable to load word_exception.json: " + ex.getMessage());
         }
 
-        // Load external config via CassieConfig helper (creates default config if missing)
+        // Load external config via MoreSCPAlarmConfig helper (creates default config if missing)
         try {
-            CassieConfig.load();
-            logInfo("Config loaded: use_action_bar=" + CassieConfig.isUseActionBar() + ", action_bar_interval_ms=" + CassieConfig.getActionBarIntervalMs());
+            MoreSCPAlarmConfig.load();
+            logInfo("Config loaded: use_action_bar=" + MoreSCPAlarmConfig.isUseActionBar() + ", action_bar_interval_ms=" + MoreSCPAlarmConfig.getActionBarIntervalMs());
         } catch (Throwable t) {
-            logWarn("Failed to load CassieConfig: " + t.getMessage());
+            logWarn("Failed to load MoreSCPAlarmConfig: " + t.getMessage());
         }
     }
 
@@ -369,7 +369,7 @@ logInfo("Final estimated duration (with pitches): " + estimatedTextDuration + "s
 
         if (source.getServer() != null) {
             Collection<ServerPlayer> players = source.getServer().getPlayerList().getPlayers();
-            if (CassieConfig.isUseActionBar()) sendToAll(players, startDisplay);
+            if (MoreSCPAlarmConfig.isUseActionBar()) sendToAll(players, startDisplay);
             else sendToAll(players, fullPretty);
             for (ServerPlayer p : players) {
             playSound(world, p, bgSoundName, 1.0f);
@@ -445,8 +445,8 @@ logInfo("Final estimated duration (with pitches): " + estimatedTextDuration + "s
                 // single segment: repeatedly display the subtitle during the whole word duration
                 String segText = segments.length == 0 ? "" : segments[0];
                 long remaining = totalMillis;
-                if (CassieConfig.isUseActionBar()) {
-                    long interval = Math.max(50, CassieConfig.getActionBarIntervalMs()); // resend interval from config (min 50ms)
+                if (MoreSCPAlarmConfig.isUseActionBar()) {
+                    long interval = Math.max(50, MoreSCPAlarmConfig.getActionBarIntervalMs()); // resend interval from config (min 50ms)
                     while (remaining > 0 && isCassiePlaying) {
                         if (playerRef[0] != null) {
                             sendToPlayer(playerRef[0], segText);
@@ -478,8 +478,8 @@ logInfo("Final estimated duration (with pitches): " + estimatedTextDuration + "s
                     String seg = segments[si];
                     if (!isCassiePlaying) break;
                     long remainingPart = part;
-                    if (CassieConfig.isUseActionBar()) {
-                        long interval = Math.max(50, CassieConfig.getActionBarIntervalMs());
+                    if (MoreSCPAlarmConfig.isUseActionBar()) {
+                        long interval = Math.max(50, MoreSCPAlarmConfig.getActionBarIntervalMs());
                         while (remainingPart > 0 && isCassiePlaying) {
                             if (playerRef[0] != null) {
                                 sendToPlayer(playerRef[0], seg);

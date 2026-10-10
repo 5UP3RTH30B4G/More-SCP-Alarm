@@ -92,6 +92,7 @@ public class MoreScpAlarmModVariables {
 		public boolean tv079 = false;
 		public String AlarmPos = "\"\"";
 		public String GlobalAlarmSound = "\"\"";
+		public double AlarmVolume = 1.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -103,6 +104,7 @@ public class MoreScpAlarmModVariables {
 			tv079 = nbt.getBoolean("tv079");
 			AlarmPos = nbt.getString("AlarmPos");
 			GlobalAlarmSound = nbt.getString("GlobalAlarmSound");
+			AlarmVolume = nbt.getDouble("AlarmVolume");
 		}
 
 		@Override
@@ -110,6 +112,7 @@ public class MoreScpAlarmModVariables {
 			nbt.putBoolean("tv079", tv079);
 			nbt.putString("AlarmPos", AlarmPos);
 			nbt.putString("GlobalAlarmSound", GlobalAlarmSound);
+			nbt.putDouble("AlarmVolume", AlarmVolume);
 			return nbt;
 		}
 
