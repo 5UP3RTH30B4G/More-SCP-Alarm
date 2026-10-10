@@ -14,7 +14,7 @@ public class CassieConfig {
 
 	public static void load() {
 		try {
-			File cfgFile = new File("config/cassie.json");
+			File cfgFile = new File("config/MoreSCPAlarmConfig.json");
 			if (cfgFile.exists()) {
 				try (FileReader fr = new FileReader(cfgFile)) {
 					Map<?, ?> root = gson.fromJson(fr, Map.class);
@@ -29,8 +29,8 @@ public class CassieConfig {
 					}
 				}
 			} else {
-				// Attempt to copy a bundled resource named /assets/cassie/cassie.json into config/cassie.json
-				java.io.InputStream res = CassieConfig.class.getResourceAsStream("/assets/more_scp_alarm/cassie.json");
+				// Attempt to copy a bundled resource named /assets/more_scp_alarm/MoreSCPAlarmConfig.json into config/MoreSCPAlarmConfig.json
+				java.io.InputStream res = CassieConfig.class.getResourceAsStream("/assets/more_scp_alarm/MoreSCPAlarmConfig.json");
 				if (res != null) {
 					File cfgDir = new File("config");
 					if (!cfgDir.exists()) cfgDir.mkdirs();
@@ -40,7 +40,7 @@ public class CassieConfig {
 						while ((r = res.read(buf)) != -1) fos.write(buf, 0, r);
 						fos.flush();
 					} catch (Exception ex) {
-						System.out.println("[Cassie][WARN] Failed to copy bundled cassie.json: " + ex.getMessage());
+						System.out.println("[Cassie][WARN] Failed to copy bundled MoreSCPAlarmConfig.json: " + ex.getMessage());
 					} finally {
 						try { res.close(); } catch (Exception ignore) {}
 					}
@@ -49,7 +49,7 @@ public class CassieConfig {
 					File cfgDir = new File("config");
 					if (!cfgDir.exists()) cfgDir.mkdirs();
 					Map<String, Object> defaults = new HashMap<>();
-					defaults.put("use_action_bar", Boolean.valueOf(false));
+					defaults.put("use_action_bar", Boolean.valueOf(true));
 					defaults.put("action_bar_interval_ms", Integer.valueOf(actionBarIntervalMs));
 					try (FileWriter fw = new FileWriter(cfgFile)) {
 						gson.toJson(defaults, fw);
@@ -59,7 +59,7 @@ public class CassieConfig {
 			}
 		} catch (Exception e) {
 			// If anything goes wrong, keep defaults
-			System.out.println("[Cassie][WARN] Failed to load/create config/cassie.json: " + e.getMessage());
+			System.out.println("[Cassie][WARN] Failed to load/create config/MoreSCPAlarmConfig.json: " + e.getMessage());
 		}
 	}
 
